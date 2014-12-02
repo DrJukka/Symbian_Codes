@@ -1,0 +1,576 @@
+
+/* 
+	Copyright (c) 2006-07, 
+	Jukka Silvennoinen
+	All rights reserved 
+*/
+
+NAME YAAL
+
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+
+#include "Definitions.h"
+
+#ifdef EKA2
+	#include <appinfo.rh>
+#else
+
+#endif
+#include "YApp_E8876001.hrh"
+
+
+#ifdef LANGUAGE_02        // French 
+#include "YApp_E8876001.l02"
+#elif defined LANGUAGE_03// German
+#include "YApp_E8876001.l03"
+#elif defined LANGUAGE_04// Spanish
+#include "YApp_E8876001.l04"
+#elif defined LANGUAGE_05 // Italian
+#include "YApp_E8876001.l05"
+#elif defined LANGUAGE_06 // Swedish
+#include "YApp_E8876001.l06"
+#elif defined LANGUAGE_09 // Finnish
+#include "YApp_E8876001.l09"
+#elif defined LANGUAGE_13 // Portuguese
+#include "YApp_E8876001.l13"
+#elif defined LANGUAGE_14 // Turkish
+#include "YApp_E8876001.l14"
+#elif defined LANGUAGE_16 // Russian
+#include "YApp_E8876001.l16"
+#elif defined LANGUAGE_17 // Hungarian
+#include "YApp_E8876001.l17"
+#elif defined LANGUAGE_18 // Dutch
+#include "YApp_E8876001.l18"
+#elif defined LANGUAGE_25 // Czech
+#include "YApp_E8876001.l25"
+#elif defined LANGUAGE_26 // Slovak
+#include "YApp_E8876001.l26"
+#elif defined LANGUAGE_27 // Polish
+#include "YApp_E8876001.l27"
+#elif defined LANGUAGE_28 // Slovenian
+#include "YApp_E8876001.l28"
+#elif defined LANGUAGE_31 // PRC-Chinese
+#include "YApp_E8876001.l31"
+#elif defined LANGUAGE_33 // Thai
+#include "YApp_E8876001.l33"
+#elif defined LANGUAGE_35 // Albanian
+#include "YApp_E8876001.l35"
+#elif defined LANGUAGE_37 // Arabic
+#include "YApp_E8876001.l37"
+#elif defined LANGUAGE_42 // Bulgarian
+#include "YApp_E8876001.l42"
+#elif defined LANGUAGE_45 // Croatian
+#include "YApp_E8876001.l45"
+#elif defined LANGUAGE_54 // Greek
+#include "YApp_E8876001.l54"
+#elif defined LANGUAGE_57 // Hebrew
+#include "YApp_E8876001.l57"
+#elif defined LANGUAGE_59 // Indonesian
+#include "YApp_E8876001.l59"
+#elif defined LANGUAGE_65 // Korean
+#include "YApp_E8876001.l65"
+#elif defined LANGUAGE_78 // Romanian
+#include "YApp_E8876001.l78"
+#elif defined LANGUAGE_79 // Serbian
+#include "YApp_E8876001.l79"
+#elif defined LANGUAGE_87 // Tamil
+#include "YApp_E8876001.l87"
+#else					  // English
+#include "YApp_E8876001.l01"
+#endif
+
+
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF r_default_document_name { buf=""; }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    	menubar=r_main_menubar;
+	status_pane=r_status_pane_empty;
+//	status_pane=R_AVKON_STATUS_PANE_LAYOUT_USUAL;
+    	cba=r_exit_cba;            
+    }
+
+RESOURCE STATUS_PANE_APP_MODEL r_status_pane_empty
+	{
+	layout = R_AVKON_STATUS_PANE_LAYOUT_EMPTY;
+	} 
+
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_main_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_main_menu;}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_PANE r_main_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EAknSoftkeyExit;						txt = ktx_cmd_Exit;}
+        };
+    }
+
+// ---------------------------------------------------------
+//			CBA
+// ---------------------------------------------------------
+//
+RESOURCE CBA R_MY_OPTIONS_CMD
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsSelect; 
+		txt = ktx_cmd_options; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+
+RESOURCE CBA R_MY_CONTROL_CBA
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsSelect3; 
+		txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsBack3; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+RESOURCE CBA R_MY_REPEAT_CBA
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsSelect2; 
+		txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsBack2; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+RESOURCE CBA R_MY_OPTIONS_EXIT
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsCommand; 
+		txt = ktx_cmd_options; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyExit; 
+		txt = ktx_cmd_Exit; 
+	}
+  };
+} 
+
+RESOURCE CBA r_my_info_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+    { 
+        id = EMyOptionsCommand; 
+        txt = ktx_cmd_options; 
+    },
+    CBA_BUTTON 
+    { 
+        id = EInfoBack; 
+        txt = ktx_cmd_Back; 
+    }
+  };
+} 
+
+
+RESOURCE CBA r_my_info2_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+        id = EMyDummy; 
+        txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EInfoBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+} 
+
+RESOURCE CBA r_my_update_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyDummy; 
+		txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EUpdateBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+} 
+RESOURCE CBA r_my_sounds_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsCommand; 
+		txt = ktx_cmd_options; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = ESetSoundBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+} 
+
+
+RESOURCE CBA r_my_sounds2_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EStopSoundFile2; 
+		txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EStopSoundFile; 
+		txt = ""; 
+	}
+  };
+} 
+
+
+RESOURCE CBA r_my_workd_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsCommand; 
+		txt = ktx_cmd_options; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EWorkDSaveValues; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+} 
+
+
+
+RESOURCE CBA r_my_alarm_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EMyOptionsCommand; 
+		txt = ktx_cmd_options; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAlarmSave; 
+		txt = ktx_cmd_Save; 
+	}
+  };
+} 
+
+RESOURCE CBA r_exit_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= "";//ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= "";//ktx_cmd_Exit;
+		}
+	};
+}
+
+//************************ CBA ***************************
+ 
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EProgressNoteId;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label ="Processing";
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG R_ASK_NAME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 50; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+
+RESOURCE DIALOG R_TIMME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY
+                {
+                layout = ENumberLayout;
+                control = AVKON_INTEGER_EDWIN
+                    {
+                    min = 1;
+                    max = 1000;
+                    };
+                };
+            }
+        };
+    }
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_ddd_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE DIALOG R_SC_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY
+                {
+                layout = ENumberLayout;
+                control = AVKON_INTEGER_EDWIN
+                    {
+                    min = 0;
+                    max = 9;
+                    };
+                };
+            }
+        };
+    }
+
+
+RESOURCE TBUF R_CMD_OPTIONS			{buf =ktx_cmd_options;}
+RESOURCE TBUF R_CMD_DONE			{buf =ktx_cmd_Done;}
+RESOURCE TBUF R_CMD_STOP			{buf =ktx_cmd_Stop;}
+RESOURCE TBUF R_CMD_BACK			{buf =ktx_cmd_Back;}
+RESOURCE TBUF R_CMD_CANCEL			{buf =ktx_cmd_Cancel;}
+RESOURCE TBUF R_CMD_SELECT			{buf =ktx_cmd_Select;}
+RESOURCE TBUF R_CMD_OK				{buf =ktx_cmd_Ok;}
+RESOURCE TBUF R_CMD_EXIT			{buf =ktx_cmd_Exit;}
+RESOURCE TBUF R_CMD_PLAY			{buf =ktx_cmd_Play;}
+RESOURCE TBUF R_CMD_CHANGE			{buf =ktx_cmd_Change;}
+RESOURCE TBUF R_CMD_HELP			{buf =ktx_cmd_Help;}
+
+RESOURCE TBUF R_CMD_NEW				{buf =ktx_mnu_Newalarm;}
+RESOURCE TBUF R_CMD_RESET			{buf =ktx_mnu_Resetalarm;}
+RESOURCE TBUF R_CMD_REMOVE			{buf =ktx_mnu_Removealarm;}
+RESOURCE TBUF R_CMD_ENABLE			{buf =ktx_cmd_Enable;}
+RESOURCE TBUF R_CMD_DISABLE			{buf =ktx_cmd_Disable;}
+RESOURCE TBUF R_CMD_SETALSUND		{buf =ktx_mnu_SetAlarmSounds;}
+RESOURCE TBUF R_CMD_SETWRKDAYS		{buf =ktx_mnu_SetWorkdays;}
+RESOURCE TBUF R_CMD_UPDATE			{buf =ktx_mnu_Update;}
+RESOURCE TBUF R_CMD_ABOUT			{buf =ktx_cmd_About;}
+RESOURCE TBUF R_CMD_ALDUEIN			{buf =ktx_str_AlarmDueIn;}
+
+RESOURCE TBUF R_STR_INNEXTT24		{buf =ktx_str_InNext24;}
+RESOURCE TBUF R_STR_ONCE			{buf =ktx_str_Once;}
+RESOURCE TBUF R_STR_DAILY			{buf =ktx_str_Daily;}
+RESOURCE TBUF R_STR_WORKDAYS		{buf =ktx_str_Workdays;}
+
+
+RESOURCE TBUF R_STR_CHANGEVAL		{buf =ktx_mnu_Changevalue;}
+RESOURCE TBUF R_STR_SETTIME			{buf =ktx_str_Settime;}
+RESOURCE TBUF R_STR_SETDATE			{buf =ktx_str_Setdate;}
+RESOURCE TBUF R_STR_SETMSG			{buf =ktx_str_Setmessage;}
+RESOURCE TBUF R_STR_TYPE			{buf =ktx_str_Type;}
+RESOURCE TBUF R_STR_CLOCKALRM		{buf =ktx_str_Clockalarm;}
+RESOURCE TBUF R_STR_CALALARM		{buf =ktx_str_Calendaralarm;}
+RESOURCE TBUF R_STR_REPEAT			{buf =ktx_str_Repeat;}
+RESOURCE TBUF R_STR_TIME			{buf =ktx_str_Time;}
+RESOURCE TBUF R_STR_DATE			{buf =ktx_str_Date;}
+RESOURCE TBUF R_STR_MESSAGE			{buf =ktx_str_Message;}
+RESOURCE TBUF R_STR_SNOOZE			{buf =ktx_str_Snooze;}
+
+RESOURCE TBUF R_STR_JUSTD			{buf =ktx_JustD;}
+RESOURCE TBUF R_STR_JUSTH			{buf =ktx_JustH;}
+RESOURCE TBUF R_STR_JUSTMIN			{buf =ktx_JustMin;}
+
+RESOURCE TBUF R_STR_GOJUKKA			{buf =ktx_str_GoJukka;}
+
+RESOURCE TBUF R_STR_HJELP1			{buf =ktx_cmd_Help1;}
+RESOURCE TBUF R_STR_HJELP2			{buf =ktx_cmd_Help2;}
+RESOURCE TBUF R_STR_HJELP3			{buf =ktx_cmd_Help3;}
+RESOURCE TBUF R_STR_HJELP4			{buf =ktx_cmd_Help4;}
+RESOURCE TBUF R_STR_HJELP5			{buf =ktx_cmd_Help5;}
+
+#ifdef EKA2
+
+#include "Definitions.h"
+
+#ifdef SONE_VERSION
+	RESOURCE LOCALISABLE_APP_INFO r_yc_localisable_app_info
+	{
+	short_caption = "Y-Alarms";
+	caption_and_icon =
+	{
+	CAPTION_AND_ICON_INFO
+	{
+	caption = "Y-Alarms";
+	number_of_icons = 1; // each icon must be a bitmap/mask pair
+	icon_file = "\\Resource\\Apps\\YApp_2002DD36_aif.mif"; 
+	
+	}
+	}; 
+	}
+#else
+
+	#ifdef LAL_VERSION
+
+	#else
+		RESOURCE LOCALISABLE_APP_INFO r_yc_localisable_app_info
+		{
+		short_caption = "Y-Alarms";
+		caption_and_icon =
+		{
+		CAPTION_AND_ICON_INFO
+		{
+		caption = "Y-Alarms";
+		number_of_icons = 1; // each icon must be a bitmap/mask pair
+		icon_file = "\\Resource\\Apps\\YApp_E8876001_aif.mif"; 
+		
+		}
+		}; 
+		}
+	#endif
+#endif
+
+#else
+
+#endif
+
+

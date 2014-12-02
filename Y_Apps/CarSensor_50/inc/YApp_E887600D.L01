@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Options"
+#define qtn_exit 			"Exit"
+
+#define qtn_about			"About"
+#define qtn_visit			"Visit m.DrJukka.com"
+#define qtn_backlighton		"Light on"
+
+#define qtn_backlightoff	"Light off"
+#define qtn_reset			"Reset"
+
+#define qtn_Help			"Help"
+#define qtn_Back			"Back"
+
+#define ktx_str_HELP1 		"This application is inclinometer application that shows the horizontal and vertical device tilt angle, and illustrates an image of a car with the measured angle. The application works only in portrait orientation."
+#define ktx_str_HELP2 		"The menu option reset allows resetting the tilt angle values to some other device tilt than default, so you can first put the device into a holder and then reset the tilt values to zero."
+#define ktx_str_HELP3 		"Lights on option allows the device backlight to stay on all of the time, note that this option will consume more battery, while allowing the screen to be more readable in dark conditions."
+
+
+
+
+// End of File

@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Options"
+#define ktx_cmd_exit 			"Quitter"
+
+#define ktx_cmd_about			"A propos"
+#define ktx_cmd_visit			"Consultez m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Ecran Horloge activé"
+#define ktx_sh_str_LGHTINSE		"Luminosité"
+#define ktx_sh_str_LGHTINSECHR	"Luminosité lors du chargement"
+#define ktx_sh_str_LIGHTON		"Lumière activée"
+#define ktx_sh_str_SHOWDATE		"Afficher la date"
+#define ktx_sh_str_KEYLOCKON	"Verrouillage clavier activé"
+#define ktx_sh_str_OFF			"Désactiver"
+#define ktx_sh_str_ON			"Activer"
+#define ktx_sh_str_DATEONLY		"Date seulement"
+#define ktx_sh_str_DATETIME		"Date et jour"
+#define ktx_sh_str_TIMEOUTOL	"Heure seulement"
+#define ktx_sh_str_TIMEOUTCHR	"Heure + chargement"
+#define ktx_sh_str_ALWAYS		"Toujours"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Portrait"
+#define ktx_sh_str_Landscape	"Paysage"
+#define ktx_sh_str_Automatic	"Automatique"
+
+#define ktx_sh_str_CURRTHEM		"Thème en cours"
+#define ktx_sh_str_SELCOLOR		"Sélectionner une couleur"
+#define ktx_sh_str_BACKCOLOR	"Couleur de fond"
+#define ktx_sh_str_FONTCOLOR	"Couleur de la police"
+#define ktx_sh_str_LIGHTTIM		"Délai lumière"
+#define ktx_sh_str_LOCKTIM		"Verrouiller après (sec.)"
+#define ktx_sh_str_FONT			"Police"
+#define ktx_sh_str_BLACK		"Noir"
+#define ktx_sh_str_DARKGRAY		"Gris foncé"
+#define ktx_sh_str_DARKRED		"Rouge foncé"
+#define ktx_sh_str_DARKGREEN	"Vert foncé"
+#define ktx_sh_str_DARKYELLOW	"Jaune foncé"
+#define ktx_sh_str_DARKBLUE		"Bleu foncé"
+#define ktx_sh_str_DARKMAGENDA	"Magenta foncé"
+#define ktx_sh_str_DARKCYAN		"Cyan foncé"
+#define ktx_sh_str_RED			"Rouge"
+#define ktx_sh_str_GREEN		"Vert"
+#define ktx_sh_str_YELLOW		"Jaune"
+#define ktx_sh_str_BLUE			"Bleu"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Cyan"
+#define ktx_sh_str_GRAY			"Gris"
+#define ktx_sh_str_WHITE		"Blanc"
+
+#define ktx_cmd_Help 			"Aide"
+#define ktx_cmd_Back 			"Retour"
+
+#define ktx_str_HELP1			"Cette application permet d'afficher une horloge en écran de veille lorsque l'appareil est verrouillé par le verrouillage standard de l'appareil. L'éclairage sera activé si autorisé après appui sur une touche (les touches autorisées sont flèches gauche/droite et menu)."
+#define ktx_str_HELP2			"L'affichage est géré en arrière-plan si l'écran de veille ou le verrouillage des touches est enregistré pour être activé. L'application est aussi démarrée automatiquement au démarrage de l'appareil. Veuillez noter que les paramètres sont effectifs seulement après la sortie de l'interface utilisateur de l'application."
+#define ktx_str_HELP3			"Les paramètres de la luminosité règlent la luminosité de l'affichage lors de l'appui sur une touche pour afficher l'horloge. La luminosité lors du chargement est utilisée quand l'appareil est en charge. Le délai d'éclairage spécifie le délai avant extinction de l'éclairage une fois que vous n'utilisez plus l'appareil. Veuillez noter que quelques appareils ignorent cette valeur, et utilisent le délai d'éclairage de l'appareil à la place."
+#define ktx_str_HELP4			"Le paramétrage de la police permet de sélectionner la police et choisir la couleur affichée avec l'horloge. Les paramètres d'arrière-plan définissent la couleur de l'arrière-plan à afficher avec l'horloge."
+#define ktx_str_HELP5			"L'option Afficher la date permet de désactiver l'affichage de la date/jour au dessus de l'horloge. L'option de verrouillage clavier autorise le verrouillage automatique par les applications en arrière-plan, l'option Verrouiller après permet de régler le délai d'inactivité au delà duquel le clavier sera verrouillé."
+
+
+

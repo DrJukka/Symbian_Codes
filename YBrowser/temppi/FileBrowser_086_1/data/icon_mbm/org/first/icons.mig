@@ -1,0 +1,22 @@
+ 
+/* This file has been generated, DO NOT MODIFY. */
+enum TMifIcons
+	{
+	EMbmIconsMarked = 16384,
+	EMbmIconsMarked_mask = 16385,
+	EMbmIconsBox = 16386,
+	EMbmIconsBox_mask = 16387,
+	EMbmIconsBoxempty = 16388,
+	EMbmIconsBoxempty_mask = 16389,
+	EMbmIconsEmpty = 16390,
+	EMbmIconsEmpty_mask = 16391,
+	EMbmIconsExtras = 16392,
+	EMbmIconsExtras_mask = 16393,
+	EMbmIconsDrive = 16394,
+	EMbmIconsDrive_mask = 16395,
+	EMbmIconsFolder = 16396,
+	EMbmIconsFolder_mask = 16397,
+	EMbmIconsFile = 16398,
+	EMbmIconsFile_mask = 16399,
+	EMbmIconsLastElement
+	};

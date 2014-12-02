@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Opties"
+#define ktx_cmd_exit 			"Sluiten"
+
+#define ktx_cmd_about			"Over"
+#define ktx_cmd_visit			"Bezoek m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Schermklok aan"
+#define ktx_sh_str_LGHTINSE		"Lichtintensiteit"
+#define ktx_sh_str_LGHTINSECHR	"Lichtintensiteit bij opladen"
+#define ktx_sh_str_LIGHTON		"Lichten aan"
+#define ktx_sh_str_SHOWDATE		"Toon datum"
+#define ktx_sh_str_KEYLOCKON	"Toetsenvergrendeling aan"
+#define ktx_sh_str_OFF			"Uit"
+#define ktx_sh_str_ON			"Aan"
+#define ktx_sh_str_DATEONLY		"Alleen datum"
+#define ktx_sh_str_DATETIME		"Datum + dagnaam"
+#define ktx_sh_str_TIMEOUTOL	"Alleen bij time out"
+#define ktx_sh_str_TIMEOUTCHR	"Time out + opladen"
+#define ktx_sh_str_ALWAYS		"Altijd"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Portret"
+#define ktx_sh_str_Landscape	"Landschap"
+#define ktx_sh_str_Automatic	"Automatisch"
+
+#define ktx_sh_str_CURRTHEM		"Huidig thema"
+#define ktx_sh_str_SELCOLOR		"Selecteer kleur"
+#define ktx_sh_str_BACKCOLOR	"Achtergrondkleur"
+#define ktx_sh_str_FONTCOLOR	"Lettertypekleur"
+#define ktx_sh_str_LIGHTTIM		"Time out verlichting"
+#define ktx_sh_str_LOCKTIM		"Vergrendelen na (sec.)"
+#define ktx_sh_str_FONT			"Lettertype"
+#define ktx_sh_str_BLACK		"Zwart"
+#define ktx_sh_str_DARKGRAY		"Donkergrijs"
+#define ktx_sh_str_DARKRED		"Donkerrood"
+#define ktx_sh_str_DARKGREEN	"Donkergroen"
+#define ktx_sh_str_DARKYELLOW	"Donkergeel"
+#define ktx_sh_str_DARKBLUE		"Donkerblauw"
+#define ktx_sh_str_DARKMAGENDA	"Donkermagenta"
+#define ktx_sh_str_DARKCYAN		"Donkercyaan"
+#define ktx_sh_str_RED			"Rood"
+#define ktx_sh_str_GREEN		"Groen"
+#define ktx_sh_str_YELLOW		"Geel"
+#define ktx_sh_str_BLUE			"Blauw"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Cyaan"
+#define ktx_sh_str_GRAY			"Grijs"
+#define ktx_sh_str_WHITE		"Wit"
+
+#define ktx_cmd_Help 			"Help"
+#define ktx_cmd_Back 			"Terug"
+
+#define ktx_str_HELP1			"Deze applicatie toont een klok als screensaver, wanneer de toetsen zijn vergrendeld op de standaardmanier. Als deze optie is geactiveerd, kan de verlichting worden aangezet door een knop in te drukken. (Toegestaan: pijltje links/rechts en de menu-knop)"
+#define ktx_str_HELP2			"De lock screen wordt geactiveerd als de klok op het scherm of de toetsvergrendeling worden ingeschakeld. De applicatie wordt automatisch gestart bij het starten van het toestel. Veranderingen in de instellingen worden van kracht als deze schermen worden afgesloten."
+#define ktx_str_HELP3			"De instellingen voor lichtintensiteit bepalen de sterkte van de verlichting van de klok, als een toets wordt ingedrukt. Oplaadintensiteit geldt op momenten dat het toestel wordt opgeladen. Time-out verlichting bepaalt hoe lang de verlichting blijft branden na een toetsindruk. Niet alle toestellen ondersteunen een zelf ingestelde time-out."
+#define ktx_str_HELP4			"Licht aan bepaalt wanneer de verlichting brandt. Het ingestelde lettertype wordt gebruikt op het display van de klok, evenals de tekstkleur en de achtergrondkleur."
+#define ktx_str_HELP5			"Met de optie 'Toon datum' wordt de datum getoond of verborgen. De opties voor toetsvergrendeling regelen de automatische vergrendeling, de optie 'Vergrendelen na' wordt ingesteld na hoeveel seconden van inactiviteit de toetsen worden vergrendeld."
+
+
+

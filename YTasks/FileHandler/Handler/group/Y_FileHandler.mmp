@@ -1,0 +1,66 @@
+/* Copyright (c) 2001 - 2005, Jukka Silvennoinen, Solution One Telecom LTd. All rights reserved */
+
+
+TARGET          YApp_20007145.exe
+TARGETTYPE      exe
+UID  			0x100039CE 0x20007145
+EPOCSTACKSIZE	0x5000
+
+SOURCEPATH      ..\Scr
+SOURCE          YApp_20007145.cpp
+SOURCE          MainContainer.cpp
+
+
+START RESOURCE    ..\data\YApp_20007145.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+
+START RESOURCE    ..\data\YApp_20007145_reg.rss
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END //RESOURCE
+
+USERINCLUDE     ..\Inc
+USERINCLUDE     ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom \epoc32\include\libc
+
+LIBRARY         euser.lib				// for CBase, CSession, CActiveScheduler, ...
+LIBRARY         avkon.lib				// for CAknView, CAknViewAppUi
+LIBRARY         apparc.lib				// for CApaDocument
+LIBRARY         cone.lib				// for CCoeControl
+LIBRARY         eikcore.lib				// for CEikApplication, CEikDocument, CEikAppUi
+LIBRARY         bafl.lib				// CDesC16Array
+LIBRARY         eikcoctl.lib			// CColumnListBoxItemDrawer
+LIBRARY         aknnotify.lib			// CAknGlobalNote
+LIBRARY         msgs.lib				// CMsvSession
+LIBRARY         smcm.lib				// for TSmsMtmCommand  
+LIBRARY         gsmu.lib				// for Service Center address 
+LIBRARY         apgrfx.lib				// RApaLsSession, CApaMaskedBitmap
+LIBRARY         hal.lib					// HAL
+LIBRARY         efsrv.lib 				// TParse
+LIBRARY         SYSUTIL.LIB				// SysUtil
+LIBRARY         aknnotify.lib			// CAknGlobalNote
+LIBRARY         fbscli.lib 
+LIBRARY         apmime.lib 
+LIBRARY         ecom.lib 
+LIBRARY         aknskinsrv.lib 
+LIBRARY         AknSkins.lib 
+LIBRARY 		esock.lib 
+LIBRARY         commdb.lib 
+LIBRARY         IMUT.LIB				// TImCodecB64
+LIBRARY         eikcdlg.lib 
+LIBRARY         eikctl.lib 
+LIBRARY         etext.lib 
+LIBRARY         charconv.lib 
+LIBRARY         CommonEngine.lib 
+LIBRARY         estor.lib 
+
+LANG SC
+VENDORID		0x00000000
+CAPABILITY 		ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+

@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Opciones"
+#define ktx_cmd_exit 			"Salir"
+
+#define ktx_cmd_about			"Acerca de.."
+#define ktx_cmd_visit			"Visitar m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Reloj en Pantalla"
+#define ktx_sh_str_LGHTINSE		"Intensidad de luz"
+#define ktx_sh_str_LGHTINSECHR	"Intesidad de luz con cargador"
+#define ktx_sh_str_LIGHTON		"Luces encendidas"
+#define ktx_sh_str_SHOWDATE		"Mostrar fecha"
+#define ktx_sh_str_KEYLOCKON	"Bloquear teclado"
+#define ktx_sh_str_OFF			"Apagado"
+#define ktx_sh_str_ON			"Encendido"
+#define ktx_sh_str_DATEONLY		"Sólo fecha"
+#define ktx_sh_str_DATETIME		"Fecha & Día"
+#define ktx_sh_str_TIMEOUTOL	"Sólo tiempo"
+#define ktx_sh_str_TIMEOUTCHR	"Tiempo & Cargador"
+#define ktx_sh_str_ALWAYS		"Siempre"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Normal"
+#define ktx_sh_str_Landscape	"Apaisado"
+#define ktx_sh_str_Automatic	"Automático"
+
+#define ktx_sh_str_CURRTHEM		"Tema actual"
+#define ktx_sh_str_SELCOLOR		"Elige color"
+#define ktx_sh_str_BACKCOLOR	"Color de Fondo"
+#define ktx_sh_str_FONTCOLOR	"Color de Letra"
+#define ktx_sh_str_LIGHTTIM		"Tiempo de luz"
+#define ktx_sh_str_LOCKTIM		"Bloquear en (seg.)"
+#define ktx_sh_str_FONT			"Fuente"
+#define ktx_sh_str_BLACK		"Negro"
+#define ktx_sh_str_DARKGRAY		"Gris oscuro"
+#define ktx_sh_str_DARKRED		"Rojo oscuro"
+#define ktx_sh_str_DARKGREEN	"Verde oscuro"
+#define ktx_sh_str_DARKYELLOW	"Amarillo oscuro"
+#define ktx_sh_str_DARKBLUE		"Azul oscuro"
+#define ktx_sh_str_DARKMAGENDA	"Magenta oscuro"
+#define ktx_sh_str_DARKCYAN		"Cyan oscuro"
+#define ktx_sh_str_RED			"Rojo"
+#define ktx_sh_str_GREEN		"Verde"
+#define ktx_sh_str_YELLOW		"Amarillo"
+#define ktx_sh_str_BLUE			"Azul"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Cyan"
+#define ktx_sh_str_GRAY			"Gris"
+#define ktx_sh_str_WHITE		"Blanco"
+
+#define ktx_cmd_Help 			"Ayuda"
+#define ktx_cmd_Back 			"Atrás"
+
+#define ktx_str_HELP1			"Esta aplicación sirve como reloj salvapantallas, y funciona mientras el teclado está bloqueado. La pantalla se iluminará cada vez que se presione una tecla (las teclas permitidas son: teclas de desplazamiento izq./der. y tecla de menú)"
+#define ktx_str_HELP2			"La pantalla de bloqueo es administrada por un servidor oculto, que se ejecuta si el reloj o el bloqueo están activados. La aplicación también se ejecuta automáticamente cuando se enciende el equipo. Los cambios en las configuraciones tendrán efecto al salir de la interfaz gráfica."
+#define ktx_str_HELP3			"La opción "Mostrar Fecha" activa o desactiva la fecha en la pantalla del reloj. "Bloquear Teclado" permite el bloqueo automático, corriendo la aplicación en segundo plano. Y "Bloquear en" define el tiempo de inactividad necesario para el bloqueo."
+#define ktx_str_HELP4			""
+#define ktx_str_HELP5			""
+
+
+

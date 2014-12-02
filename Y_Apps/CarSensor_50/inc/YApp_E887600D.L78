@@ -1,0 +1,27 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Opţiuni"
+#define qtn_exit 			"Ieşire"
+
+#define qtn_about			"Despre aplicaţie"
+#define qtn_visit			"Vizitaţi m.DrJukka.com"
+#define qtn_backlighton		"Iluminare activată"
+
+#define qtn_backlightoff	"Iluminare dezactivată"
+#define qtn_reset			"Resetare"
+
+#define qtn_Help			"Ajutor"
+#define qtn_Back			"Înapoi"
+
+#define ktx_str_HELP1 		"Aceasta aplicaţie permite vizualizarea gradului de înclinare verticală şi orizontală a telefonului, prin afişarea imaginii unei maşini şi marcarea unghiurilor de înclinaţie. Aplicaţia funcţionează doar în modul portret al ecranului."
+#define ktx_str_HELP2 		"Opţiunea \"Resetare\" permite recalibrarea valorilor inclinaţiei la altele decât cele implicite, permiţând mai întâi orientarea telefonului ca abia apoi sa se facă măsurătorile."
+#define ktx_str_HELP3 		"Opţiunea \"Iluminare activată\" permite păstrarea iluminării ecranului îmbunătăţind vizibilitatea dar astfel bateria se va consuma mai repede."
+
+
+
+// End of File

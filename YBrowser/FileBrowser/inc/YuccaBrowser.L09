@@ -1,0 +1,348 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Takaisin"
+#define ktx_cmd_Options			"Valinnat"
+#define ktx_cmd_Exit			"Poistu"
+#define ktx_cmd_Save			"Tallenna"
+#define ktx_cmd_Cancel			"Peruuta"
+#define ktx_cmd_Delete			"Poista"
+
+#define ktx_cmd_Select			"Valitse"
+#define Ktx_sh_str_SortBy		"Järjestä"	
+
+#define ktx_mnu_setserchoff		"Aseta haku pois päältä"
+#define ktx_mnu_File			"Tiedosto"
+#define ktx_mnu_Edit			"Muokkaa"
+#define ktx_mnu_Mark			"Merkitse"
+#define ktx_mnu_Searchfiles		"Etsi tiedostoja"
+#define ktx_mnu_Extras			"Extrat"
+#define ktx_mnu_About			"Tietoja sovelluks."
+#define ktx_mnu_commandSC		"Pikanäppäinkomennot"
+#define ktx_mnu_ShowSC			"Näytä pikanäppäimet"
+#define ktx_mnu_SetSC			"Määritä pikanäppäimet"
+#define ktx_mnu_Searchon			"Aseta haku päälle"
+#define ktx_mnu_Settings			"Asetukset"
+#define ktx_mnu_switchlo			"Muuta asettelua"
+#define ktx_mnu_changeic			"Muuta kuvakkeita"
+#define ktx_mnu_refresh			"Päivitä"
+#define ktx_mnu_munmark			"Merkitse/Poista merkintä"
+#define ktx_mnu_Markall			"Merkitse kaikki"
+#define ktx_mnu_Unmarkall		"Poista merkintä kaikista"
+#define ktx_mnu_Openwith		"Avaa sovelluksessa"
+#define ktx_mnu_Open			"Avaa"
+#define ktx_mnu_Send			"Lähetä"
+#define ktx_mnu_Properties		"Ominaisuudet"
+#define ktx_mnu_Attributes		"Määreet"
+#define ktx_mnu_Delete			"Poista"
+#define ktx_mnu_Rename			"Nimeä uudelleen"
+#define ktx_mnu_ShowName			"Näytä nimi"
+#define ktx_mnu_Newfile			"Uusi tiedosto"
+#define ktx_mnu_Newfolder		"Uusi kansio"
+#define ktx_mnu_Copy			"Kopioi"
+#define ktx_mnu_Cut			"Leikkaa"
+#define ktx_mnu_Paste			"Liitä"
+#define ktx_mnu_pastenfile		"Liitä uuteen tiedostoon"
+#define ktx_mnu_pasteshow		"Näytä liitettävät tiedostot"
+#define ktx_mnu_pasteclear		"Tyhjennä liitettävät tiedostot"
+#define ktx_mnu_Done			"Valmis"
+#define ktx_mnu_addsel			"Lisää valintaan"
+#define ktx_mnu_selshow			"Näytä valitut"
+#define ktx_mnu_cpyclipp			"Kopioi leikepöydälle"
+#define ktx_mnu_Startsearch		"Aloita haku"
+#define ktx_mnu_nckresulyts		"Takaisin tuloksiin"
+#define ktx_mnu_resultclear		"Tyhjennä tulokset"
+#define ktx_mnu_showseltyp		"Näytä valitut tyypit"
+#define ktx_mnu_clearcond		"Poista valinta"
+#define ktx_mnu_gtofolder		"Mene kansioon"
+#define ktx_mnu_PAGEUP			"Sivu ylös"
+#define ktx_mnu_PAGEDOWN		"Sivu alas"
+
+#define ktx_sh_str_Processing		"Käsitellään"
+#define ktx_sh_str_selfiltyp		"Valitse tiedostotyypit"
+#define ktx_sh_str_date			"pvm."
+#define ktx_sh_str_time			"aika"
+
+//settings.
+#define ktx_sh_str_System		"Järjestelmä"	
+#define ktx_sh_str_Hidden		"Piilotettu"
+#define ktx_sh_str_Readonly		"Vain luku"
+#define ktx_sh_str_Modifyingdate	"Muokkaus pvm."
+#define ktx_sh_str_Modifyingtime	"Muokkaus aika"
+#define ktx_sh_str_showall		"Näytä kaikki tiedostot"
+#define ktx_sh_str_Sortorder		"Järjestys"	
+#define ktx_sh_str_Foldersfirst	"Kansiot ensin"
+#define ktx_sh_str_speedoptimize	"Tallenna kansion tiedot"
+#define ktx_sh_str_Recognizefiles	"Tunnista tiedostot"
+#define ktx_sh_str_savepathonexit	"Tallenna polku poistuttaessa"
+#define ktx_sh_str_exitaks		"Kysy ennen poistumista"
+#define ktx_sh_str_Off			"Pois"
+#define ktx_sh_str_On			"Päällä"
+#define ktx_sh_str_No			"Ei"
+#define ktx_sh_str_Yes			"Kyllä"
+#define ktx_sh_str_Decending		"Laskeva"
+#define ktx_sh_str_Ascending		"Nouseva"
+#define ktx_sh_str_Name			"Nimi"
+#define ktx_sh_str_Fileextension	"Tiedostopääte"
+#define ktx_sh_str_Filetype		"Tiedostotyyppi"
+#define ktx_sh_str_Size			"Koko"
+#define ktx_sh_str_Path			"Polku"
+#define ktx_sh_str_Filename		"Tiedostonimi"
+#define ktx_sh_str_Biggerthan		"Suurempi kuin"
+#define ktx_sh_str_Smallerthan	"Pienempi kuin"
+#define ktx_sh_str_Modifiedbefore	"Muokattu ennen"
+#define ktx_sh_str_Modifiedafter	"Muokattu jälkeen"
+#define ktx_sh_str_types		" tyypit"
+#define ktx_sh_str_Excludetypes	"Poissulje tyypit"
+#define ktx_sh_str_Includetypes	"Sisällytä tyypit"
+#define ktx_sh_str_Fileattributes	"Tiedostomääreet"
+
+#define ktx_sh_str_formatName		"Nimi\t%S"
+#define ktx_sh_str_formatFsys		"Tied.jär\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Vapaana\t%d kt"
+#define ktx_sh_str_formatUsed		"Käytetty\t%d kt"
+#define ktx_sh_str_formatSizeKb	"Koko\t%d kt"
+#define ktx_sh_str_formatSizeB	"Koko\t%d tavua"		
+#define ktx_sh_str_formatType		"Tyyppi\t%S"
+#define ktx_sh_str_formatFiles	"Tiedostoja\t%d"	
+#define ktx_sh_str_formatFolders	"Kansioita\t%d"
+#define ktx_sh_str_formatTypeID	"TyyppiID\t%S"	
+#define ktx_sh_str_atrWProt		"Määre\tKirjoitus suojattu"
+#define ktx_sh_str_atrLocked		"Määre\tLukittu"
+#define ktx_sh_str_atrFormattable	"Määre\tFormatoitava"
+#define ktx_sh_str_atrVarSize		"Määre\tMuuttuva koko"
+#define ktx_sh_str_atrROM		"Määre\tROM"
+#define ktx_sh_str_atrRemovable	"Määre\tIrrotettava"
+#define ktx_sh_str_atrtHidden		"Määre\tPiilotettu"
+#define ktx_sh_str_atrReadonly	"Määre\tVain luku"
+#define ktx_sh_str_atrSystem		"Määre\tJärjestelmä"
+#define ktx_sh_str_atrVolume		"Määre\tLevy"
+#define ktx_sh_str_atrArchive		"Määre\tPakattu"
+
+#define ktx_sh_str_Notpresent		"Ei käytettävissa"
+#define ktx_sh_str_Floppy		"Levyke"
+#define ktx_sh_str_HardDisk		"Kiintolevy"
+#define ktx_sh_str_CdRom		"CdRom"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Etä"
+#define ktx_sh_str_Unknown		"Tuntematon"
+#define ktx_sh_str_SCTITLE		"Pikanäppäimet: Shift+/Kynä+"
+#define ktx_sh_str_FREE			"<vapaa>"
+#define ktx_sh_str_Root			"Juuri"
+#define ktx_sh_str_Selected		"Valittu"
+#define ktx_sh_str_Cutfiles		"Leikkaa tiedostot"
+#define ktx_sh_str_CopyFiles		"Kopioi tiedostot"
+#define ktx_sh_str_COPYINGFF		"Kopioidaan %S kohteeseen %S"
+#define ktx_sh_str_MOVINGFF		"Siirretään %S kohteeseen %S"
+#define ktx_sh_str_RENAMINGFF		"Uudelleennimetään %S kohteeksi %S"
+#define ktx_sh_str_DELETINGFF		"Poistetaan %S"	
+#define ktx_sh_str_EXISTREPLACE	" on jo olemassa, korvataanko?"
+#define ktx_sh_str_ISROMODIFY		" on vain luku muotoa, muutetaanko määreitä ?"
+#define ktx_sh_str_ALREDYEXIST	" on jo olemassa"
+#define ktx_sh_str_ISOPEN		" on käytösä"
+#define ktx_sh_str_ISREADONLY		" on vain luku muotoa"
+#define ktx_sh_str_ACCDENIED		" Pääsy evätty"
+#define ktx_sh_str_DISKFULL		"Levy on täynnä"
+#define ktx_sh_str_DISCKNOTREADY	"Levy on poissaoleva/ei ole valmis"
+#define ktx_sh_str_CORRDISCK		"Levy on viallinen"
+#define ktx_sh_str_INVALIDNAME	" on epäkelpo nimi"
+#define ktx_sh_str_NOTMEMFORFF	"Ei tarpeeksi muistia "
+#define ktx_sh_str_OPERFAILED		"Toiminto kohteessa \"%S\" epäonnistui: Virhe %d"
+#define ktx_sh_str_NEWFILE		"uusi tiedosto:"
+#define ktx_sh_str_SENDUI		"Lähetä UI"
+#define ktx_sh_str_SENDFFVIA		"Lähetä tiedostoja"
+#define ktx_sh_str_SELAPPLICATION	"Valitse sovellus"
+#define ktx_sh_str_OPENFILE		"Avaa tiedosto"
+#define ktx_sh_str_ANDATRIBS		"\'Ja\'määreet"
+#define ktx_sh_str_SEARCFOR		"Hakusana"
+#define ktx_sh_str_SELFILETYPES	"Valitut tiedostotyypit"
+#define ktx_sh_str_MB			"Mt"
+#define ktx_sh_str_KB			"kt"
+#define ktx_sh_str_BYTES		"tavua"
+#define ktx_sh_str_HIDD			"piil."
+#define ktx_sh_str_AND			" JA "
+#define ktx_sh_str_OR			" TAI "
+#define ktx_sh_str_SYS			"järj."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" tiedosto(a) löydetty"
+#define ktx_sh_str_FOUNDENDDDD	"%d tiedosto(a) löydetty %d  sekunnissa"
+
+#define ktx_sh_str_SELCOMMAND		"Valitse komento"
+#define ktx_sh_str_NOTSET		"Ei asetettu"
+#define ktx_sh_str_SELICONFF		"Valitse kuvaketiedosto"
+
+#define ktx_sh_str_READINGFF		"Luetaan %d / %d"
+#define ktx_str_FILREADERR		"Tiedoston lukeminen saattaa olla kesken, virhe: %d"
+#define ktx_str_FILNOTFOND		"Tiedostoa ei löydetty"
+#define ktx_str_NOAPPFORFIL		"Sovelluksia tiedoston avaamiseen ei löydetty"
+#define ktx_str_SAVESEARCH		"Tallennetaanko viimeisimmät hakutulokset ?"
+#define ktx_str_SELSCNUMBER		"Valitse pikanäppäin numero"
+#define ktx_str_REBOOTICON		"Kuvakkeita muutettu, puhelin/Y-browser täytyy ehkä käynnistää uudestaan jotta muutoksella olisi vaikutusta."
+#define ktx_str_PASTEFTOFOL		"Liitä %d tiedosto(a) tähän kansioon ?"
+#define ktx_str_DELFOILES		"Poista %d tiedostoa"
+#define ktx_str_NEWNAME 		"Uusi nimi :"
+#define ktx_str_FDERNAME		"Kansion nimi :"
+#define ktx_str_ERRCREATEFLDR		"Kansiota ei voida luoda, VirhNum: "
+#define ktx_str_FDREXISTS		"Kansio on jo olemassa, anna uusi nimi."
+#define ktx_str_APPENDLIST		"Append to the list"
+#define ktx_str_FILESADCY		"%d tiedosto(a) lisätty kopioitavaksi/leikattavaksi"
+#define ktx_str_PASTEWILLREM		"Liittäminen poistaa %d tiedosto(a)."
+#define ktx_str_FORSECOPY		"Lähdetiedostoa ei voida sulkea, kopioi silti ?"
+#define ktx_str_STARTNEWSCRH		"Aloita uusi haku ?"
+#define ktx_str_RESETSEARCH		"Palauta edelliset hakuasetukset ?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Merkitse jokerimerkein" // Mark menu item
+#define ktx_mnu_MarkInverse		"Poista valinta"   // Mark menu item
+
+#define ktx_sh_str_General		"Yleiset"//- setting
+
+#define ktx_sh_str_fullscreen		" Kokoruututila" // main settings item
+
+#define ktx_sh_str_NOFILES		"Ei tiedostoja"   // no files in browser
+
+#define ktx_mnu_typassociation	"Tiedostotyypit" //settins select item list
+#define ktx_sh_str_plugins		"Lisäosat" //settins select item list
+
+#define ktx_sh_str_Own			"Omat"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Poista tiedostotyyppi" //file associations
+
+#define ktx_mnu_Modify			"Muokkaa"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Lisää tiedostotyyppi"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Poista tiedostotyyppi"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Poista päätteitä"	// menu file associations settings
+#define ktx_mnu_AddExt			"Lisää pääte"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Valitse käsittelyohjelma"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Muuta tyypin nimeä"	// menu file associations settings
+#define ktx_mnu_Reset			"Nollaa"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Käsittelyohjelma"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Käsittelijät" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Tunnistimet" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Ota käyttöön" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Poista käytöstä" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Näytä tiedot" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Nimi: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Tila: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Poistettu käytöstä" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Käytössä" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Lisäosan versio: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (yhteensopiva versio)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (yhteensopimaton versio)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Lisäosan tyyppi: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Tiedoston käsittelijä" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Tiedoston lähetin" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Tiedoston vastaanotin" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Tiedostokansio" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Avaa käsittelyohjelmalla" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Tiedoston tunnistin" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Tuetut tiedostotyypit:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Tukee uusia tiedostoja)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Lisää tiedostotyyppejä"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Valitse poistaaksesi"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Tiedostotyypit"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Tunnistamaton käsittelyohjelma"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+

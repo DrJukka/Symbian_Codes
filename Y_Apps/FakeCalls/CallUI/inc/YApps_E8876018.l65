@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"옵션"
+#define ktx_cmd_exit 				"종료"
+#define ktx_cmd_Back 				"뒤로"
+
+#define ktx_mnu_help				"도움말"
+#define ktx_cmd_about				"프로그램 정보"
+#define ktx_cmd_visit				"m.DrJukka.com 홈페이지로"
+
+#define ktx_cmd_Snooze 				"다시알림"
+#define ktx_sh_str_ANSWER			"응답"
+#define ktx_sh_str_SILENSE			"무음"
+#define ktx_sh_str_CALLING			"전화 수신 중"
+
+#define ktx_str_HELP1				"본 애플리케이션은 진짜 전화가 온 것처럼 핸드폰 화면에 표시해 줍니다. 배경 화면을 비롯한 모든 그래픽은 휴대폰에서 설정된 테마를 따릅니다."
+#define ktx_str_HELP2				"벨소리는 기본적으로 핸드폰의 프로필에 설정된 벨소리를 사용합니다. 만약 프로필에 설정된 벨소리를 사용할 수 없을 경우, '비상용 벨소리 설정'에서 설정된 벨소리가 사용됩니다."
+#define ktx_str_HELP3				"무음 버튼을 누르면 벨소리를 울리지 않게 할 수 있으며, 현재 버전에서는 초록색 버튼과 응답 버튼은 아무런 기능이 없습니다."
+#define ktx_str_HELP4				"Fake call 화면을 종료하시려면 빨간 버튼을 누르시거나 '옵션' -> '종료'를 선택하십시오."
+#define ktx_str_HELP5				"'다시알림' 버튼은 프로그램에서 설정된 다시알림 시간동안 Fake call 화면을 숨겨 줍니다."
+
+
+
+		

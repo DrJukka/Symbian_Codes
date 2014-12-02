@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Opcije"
+#define ktx_cmd_Exit			"Izađi"
+#define ktx_cmd_Cancel			"Otkaži"
+#define ktx_cmd_Back			"Nazad"
+
+#define ktx_cmd_Disable			"Onemogući"
+#define ktx_cmd_Enable			"Omogući"
+
+#define ktx_cmd_About			"O Proizvodu"
+
+#define ktx_cmd_Select			"Izaberi"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Promeni"
+#define ktx_cmd_Done			"Gotovo"
+#define ktx_cmd_Play			"Preslušaj"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Sačuvaj"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" č "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Dnevno"
+#define ktx_Wordays				"Radnim danima"
+
+
+#define ktx_mnu_Newalarm			"Novo"
+#define ktx_mnu_Resetalarm			"Resetovati"
+#define ktx_mnu_Removealarm			"Ukloni"
+#define ktx_mnu_SetAlarmSounds		"Posedi zvuk alarma"
+#define ktx_mnu_SetWorkdays			"Podesi radne dane"
+#define ktx_mnu_Update				"Ažuriranje"
+
+#define ktx_mnu_Changevalue			"Promeni vrednost"
+
+#define ktx_str_Repeat				"Ponovi"
+#define ktx_str_Daily				"Dnevno"
+#define ktx_str_Workdays			"Radnim danima"
+#define ktx_str_InNext24			"U naredna 24 sata"
+#define ktx_str_Once				"Jednom"
+
+#define ktx_str_Time				"Vreme"
+#define ktx_str_Date				"Datum"
+
+#define ktx_str_Type				"Tip"
+#define ktx_str_Clockalarm			"Alarm sata"
+#define ktx_str_Calendaralarm		"Alarm kalendara"
+#define ktx_str_Message				"Poruka"
+#define ktx_str_Snooze				"Odloži"
+
+#define ktx_str_Settime				"Podesi vreme"
+#define ktx_str_Setdate				"Podesi datum"
+#define ktx_str_Setmessage			"Podesi poruku"
+		
+#define ktx_str_AlarmDueIn			"vreme do isteka alarma "
+#define ktx_str_GoJukka				"Poseti m.DrJukka.com"
+
+#define ktx_cmd_Help				"Pomoć"
+
+#define ktx_cmd_Help1				"Aplikacija omogućava višestruki alarm sa mogućnošću ponavljanja alarma, na onim uređajima koji inače nemaju tu funkciju."
+#define ktx_cmd_Help2				"Svaki novi alarm može imati svoju opciju tipa: ponovi, podesi vreme, postavi poruku.Tip alarma definiše zvuk istog.Pritisni Gotovo da sačuvaš alarm. "
+#define ktx_cmd_Help3				"Opcija resetuj koristi se za resetovanje alarma, ukloni za uklanjanje alarma a Omogući/Onemogući može koristiti i za privremeno onemogućavanje alarma."
+#define ktx_cmd_Help4				"Opcija Podesi zvuk alarma omogućava odabir zvuka alarma.Podešavanje odlaganja alarma definiše se u minutima.Napomena: neki uređaji ignorišu podešavanje odlaganja alarma, već koriste predefinisanu vrednost."
+#define ktx_cmd_Help5				"Podesi radne dane definiše kojim danima će alarm biti aktivan."
+
+
+
+

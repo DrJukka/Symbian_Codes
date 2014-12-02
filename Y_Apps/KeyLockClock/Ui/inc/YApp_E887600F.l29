@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"選項"
+#define ktx_cmd_exit 			"離開"
+
+#define ktx_cmd_about			"關於"
+#define ktx_cmd_visit			"探訪m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"時鐘畫面"
+#define ktx_sh_str_LGHTINSE		"亮度"
+#define ktx_sh_str_LGHTINSECHR	"充電時亮度"
+#define ktx_sh_str_LIGHTON		"背光開啟"
+#define ktx_sh_str_SHOWDATE		"顯示日期"
+#define ktx_sh_str_KEYLOCKON	"自動鍵盤鎖"
+#define ktx_sh_str_OFF			"關"
+#define ktx_sh_str_ON			"開"
+#define ktx_sh_str_DATEONLY		"只有日期"
+#define ktx_sh_str_DATETIME		"日期+星期"
+#define ktx_sh_str_TIMEOUTOL	"定時內"
+#define ktx_sh_str_TIMEOUTCHR	"定時內+充電時"
+#define ktx_sh_str_ALWAYS		"時常"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"垂直"
+#define ktx_sh_str_Landscape	"水平"
+#define ktx_sh_str_Automatic	"自動"
+
+#define ktx_sh_str_CURRTHEM		"現時主題"
+#define ktx_sh_str_SELCOLOR		"選擇顏色"
+#define ktx_sh_str_BACKCOLOR	"背景顏色"
+#define ktx_sh_str_FONTCOLOR	"字體顏色"
+#define ktx_sh_str_LIGHTTIM		"背光開啟時間(秒)"
+#define ktx_sh_str_LOCKTIM		"自動鎖時間(秒)"
+#define ktx_sh_str_FONT			"字體"
+#define ktx_sh_str_BLACK		"黑"
+#define ktx_sh_str_DARKGRAY		"深灰"
+#define ktx_sh_str_DARKRED		"深紅"
+#define ktx_sh_str_DARKGREEN	"深綠"
+#define ktx_sh_str_DARKYELLOW	"深黃"
+#define ktx_sh_str_DARKBLUE		"深藍"
+#define ktx_sh_str_DARKMAGENDA	"紫"
+#define ktx_sh_str_DARKCYAN		"深青"
+#define ktx_sh_str_RED			"紅"
+#define ktx_sh_str_GREEN		"綠"
+#define ktx_sh_str_YELLOW		"黃"
+#define ktx_sh_str_BLUE			"藍"
+#define ktx_sh_str_MAGENDA		"桃紅"
+#define ktx_sh_str_CYAN			"青"
+#define ktx_sh_str_GRAY			"灰"
+#define ktx_sh_str_WHITE		"白"
+
+#define ktx_cmd_Help 			"Help"
+#define ktx_cmd_Back 			"返回"
+
+#define ktx_str_HELP1			"This application is used for a screensaver type clock screen that is on while the devices keyboard is locked by the devices standard key lock. The lock's light will be illuminated if enabled after a device key is pressed (allowed keys are arrow left/right and menu key)."
+#define ktx_str_HELP2			"The lock screen is handled by background server that is running if either the clock screen or the key lock is set to be on. The background application is also started automatically when device is started. Note that settings are taking effect only after exiting the UI application."
+#define ktx_str_HELP3			"Lights intensity settings are used to set the light intensity values that are used when key is pressed to show the clock screen. Charging light intensity is used when the device is charging. Light timeout settings specifies the time the lights are on after pressing the key, note that some devices ignore the value, and use the device lights out time value instead."
+#define ktx_str_HELP4			"With lights on setting allows defining when the lights are on. The font setting can be used to select the font used with the clock display, as well as with the font color setting the text color can be changed. The background setting defines which background color is used with the clock screen."
+#define ktx_str_HELP5			"The show date settings options allows disabling the date/day display on the top of the clock screen. The key lock settings item enables the background applications automatic key locking feature, and the lock after time values defines the required user inactivity time before the keyboard is locked."
+
+
+

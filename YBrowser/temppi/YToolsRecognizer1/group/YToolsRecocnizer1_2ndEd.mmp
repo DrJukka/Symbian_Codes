@@ -1,0 +1,34 @@
+/* 	Copyright (c) 2006, 
+	Jukka Silvennoinen,
+ 	All rights reserved 
+*/
+
+TARGET            	YToolsRecocnizer1.dll
+TARGETTYPE        	ECOMIIC
+
+UID               	0x10009d8d 0x20007145
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+RESOURCE 		..\data\20007145.rss
+
+SOURCEPATH        ..\src
+SOURCE            YToolsRecocnizer1.cpp
+
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           gdi.lib 
+LIBRARY           fbscli.lib
+LIBRARY           bitgdi.lib 
+LIBRARY           egul.lib
+

@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"ตัวเลือก"
+#define ktx_cmd_exit 				"ออก"
+#define ktx_cmd_Back 				"กลับ"
+
+#define ktx_mnu_help				"ความช่วยเหลือ"
+#define ktx_cmd_about				"เกี่ยวกับ"
+#define ktx_cmd_visit				"เยี่ยมชม m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"เลื่อน"
+#define ktx_sh_str_ANSWER			"ตอบรับ"
+#define ktx_sh_str_SILENSE			"เงียบ"
+#define ktx_sh_str_CALLING			"สายเรียกเข้า"
+
+#define ktx_str_HELP1				"ตัวแสดงFake Call ใช้สำหรับการแสดงสายเข้าปลอม พื้นหลังและภาพกราฟิกทั้งหมดนำมาจากธีมของอุปกรณ์"
+#define ktx_str_HELP2				"เสียงเรียกเข้าที่ใช้ เริ่มแรกนำมาจากข้อมูลของรายชื่อในอุปกรณ์ ถ้าหากไม่มี จะใช้เสียงเรียกเข้าที่ตั้งไว้ และหากยังใช้ไม่ได้ เสียงเรียกเข้าสำรองของFake Calls จะถูกนำใช้แทน"
+#define ktx_str_HELP3				"คุณสามารถปิดเสียงของสายเรียกเข้าโดยกดปุ่มเงียบ ปุ่มรับสายหรือปุ่มโทรออกไม่สามารถใช้ได้สำหรับเวอร์ชั่นนี้"
+#define ktx_str_HELP4				"คุณสามารถออกจาก Fake Calls โดยกดปุ่มตัดสาย หรือโดยเลือกคำสั่งออกจากเมนูตัวเลือก"
+#define ktx_str_HELP5				"คำสั่งเลื่อนจะซ่อนการแสดงผลจนถึงเวลาที่กำหนดไว้"
+
+
+
+		

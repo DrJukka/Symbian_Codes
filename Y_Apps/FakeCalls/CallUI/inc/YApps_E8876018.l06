@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Val"
+#define ktx_cmd_exit 				"Avsluta"
+#define ktx_cmd_Back 				"Tillbaka"
+
+#define ktx_mnu_help				"Hjälp"
+#define ktx_cmd_about				"Om"
+#define ktx_cmd_visit				"Besök m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Snooze"
+#define ktx_sh_str_ANSWER			"Svara"
+#define ktx_sh_str_SILENSE			"Ljudlös"
+#define ktx_sh_str_CALLING			"Ringer"
+
+#define ktx_str_HELP1				"Fake Call displayen är till för att visa inkomande Fake Calls. Bakgrunden och annan grafik är tagen från enhetens teman."
+#define ktx_str_HELP2				"Ringtonerna som spelas upp är personliga ringtoner från enhetens kontaktdatabas, om det saknas en personlig rington för kontakten så används profilens rington, och om en sådan saknas så används Fake Calls reservrington."
+#define ktx_str_HELP3				"Du kan tysta ringtonen genom att trycka på knappen Ljudlös"
+#define ktx_str_HELP4				"Du kan gå ur Fake Calls displayen genom att trycka på röd knapp, eller genom att välja avsluta i menyval"
+#define ktx_str_HELP5				"Snooze gömmer fake calls displayen för den specificerade tiden."
+
+
+
+		

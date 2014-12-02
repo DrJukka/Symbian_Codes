@@ -1,0 +1,52 @@
+/* Copyright (c) 2001 - 2005 , Dr.Jukka Silvennoinen. All rights reserved */
+
+#ifndef __STHSMS_HRH__
+#define __STHSMS_HRH__
+
+
+enum 
+    {
+    EClose= 0x6000,
+	EAbout,
+	ESettCancel,
+	ESettOk,
+	EProfNew,
+	EProfModify,
+	EProfRemove,
+	EProfRandom,
+	EProfPlay,
+	EProfPlayStop,
+	EClose2,
+	EProfileModify,
+	EProf,
+	ERamdThemes,
+	EProfEnable,
+	EProfDisable,
+	EVisitDrJukka,
+	EAppHelp,
+	EAppHelpBack,
+	EQuickExit
+    };
+
+
+enum 
+	{
+	EActivateSplashContainer,
+	EActivateMainContainer,
+	EActivateDisclaimerContainer
+};
+
+enum 
+    {
+    	EAknExNoteCtrlIdWaitNoteCancel= 0x1000,
+	EAknExNoteCtrlIdWaitNote,
+	EProgressNoteId,
+	EProfTime,
+	EProfType,
+	EProfileSel
+	};
+
+
+
+#endif  //__STHSMS_HRH__
+

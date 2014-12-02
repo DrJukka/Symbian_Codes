@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opzioni"
+#define ktx_cmd_exit 				"Esci"
+#define ktx_cmd_cancel 				"Annulla"
+#define ktx_cmd_Back 				"Indietro"
+
+#define ktx_cmd_Disable				"Disabilita"
+#define ktx_cmd_Enable				"Abilita"
+
+#define ktx_cmd_save 				"Salva"
+#define ktx_cmd_select 				"Seleziona"
+
+#define ktx_mnu_Settings			"Impostazioni"
+#define ktx_mnu_help				"Aiuto"
+#define ktx_cmd_about				"Informazioni"
+#define ktx_cmd_visit				"Visita m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nuovo"
+#define ktx_cmd_Test				"Anteprima"
+#define ktx_mnu_Modify 				"Modifica"
+#define ktx_mnu_Remove 				"Elimina"
+
+#define ktx_mnu_newContact			"Nuovo numero"
+
+#define ktx_sh_str_sndNumber	 		"Numero"
+#define ktx_sh_str_sndTime		 	"ora"
+#define ktx_sh_str_sndDate		 	"data"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<Disabilitato>"
+
+#define ktx_str_REMMESSAGE 			"Rimuovere la pianificazione?"
+#define ktx_sh_str_REPEATS			"Ripeti"
+
+#define ktx_str_GREENBUTTON			"Verde"
+#define ktx_str_REDBUTTON			"Rosso"
+#define ktx_str_OFFBUTTON			"Accensione/Spegnimento"
+#define ktx_str_CAMERABUTTON			"Fotocamera"
+
+
+#define ktx_sh_str_ONCE				"Una volta"
+#define ktx_sh_str_WORKDAYA			"Giorni lavorativi"
+#define ktx_sh_str_NONWORKD			"Giorni non lavorativi"
+#define ktx_sh_str_EVERYDAY			"Tutti i giorni"
+#define ktx_sh_str_MONDAYS			"Ogni Lunedi"
+#define ktx_sh_str_TUESDAYS			"Ogni Martedi"
+#define ktx_sh_str_WEDNESDAYS			"Ogni Mercoledi"
+#define ktx_sh_str_THURSDAYS			"Ogni Giovedi"
+#define ktx_sh_str_FRIDAYS			"Ogni Venerdi"
+#define ktx_sh_str_SATURDAYS			"Ogni Sabato"
+#define ktx_sh_str_SUNDAYS			"Ogni Domenica"
+
+#define ktx_sh_str_SNOZTEXT			"Testo del pulsante Rifiuta"
+#define ktx_str_MAXTIME				"Durata dello squillo"
+#define ktx_str_SNOOZETIME			"Tempo ripetizione chiamata"
+#define ktx_sh_str_OPERNAME			"Nome operatore"
+#define ktx_sh_str_SUNDFILE			"Suoneria predefinita"
+
+//Main Application help
+#define ktx_str_HELP1				"Questa applicazione permette la creazione di false chiamate in ingresso; nessuna chiamata reale è generata e quindi nessun costo addebitato."
+#define ktx_str_HELP2				"Ci sono quattro tasti predefiniti che possono essere usati per avviare la finta chiamati con la pressione di un solo tasto. Questi pulsanti sono quello verde, il rosso, quello relativo alla videocamera e quello di accensione/spegnimento. Nota che questi tasti avvieranno le finte chiamate solo quando il dispositivo ha la tastiera bloccata."
+#define ktx_str_HELP3				"Per impostare un contatto per un tasto, seleziona l'opzione Modifica dal menu.Le opzioni Abilita/Disabilita possono essere usate per abilitare le chiamate finte dai tasti."
+#define ktx_str_HELP4				"Le chiamate finte possono essere schedulate selezionando l'opzione Nuovo dal menu, e successivamente modificate tramite l'opzione Modifica e analogamente cancellate."
+#define ktx_str_HELP5				"L'opzione Anteprima puo' essere usata per verificare la chiamata finta per l'elemento selezionato nella lista."
+#define ktx_str_HELP6				"La schedulazione attuale delle chiamate finte è gestita dal server che è attivo solo se esiste una chiamata schedulata e attiva. La applicazione è anche avviata automaticamente quando il dispositivo viene acceso. Nota che tutte le modifiche a impostazioni e schedulazioni hanno effetto solo dopo aver chiuso l'interfaccia grafica del programma."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Per la schedulazione delle finte chiamata devi solo definire il numero del contatto e l'orario in cui la finta chiamata deve partire."
+#define ktx_str_HELP8				"Puoi selezionare il contatto dalla rubrica e quindi il suo nome sara' mostrato nella finta chiamata. Nota che se il numero viene trovato nella rubrica, il relativo contatto e tutte le sue informazioni saranno adoperate per la creazione della chiamata finta."
+#define ktx_str_HELP9				"L'opzione Nuovo numero del menu permette di usare un qualsiasi testo per la schermata di chiamata finta"
+#define ktx_str_HELP10				"L'orario per la schedulazione puo' essere selezionato tramite la voce impostazione orario, la voce Ripeti permette di selezionare il tipo di ripetizione della chiamata e il relativo intervallo. Nota che le chiamate ripetute non vengono cancellate dalla lista delle schedulazioni, mentre le schedulazioni specificate solo per una precisa data saranno cancellate dal database dopo che la finta chiamata viene mostrata."
+
+//Key settings
+#define ktx_str_HELP11				"Con la chiamata finta singola, devi solo definire il numero del contatto per la chiamata. Puoi inoltre selezionare il contatto dalla rubrica o usare l'opzione dal menu. Nuovo numero permette anche di usare un testo arbitrario per il display della chiamata finta"
+#define ktx_str_HELP12				"Nota che se il numero per la chiamata finta viene trovato nella rubrica contatti, tutte le sue informazioni saranno adoperate per la creazione della chiamata finta."
+#define ktx_str_HELP13				"Ricorda di abilitare il tasto chiamata finta dalla lista principale di schedulazione, e nota che la chiamata finta singola funziona solo quando il dispositivo risulta bloccato."
+
+// Default Settings
+#define ktx_str_HELP14				"Il nome operatore è usato nella parte superiore della schermata della chiamata finta nei casi in cui il nome del reale operatore non puo' essere determinato. Sara' ad esempio usato nel caso in cui è attivo il profilo offline."
+#define ktx_str_HELP15				"Il valore di default per la suoneria è adoperato nel caso in cui non esista un valore definito per i contatti selezionati e nessun valore è associato al profilo. La selezione di questo valore funziona attualmente cosi': se il contatto selezionato ha associata una suoneria questa sara' adoperata, in caso contrario sara' adoperata quella relativa al profilo e in caso di mancanza di questa il valore di fallback sara' quello adoperato."
+#define ktx_str_HELP16				"Il tempo di Snooze è il valore in secondi usato con il bottone Snooze nel display delle chiamate finte. Quando il pulsante Snooze viene premuto la schermata di finta chiamata viene nascosta e sara' mostrata nuovamente allo scadere del tempo di Snooze."
+#define ktx_str_HELP17				"Il tempo massimo di suoneria definisce per quanto tempo la schermata relativa alla finta chiamata sara' mostrata dopo il suo avvio. Nota che pressando il pulsante Snooze si azzera il timer."
+#define ktx_str_HELP18				"Le impostazioni di testo relative al pulsante Snooze possono essere usate per cambiare il testo mostrato per un piu' accurata simulazione di chiamata."
+
+
+
+
+

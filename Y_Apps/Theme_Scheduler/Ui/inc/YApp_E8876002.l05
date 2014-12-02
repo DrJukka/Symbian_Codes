@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opzioni"
+#define ktx_cmd_exit 			"Uscita"
+#define ktx_cmd_Cancel			"Annulla"
+
+
+#define ktx_cmd_Disable			"Disabilita"
+#define ktx_cmd_Enable			"Abilita"
+
+#define ktx_cmd_about			"Informazioni"
+#define ktx_cmd_New				"Nuovo"
+#define ktx_cmd_Modify			"Modifica"
+#define ktx_cmd_Remove			"Rimuovi"
+#define ktx_cmd_Randomthes		"Temi casuali"
+#define ktx_cmd_ViewTheme		"Vedi Tema"
+#define ktx_cmd_Profchange		"Cambia profilo"
+#define ktx_cmd_Timechange		"Cambio programmato"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Salva"
+
+#define ktx_cmd_VisitJukka		"Visita m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Disabilitato>"
+#define ktx_sh_str_BGIMAGE		"Wallpaper"
+#define ktx_sh_str_RANDOM		"Casuale"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Profilo"
+#define ktx_sh_str_REMOVESCHED	"Rimuovere programmazione ?"
+#define ktx_sh_str_ACTIVEON		"Attivo in"
+#define ktx_sh_str_SELECTTHEME	"Tema selezionato"
+#define ktx_sh_str_NONAME		"Senza nome"
+#define ktx_sh_str_SELECTPROF		"Seleziona profilo"
+#define ktx_sh_str_Time			"Ora"
+#define ktx_sh_str_Date			"Data"
+#define ktx_sh_str_Theme		"Tema/Wallpaper"
+#define ktx_sh_str_SETONTIME		"Imposta orario"
+#define ktx_sh_str_SETONWITH		"Attiva con"
+
+#define ktx_sh_str_WORKDAYA		"Giorni lavorativi"
+#define ktx_sh_str_NONWORKD		"Giorni festivi"
+#define ktx_sh_str_EVERYDAY		"Tutti i giorni"
+#define ktx_sh_str_MONDAYS		"lunedì"
+#define ktx_sh_str_TUESDAYS		"martedì"
+#define ktx_sh_str_WEDNESDAYS	"mercoledì"
+#define ktx_sh_str_THURSDAYS	"giovedì"
+#define ktx_sh_str_FRIDAYS		"venerdì"
+#define ktx_sh_str_SATURDAYS	"sabato"
+#define ktx_sh_str_SUNDAYS		"domenica"
+
+#define ktx_cmd_Help			"Aiuto"
+#define ktx_cmd_Back			"Indietro"
+
+#define ktx_str_HELP1			"Questa applicazione è usata per temporizzare il cambio di tema e sfondo a seconda dell'ora o del profilo, per ogni  evento c'è un menu di opzioni."
+#define ktx_str_HELP2			"Per creare uno scheduler, seleziona prima un tema o uno sfondo e poi l'orario. Salva lo schedule col comando Salva. Con l'opzione tema Random verrà preso un orario a caso e usato un tema a caso (se non presente una lista)."
+#define ktx_str_HELP3			"Nella lista vengono visualizzati gli schedule esistenti. Puoi aprirli per modificarli o cancellarli o temporaneamente disabilitarli. "
+#define ktx_str_HELP4			"Le opzioni sono rinfrescate dopo l'uscita dall'applicazione. Per un miglior uso gli schedule dovrebbero essere separati di due minuti l'un l'altro. La gestione degli scheduling sono gestiti automaticamente all'accensione del dispositivo."
+

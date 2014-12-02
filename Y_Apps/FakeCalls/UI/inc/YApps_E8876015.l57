@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"אפשרויות"
+#define ktx_cmd_exit 				"צא"
+#define ktx_cmd_cancel 				"ביטול"
+#define ktx_cmd_Back 				"חזור"
+
+#define ktx_cmd_Disable				"הפסק"
+#define ktx_cmd_Enable				"הפעל"
+
+#define ktx_cmd_save 				"בחר"
+#define ktx_cmd_select 				"בחר"
+
+#define ktx_mnu_Settings			"הגדרות"
+#define ktx_mnu_help				"עזרה"
+#define ktx_cmd_about				"אודות"
+#define ktx_cmd_visit				"בקר ב: m.DrJukka.com"
+
+#define ktx_mnu_New 				"חדש"
+#define ktx_cmd_Test				"תצוגה מקדימה"
+#define ktx_mnu_Modify 				"שנה"
+#define ktx_mnu_Remove 				"מחק"
+
+#define ktx_mnu_newContact			"מס' חדש"
+
+#define ktx_sh_str_sndNumber	 		"מספר"
+#define ktx_sh_str_sndTime		 	"שעה"
+#define ktx_sh_str_sndDate		 	"תאריך"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<הפסק>"
+
+#define ktx_str_REMMESSAGE 			"הסר תזמון"
+#define ktx_sh_str_REPEATS			"חזור"
+
+#define ktx_str_GREENBUTTON			"ירוק"
+#define ktx_str_REDBUTTON			"אדום"
+#define ktx_str_OFFBUTTON			"כבוי"
+#define ktx_str_CAMERABUTTON			"מצלמה"
+
+
+#define ktx_sh_str_ONCE				"פעם אחת"
+#define ktx_sh_str_WORKDAYA			"כל ימי העבודה"
+#define ktx_sh_str_NONWORKD			"כל ימי המנוחה"
+#define ktx_sh_str_EVERYDAY			"כל ימי השבוע"
+#define ktx_sh_str_MONDAYS			"ימי שני"
+#define ktx_sh_str_TUESDAYS			"ימי שלישי"
+#define ktx_sh_str_WEDNESDAYS			"ימי רביעי"
+#define ktx_sh_str_THURSDAYS			"ימי חמישי"
+#define ktx_sh_str_FRIDAYS			"ימי שישי"
+#define ktx_sh_str_SATURDAYS			"ימי שבת"
+#define ktx_sh_str_SUNDAYS			"ימי ראשון"
+
+#define ktx_sh_str_SNOZTEXT			"טקסט לנודניק"
+#define ktx_str_MAXTIME				"זמן צלצול מקס'"
+#define ktx_str_SNOOZETIME			"זמן נדנוד"
+#define ktx_sh_str_OPERNAME			"שם המפעיל"
+#define ktx_sh_str_SUNDFILE			"רינגטון ברירת המחדל"
+
+//Main Application help
+#define ktx_str_HELP1				"This application is used for making Fake incoming calls, no actual calls is made thus there is no charges involved with the Fake calls. "
+#define ktx_str_HELP2				"There are four pre-defined keys that can be used for starting the fake call with one button press. These keys are Green phone key, Red phone key, Camera key, and the On/Off button. Note that the keys will only start Fake call when the device key lock is on. "
+#define ktx_str_HELP3				"To set a contact for the keys, select the modify option from the menu. Enable/Disable menu options can be used for enabling/disabling the fake call for the key."
+#define ktx_str_HELP4				"Timed Fake call schedules can be made by selecting New option from the menu, these schedules can be later modified with Modify menu option and delete option can be used for removing the schedule."
+#define ktx_str_HELP5				"Preview call menu option can be used for previewing the Fake call for selected item in the list."
+#define ktx_str_HELP6				"The actual scheduling of the Fake calls is handled by background server that is running if there is any fake call key or fake call schedule available that is also enabled. The background application is also started automatically when device is started. Note that all settings and schedule changes are taking effect only after exiting the UI application."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"With timer scheduled Fake calls, you only need to define the contact number (or string) and the time when the Fake call is to be made."
+#define ktx_str_HELP8				"You can select the contact from the device's contacts list, and then also the contacts name will be used in the main schedule list. Note that, if the Fake call number is found from the device's contacts, all information including name, image, ringtone etc. will be used when the Fake call is shown."
+#define ktx_str_HELP9				"The menu option New number also allows using any text string for the Fake call display."
+#define ktx_str_HELP10				"The time for schedule can be selected with time settings item, the Repeat settings item allows the scheduling to be done on selected day on as repeating Fake call with specified repeat interval. Note that repeated Schedules are not deleted from the schedule list, whereas the Fake call schedules specified for a specific date only, will be deleted from the scheduling database after the Fake call is shown."
+
+//Key settings
+#define ktx_str_HELP11				"With single key Fake calls, you only need to define the contact number (or string) for the fake call. You can select the contact from the contacts database or use the menu option New number also allows using any text string for the Fake call display."
+#define ktx_str_HELP12				"Note that, if the Fake call number is found from the device's contacts, all information including name, image, ringtone etc. will be used when the Fake call is shown."
+#define ktx_str_HELP13				"Do remember also to Enable the key fake call from the main schedule list, and note that single-key Fake calls do only work when the device key lock is activated."
+
+// Default Settings
+#define ktx_str_HELP14				"The Operator name is used in the upper part of the Fake call screen in cases that the real network name can not be retrieved. For example this will happen when offline profile is in use."
+#define ktx_str_HELP15				"Fallback ringtone is used in cases that the selected contact does not have ringtone, and no profile ringtone can be found. The actual ringtone selection works in a way that if the selected contact has own ringtone, it will be used, and if it does not have, the current profile ringtone will be used, and if the current profile does not have a ringtone, then the fallback ringtone will be used."
+#define ktx_str_HELP16				"Snooze time is snooze time value in seconds used with the Snooze button in Fake call display. When the Snooze button is pressed the fake call display will be hidden, and the display is shown again after the specified snooze time."
+#define ktx_str_HELP17				"Max ringing time defines on how long the Fake call display will be shown after it started. Note that pressing snooze will reset the timer."
+#define ktx_str_HELP18				"The Snooze button text setting can be used for changing the text shown in the snooze button for more authentic Fake call display."
+
+
+
+
+

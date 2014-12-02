@@ -1,0 +1,66 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"옵션"
+#define ktx_cmd_exit 			"종료"
+
+#define ktx_cmd_about			"프로그램 정보"
+#define ktx_cmd_visit			"m.DrJukka.com 방문"
+
+
+#define ktx_sh_str_CLOCKON		"화면에 시계 표시"
+#define ktx_sh_str_LGHTINSE		"조명 밝기"
+#define ktx_sh_str_LGHTINSECHR	"충전중 조명 밝기"
+#define ktx_sh_str_LIGHTON		"조명 켜기"
+#define ktx_sh_str_SHOWDATE		"날짜 표시"
+#define ktx_sh_str_KEYLOCKON	"잠금 설정"
+#define ktx_sh_str_OFF			"끄기"
+#define ktx_sh_str_ON			"켜기"
+#define ktx_sh_str_DATEONLY		"날짜"
+#define ktx_sh_str_DATETIME		"날짜 + 요일"
+#define ktx_sh_str_TIMEOUTOL	"대기 시간 동안만"
+#define ktx_sh_str_TIMEOUTCHR	"대기 시간 +  충전중"
+#define ktx_sh_str_ALWAYS		"항상"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"세로"
+#define ktx_sh_str_Landscape	"가로"
+#define ktx_sh_str_Automatic	"자동"
+
+#define ktx_sh_str_CURRTHEM		"현재 테마"
+#define ktx_sh_str_SELCOLOR		"컬러 선택"
+#define ktx_sh_str_BACKCOLOR	"배경 컬러"
+#define ktx_sh_str_FONTCOLOR	"폰트 컬러"
+#define ktx_sh_str_LIGHTTIM		"조명 대기 시간(초)"
+#define ktx_sh_str_LOCKTIM		"잠금 시간 설정(몇초 후)"
+#define ktx_sh_str_FONT			"폰트"
+#define ktx_sh_str_BLACK		"검정"
+#define ktx_sh_str_DARKGRAY		"어두운 회색"
+#define ktx_sh_str_DARKRED		"어두운 빨강"
+#define ktx_sh_str_DARKGREEN	"어두운 녹색"
+#define ktx_sh_str_DARKYELLOW	"어두운 노랑"
+#define ktx_sh_str_DARKBLUE		"어두운 파랑"
+#define ktx_sh_str_DARKMAGENDA	"어두운 자주"
+#define ktx_sh_str_DARKCYAN		"어두운 청록"
+#define ktx_sh_str_RED			"빨강"
+#define ktx_sh_str_GREEN		"녹색"
+#define ktx_sh_str_YELLOW		"노랑"
+#define ktx_sh_str_BLUE			"파랑"
+#define ktx_sh_str_MAGENDA		"자홍"
+#define ktx_sh_str_CYAN			"청록"
+#define ktx_sh_str_GRAY			"회색"
+#define ktx_sh_str_WHITE		"흰색"
+
+#define ktx_cmd_Help 			"도움말"
+#define ktx_cmd_Back 			"뒤로"
+
+#define ktx_str_HELP1			"이 응용 프로그램은 장치의 잠금 기능이 동작중일 때 버튼을 누르면 화면 보호기 형태의 시계가 화면에 나타납니다.(5800XM은 메뉴(White) 키를 눌렀을 때 동작합니다.)"
+#define ktx_str_HELP2			"잠금 화면은 시계 화면 또는 잠금 기능이   설정 되어 있을 때 백그라운드 서버에 의해 처리되며, 장치가 시작 될 때 백그라운드 응용 프로그램 또한 자동으로 실행됩니다."
+#define ktx_str_HELP3			"조명 밝기에서는 키를 눌렀을 때 시계 화면이 표시되는 동안의 조명 밝기를 조절할 수 있습니다.  충전중 조명 밝기에서는 장치를 충전하는 동안의 조명 밝기를 조절할 수 있습니다.  조명 대기 시간에서는 키를 눌렀을 때 조명이 유지되는 시간을 설정할수 있습니다.  일부 장치에서는 설정 값이 무시되고, 대신 장치의 조명 설정이 사용됩니다."
+#define ktx_str_HELP4			"조명켜기에서는 언제 조명을 켤지 설정할 수 있습니다.  폰트에서는 시계를 표시할 폰트를 설정할 수 있습니다.  폰트 컬러에서 색상을 변경할 수 있고,  배경 컬러에서는 시계가 표시될 때의 배경 색상을 지정할 수 있습니다."
+#define ktx_str_HELP5			"날짜 표시는 시계와 함께 화면에 표시되며 끄기, 날짜, 날짜와 요일 표시를 선택할 수 있습니다.  잠금 설정은 백그라운드 응용 프래그램이 장치를 자동으로 잠금 상태로 변경하는 기능이고, 지정한 시간 동안 사용하지 않으면 잠금 상태가 됩니다.  잠금 시간 설정에서는 몇초 후에 장치를 잠금 상태로 변경할지 시간을 지정합니다."
+
+
+
+

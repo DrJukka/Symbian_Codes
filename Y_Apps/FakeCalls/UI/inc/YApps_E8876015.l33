@@ -1,0 +1,91 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"ตัวเลือก"
+#define ktx_cmd_exit 				"ออก"
+#define ktx_cmd_cancel 				"ยกเลิก"
+#define ktx_cmd_Back 				"กลับ"
+
+#define ktx_cmd_Disable				"ยกเลิกการใช้งาน"
+#define ktx_cmd_Enable				"ใช้งาน"
+
+#define ktx_cmd_save 				"บันทึก"
+#define ktx_cmd_select 				"เลือก"
+
+#define ktx_mnu_Settings			"การตั้งค่า"
+#define ktx_mnu_help				"ความช่วยเหลือ"
+#define ktx_cmd_about				"เกี่ยวกับ"
+#define ktx_cmd_visit				"เยี่ยมชม m.DrJukka.com"
+
+#define ktx_mnu_New 				"ใหม่"
+#define ktx_cmd_Test				"แสดงตัวอย่าง"
+#define ktx_mnu_Modify 				"ปรับตั้งค่า"
+#define ktx_mnu_Remove 				"ลบ"
+
+#define ktx_mnu_newContact			"เบอร์ใหม่"
+
+#define ktx_sh_str_sndNumber	 		"เบอร์"
+#define ktx_sh_str_sndTime		 	"เวลา"
+#define ktx_sh_str_sndDate		 	"วันที่"
+
+#define ktx_sh_str_delay			"ตั้งเวลาหน่วง (วินาที)"
+
+#define ktx_sh_str_DISABLED			"<ยกเลิกการใช้>"
+
+#define ktx_str_REMMESSAGE 			"ยกเลิกตารางเวลา?"
+#define ktx_sh_str_REPEATS			"ทำซ้ำ"
+
+#define ktx_str_GREENBUTTON			"เขียว"
+#define ktx_str_REDBUTTON			"แดง"
+#define ktx_str_OFFBUTTON			"ปิด"
+#define ktx_str_CAMERABUTTON			"กล้อง"
+
+
+#define ktx_sh_str_ONCE				"ครั้งเดียว"
+#define ktx_sh_str_WORKDAYA			"วันทำงาน"
+#define ktx_sh_str_NONWORKD			"วันหยุด"
+#define ktx_sh_str_EVERYDAY			"ทุกวัน"
+#define ktx_sh_str_MONDAYS			"วันจันทร์"
+#define ktx_sh_str_TUESDAYS			"วันอังคาร"
+#define ktx_sh_str_WEDNESDAYS			"วันพุธ"
+#define ktx_sh_str_THURSDAYS			"วันพฤหัสบดี"
+#define ktx_sh_str_FRIDAYS			"วันศุกร์"
+#define ktx_sh_str_SATURDAYS			"วันเสาร์"
+#define ktx_sh_str_SUNDAYS			"วันอาทิตย์"
+
+#define ktx_sh_str_SNOZTEXT			"ปุ่มเลื่อน"
+#define ktx_str_MAXTIME				"เวลาเรียกเข้ามากสุด"
+#define ktx_str_SNOOZETIME			"เวลาในการเลื่อน"
+#define ktx_sh_str_OPERNAME			"ชื่อเครือข่าย"
+#define ktx_sh_str_SUNDFILE			"เสียงเรียกเข้าสำรอง"
+
+//Main Application help
+#define ktx_str_HELP1				"โปรแกรมนี้ใช้สำหรับสร้างสายโทรเข้าปลอม ไม่มีสายโทรเข้าจริงๆดังนั้นจึงไม่มีการคิดค่าบริการเพิ่มเกี่ยวข้องกับFake Calls"
+#define ktx_str_HELP2				"มีปุ่มลัดที่กำหนดไว้แล้วที่สามารถใช้สำหรับเริ่ม Fake Call เพียงแค่กดปุ่มเดียว ซึ่งปุ่มดังกล่าวคือ ปุ่มโทรออก ปุ่มตัดสาย ปุ่มกล้องและปุ่มเปิด/ปิด อนึ่ง ปุ่มเหล่านี้จะเริ่ม Fake Call เมื่อมีการล็อคปุ่ม"
+#define ktx_str_HELP3				"สำหรับการตั้งค่าปุ่ม เลือกหัวข้อการปรับตั้งค่าในเมนู เลือกหัวข้อใช้/ไม่ใช้  ซึ่งสามารถใช้สำหรับ ปรับตั้งค่าการใช้หรือไม่ใช้ Fake Callสำหรับปุ่มดังกล่าว"
+#define ktx_str_HELP4				"การตั้งเวลาสำหรับFake Callสามารถทำได้โดยเลือก ตัวเลือกใหม่จากเมนู ตารางเหล่านี้สามารถปรับเปลี่ยนได้ภายหลังด้วยเมนูปรับแต่งและตัวเลือกลบสามารถใช้สำหรับยกเลิกตารางนี้"
+#define ktx_str_HELP5				"ตัวเลือกเมนูแสดงสายเรียกเข้าสามารถใช้สำหรับแสดงFake Call ที่ถูกเลือกในรายการ"
+#define ktx_str_HELP6				"กำหนดการทำงานFake Call จะทำงานเมื่อมีปุ่มFake Call หรือตารางเวลาFake Call ที่มีอยู่และถูกตั้งใช้งานไว้  โปรแกรมพื้นหลังจะเริ่มอัตโนมัติเมื่ออุปกรณ์เริ่มต้น  อนึ่ง การตั้งค่าทั้งหมดและตารางเวลาจะใช้งานได้หลังจากออกจากโปรแกรมUI"
+
+// Schedlue Settings
+#define ktx_str_HELP7				"ด้วยตารางเวลา Fake Call คุณแค่ต้องระบุเบอร์โทรศัพท์ของผู้ติดต่อและเวลาที่จะใช้งาน Fake Call "
+#define ktx_str_HELP8				"คุณสามารถเลือกผู้ติดต่อจากรายชื่อในอุปกรณ์ และชื่อผู้ติดต่อจะถูกใช้ในรายการตารางเวลาหลัก อนึ่ง ถ้าหากหมายเลข Fake Call ถูกเลือกมาจากรายชื่อผู้ติดต่อ ข้อมูลทั้งหมด รวมถึงชื่อ ภาพ เสียงเรียกเข้า และอื่นๆจะถูกใช้เมื่อแสดง Fake Call"
+#define ktx_str_HELP9				"ตัวเลือกเมนู เบอร์ใหม่ สามารถใช้ตัวอักษร สำหรับแสดงFake call "
+#define ktx_str_HELP10				"การตั้งตารางเวลาสามารถเลือกจากการตั้งค่าเวลา การตั้งค่าซ้ำคือการให้ทำซ้ำอีกครั้งในวันที่เลือก เช่นเดียวกับFake Callซ้ำในช่วงเวลาที่ต้องการ อนึ่งตารางเวลาซ้ำจะไม่ถูกลบเนื่องจากตารางเวลาFake Callกำหนดเฉพาะวันที่เท่านั้น ซึ่งจะถูกลบหลังจากแสดง Fake Call"
+
+//Key settings
+#define ktx_str_HELP11				"ด้วยปุ่มลัดFake Calls คุณแค่ต้องระบุเบอร์โทรศัพท์ของผู้ติดต่อและเวลาที่จะใช้งาน Fake Call  คุณสามารถเลือกผู้ติดต่อจากฐานข้อมูลหรือใช้ ตัวเลือกเมนู เบอร์ใหม่ และสามารถใช้ข้อความสำหรับแสดง Fake Call"
+#define ktx_str_HELP12				"ถ้าหากหมายเลข Fake Call ถูกนำมาจากรายชื่อผู้ติดต่อในอุปกรณ์ ข้อมูลทั้งหมด รวมถึงชื่อ ภาพ เสียงเรียกเข้า และอื่นๆจะถูกใช้เมื่อแสดง Fake Call"
+#define ktx_str_HELP13				"ข้อควรจำคือ เปิดใช้งานปุ่ม Fake Call จากรายการตารางเวลาหลัก และ การกดปุ่มลัดเพื่อใช้งาน Fake Calls จะทำงานเมื่อการล็อคปุ่มกดของอุปกรณ์ทำงาน"
+
+// Default Settings
+#define ktx_str_HELP14				"ชื่อเครือข่ายใช้ในด้านบนของหน้าจอ Fake Call ในกรณีที่ไม่สามารถเรียกข้อมูลจริงๆได้ เช่น ในกรณีที่ใช้รูปแบบoffline"
+#define ktx_str_HELP15				"เสียงเรียกเข้าสำรองจะถูกใช้ในกรณีที่ชื่อผู้ติดต่อที่เลือกไว้ไม่ตั้งเสียงเรียกเข้า หรือไม่มีการตั้งเสียงเรียกเข้า การเลือกเสียงเรียกเข้าที่กำหนดไว้จะถูกใช้เมื่อผู้ติดต่อที่เลือกไว้มีเสียงเรียกเข้า ถ้าหากไม่มีเสียงเรียกเข้า จะใช้เสียงเรียกเข้าสำรองแทน"
+#define ktx_str_HELP16				"Snooze time คือ ค่าเวลาการเลื่อนเป็นนาที ใช้กับปุ่มเลื่อนในการแสดง Fake Call  เมื่อกดปุ่มเลื่อนการแสดง Fake Call จะถูกซ่อน และจะแสดงอีกครั้งเมื่อถึงเวลาเลื่อนที่ตั้งไว้"
+#define ktx_str_HELP17				"เวลาเรียกเข้ามากสุดจะกำหนดเวลาการแสดง Fake call หลังจากเริ่ม อนี่งหากกดปุ่มเลื่อนจากเป็นการตั้งค่าเวลาใหม่"
+#define ktx_str_HELP18				"การตั้งค่าปุ่มเลื่อนใช้สำหรับการเปลี่ยนข้อความที่แสดงบนปุ่มเพื่อความน่าเชื่อถือยิ่งขึ้นขณะแสดงFake Call"
+
+
+
+

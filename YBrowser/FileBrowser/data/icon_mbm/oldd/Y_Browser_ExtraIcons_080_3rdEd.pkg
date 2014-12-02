@@ -1,0 +1,22 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Extra Icons"},(0xA0000F5F),0,80,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+
+"..\FileBrowser\data\Icons\Gartoon.mif" 	-"!:\system\data\A00007A6\Icons\Gartoon.mif"
+"..\FileBrowser\data\Icons\Gorilla.mif" 	-"!:\system\data\A00007A6\Icons\Gorilla.mif"
+"..\FileBrowser\data\Icons\Neu.mif" 		-"!:\system\data\A00007A6\Icons\Neu.mif"
+"..\FileBrowser\data\Icons\Tango.mif" 		-"!:\system\data\A00007A6\Icons\Tango.mif"
+

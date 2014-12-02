@@ -1,0 +1,27 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"选项"
+#define qtn_exit 			"退出"
+
+#define qtn_about			"关于"
+#define qtn_visit			"访问m.DrJukka.com"
+#define qtn_backlighton		"开启背光"
+
+#define qtn_backlightoff	"关闭背光"
+#define qtn_reset			"重置"
+
+#define qtn_Help			"帮助"
+#define qtn_Back			"返回"
+
+#define ktx_str_HELP1 		"Inclinometer是一款测斜仪程序显示垂直和倾斜角度，并用一幅汽车图像形象的表明了角度。程序仅支持在正常方向工作。"
+#define ktx_str_HELP2 		"重置命令允许重置倾斜角值为其他，所以你可以先放到一个固定架上重置为0再使用。"
+#define ktx_str_HELP3 		"开启背光选项允许你一直打开手机的背光，注意打开背光更消耗电量。这样可以更好的在暗处查看程序状态。"
+
+
+
+// End of File

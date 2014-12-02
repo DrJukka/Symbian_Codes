@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Seçenekler"
+#define ktx_cmd_exit 				"Çıkış"
+#define ktx_cmd_cancel 				"İptal"
+#define ktx_cmd_Back 				"Geri"
+
+#define ktx_cmd_Disable				"Devre Dışı"
+#define ktx_cmd_Enable				"Etkin"
+
+#define ktx_cmd_save 				"Kaydet"
+#define ktx_cmd_select 				"Seç"
+
+#define ktx_mnu_Settings			"Ayarlar"
+#define ktx_mnu_help				"Yardım"
+#define ktx_cmd_about				"Hakkında"
+#define ktx_cmd_visit				"m.DrJukka.com'u ziyaret et"
+
+#define ktx_mnu_New 				"Yeni"
+#define ktx_cmd_Test				"Görüntüle"
+#define ktx_mnu_Modify 				"Değiştir"
+#define ktx_mnu_Remove 				"Sil"
+
+#define ktx_mnu_newContact			"Yeni Numara"
+
+#define ktx_sh_str_sndNumber	 		"Numara"
+#define ktx_sh_str_sndTime		 	"zaman"
+#define ktx_sh_str_sndDate		 	"tarih"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<Devre Dışı>"
+
+#define ktx_str_REMMESSAGE 			"Mesajı Sil ?"
+#define ktx_sh_str_REPEATS			"Tekrar"
+
+#define ktx_str_GREENBUTTON			"Yeşil"
+#define ktx_str_REDBUTTON			"Kırmızı"
+#define ktx_str_OFFBUTTON			"Kapalı"
+#define ktx_str_CAMERABUTTON			"Kamera"
+
+
+#define ktx_sh_str_ONCE				"Bir kez"
+#define ktx_sh_str_WORKDAYA			"Hafta İçi"
+#define ktx_sh_str_NONWORKD			"Hafta Sonu"
+#define ktx_sh_str_EVERYDAY			"Hergün"
+#define ktx_sh_str_MONDAYS			"Pazartesi"
+#define ktx_sh_str_TUESDAYS			"Salıları"
+#define ktx_sh_str_WEDNESDAYS			"Çarşambaları"
+#define ktx_sh_str_THURSDAYS			"Perşembeleri"
+#define ktx_sh_str_FRIDAYS			"Cumaları"
+#define ktx_sh_str_SATURDAYS			"Cumartesileri"
+#define ktx_sh_str_SUNDAYS			"Pazartesileri"
+
+#define ktx_sh_str_SNOZTEXT			"Erteleme Düğme Metni"
+#define ktx_str_MAXTIME				"Maksimum Zil Süresi"
+#define ktx_str_SNOOZETIME			"Erteleme Süresi"
+#define ktx_sh_str_OPERNAME			"Operatör Adı"
+#define ktx_sh_str_SUNDFILE			"Geri Dönüş Melodisi"
+
+//Main Application help
+#define ktx_str_HELP1				"Bu uygulama sahte gelen arama yapmak için kullanılır, gerçek arama yapmaz yani sahte arama ücretlendirilmez."
+#define ktx_str_HELP2				"Önceden tanımlı tuşlar ile tek bir tuşa basarak sahte arama başlatılabilir. Bu tuşlar Yeşil telefon tuşu, Kırmızı telefon tuşu, Kamera tuşu ve Aç/Kapa tuşudur. Bu tuşlar sadece tuş kilidi aktifken sahte aramayı başlatır."
+#define ktx_str_HELP3				"Tuşa kontakt atamak için menüden düzenle seçeneğini seçiniz. Etkin/Etkin değil menüsü ile tuşa atanan sahte aramayı etkin yapabilir veya devre dışı bırakabilirsiniz."
+#define ktx_str_HELP4				"Zamanlanmış sahte aramayı menüden yeni seçeneği ile ekleyebilirsiniz, bu zamanlanmış aramalar düzenle menüsü ile daha sonradan düzenlenebilir ve sil menüsü ile zamanlanmış aramlar listesinden silinebilir."
+#define ktx_str_HELP5				"Arama önizleme menüsü seçeneği ile listedeki seçili sahte aramaları önizleme yapabilirsiniz."
+#define ktx_str_HELP6				"Asıl sahte arama zamanlaması arkaplanda çalışan sunucu ile yönetilir, eğer sahte arama tuşu veya zamanlanmış sahte arama varsa bunlar da etkindir. Arkaplanda çalışan uygulama telefon açıldığı zaman çalışmaya başlar. Bütün ayarlar ve zamanlamadaki değişiklikler arayüzden çıkıldıktan sonra etkin hale gelir."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Zamanlanmış sahte arama eklemek için kontakt numarasını (veya ismini) ve sahte arama yapılacak zamanı eklemeniz gerekmektedir."
+#define ktx_str_HELP8				"Rehberden kontakt seçebilirsiniz ve ondan sonra kontakt ismi zamanlanmış arama listesinde de kullanılabilir. Eğer sahte arama numarası rehberde bulunuyorsa, bütün kontakt bilgileri (isim, resim, zil sesi, vb.) sahte aramada gösterilmek üzere kullanılır."
+#define ktx_str_HELP9				"Menüdeki Yeni numara seçeneği ile ayrıca sahte arama ekranında görünen numara yerine  yazı da yazılabilmektedir."
+#define ktx_str_HELP10				"Zamanlama ayarlarından zamanlama süresini seçebilirsiniz, Tekrar ayarlarından seçilen günde ve zaman aralığında Sahte aramayı ekleyebilirsiniz. Tekrarlı aramalar zamanlanmış arama listesinden silinmez, oysa sadece belli bir gün için ayarlanmış aramalar Sahte arama gösterildikten sonra silinir."
+
+//Key settings
+#define ktx_str_HELP11				"Tek tuşlu sahte arama ile sadece kontakt numarasını (veya ismini) girmelisiniz. Kontakt bilgisini rehberden seçebilirsiniz veya menüdeki Yeni numara seçeneğini kullanarak Sahte arama ekranında görünecek yazıyı ekleyebilirsiniz."
+#define ktx_str_HELP12				"Eğer sahte arama yapılacak numara rehberde bulunursa kontaktla ilgili isim, resim, zil sesi gibi bütün bilgiler sahte arama ekranında görünür."
+#define ktx_str_HELP13				"Tuş ile sahte aramayı zamanlanmış arama listesinden aktif etmelisiniz ve tek tuşla sahte arama sadece tuş kilidi aktifken çalışmaktadır."
+
+// Default Settings
+#define ktx_str_HELP14				"Operatör adı ayarı gerçek operatör adının alınamadığı durumlarda sahte arama ekranının üst kısmında gösterilmek üzere kullanılır. Örneğin telefon Hatsız tercihindeyken bu durum gerçekleşecektir."
+#define ktx_str_HELP15				"Varsayılan zil sesi ayarı seçilen kontağa ve tercih moduna atanmış herhangi bir zil sesi olmadığında kullanılır. Öncelikle rehber kaydındaki kişiye atanan zil sesi kullanılır, eğer yoksa seçili tercih modundaki zil sesi kullanılır, eğer o da yoksa  Fake Calls ayarlarındaki varsayılan zil sesi kullanılır."
+#define ktx_str_HELP16				"Erteleme zamanı ayarı Sahte arama ekranında görünen Ertele düğmesinin saniye cinsinden bekleme süresidir. Ertele düğmesine basıldığında sahte arama ekranı gizlenecektir ve erteleme süresi dolduğunda tekrar görünecektir."
+#define ktx_str_HELP17				"Maksimum çalma süresi Sahte arama ekranının başlamasından itibaren ne kadar süre kalacağını belirler. Ertele düğmesine basılması bu süreyi sıfırlar."
+#define ktx_str_HELP18				"Ertele düğmesi yazısı ayarı ertele düğmesinin üzerinde yazacak yazıyı daha gerçekçi arama hissi vermesi için değiştirmek üzere kullanılır."
+
+
+
+
+

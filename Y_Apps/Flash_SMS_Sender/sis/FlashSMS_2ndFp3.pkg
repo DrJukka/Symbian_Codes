@@ -1,0 +1,19 @@
+; Languages - 
+&EN
+
+; Installation header
+; Application UID
+#{"Flash SMS"},(0x2002B0B0),1,00,0
+
+;Supports Series 60 
+(0x101F6F88), 0, 0, 0, {"Series60ProductID"}
+
+;Supports Series 60 
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}; 2.0 -->
+
+"..\data\icons\aif\App_A0009560.aif"									-"!:\system\apps\App_A0009560\App_A0009560.aif"
+"C:\Symbian\8.1a\S60_2nd_FP3\epoc32\release\armi\urel\App_A0009560.app"				-"!:\system\apps\App_A0009560\App_A0009560.app"
+"C:\Symbian\8.1a\S60_2nd_FP3\Epoc32\data\z\system\apps\App_A0009560\App_A0009560.r01"	-"!:\system\apps\App_A0009560\App_A0009560.r01"
+"C:\Symbian\8.1a\S60_2nd_FP3\Epoc32\data\z\system\apps\App_A0009560\App_A0009560.r33"	-"!:\system\apps\App_A0009560\App_A0009560.r33"
+
+

@@ -1,0 +1,63 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+*/
+
+TARGET            	YToolsMBM_MIFUI.dll
+TARGETTYPE        	PLUGIN
+
+UID               	0x10009d8d 0xA0000F65
+
+VENDORID			0x00000000
+CAPABILITY 		ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+
+EPOCSTACKSIZE		0x5000
+
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\CommonInc
+USERINCLUDE       ..\..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+
+START RESOURCE 		..\data\A0000F65.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET YToolsMBM_MIFUI.rsc
+#endif
+END
+
+START RESOURCE    ..\data\YToolsMBM_MIFUI_res.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH        ..\src
+SOURCE            YToolsMBM_MIFUI.cpp
+SOURCE            ImageView.cpp
+SOURCE            MBM_Reader.cpp
+SOURCE            CTimeOutTimer.cpp
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           eikcdlg.lib 
+LIBRARY           eikctl.lib 
+LIBRARY           eikcoctl.lib 
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           gdi.lib 
+LIBRARY           fbscli.lib
+LIBRARY           bitgdi.lib 
+LIBRARY           egul.lib
+LIBRARY           bafl.lib 
+LIBRARY           ezlib.lib 
+LIBRARY           ezip.lib 
+LIBRARY           estor.lib 
+LIBRARY           CommonDialogs.lib 
+LIBRARY           mediaclientimage.lib 
+LIBRARY           aknicon.lib
+LIBRARY           imageconversion.lib 
+

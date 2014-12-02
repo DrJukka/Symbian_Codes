@@ -1,0 +1,1 @@
+To enable Y-Superdistribution, please run Y-Tasks from the DrJukka.com folder before deleting this installation file.

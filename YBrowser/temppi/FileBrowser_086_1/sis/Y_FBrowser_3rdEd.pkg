@@ -1,0 +1,27 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-FBrowser"},(0x2000713D),0,85,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YuccaBrowser_2000713D.exe"	                 -"!:\sys\bin\YuccaBrowser_2000713D.exe"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser_2000713D.rsc"         	     -"!:\resource\apps\YuccaBrowser_2000713D.rsc"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YuccaBrowser_2000713D_reg.rsc"  -"!:\private\10003a3f\import\apps\YuccaBrowser_2000713D_reg.rsc"
+"..\data\icon_bmp\YuccaBrowser_aif.mif"			-"!:\resource\apps\YuccaBrowser_2000713D_aif.mif"
+
+"..\data\Original.mif" 		-"!:\system\data\A00007A6\Img\Original2.mif"
+
+
+

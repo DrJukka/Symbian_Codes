@@ -1,0 +1,82 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+CHARACTER_SET UTF8
+#include <appinfo.rh>
+#include "Definitions.h"
+
+
+#ifdef SONE_VERSION
+	#include <YFB_2002B0AA.rsg>
+	
+	UID2 KUidAppRegistrationResourceFile
+	UID3 0x2002B0AA
+	
+	RESOURCE APP_REGISTRATION_INFO
+	  {
+		app_file="YFB_2002B0AA";
+		localisable_resource_file = "\\resource\\apps\\YFB_2002B0AA";
+		localisable_resource_id = R_YB_LOCALISABLE_APP_INFO;
+	
+		embeddability=KAppNotEmbeddable;
+		newfile=KAppDoesNotSupportNewFile; 
+	  }
+#else
+	#ifdef LAL_VERSION
+		#include <YuccaBrowser.rsg>
+		
+		UID2 KUidAppRegistrationResourceFile
+		UID3 0xA00007A6
+		
+		RESOURCE APP_REGISTRATION_INFO
+		  {
+			app_file="YuccaBrowser";
+			localisable_resource_file = "\\resource\\apps\\YuccaBrowser";
+			localisable_resource_id = R_YB_LOCALISABLE_APP_INFO;
+		
+				embeddability=KAppNotEmbeddable;
+			newfile=KAppDoesNotSupportNewFile;
+			
+			group_name    = "DrJukka.com";  
+		  }
+	#else
+		#ifdef __YTOOLS_SIGNED
+			#include <YuccaBrowser_2000713D.rsg>
+			
+			UID2 KUidAppRegistrationResourceFile
+			UID3 0x2000713D
+			
+			RESOURCE APP_REGISTRATION_INFO
+			  {
+				app_file="YuccaBrowser_2000713D";
+				localisable_resource_file = "\\resource\\apps\\YuccaBrowser_2000713D";
+				localisable_resource_id = R_YB_LOCALISABLE_APP_INFO;
+			
+					embeddability=KAppNotEmbeddable;
+				newfile=KAppDoesNotSupportNewFile;
+				
+				group_name    = "DrJukka.com";  
+			  }
+		#else
+			#include <YuccaBrowser.rsg>
+			
+			UID2 KUidAppRegistrationResourceFile
+			UID3 0xA00007A6
+			
+			RESOURCE APP_REGISTRATION_INFO
+			  {
+				app_file="YuccaBrowser";
+				localisable_resource_file = "\\resource\\apps\\YuccaBrowser";
+				localisable_resource_id = R_YB_LOCALISABLE_APP_INFO;
+			
+				embeddability=KAppNotEmbeddable;
+				newfile=KAppDoesNotSupportNewFile;
+				
+				group_name    = "DrJukka.com";  
+			  }
+		#endif
+	#endif
+#endif
+
+

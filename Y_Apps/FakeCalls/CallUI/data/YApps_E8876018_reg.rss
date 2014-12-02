@@ -1,0 +1,52 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+CHARACTER_SET UTF8
+#include <appinfo.rh>
+#include "Definitions.h"
+
+
+#ifdef SONE_VERSION
+	#include <YApps_2002DD34.rsg>
+	
+	UID2 KUidAppRegistrationResourceFile
+	UID3 0x2002DD34
+	
+	RESOURCE APP_REGISTRATION_INFO
+	  {
+	  app_file="YApps_2002DD34";
+	  localisable_resource_file = "\\resource\\apps\\YApps_2002DD34";
+	  localisable_resource_id = R_LOCALISABLE_APP_INFO;
+	
+	  embeddability=KAppNotEmbeddable;
+	  newfile=KAppDoesNotSupportNewFile;
+	  hidden=KAppIsHidden;
+	  }
+#else
+
+	#ifdef LAL_VERSION
+
+	#else
+		#include <YApps_E8876018.rsg>
+		
+		UID2 KUidAppRegistrationResourceFile
+		UID3 0xE8876018
+		
+		RESOURCE APP_REGISTRATION_INFO
+		  {
+		  app_file="YApps_E8876018";
+		  localisable_resource_file = "\\resource\\apps\\YApps_E8876018";
+		  localisable_resource_id = R_LOCALISABLE_APP_INFO;
+		
+		  embeddability=KAppNotEmbeddable;
+		  newfile=KAppDoesNotSupportNewFile;
+		  
+		  hidden=KAppIsHidden;	  
+		  group_name    = "DrJukka.com"; 
+		  }
+	#endif
+#endif
+
+
+

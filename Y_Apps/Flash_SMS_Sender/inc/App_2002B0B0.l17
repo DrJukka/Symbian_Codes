@@ -1,0 +1,61 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Választ"
+#define ktx_cmd_back			"Vissza"
+#define ktx_cmd_options			"Opciók"
+#define ktx_cmd_cancel			"Törlés"
+#define ktx_cmd_ok				"Rendben"
+#define ktx_cmd_exit			"Kilép"
+
+#define ktx_cmd_REMOVE			"Eltávolit"
+#define ktx_str_ABOUT			"Névjegy"
+
+///----
+
+#define ktx_mnu_done			"Kész"
+#define ktx_mnu_toggle			"Kapcsoló"
+#define ktx_mnu_MarkAll			"Mindet kijelöl"
+#define ktx_mnu_UnmarkAll		"Kijelölést megsyüntet"
+
+
+#define ktx_mnu_Message			"Üzenet"
+
+#define ktx_mnu_Recipient		"Fogadók"
+#define ktx_mnu_SelRecipient	"Névjegzből hozzáad"
+#define ktx_mnu_NewRecipient	"Új névjegy"
+#define ktx_mnu_RemRecipient	"Mindet eltávolit"
+#define ktx_mnu_SendMMS			"SMS küld"
+
+
+#define ktx_sh_str_appname		"Flash SMS"
+
+#define ktx_str_MSGSENT			"Üzenet elküldve"
+#define ktx_str_CONTACTS		" Névjegyek"
+#define ktx_str_PHONENUMBER		"Telefonszám"
+#define ktx_str_ExitQ			"Kilép?"
+
+#define ktx_str_MSGTRUNK		"Csak az első 70 karakter lesz elküldve,folytatja?"
+
+#define ktx_str_FAIL_1			"SMS ütemezés sikertelen"
+#define ktx_str_FAIL_2			"SMS küldés sikertelen"
+#define ktx_str_FAIL_3			"SMS hianyzó üzenetközpont"
+#define ktx_str_FAIL_4			"SMS szerver probléma"
+#define ktx_str_FAIL_5			"SMS hiba: "
+
+#define ktx_str_ALLSENT			"Összes üzenet elküldve"
+
+#define ktx_cmd_visit			"DrJukka.com oldal meglatogatása"
+#define ktx_mnu_help			"Segitség"
+
+#define ktx_str_HELP1			"Ez a felhasználás u.n. Flash SMS küldésére lett tervezve"
+#define ktx_str_HELP2			"A Flash SMS egy szöveges üzenet,ami kézbesitéskor azonnal megjelenik a képernyőn automatikusan,de alapból nem lesz mentve a készülékbe. "
+#define ktx_str_HELP3			"Új üzenet irásához a menü opciókból válassza ki a ncimzettet.Lehetőség van új számot beirni vagy a készülék memóriájából választani.Cimzettek eltávolitásához használja a Mindet eltávolit menüt."
+#define ktx_str_HELP4			"Átlagos módon irhat üzenetet a felhasználói felületen.A felső részen lévő karakter számláló csak a normális kódolással küldött sms-ekre vonatkozik.Egyebekre 70 karakter a limit."
+#define ktx_str_HELP5			"Üzenet irása és s cimzett kiválasztása után az SMS küld opcióval továbbitható az üzenet."
+
+
+
+
+
+

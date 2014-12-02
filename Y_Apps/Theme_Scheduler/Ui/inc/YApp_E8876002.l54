@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Επιλογές"
+#define ktx_cmd_exit 			"Εξοδος"
+#define ktx_cmd_Cancel			"Ακύρωση"
+
+
+#define ktx_cmd_Disable			"Απενεργοποίηση"
+#define ktx_cmd_Enable			"Ενεργοποίηση"
+
+#define ktx_cmd_about			"Περί"
+#define ktx_cmd_New				"Νέο"
+#define ktx_cmd_Modify			"Μετατροπή"
+#define ktx_cmd_Remove			"Διαγραφή"
+#define ktx_cmd_Randomthes		"Τυχαία θέματα"
+#define ktx_cmd_ViewTheme		"Απεικόνιση θέματος"
+#define ktx_cmd_Profchange		"Αλλαγή προφίλ"
+#define ktx_cmd_Timechange		"Αλλαγή ώρας"
+#define ktx_cmd_Stop			"Διακοπή"
+#define ktx_cmd_Save			"Αποθήκευση"
+
+#define ktx_cmd_VisitJukka		"m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Απενεργοποιημένος>"
+#define ktx_sh_str_BGIMAGE		"Ταπετσαρία"
+#define ktx_sh_str_RANDOM		"Τυχαία"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Προφίλ"
+#define ktx_sh_str_REMOVESCHED	"Διαγραφή χρονοδιαγράμματος?"
+#define ktx_sh_str_ACTIVEON		"Ενεργοποίηση"
+#define ktx_sh_str_SELECTTHEME	"Επιλογή θέματος"
+#define ktx_sh_str_NONAME		"Ανώνυμος"
+#define ktx_sh_str_SELECTPROF		"Επιλογή προφίλ"
+#define ktx_sh_str_Time			"Ωρα"
+#define ktx_sh_str_Date			"Ημερομηνία"
+#define ktx_sh_str_Theme		"Θέμα/Ταπετσαρία"
+#define ktx_sh_str_SETONTIME		"Προώθηση ώρας"
+#define ktx_sh_str_SETONWITH		"Προώθηση με"
+
+#define ktx_sh_str_WORKDAYA		"Εργάσιμες ημέρες"
+#define ktx_sh_str_NONWORKD		"Μη εργάσιμες ημέρες"
+#define ktx_sh_str_EVERYDAY		"Κάθε μέρα"
+#define ktx_sh_str_MONDAYS		"Δευτέρα"
+#define ktx_sh_str_TUESDAYS		"Τρίτη"
+#define ktx_sh_str_WEDNESDAYS	"Τετάρτη"
+#define ktx_sh_str_THURSDAYS	"Πέμπτη"
+#define ktx_sh_str_FRIDAYS		"Παρασκευή"
+#define ktx_sh_str_SATURDAYS	"Σάββατο"
+#define ktx_sh_str_SUNDAYS		"Κυριακή"
+
+#define ktx_cmd_Help			"Βοήθεια"
+#define ktx_cmd_Back			"Πίσω"
+
+#define ktx_str_HELP1			"Αυτή η εφαρμογή χρησιμοποιείται για προγραμματισμένη αλλαγή θεμάτων και ταπετσαριών με χρονοδιακόπτη ή με αλλαγή προφίλ. Για κάθε είδος αλλαγής υπάρχει μενού επιλογών και μπορεί να γίνει χρονοδιάγραμμα επιλέγοντας τις κατάλληλες επιλογές."
+#define ktx_str_HELP2			"Για να κάνετε ένα χρονοδιάγραμμα επιλέξτε τον προγραμματισμό θέματος ή ταπετσαρίας, μετά την ώρα και τις επιλογές επανάληψης ή το προφίλ που θα εφαρμοστεί. Μετά αποθηκεύστε το χρονοδιάγραμμα. Η τυχαία επιλογής θέματος επιλέγει τυχαίο θέμα."
+#define ktx_str_HELP3			"Όταν γίνει το χρονοδιάγραμμα θα εμφανιστεί στην κεντρική λίστα. Στη λίστα αυτή μπορείτε να ανοίξετε τα χρονοδιαγράμματα για να τα τροποποιήσετε ή να τα διαγράψετε. Επίσης μπορούν να απενεργοποιηθούν/ενεργοποιηθούν προσωρινά στις επιλογές του μενού."
+#define ktx_str_HELP4			"Τα θέματα προγραμματίζονται ή τροποποιούνται όταν βγείτε απ'την εφαρμογή. Για σωστή χρήση κάθε θέμα πρέπει να έχει διάστημα 2 λεπτών από το άλλο. Το χρονοδιάγραμμα ξεκινάει αυτόματα όταν ανοίγει το τηλέφωνο."
+

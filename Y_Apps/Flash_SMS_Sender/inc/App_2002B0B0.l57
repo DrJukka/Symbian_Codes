@@ -1,0 +1,61 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"בחר"
+#define ktx_cmd_back			"חזור"
+#define ktx_cmd_options			"אפשרויות"
+#define ktx_cmd_cancel			"בטל"
+#define ktx_cmd_ok				"קבל"
+#define ktx_cmd_exit			"צא"
+
+#define ktx_cmd_REMOVE			"מחק"
+#define ktx_str_ABOUT			"אודות"
+
+///----
+
+#define ktx_mnu_done			"בוצע"
+#define ktx_mnu_toggle			"שנה מצב"
+#define ktx_mnu_MarkAll			"סמן הכל"
+#define ktx_mnu_UnmarkAll		"בטל הכל"
+
+
+#define ktx_mnu_Message			"הודעה"
+
+#define ktx_mnu_Recipient		"מקבלים"
+#define ktx_mnu_SelRecipient	"הוסף מאנשי הקשר"
+#define ktx_mnu_NewRecipient	"איש קשר חדש"
+#define ktx_mnu_RemRecipient	"הסר הכל"
+#define ktx_mnu_SendMMS			"שלח מסרון"
+
+
+#define ktx_sh_str_appname		"מסרון פלאש"
+
+#define ktx_str_MSGSENT			"הודעה נשלחה"
+#define ktx_str_CONTACTS		" אנשי קשר"
+#define ktx_str_PHONENUMBER		"מס' טלפון"
+#define ktx_str_ExitQ			"לצאת?"
+
+#define ktx_str_MSGTRUNK		"ההודעה תקוצר ל- 70 תווים, האם להמשיך?"
+
+#define ktx_str_FAIL_1			"התזמון נכשל"
+#define ktx_str_FAIL_2			"השליחה נכשלה"
+#define ktx_str_FAIL_3			"אין שרות"
+#define ktx_str_FAIL_4			"שגיאה שרת חמורה"
+#define ktx_str_FAIL_5			"שגיאת מסרון: "
+
+#define ktx_str_ALLSENT			"כל ההודעות נשלחו"
+
+#define ktx_cmd_visit			"בקר ב- m.DrJukka.com"
+#define ktx_mnu_help			"עזרה"
+
+#define ktx_str_HELP1			"FlashSMS sender is used for sending type 0 SMS messages that are opened directly when received, also FlashSMS messages are not saved automatically in the receiving end."
+#define ktx_str_HELP2			"To make a new FlashSMS message, type the message to be included in the Flash SMS, note that for normal SMS characters the message can be 160 characters long, and for other the message will be truncated to 70 characters."
+#define ktx_str_HELP3			"Recipients can be added from contacts or by specifying the recipients number, both options are available in menu. Note that each message can have multiple recipients."
+#define ktx_str_HELP4			"After the recipient(s) are defined and the message body written, you can send then message with send option from the menu."
+#define ktx_str_HELP5			""
+
+
+
+
+
+

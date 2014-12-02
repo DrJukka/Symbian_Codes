@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opzioni"
+#define ktx_cmd_exit 			"Uscita"
+#define ktx_cmd_Cancel			"Annulla"
+
+
+#define ktx_cmd_Disable			"Disabilita"
+#define ktx_cmd_Enable			"Abilita"
+
+#define ktx_cmd_about			"Informazioni"
+#define ktx_cmd_New				"Nuovo"
+#define ktx_cmd_Modify			"Modifica"
+#define ktx_cmd_Remove			"Rimuovi"
+#define ktx_cmd_Randomthes		"Profili casuali"
+#define ktx_cmd_Profiles		"Profili"
+
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Salva"
+
+
+#define ktx_cmd_VisitJukka		"Visita m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Disabilitato>"
+#define ktx_sh_str_RANDOM		"Casuale"
+#define ktx_sh_str_PROFFILLE2	"Profilo"
+#define ktx_sh_str_REMOVESCHED	"Rimuovere programmazione ?"
+#define ktx_sh_str_ACTIVEON		"Attivo in"
+
+#define ktx_sh_str_NONAME		"Senza nome"
+#define ktx_sh_str_SELECTPROF	"Seleziona profilo"
+
+#define ktx_sh_str_SETONTIME	"Imposta orario"
+
+
+#define ktx_sh_str_WORKDAYA		"Giorni lavorativi"
+#define ktx_sh_str_NONWORKD		"Giorni festivi"
+#define ktx_sh_str_EVERYDAY		"Tutti i giorni"
+#define ktx_sh_str_MONDAYS		"lunedì"
+#define ktx_sh_str_TUESDAYS		"martedì"
+#define ktx_sh_str_WEDNESDAYS	"mercoledì"
+#define ktx_sh_str_THURSDAYS	"giovedì"
+#define ktx_sh_str_FRIDAYS		"venerdì"
+#define ktx_sh_str_SATURDAYS	"sabato"
+#define ktx_sh_str_SUNDAYS		"domenica"
+
+#define ktx_cmd_Help			"Aiuto"
+#define ktx_cmd_Back			"Indietro"
+
+#define ktx_str_HELP1			"Per creare una nuova schedule seleziona l'opzione nuovo dalle opzioni."
+#define ktx_str_HELP2			"Poi seleziona il profilo desiderato. Se la lista random è vuota verrà ignorata. Seleziona il profilo, poi l'ora e ripeti per lo schedule. Una volta fatto, salva lo schedule col comando salva."
+#define ktx_str_HELP3			"Creato lo schedule verrà visualizzato nell'elenco. In questa lista puoi usare il menu delle opzioni per aprire gli schedule per modificarli o cancellarli, o solo temporaneamente disabilitarlo/abilitarlo."
+#define ktx_str_HELP4			"Le opzioni sono rinfrescate dopo l'uscita dall'applicazione. Per un miglior uso gli schedule dovrebbero essere separati di due minuti l'un l'altro. La gestione degli scheduling sono gestiti automaticamente all'accensione del dispositivo."
+
+

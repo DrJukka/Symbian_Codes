@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opcje"
+#define ktx_cmd_exit 				"Wyjście"
+#define ktx_cmd_cancel 				"Anuluj"
+#define ktx_cmd_save 				"Zapisz"
+#define ktx_cmd_select 				"Wybierz"
+
+#define ktx_cmd_about				"O programie"
+#define ktx_cmd_visit				"Odwiedź m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nowy"
+#define ktx_mnu_Modify 				"Zmodyfikuj"
+#define ktx_mnu_Remove 				"Usuń"
+
+
+#define ktx_mnu_Savmsgs				"Zapisane wiadomości"
+#define ktx_mnu_ContSend			"Nadawca z kontaktów"
+
+#define ktx_sh_str_sndName	 		"Nazwa nadawcy"
+#define ktx_sh_str_sndNumber	 	"Numer nadawcy"
+#define ktx_sh_str_Message		 	"Wiadomość"
+#define ktx_sh_str_sndTime		 	"Czas wysłania"
+#define ktx_sh_str_sndDate		 	"Data wysłania"
+
+
+#define ktx_str_REMMESSAGE 			"Usunąć wiadomość?"
+
+
+#define ktx_cmd_help				"Pomoc"
+#define ktx_cmd_Back				"Wróć"
+
+#define ktx_str_HELP1 				"Ta aplikacja jest używana do udawania przychodzących wiadomości SMS. Udawane wiadomości mogą być zaplanowane do wykonania w czasie przyszłym lub jeśli czas przeszły jest ustawiony dla wiadomości, zostanie ona wykonana natychmiast pok wyjściu z aplikacji z przeszyłm znakiem czasu dla niej."
+#define ktx_str_HELP2 				"Aby zrobić nową wiadomość, kliknij Nowa z menu opcji, ustaw nazwę i numer nadawcy (lub pobierz je z kontaktów z menu opcji), napisz wiadomość (lub użyj poprzednio zapisanych wiadomości z menu opcji), ustaw czas i datę wysłania i wybierz opcję menu Zapisz aby zapisać wiadomość w bazie danych."
+#define ktx_str_HELP3 				"Po tym jak wiadomość jest wykonana, będzie ona pokazana na liście widoku głównego. W obrębie tej listy możesz użyć opcji menu do otwarcia wiadomości do modyfikacji jak również możesz ją usunąć."
+#define ktx_str_HELP4 				"Zauważ, że wiadomości są planowane jak również poprzednie planowania są odświeżane tylko po wyjściu z aplikacji. Rzeczywiste planowanie jest obsługiwane przez aplikację w tle, która także startuje atuomatycznie gdy startuje urządzenie. Planowane wiadomości nie będą się pojawiać podczas gdy urządzenie jest wyłączone."
+
+

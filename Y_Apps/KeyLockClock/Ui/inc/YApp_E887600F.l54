@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Επιλογές"
+#define ktx_cmd_exit 			"Εξοδος"
+
+#define ktx_cmd_about			"Περί"
+#define ktx_cmd_visit			"Επισκέψου την m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Ρολόι οθόνης ενεργοποιημένο"
+#define ktx_sh_str_LGHTINSE		"Φωτεινότητα"
+#define ktx_sh_str_LGHTINSECHR	"Αλλαγή φωτεινότητας"
+#define ktx_sh_str_LIGHTON		"Φωτισμός ενεργός"
+#define ktx_sh_str_SHOWDATE		"Εμφάνιση ημερομηνίας"
+#define ktx_sh_str_KEYLOCKON	"Κλείδωμα πληκτρολογίου ενεργοποιημένο"
+#define ktx_sh_str_OFF			"Απενεργοποίηση"
+#define ktx_sh_str_ON			"Ενεργοποίηση"
+#define ktx_sh_str_DATEONLY		"Ημερομηνία μόνο"
+#define ktx_sh_str_DATETIME		"Ημερομηνία + όνομα ημέρας"
+#define ktx_sh_str_TIMEOUTOL	"Εμφάνιση ώρας μόνο"
+#define ktx_sh_str_TIMEOUTCHR	"Εμφάνιση ώρας + φόρτισης"
+#define ktx_sh_str_ALWAYS		"Πάντοτε"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Οριζόντια"
+#define ktx_sh_str_Landscape	"Κάθετα"
+#define ktx_sh_str_Automatic	"Αυτόματα"
+
+#define ktx_sh_str_CURRTHEM		"Τρέχων θέμα"
+#define ktx_sh_str_SELCOLOR		"Επιλογή χρώματος"
+#define ktx_sh_str_BACKCOLOR	"Χρώμα φόντου"
+#define ktx_sh_str_FONTCOLOR	"Χρώμα διακριτικών"
+#define ktx_sh_str_LIGHTTIM		"Χρόνος φωτισμού"
+#define ktx_sh_str_LOCKTIM		"Κλείδωμα μετά από (δευτ.)"
+#define ktx_sh_str_FONT			"Διακριτικά"
+#define ktx_sh_str_BLACK		"Μαύρο"
+#define ktx_sh_str_DARKGRAY		"Σκούρο γκρι"
+#define ktx_sh_str_DARKRED		"Σκούρο κόκκινο"
+#define ktx_sh_str_DARKGREEN	"Σκούρο πράσινο"
+#define ktx_sh_str_DARKYELLOW	"Σκούρο κίτρινο"
+#define ktx_sh_str_DARKBLUE		"Σκούρο μπλε"
+#define ktx_sh_str_DARKMAGENDA	"Σκούρο ροζ"
+#define ktx_sh_str_DARKCYAN		"Σκούρο θαλασσί"
+#define ktx_sh_str_RED			"Κόκκινο"
+#define ktx_sh_str_GREEN		"Πράσινο"
+#define ktx_sh_str_YELLOW		"Κίτρινο"
+#define ktx_sh_str_BLUE			"Μπλε"
+#define ktx_sh_str_MAGENDA		"Ροζ"
+#define ktx_sh_str_CYAN			"Θαλασσί"
+#define ktx_sh_str_GRAY			"Γκρι"
+#define ktx_sh_str_WHITE		"Άσπρο"
+
+#define ktx_cmd_Help 			"Βοήθεια"
+#define ktx_cmd_Back 			"Πίσω"
+
+#define ktx_str_HELP1			"Αυτή η εφαρμογή δημιουργεί ένα screensaver με ψηφιακό ρολόι που ενεργοποιείται όταν το πληκτρολόγιο είναι κλειδωμένο. Για να εμφανιστεί πρέπει να πατηθεί κάποιο κουμπί (επιτρεπόμενα κουμπιά: βέλη δεξιά/αριστερά και το κουμπί για το μενού)."
+#define ktx_str_HELP2			"Το κλείδωμα της οθόνης ελέγχεται από παρασκηνιακό server που ελέγχει αν το κλείδωμα του πληκτρολογίου ή το ρολόι είναι ενεργοποιημένα. Η εφαρμογή ξεκινάει αυτόματα με κάθε επανεκκίνηση. Οι ρυθμίσεις ενεργοποιούνται μετά την έξοδο από την εφαρμογή."
+#define ktx_str_HELP3			"Οι ρυθμίσεις φωτεινότητας ρυθμίζουν την φωτεινότητα που εμφανίζει το ρολόι. Η φωτεινότητα φόρτισης λειτουργεί όταν η συσκευή φορτίζει. Οι ρυθμίσεις ώρας προσδιορίζουν τον χρόνο που το φως είναι ενεργοποιημένο. Κάποια κινητά αγνοούν αυτή τη ρύθμιση."
+#define ktx_str_HELP4			"Η ενεργοποίηση φωτός καθορίζει πότε τα φώτα είναι ενεργοποιημένα. Οι ρυθμίσεις γραμματοσειράς αλλάζουν την γραμματοσειρά και το χρώμα με το οποίο εμφανίζεται η ώρα. Οι ρυθμίσεις φόντου καθορίζουν το χρώμα φόντου πίσω απ'το ρολόι."
+#define ktx_str_HELP5			"Οι ρυθμίσεις εμφάνισης ημερομηνίας απενεργοποιούν την εμφάνιση της ημερομηνίας/μέρας. Οι ρυθμίσεις κλειδώματος ενεργοποιούν το αυτόματο κλείδωμα του πληκτρολογίου και κλειδώνουν το πληκτρολόγιο έπειτα από τον χρόνο αδράνειας που ρυθμίζει ο χρήστης"
+
+
+

@@ -1,0 +1,101 @@
+
+TARGET            	YApp_2002DD36.exe
+TARGETTYPE        	exe
+UID               	0x100039CE 0x2002DD36
+EPOCSTACKSIZE		0x5000
+
+CAPABILITY 			LocalServices NetworkServices ReadDeviceData ReadUserData SwEvent UserEnvironment WriteDeviceData WriteUserData
+
+SOURCEPATH        ..\src
+SOURCE            YApp_E8876001.cpp
+SOURCE            CTimeOutTimer.cpp
+SOURCE            Items_Container.cpp
+SOURCE            Splash_Screen.cpp
+SOURCE            Status_Control.cpp
+SOURCE            StatusGetters.cpp
+
+SOURCE            MenuNotes_Control.cpp
+
+SOURCE            Main_Containers.cpp
+SOURCE            About_Containers.cpp
+SOURCE            Update_Containers.cpp
+SOURCE            Alarm_Containers.cpp
+SOURCE            Sounds_Containers.cpp
+SOURCE            WorkDays_Containers.cpp
+
+
+START RESOURCE    ..\data\YApp_E8876001.rss
+HEADER
+TARGET YApp_2002DD36.rsc
+TARGETPATH resource\apps
+END //RESOURCE
+
+
+START RESOURCE    ..\data\YApp_E8876001_reg.rss
+TARGET YApp_2002DD36_reg.rsc
+
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END //RESOURCE
+
+
+USERINCLUDE     ..\inc
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom
+SYSTEMINCLUDE 	\Epoc32\include\mmf\plugin
+
+LIBRARY         euser.lib				// for CBase, CSession, CActiveScheduler, ...
+LIBRARY         form.lib
+LIBRARY         uiklaf.lib
+LIBRARY         avkon.lib				// for CAknView, CAknViewAppUi
+LIBRARY         apparc.lib				// for CApaDocument
+LIBRARY         cone.lib				// for CCoeControl
+LIBRARY         eikcore.lib				// for CEikApplication, CEikDocument, CEikAppUi
+LIBRARY         eikcoctl.lib			// CColumnListBoxItemDrawer
+LIBRARY         aknnotify.lib			// CAknGlobalNote
+LIBRARY         apgrfx.lib				// RApaLsSession,TApaTask,TApaTaskList
+LIBRARY         efsrv.lib				// Rfs,RFile,TParseBase,TFindFile
+LIBRARY         ws32.lib				// RWsSession
+LIBRARY         bafl.lib				// CDesC16Array
+LIBRARY         egul.lib				// TextUtils
+LIBRARY         eikctl.lib
+LIBRARY         estor.lib
+LIBRARY         MediaClientAudio.lib
+LIBRARY         apgrfx.lib
+LIBRARY         fbscli.lib
+LIBRARY         apmime.lib
+LIBRARY         bitgdi.lib
+LIBRARY         hal.lib
+LIBRARY         PBKENG.LIB
+LIBRARY         cntmodel.lib
+LIBRARY         edbms.lib
+LIBRARY         etext.lib
+LIBRARY         msgs.lib
+LIBRARY         smcm.lib
+LIBRARY         gsmu.lib
+LIBRARY         IMUT.LIB
+LIBRARY         GDI.LIB
+LIBRARY         PlatformEnv.lib
+LIBRARY         AlarmClient.lib
+LIBRARY         AlarmShared.lib
+LIBRARY         aknskins.lib
+LIBRARY         aknskinsrv.lib
+LIBRARY         aknswallpaperutils.lib
+LIBRARY         aknicon.lib
+LIBRARY         fbscli.lib
+LIBRARY         etel3rdparty.lib
+LIBRARY         centralrepository.lib
+LIBRARY         fepbase.lib
+LIBRARY         aknpictograph.lib
+LIBRARY         cryptography.lib
+LIBRARY         pbe.lib
+LIBRARY         hash.lib 
+LIBRARY         MGFetch.lib
+LIBRARY         DrmAudioPlayUtility.lib 
+LIBRARY         CommonEngine.lib 
+
+
+LANG 01 03 04 05 06 09 13 16 17 18 27 31 33 35 37 42 54 57 65 78 87
+

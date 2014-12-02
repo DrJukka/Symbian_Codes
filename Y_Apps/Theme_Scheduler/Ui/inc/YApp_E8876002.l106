@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opsiyalar"
+#define ktx_cmd_exit 			"Çıxış"
+#define ktx_cmd_Cancel			"İmtina"
+
+
+#define ktx_cmd_Disable			"Sönülü"
+#define ktx_cmd_Enable			"Yanılı"
+
+#define ktx_cmd_about			"Proqram haqqında"
+#define ktx_cmd_New				"Yeni"
+#define ktx_cmd_Modify			"Dəyişdir"
+#define ktx_cmd_Remove			"Sil"
+#define ktx_cmd_Randomthes		"Təsadüfi mövzular"
+#define ktx_cmd_ViewTheme		"Mövzunu Göstər"
+#define ktx_cmd_Profchange		"Profilin dəyişdirilməsi"
+#define ktx_cmd_Timechange		"Vaxta görə dəyişdirilmə"
+#define ktx_cmd_Stop			"Dayandır"
+#define ktx_cmd_Save			"Yadda saxla"
+
+#define ktx_cmd_VisitJukka		"m.DrJukka.com ziyarət et"
+
+#define ktx_sh_str_DISABLED		"<Söndürülüb>"
+#define ktx_sh_str_BGIMAGE		"Divar kağızı"
+#define ktx_sh_str_RANDOM		"Təsadüfi"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Siyahı silinsin ?"
+#define ktx_sh_str_ACTIVEON		"Aktivizasiya"
+#define ktx_sh_str_SELECTTHEME	"Mövzunu seç"
+#define ktx_sh_str_NONAME		"Adsız"
+#define ktx_sh_str_SELECTPROF		"Profili seç"
+#define ktx_sh_str_Time			"Vaxt"
+#define ktx_sh_str_Date			"Tarix"
+#define ktx_sh_str_Theme		"Mövzu/Divar kağızı"
+#define ktx_sh_str_SETONTIME		"Vaxtı quraşdır"
+#define ktx_sh_str_SETONWITH		"Quraşdır"
+
+#define ktx_sh_str_WORKDAYA		"İş günləri"
+#define ktx_sh_str_NONWORKD		"Qeyri-iş günləri"
+#define ktx_sh_str_EVERYDAY		"Hər gün"
+#define ktx_sh_str_MONDAYS		"Bazar ertəsi"
+#define ktx_sh_str_TUESDAYS		"Çərşənbə axşamı"
+#define ktx_sh_str_WEDNESDAYS	"Çərşənbə"
+#define ktx_sh_str_THURSDAYS	"Cümə axşamı"
+#define ktx_sh_str_FRIDAYS		"Cümə"
+#define ktx_sh_str_SATURDAYS	"Şənbə"
+#define ktx_sh_str_SUNDAYS		"Bazar"
+
+#define ktx_cmd_Help			"Kömək"
+#define ktx_cmd_Back			"Geri"
+
+#define ktx_str_HELP1			"This application is used for scheduling themes and wallpapers with timer or by profile change events, for each event type there is a menu option under the new menu item in the options menu, and new schedule can be made by selecting appropriate menu option."
+#define ktx_str_HELP2			"To make a scheduler, first select either theme or wallpaper to be scheduled, and then select time and repeat options, or the profile which with the schedule is supposed to work with. Once done, save the schedule with save command. With random theme option the theme is picked randomly during the scheduling event, and if no theme is selected in the random theme list, all available themes will be used."
+#define ktx_str_HELP3			"After the schedule is made it will be shown in the main view list. Within this list you can use menu options for opening the schedule for modifications as well as you can delete them, also temporal disabling/enabling menu options can be found from the options menu. "
+#define ktx_str_HELP4			"Note that theme are scheduled as well as previous schedules are re-freshed only after exiting the application. For best usability, each schedule should be spaced two minutes apart from each other. The actual scheduling is handled by background application that is also automatically started when the device is started. No message scheduling will appear while the device is off."
+

@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Zgjedhjet"
+#define ktx_cmd_exit 				"Dil"
+#define ktx_cmd_Back 				"Prapa"
+
+#define ktx_mnu_help				"Ndihmë"
+#define ktx_cmd_about				"Informacion"
+#define ktx_cmd_visit				"Vizito m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Shtyje"
+#define ktx_sh_str_ANSWER			"Përgjigju"
+#define ktx_sh_str_SILENSE			"Hesht"
+#define ktx_sh_str_CALLING			"Po thërret"
+
+#define ktx_str_HELP1				"The Fake Call display is used for displaying the incoming Fake calls. The background and all graphics are taken from the device themes."
+#define ktx_str_HELP2				"Ringtones used with the display are first fetched from the device contacts database, and if none for the selected contact are found, then the selected profile ringtone is used, and if that is still not available, then the Fake Calls settings fallback ringtone is used."
+#define ktx_str_HELP3				"You can mute the ringtone by pressing the Silence button. The answer button as well as the green button is non-functional with this version."
+#define ktx_str_HELP4				"You can exit the Fake calls display by pressing the red key, or by selecting exit command from the options menu."
+#define ktx_str_HELP5				"The Snooze command will hide the display for the specified snooze time."
+
+
+
+		

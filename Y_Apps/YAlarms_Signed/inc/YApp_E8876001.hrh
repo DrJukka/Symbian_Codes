@@ -1,0 +1,66 @@
+/* 
+	Copyright (c) 2006-07, 
+	Jukka Silvennoinen
+	All rights reserved 
+*/
+
+#ifndef __YUCCABROWSER_HRH__
+#define __YUCCABROWSER_HRH__
+
+/** HelloWorld enumerate command codes */
+enum TYuccaBrowserIds
+    {
+    EClose = 0x6000,  // start value must not be 0
+	EMyOptionsCommand,
+	EMyOptionsSelect,
+	EMyOptionsBack,
+	
+	EShowInfo,
+	EInfoBack,
+	
+	EUpdateList,
+	EUpdateBack,
+	
+	ENewAlarm,
+	EResetAlarm,
+	ERemoveAlarm,
+	EActivateAlarm,
+	EDeactivateAlarm,
+	EAlarmBack,
+	
+	ESetAlarmSounds,
+	ESetSoundFile,
+	ESetSoundBack,
+	ESetWorkDays,
+	EWorkDaysCancel,
+	
+	EAlarmSave,
+	EAlarmChangeValue,
+	
+	EWorkDChangeValue,
+	EWorkDSaveValues,
+	EAboutGoFirst,
+	WAboutGoSecond,
+	
+	EMyOptionsSelect2,
+	EMyOptionsBack2,
+	EMyOptionsSelect3,
+	EMyOptionsBack3,
+	
+	EPlaySoundFile,
+	EStopSoundFile,
+	EStopSoundFile2,
+	EMyExitCmd,
+	EMyDummy
+	
+    };
+
+
+
+
+enum TControldIDListView
+    {
+	EProgressNoteId = 0x100
+};
+
+#endif // __YUCCABROWSER_HRH__

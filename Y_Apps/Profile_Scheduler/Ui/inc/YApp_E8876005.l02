@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Options"
+#define ktx_cmd_exit 			"Quitter"
+#define ktx_cmd_Cancel			"Annuler"
+
+
+#define ktx_cmd_Disable			"Désactiver"
+#define ktx_cmd_Enable			"Activer"
+
+#define ktx_cmd_about			"A propos"
+#define ktx_cmd_New				"Nouveau"
+#define ktx_cmd_Modify			"Modifier"
+#define ktx_cmd_Remove			"Effacer"
+#define ktx_cmd_Randomthes		"Profiles aléatoires"
+#define ktx_cmd_Profiles		"Profiles"
+
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Sauver"
+
+
+#define ktx_cmd_VisitJukka		"Consultez m.Dr Jukka.com"
+
+#define ktx_sh_str_DISABLED		"<Désactivé>"
+#define ktx_sh_str_RANDOM		"Aléatoire"
+#define ktx_sh_str_PROFFILLE2	"Profile"
+#define ktx_sh_str_REMOVESCHED	"Annuler horaire ?"
+#define ktx_sh_str_ACTIVEON		"Actif"
+
+#define ktx_sh_str_NONAME		"Sans nom"
+#define ktx_sh_str_SELECTPROF	"Sélectionner profile"
+
+#define ktx_sh_str_SETONTIME	"Régler sur heure"
+
+
+#define ktx_sh_str_WORKDAYA		"Jours ouvrables"
+#define ktx_sh_str_NONWORKD		"Jours fériés"
+#define ktx_sh_str_EVERYDAY		"Quotidien"
+#define ktx_sh_str_MONDAYS		"Lundis"
+#define ktx_sh_str_TUESDAYS		"Mardis"
+#define ktx_sh_str_WEDNESDAYS	"Mercredis"
+#define ktx_sh_str_THURSDAYS	"Jeudis"
+#define ktx_sh_str_FRIDAYS		"Vendredis"
+#define ktx_sh_str_SATURDAYS	"Samedis"
+#define ktx_sh_str_SUNDAYS		"Dimanches"
+
+#define ktx_cmd_Help			"Aide"
+#define ktx_cmd_Back			"Retour"
+
+#define ktx_str_HELP1			"Cette application permet de programmer les changements de profils à des heures définies. Pour enregistrer un nouvel horaire, sélectionner Nouveau dans le menu options"
+#define ktx_str_HELP2			"Sélectionnez ensuite le profil à programmer. Veuillez noter que si la liste des profils aléatoire est vide, l'ensemble des programmations sera ignorée. Après la sélection du profil, sélectionnez l'horaire et les options de récurrence. Enregistrer ce nouvel horaire avec la commande Sauvegarder."
+#define ktx_str_HELP3			"Après l'enregistrement d'une nouvelle programmation, celle-ci sera affichée dans la liste principale. Dans cette liste le menu options vous permet d'ouvrir une programmation afin de la modifier, en supprimer, ou bien en désactiver/activer temporairement."
+#define ktx_str_HELP4			"Notez que les profils sont programmés et les horaires rafraîchis seulement à la fermeture de l'application. Pour un meilleur fonctionnement, les horaires devraient être espacés de 2 minutes les uns des autres. La programmation en cours est gérée par l'application en arrière-plan et démarrée automatiquement au lancement de l'appareil. Aucun message d'horaire n'apparaîtra quand l'appareil est éteint."
+
+

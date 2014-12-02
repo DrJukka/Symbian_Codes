@@ -1,0 +1,129 @@
+/* 
+	Copyright (c) 2006, 
+	Jukka Silvennoinen
+	All rights reserved 
+*/
+
+#ifndef __YUCCABROWSER_HRH__
+#define __YUCCABROWSER_HRH__
+
+/** HelloWorld enumerate command codes */
+enum TYuccaBrowserIds
+    {
+   	EClose = 0x6000,  // start value must not be 0
+	EAbout,
+	EFolderViewMark,
+	EFolderViewMarkTogle,
+	EFolderViewMarkAll,
+	EFolderViewUnMarkAll,
+	EFileMenu,
+	EFileDetails,
+	EFileDelete,
+	EFileRename,
+	EFileShowName,
+	EFileNewFolder,
+	EEditMenu,
+	EEditCopy,
+	EEditCut,
+	EEditPaste,
+	EEditShowPaste,
+	ESSCopyClipBoard,
+	ESSBack,
+	ESettings,
+	ESettingsSave,
+	ESettingsCancel,
+	EExtrasMenu,
+	EExtrasShowShortCut,
+	EExtrasSetShortCut,
+	EFileAttributes,
+	EFileAttributesSave,
+	EFileAttributesCancel,
+	ESendFiles,
+	EExtrasRefresh,
+	EExtrasSearchOn,
+	EExtrasSearchOff,
+	EExtrasCommandSC,
+	EExtrasCommandSCBack,
+	EExtrasCommandSCSave,
+	ESearchFiles,
+	EOpenWithViewer,
+	EBackFromSearch,
+	EBackFromSearchB,
+	ESearchStart,
+	ETypesSelectionDone,
+	ESearchClearCondition,
+	ESearchShowTypes,
+	EVBOpenFile,
+	ESearchClearREsults,
+	ESearchBackToResults,
+	EGoToFolder,
+	EEditClearPaste,
+	ERemoveLastFileHandler,
+	EEditPasteNewFile,
+	EFileNewFile,
+	EMovePageUp,
+    EMovePageDown,
+    ERemoveLastFileHandlerNoChange,
+    EAddFilesDone,
+	EAddFilesCancel,
+	EAddFilesToSelection,
+	EExtrasIcons,
+	EExtrasLayout,
+	EBackOneLevel
+    };
+
+
+enum TFtDialogControls
+    {
+	EFTypePage1 = 0x100,
+	EFTypePage2,
+	EListAudio,
+	EListImage
+	};
+
+enum TControldIDListView
+    {
+	EProgressNoteId = 0x100,
+	EEYSetSortBy,
+	EEYSetFoldersFirst,
+	EEYSetSortOrder,
+	EEYSetShowAll,
+	EAttrSystem,
+	EAttrHidden,
+	EAttrReadOnly,
+	EAttrDate,
+	EAttrTime,
+	ERepeatSongs,
+	ESkinName,
+	EEYSetOptmize,
+	EEYSetSavePath,
+	ECommandSC0,
+	ECommandSC1,
+	ECommandSC2,
+	ECommandSC3,
+	ECommandSC4,
+	ECommandSC5,
+	ECommandSC6,
+	ECommandSC7,
+	ECommandSC8,
+	ECommandSC9,
+	EEYDoRecocnize,
+	ESearchFname,
+	ESearchBigthan,
+	ESearchSmallThan,
+	ESearchModBefore,
+	ESearchModAfter,
+	ESearchCheckTypes,
+	ESearchExludeTyp,
+	ESearchIncludeTyp,
+	ESearchAttr,
+	ESearchString,
+	ESearchUnicode,
+	ESearchCaseSensitive,
+	EYBWaitNoteId,
+	ESearchPath,
+	EEYConfirmExit,
+	EEYSetFullScreen
+};
+
+#endif // __YUCCABROWSER_HRH__

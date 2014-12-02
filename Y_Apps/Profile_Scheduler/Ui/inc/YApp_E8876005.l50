@@ -1,0 +1,60 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"تنظیمات"
+#define ktx_cmd_exit 			"خروج"
+#define ktx_cmd_Cancel			"انصراف"
+
+
+#define ktx_cmd_Disable			"غیرفعال"
+#define ktx_cmd_Enable			"فعال"
+
+#define ktx_cmd_about			"درباره ی"
+#define ktx_cmd_New				"جدید"
+#define ktx_cmd_Modify			"اصلاح"
+#define ktx_cmd_Remove			"حذف کردن"
+#define ktx_cmd_Randomthes		"نمایه های تصادفی"
+#define ktx_cmd_Profiles		"نمایه ها"
+
+#define ktx_cmd_Stop			"توقف"
+#define ktx_cmd_Save			"دخیره کردن"
+
+
+#define ktx_cmd_VisitJukka		"برو به DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<غیرفعال>"
+#define ktx_sh_str_RANDOM		"تصادفی"
+#define ktx_sh_str_PROFFILLE2	"نمایه"
+#define ktx_sh_str_REMOVESCHED	" برنامه ریزی حذف شود؟"
+#define ktx_sh_str_ACTIVEON		"فعالیت در"
+
+#define ktx_sh_str_NONAME		"نامیده نشده"
+#define ktx_sh_str_SELECTPROF	"انتخاب نمایه"
+
+#define ktx_sh_str_SETONTIME	"انتخاب شود با زمان"
+
+
+#define ktx_sh_str_WORKDAYA		"روزهای کاری"
+#define ktx_sh_str_NONWORKD		"هیچ یک-از روزهای کاری"
+#define ktx_sh_str_EVERYDAY		"هر روز"
+#define ktx_sh_str_MONDAYS		"دوشنبه ها"
+#define ktx_sh_str_TUESDAYS		"سه شنبه ها"
+#define ktx_sh_str_WEDNESDAYS	"چهارشنبه ها"
+#define ktx_sh_str_THURSDAYS	"پنج شنبه ها"
+#define ktx_sh_str_FRIDAYS		"جمعه ها"
+#define ktx_sh_str_SATURDAYS	"شنبه ها"
+#define ktx_sh_str_SUNDAYS		"یکشنبه ها"
+
+#define ktx_cmd_Help			"راهنما"
+#define ktx_cmd_Back			"بازگشت"
+
+#define ktx_str_HELP1			"این نرم افزار برای زمان بندی پروفایل ها با زمان معین شده استفاده می شود ، برای یک برنامه جدید ، انتخاب گزینه های جدید از گزینه های منو."
+#define ktx_str_HELP2			"مشخصات را انتخاب کنید سپس برنامه ریزی می شود. توجه داشته باشید که اگر لیست پروفیل های تصادفی خالی باشد ، تمام زمانبندی ها نادیده گرفته می شوند. پس از انتخاب مشخصات و سپس زمان را انتخاب کنید . پس از انجام این مرحله ، ذخیره کنید ."
+#define ktx_str_HELP3			"بعد از برنامه ریزی در لیست نمایش اصلی نشان داده خواهد شد. در این لیست شما می توانید گزینه های منوی را باز وبرای تغییرات در برنامه و همچنین آن را حذف کنید ، همچنین به غیرفعال / فعال کردن آن بپردازید."
+#define ktx_str_HELP4			"توجه داشته باشید که از پروفیل های برنامه ریزی شده و همچنین برنامه ریزی ها ی قبلی پس از خروج از برنامه باز خوانی می شوند. برای بهترین کارایی ، هر یک از برنامه باید دو دقیقهفاصله زمانی با یکدیگر ایجاد شود. برنامه ریزی انجام شده به طور خودکار بعد از فاصله زمانی مشخص شده به طور خودکار انجام می شود.  پیام  برنامه ریزی ظاهر نخواهد شد در حالی که دستگاه خاموش است."
+
+
+

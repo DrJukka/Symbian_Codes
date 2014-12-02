@@ -1,0 +1,37 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"ตัวเลือก"
+#define ktx_cmd_exit 				"ออก"
+#define ktx_cmd_cancel 				"ยกเลิก"
+#define ktx_cmd_save 				"บันทึก"
+#define ktx_cmd_select 				"เลือก"
+
+#define ktx_cmd_about				"เกี่ยวกับ"
+#define ktx_cmd_visit				"เยี่ยมชม m.DrJukka.com"
+
+#define ktx_mnu_New 				"ใหม่"
+#define ktx_mnu_Modify 				"ปรับแต่ง"
+#define ktx_mnu_Remove 				"ลบ"
+
+
+#define ktx_mnu_Savmsgs				"บันทึกข้อความ"
+#define ktx_mnu_ContSend			"ผู้ส่งจากรายชื่อ"
+
+#define ktx_sh_str_sndName	 		"ชื่อผู้ส่ง"
+#define ktx_sh_str_sndNumber	 	"หมายเลขโทรศัพท์ผู้ส่ง"
+#define ktx_sh_str_Message		 	"ข้อความ"
+#define ktx_sh_str_sndTime		 	"เวลาที่ส่ง"
+#define ktx_sh_str_sndDate		 	"วันที่ส่ง"
+
+
+#define ktx_str_REMMESSAGE 			"ลบข้อความหรือไม่ ?"
+
+#define ktx_cmd_help				"ตัวช่วย"
+#define ktx_cmd_Back				"กลับ"
+
+#define ktx_str_HELP1 				"โปรแกรมนี้ใช้สำหรับSMSข้อความเข้าปลอม ซึ่งข้อความสามารถตั้งเวลาล่วงหน้าได้ หรือถ้าหากเคยมีการตั้งค่า มันจะทำงานทันที หลังจากออกจากโปรแกรมโดยมีการประทับเวลา"
+#define ktx_str_HELP2 				"สำหรับการสร้างข้อความใหม่ เลือกตัวเลือกใหม่จากเมนูตัวเลือก ตั้งค่าผู้ส่งและเบอร์โทรศัพท์(หรือเลือกจากรายชื่อผู้ติดต่อ) เขียนข้อความ(หรือเลือกจากข้อความที่บันทึกไว้)เลือกเวลาส่งและวันที่ จากนั้นเลือกตัวเลือกบันทึกเพื่อบันทึกข้อความลงในฐานข้อมูล"
+#define ktx_str_HELP3 				"หลังจากข้อความถูกสร้างขึ้นแล้วจะแสดงอยู่ในหน้าหลัก ในรายการนี้คุณสามารถใช้เมนูตัวเลือกสำหรับเปิดเพื่อแก้ไขและลบ หรือใช้งานหรือยกเลิกการใช้งานชั่วคราว เมนูตัวเลือกสามารถหาได้ในหัวข้อตัวเลือก"
+#define ktx_str_HELP4 				"หมายเหตุ ข้อความจะถูกกำหนดเช่นเดียวกับตารางเวลาก่อนหน้าซึ่งจะเริ่มใหม่เมื่อออกจากโปรแกรม สำหรับการใช้งานควรตั้งตารางเวลาห่างกันนาทีจากกันและกัน  โปรแกรมพื้นหลังจะเริ่มอัตโนมัติเมื่ออุปกรณ์เริ่มต้น  จะไม่มีข้อความปรากฎเมื่ออุปกรณ์ปิด"

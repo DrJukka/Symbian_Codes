@@ -1,0 +1,22 @@
+
+; standard SIS file header
+#{"Y-Browser"},(0x101F7BBF),0,77,0
+
+;Supports Series 60 
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}; 2.0 -->
+
+"..\FileBrowser\aif\YuccaBrowser.aif" 		-"!:\system\apps\YuccaBrowser\YuccaBrowser.aif"
+
+"C:\Symbian\7.0s\Series60_v21_CW\Epoc32\Release\armi\urel\YuccaBrowser.APP"			-"!:\system\apps\YuccaBrowser\YuccaBrowser.app"
+"C:\Symbian\7.0s\Series60_v21_CW\Epoc32\data\z\system\APPS\YuccaBrowser\YuccaBrowser.rsc"	-"!:\system\apps\YuccaBrowser\YuccaBrowser.rsc"
+
+"mbm\icons.mbm" 							-"!:\system\apps\YuccaBrowser\icons.mbm"
+"data\Shortcuts" 							-"!:\system\apps\YuccaBrowser\Shortcuts"
+"data\Settings" 							-"!:\system\apps\YuccaBrowser\Settings"
+"data\CommandSC" 							-"!:\system\apps\YuccaBrowser\CommandSC"
+
+"C:\Symbian\7.0s\Series60_v21_CW\Epoc32\data\z\system\libs\plugins\20007146.RSC"	-"!:\system\libs\plugins\20007146.RSC"
+"C:\Symbian\7.0s\Series60_v21_CW\Epoc32\release\armi\urel\YToolsRecocnizer0.dll"	-"!:\system\libs\plugins\YToolsRecocnizer0.dll"
+
+"C:\Symbian\7.0s\Series60_v21_CW\Epoc32\data\z\system\libs\plugins\20007145.RSC"	-"!:\system\libs\plugins\20007145.RSC"
+"C:\Symbian\7.0s\Series60_v21_CW\Epoc32\release\armi\urel\YToolsRecocnizer1.dll"	-"!:\system\libs\plugins\YToolsRecocnizer1.dll"

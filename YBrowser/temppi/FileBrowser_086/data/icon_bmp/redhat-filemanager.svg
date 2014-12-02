@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+<defs>
+<linearGradient id="linearGradient3085">
+<stop offset="0.0000000" style="stop-color:#675e4f;stop-opacity:1.0000000;"/>
+<stop offset="1.0000000" style="stop-color:#1f1f1f;stop-opacity:1.0000000;"/>
+</linearGradient>
+<linearGradient id="linearGradient2368">
+<stop style="stop-color:#ffffff;stop-opacity:1;" offset="0"/>
+<stop style="stop-color:#ffffff;stop-opacity:0;" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2182">
+<stop style="stop-color:#000000;stop-opacity:1;" offset="0"/>
+<stop style="stop-color:#000000;stop-opacity:0;" offset="1"/>
+</linearGradient>
+<radialGradient xlink:href="#linearGradient2182" cx="25.357143" cy="36.500000" fx="25.357143" fy="36.500000" r="14.714286" gradientTransform="matrix(1.000000,0.000000,0.000000,0.500000,1.183732e-15,18.25000)" gradientUnits="userSpaceOnUse"/>
+<linearGradient xlink:href="#linearGradient2368" id="linearGradient2374" x1="14.680550" y1="7.2187386" x2="23.314856" y2="29.538021" gradientUnits="userSpaceOnUse"/>
+<linearGradient gradientUnits="userSpaceOnUse" y2="19.168869" x2="25.249994" y1="23.568451" x1="25.249994" id="linearGradient3091" xlink:href="#linearGradient3085"/>
+<linearGradient gradientTransform="translate(3.000000e-7,13.11256)" y2="19.168869" x2="25.249994" y1="23.568451" x1="25.249994" gradientUnits="userSpaceOnUse" id="linearGradient3095" xlink:href="#linearGradient3085"/>
+</defs>
+<metadata/>
+<g>
+<rect style="opacity:0.2;color:black;fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" width="37.299885" height="6.1871843" x="6.5407376" y="40.398602" rx="3.0935922" ry="3.0935922"/>
+<path style="fill:#736b5f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 10.128886,11.163101 L 10.128886,43.223766 L 40.121121,43.223766 L 40.121121,11.163101 L 35.984261,7.0262414 L 14.265746,7.0262414 L 10.128886,11.163101 z "/>
+<path style="fill:#c7c3bc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 14.849242,8.2252435 L 11.126209,12.041107 L 12.314694,12.291107 L 38.129165,12.291107 L 39.13015,12.041107 L 35.266951,8.2252435 L 14.849242,8.2252435 z "/>
+<rect ry="0.9285714" rx="0.9285714" y="28.82843" x="14.750001" height="10.055458" width="21" style="opacity:1;color:#000000;fill:#acacac;fill-opacity:1;fill-rule:evenodd;stroke:#acacac;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans"/>
+<rect style="opacity:1;color:#000000;fill:#736b5f;fill-opacity:1;fill-rule:evenodd;stroke:#3d3932;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans" width="21" height="10.055458" x="14.573224" y="28.474876" rx="0.9285714" ry="0.9285714"/>
+<path d="M 11.68055,12.062494 L 11.68055,41.652758 L 38.569426,41.652758 L 38.569426,12.062494 L 35.16665,8.6597185 L 15.083327,8.6597185 L 11.68055,12.062494 z " style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient2374);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+<rect style="opacity:1;color:#000000;fill:#acacac;fill-opacity:1;fill-rule:evenodd;stroke:#acacac;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans" width="21" height="10.055458" x="14.750001" y="15.71586" rx="0.9285714" ry="0.9285714"/>
+<rect ry="0.9285714" rx="0.9285714" y="15.362308" x="14.573224" height="10.055458" width="21" style="opacity:1;color:#000000;fill:#736b5f;fill-opacity:1;fill-rule:evenodd;stroke:#3d3932;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans"/>
+<rect style="opacity:1;color:#000000;fill:url(#linearGradient3091);fill-opacity:1;fill-rule:evenodd;stroke:#3d3932;stroke-width:0.99999923px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans" width="6.7473836" height="3.8216934" x="21.743721" y="21.56922" rx="0.28662863" ry="0.33735332"/>
+<rect ry="0.33735332" rx="0.28662863" y="34.681808" x="21.743721" height="3.8216934" width="6.7473836" style="opacity:1;color:#000000;fill:url(#linearGradient3095);fill-opacity:1;fill-rule:evenodd;stroke:#3d3932;stroke-width:0.99999923px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans"/>
+</g>
+</svg>

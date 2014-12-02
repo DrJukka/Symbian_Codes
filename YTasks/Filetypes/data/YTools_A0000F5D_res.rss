@@ -1,0 +1,410 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	All right Reserved
+*/
+
+NAME YT05
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+#include <CommonDialogs.hrh>
+#include <CommonDialogs.rh>
+
+
+#include "YTools_A0000F5D.hrh"
+
+
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF r_default_document_name { buf=""; }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    menubar = r_main_menubar;
+    cba = r_main_cba;
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_main_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_main_menu;}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_PANE r_main_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EMapFileType;  				txt = "Map to new app.";},
+	  	MENU_ITEM {command = ERemoveMap;  					txt = "Set to default Mapping";},
+		MENU_ITEM {command = EShowFT;	  					txt = "Show file type";},
+		MENU_ITEM {command = EMyOwnFT;	  					txt = "My file types";},
+		MENU_ITEM {command = EAbout;						txt = "About";},
+		MENU_ITEM {command = EAppHelp;						txt = "Help";},
+		MENU_ITEM {command = EAknSoftkeyExit;				txt = "Exit";}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+
+RESOURCE MENU_BAR r_show_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_showstring_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_showstring_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = ESSCopyClipBoard;				txt = "Copy to clipboard";}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_applist_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_applist_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_applist_menu
+    {
+    items = 
+        {
+        MENU_ITEM {command = ESelectApp;  		txt = "Select";},
+	  MENU_ITEM {command = EShowInfo;  			txt = "Show info";},
+	  MENU_ITEM {command = ELaunchApp; 			txt = "Launch";}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_mytype_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_mytype_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_mytype_menu
+    {
+    items = 
+        {
+        MENU_ITEM {command = EMyTypeNew;  		txt = "Add New";},
+	  MENU_ITEM {command = EMyTypeMod; 			txt = "Modify";},
+	  MENU_ITEM {command = EMyTypeDel; 			txt = "Delete";}
+        };
+    }
+
+
+// ---------------------------------------------------------
+//			CBA
+// ---------------------------------------------------------
+//
+
+RESOURCE CBA R_APPHELP_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAppHelpBack; 
+		txt = "Back"; 
+	}
+  };
+}
+
+RESOURCE CBA r_main_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = "Options";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EBacktoYTasks; 
+		txt = "Back"; 
+	}
+  };
+} 
+
+RESOURCE CBA r_mytype_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = "Options"; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EMyTypeBack; 
+		txt = "Back"; 
+	}
+  };
+}  
+
+RESOURCE CBA r_show_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = "Options"; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = ESSBack; 
+		txt = "Back"; 
+	}
+  };
+}  
+RESOURCE CBA r_applist_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyOptions;
+			txt= "Options";
+		},
+		CBA_BUTTON
+		{
+			id=EAppListBack;
+			txt= "Back";
+		}
+	};
+}
+
+RESOURCE CBA r_myset_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=ESettingsOk;
+			txt= "Back";
+		},
+		CBA_BUTTON
+		{
+			id=ESettingsBack;
+			txt= "Back";
+		}
+	};
+}
+
+
+// ---------------------------------------------------------
+//			Dialogs
+// ---------------------------------------------------------
+//
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_wait_note_softkey_cancel
+    {
+    flags = EAknWaitNoteFlags | EEikDialogFlagNotifyEsc;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EYBWaitNoteId;
+            control= AVKON_NOTE 
+                { 
+                layout = EWaitLayout;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EProgressNoteId;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label ="Processing";
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG R_ASK_NAME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 50; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_about_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "Test";
+			};
+		}
+	};
+}
+//************************ Settings ***************************
+
+
+RESOURCE AVKON_SETTING_ITEM_LIST r_mytype_setting
+    {
+
+    items =
+        {
+	AVKON_SETTING_ITEM
+            {
+            identifier = ETypType;
+            setting_page_resource = r_type_setting_page;
+            name = "Type";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ETypTypeId;
+            setting_page_resource = r_typeid_setting_page;
+            name = "TypeId";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ETypEntension;
+            setting_page_resource = r_extension_setting_page;
+            name = "Extension";
+            }
+        };
+    }
+
+
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_type_setting_page
+     {
+    number = 1;
+    label = "Type";
+    type = EEikCtEdwin;
+    editor_resource_id = r_imei_edwin;
+    }
+
+RESOURCE AVKON_SETTING_PAGE r_typeid_setting_page
+     {
+    number = 1;
+    label = "TypeId";
+    type = EEikCtEdwin;
+    editor_resource_id = r_imei_edwin;
+    }
+
+RESOURCE AVKON_SETTING_PAGE r_extension_setting_page
+     {
+    number = 1;
+    label = "Extension";
+    type = EEikCtEdwin;
+    editor_resource_id = r_imei_edwin;
+    }
+
+RESOURCE EDWIN r_imei_edwin
+    {
+    width = 9;
+    lines = 5;
+    maxlength = 150;
+	default_input_mode = EAknEditorTextInputMode;
+	allowed_input_modes = EAknEditorAllInputModes;
+    }
+
+
+

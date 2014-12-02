@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opzioni"
+#define ktx_cmd_exit 				"Esci"
+#define ktx_cmd_cancel 				"Annula"
+#define ktx_cmd_save 				"Salva"
+#define ktx_cmd_select 				"Seleziona"
+
+#define ktx_cmd_about				"Informazioni"
+#define ktx_cmd_visit				"Visita m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nuovo"
+#define ktx_mnu_Modify 				"Modifica"
+#define ktx_mnu_Remove 				"Elimina"
+
+
+#define ktx_mnu_Savmsgs				"Messaggi salvati"
+#define ktx_mnu_ContSend			"Mittente dai contatti"
+
+#define ktx_sh_str_sndName	 		"Nome mittente"
+#define ktx_sh_str_sndNumber	 	"Numero mittente"
+#define ktx_sh_str_Message		 	"Messaggio"
+#define ktx_sh_str_sndTime		 	"Ora di invio"
+#define ktx_sh_str_sndDate		 	"Data di invio"
+
+
+#define ktx_str_REMMESSAGE 			"Eliminare il messaggio?"
+
+
+#define ktx_cmd_help				"Aiuto"
+#define ktx_cmd_Back				"Indietro"
+
+#define ktx_str_HELP1 				"Questa applicazione si usa per simulare l'arrivo di falsi messaggi SMS, che possono essere schedulati per il futuro oppure se schedulati per il passato saranno inviati alla chiusura dell'applicazione con la data nel passato."
+#define ktx_str_HELP2 				"Per creare un nuovo messaggio, scegli Nuovo dal menu Opzioni, imposta il nome mittente e il numero (o sceglili dai contatti tramite il menu Opzioni), scrivi il messaggio (o usane uno precedentemente salvato), imposta l'orario di intio e la data e seleziona l'opzione di menu Salva per salvarlo nel database."
+#define ktx_str_HELP3 				"Dopo aver composto il messaggio, lo stesso sara' visibile nella vista principale. Tramite questa lista puoi usare il menu Opzioni per aprire il messaggio e modificarlo oppure cancellarlo."
+#define ktx_str_HELP4 				"Nota che i nuovi messaggi sono schedulati come anche quelli esistenti solo dopo la chiusura dell'applicazione. La schedulazione attuale e' gestita da una applicazione che funziona autonomamente e che e' invocata quando il dispositivo viene acceso. Nessuna schedulazione viene operata quando il dispositivo e' spento."
+
+

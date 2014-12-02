@@ -1,0 +1,58 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Valinnat"
+#define ktx_cmd_exit 			"Poistu"
+#define ktx_cmd_Cancel			"Peruuta"
+
+
+#define ktx_cmd_Disable			"Poista käytöstä"
+#define ktx_cmd_Enable			"Ota käyttöön"
+
+#define ktx_cmd_about			"Tietoja sovelluks."
+#define ktx_cmd_New				"Uusi"
+#define ktx_cmd_Modify			"Muokkaa"
+#define ktx_cmd_Remove			"Poista "
+#define ktx_cmd_Randomthes		"Satunnaiset profiilit"
+#define ktx_cmd_Profiles		"Profiilit"
+
+#define ktx_cmd_Stop			"Pysäytä"
+#define ktx_cmd_Save			"Tallenna"
+
+
+#define ktx_cmd_VisitJukka		"Vieraile m.DrJukka.com:issa"
+
+#define ktx_sh_str_DISABLED		"<pois käytöstä>"
+#define ktx_sh_str_RANDOM		"Satunnainen"
+#define ktx_sh_str_PROFFILLE2	"Profiili"
+#define ktx_sh_str_REMOVESCHED	"Poista aikataulu ?"
+#define ktx_sh_str_ACTIVEON		"Päällä"
+
+#define ktx_sh_str_NONAME		"nimeämätön"
+#define ktx_sh_str_SELECTPROF	"Valitse profiili"
+
+#define ktx_sh_str_SETONTIME	"Päälle"
+
+
+#define ktx_sh_str_WORKDAYA		"Työpäivinä"
+#define ktx_sh_str_NONWORKD		"Vapaapäivinä"
+#define ktx_sh_str_EVERYDAY		"Jokapäivä"
+#define ktx_sh_str_MONDAYS		"Maanantaisin"
+#define ktx_sh_str_TUESDAYS		"Tiistaisin"
+#define ktx_sh_str_WEDNESDAYS	"Keskiviikkoisin"
+#define ktx_sh_str_THURSDAYS	"Torstaisin"
+#define ktx_sh_str_FRIDAYS		"Perjantaisin"
+#define ktx_sh_str_SATURDAYS	"Lauantaisin"
+#define ktx_sh_str_SUNDAYS		"Sunnuntaisin"
+
+#define ktx_cmd_Help			"Ohjeet"
+#define ktx_cmd_Back			"Takaisin"
+
+#define ktx_str_HELP1			"Tämän ohjelman tarkoituksena on toimia profiilien vaihdon ajastimena. Valitse uusi valinta valinnoista uuden ajastetun aikataulun tekemiseksi."
+#define ktx_str_HELP2			"Profiili aikataulujen asetuksista Päällä asetuksella määritellään milloin valittu profiili laitetaan päälle. Ja profiili asetuksella voidaan määritellä haluttu profiili. Huomio että Satunnaiset profiilit asetus toimii vain jos satunnaiset profiilit listaan on määritelty profiileja."
+#define ktx_str_HELP3			"Muokattu tai uusi aikataulu tallenetaan Tallenna valinnalla. Tallentamisen jälkeen aikataulu näkyy listassa. Tästä listasta aikatauluja voi poistaa Poista valinalla, sekä tilapäisesti poistaa käytöstä Poista käytöstä / Ota käyttöön valinnoilla. Muokkaa valinnalla voi aikatauluja myös muokata."
+#define ktx_str_HELP4			"Huomio myös että aikataulujen ajastus tapahtuu tausta prosessin avulla, tausta processi käynnistyy myös automaattisesti puhelinta käynnistettäessä, mikäli ainakin yksi aikataulu on käytössä. Huomio myös että aikataulujen muutokset päivitetään taustaprosessiin vasta kun pääohjelmasta poistutaan."
+

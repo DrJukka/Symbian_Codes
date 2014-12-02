@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Nastavení"
+#define ktx_cmd_Exit			"Konec"
+#define ktx_cmd_Cancel			"Zrušit"
+#define ktx_cmd_Back			"Zpět"
+
+#define ktx_cmd_Disable			"Zakázat"
+#define ktx_cmd_Enable			"Povolit"
+
+#define ktx_cmd_About			"O programu"
+
+#define ktx_cmd_Select			"Vybrat"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Změnit"
+#define ktx_cmd_Done			"Hotovo"
+#define ktx_cmd_Play			"Spustit"
+#define ktx_cmd_Stop			"Zastavit"
+#define ktx_cmd_Save			"Uložit"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" h "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Denně"
+#define ktx_Wordays				"Prac. dny"
+
+
+#define ktx_mnu_Newalarm			"Nový"
+#define ktx_mnu_Resetalarm			"Úprava"
+#define ktx_mnu_Removealarm			"Odstranit"
+#define ktx_mnu_SetAlarmSounds		"Nastavit zvuky alarmu"
+#define ktx_mnu_SetWorkdays			"Nastavit prac. dny"
+#define ktx_mnu_Update				"Update"
+
+#define ktx_mnu_Changevalue			"Změnit hodnotu"
+
+#define ktx_str_Repeat				"Opakovat"
+#define ktx_str_Daily				"Denně"
+#define ktx_str_Workdays			"Prac. dny"
+#define ktx_str_InNext24			"V následujících 24"
+#define ktx_str_Once				"Jednou"
+
+#define ktx_str_Time				"Čas"
+#define ktx_str_Date				"Datum"
+
+#define ktx_str_Type				"Typ"
+#define ktx_str_Clockalarm			"Alarm hodin"
+#define ktx_str_Calendaralarm		"Alarm kalendáře"
+#define ktx_str_Message				"Zpráva"
+#define ktx_str_Snooze				"Odložení"
+
+#define ktx_str_Settime				"Nastav čas"
+#define ktx_str_Setdate				"Nastav datum"
+#define ktx_str_Setmessage			"Nastav zprávu"
+		
+#define ktx_str_AlarmDueIn			"Příští alarm v "
+#define ktx_str_GoJukka				"Přejít na m.DrJukka.com"
+
+#define ktx_cmd_Help				"Nápověda"
+
+#define ktx_cmd_Help1				"Tato aplikace je navržena pro doplnění funkce více alarmů s možností opakování pro ty přístroje, které tuto možnost původně nemají."
+#define ktx_cmd_Help2				"Nový alarm se přidává volbou Nový. V otevřeném rozhraní může být nastaveno opakování, čas a zpráva pro alarm. Typ alarmu určuje který zvuk se ozve. Zvolte Hotovo pro uložení alarmu."
+#define ktx_cmd_Help3				"Volba Úprava se používá pro nové nastavení vybraného alarmu, volba Ostranit pro ostranení a Povolit/Zakázat se používá pro dočasné vypnutí alarmu."
+#define ktx_cmd_Help4				"Volbou Nastavit zvuky alarmu mohou být nastaveny zvukové soubory pro alarm. Volba Odložení určuje čas odložení v minutách. Některá zařízení ale tuto volbu ignorují a použijí výchozí hodnotu."
+#define ktx_cmd_Help5				"Pomocí nastavení pracovních dnů lze měnit jejich rozsah. Toto nastavení určuje dny, ve kterých jsou aktivní alarmy s nastavením Prac. dny."
+
+
+
+

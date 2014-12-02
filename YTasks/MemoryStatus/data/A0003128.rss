@@ -1,0 +1,81 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	All right reserved
+*/
+#include <ecom\RegistryInfo.rh>
+#include "Definitions.h"
+
+#ifdef SONE_VERSION
+	RESOURCE REGISTRY_INFO
+	{
+		dll_uid = 0x2002B0A3; // third UID in the mmp file
+		interfaces = 
+		{
+			INTERFACE_INFO
+			{
+				interface_uid = 0x2002B09F;// static YTasks Handler UID
+				implementations =
+				{
+					IMPLEMENTATION_INFO
+					{
+						implementation_uid = 0x3128;// implementation UID, returned with interface
+						version_no=1;
+						display_name="Memory status";
+						default_data="";
+						opaque_data="<YTASKS><VERSION>050</VERSION><ICONFILE>\system\data\2002B09F\2002B0A3\icons.mif</ICONFILE></YTASKS>";
+					}
+				};
+			}
+		};
+	}
+#else
+	#ifdef LAL_VERSION
+		RESOURCE REGISTRY_INFO
+		{
+			dll_uid = 0xA0003128; // third UID in the mmp file
+			interfaces = 
+			{
+				INTERFACE_INFO
+				{
+					interface_uid = 0x20009999;// static YTasks Handler UID
+					implementations =
+					{
+						IMPLEMENTATION_INFO
+						{
+							implementation_uid = 0x3128;// implementation UID, returned with interface
+							version_no=1;
+							display_name="Memory status";
+							default_data="";
+							opaque_data="<YTASKS><VERSION>050</VERSION><ICONFILE>\system\data\A000257B\A0003128\icons.mif</ICONFILE></YTASKS>";
+						}
+					};
+				}
+			};
+		}
+	#else
+		RESOURCE REGISTRY_INFO
+		{
+			dll_uid = 0xA0003128; // third UID in the mmp file
+			interfaces = 
+			{
+				INTERFACE_INFO
+				{
+					interface_uid = 0x20009999;// static YTasks Handler UID
+					implementations =
+					{
+						IMPLEMENTATION_INFO
+						{
+							implementation_uid = 0x3128;// implementation UID, returned with interface
+							version_no=1;
+							display_name="Memory status";
+							default_data="";
+							opaque_data="<YTASKS><VERSION>050</VERSION><ICONFILE>\system\data\A000257B\A0003128\icons.mif</ICONFILE></YTASKS>";
+						}
+					};
+				}
+			};
+		}
+	#endif
+#endif
+
+

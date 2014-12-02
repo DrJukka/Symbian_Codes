@@ -1,0 +1,28 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"YTools: Pk-Zip"},(0xA0000F6E),0,89,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;zip stuff
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YToolsZipper.dll"			-"!:\sys\bin\YToolsZipper.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YToolsZipper.rsc"	-"!:\Resource\Plugins\YToolsZipper.rsc"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YToolsZipperUI_res.RSC"  -"!:\resource\apps\YToolsZipperUI_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YToolsZipperUI.dll"		-"!:\sys\bin\YToolsZipperUI.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YToolsZipperUI.rsc"	-"!:\Resource\Plugins\YToolsZipperUI.rsc"
+
+"..\YToolZipper\ZipperUI\data\Zip_icons.mbm"	-"!:\system\data\A00007A6\A0000F6E\icons.mbm"
+
+

@@ -1,0 +1,346 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Prapa"
+#define ktx_cmd_Options			"Zgjedhjet"
+#define ktx_cmd_Exit			"Dil"
+#define ktx_cmd_Save			"Ruaj"
+#define ktx_cmd_Cancel			"Anullo"
+#define ktx_cmd_Delete			"Fshij"
+
+#define ktx_cmd_Select			"Zgjidh"
+#define Ktx_sh_str_SortBy		"Rradhit sipas"	
+
+#define ktx_mnu_setserchoff		"Fike kërkimin"
+#define ktx_mnu_File			"Fisha"
+#define ktx_mnu_Edit			"Ndrysho"
+#define ktx_mnu_Mark			"Shenjo"
+#define ktx_mnu_Searchfiles		"Kërko fisha"
+#define ktx_mnu_Extras			"Të tjera"
+#define ktx_mnu_About			"Informacion"
+#define ktx_mnu_commandSC		"Shkurtimet e komandave"
+#define ktx_mnu_ShowSC			"Shfaq shkurtimet"
+#define ktx_mnu_SetSC			"Cakto shkurtimet"
+#define ktx_mnu_Searchon			"Ndiz kërkimin"
+#define ktx_mnu_Settings			"Parametrat"
+#define ktx_mnu_switchlo			"Ndrysho pamjen"
+#define ktx_mnu_changeic			"Ndrysho ikonat"
+#define ktx_mnu_refresh			"Ri-fresko"
+#define ktx_mnu_munmark			"Shenjo/Ç'shenjo"
+#define ktx_mnu_Markall			"Shenjo të gjitha"
+#define ktx_mnu_Unmarkall		"Ç'shenjo të gjitha"
+#define ktx_mnu_Openwith		"Hap me"
+#define ktx_mnu_Open			"Hap"
+#define ktx_mnu_Send			"Dërgo"
+#define ktx_mnu_Properties		"Të dhënat"
+#define ktx_mnu_Attributes		"Cilësitë"
+#define ktx_mnu_Delete			"Fshij"
+#define ktx_mnu_Rename			"Ri-emëro"
+#define ktx_mnu_ShowName			"Shfaq Emrin"
+#define ktx_mnu_Newfile			"Fishë e re"
+#define ktx_mnu_Newfolder		"Dosje e re"
+#define ktx_mnu_Copy			"Kopjo"
+#define ktx_mnu_Cut			"Prite"
+#define ktx_mnu_Paste			"Ngjite"
+#define ktx_mnu_pastenfile		"Ngjite si fishë e re"
+#define ktx_mnu_pasteshow		"Shfaq fishat për ngjitje"
+#define ktx_mnu_pasteclear		"Pastro fishat për ngjitje"
+#define ktx_mnu_Done			"U krye"
+#define ktx_mnu_addsel			"Shto te përzgjedhjet"
+#define ktx_mnu_selshow			"Shfaq përzgjedhjet"
+#define ktx_mnu_cpyclipp			"Kopjo përkohësisht"
+#define ktx_mnu_Startsearch		"Fillo kërkimin"
+#define ktx_mnu_nckresulyts		"Kthehu te rezultatet"
+#define ktx_mnu_resultclear		"Pastro rezultatet"
+#define ktx_mnu_showseltyp		"Shfaq tipet e përzgjedhura"
+#define ktx_mnu_clearcond		"Pastro kushtin"
+#define ktx_mnu_gtofolder		"Shko te dosja"
+#define ktx_mnu_PAGEUP			"Faqja lart"
+#define ktx_mnu_PAGEDOWN		"Faqja poshtë"
+
+#define ktx_sh_str_Processing		"Po përpunon"
+#define ktx_sh_str_selfiltyp		"Përzgjidh tipet e fishave"
+#define ktx_sh_str_date			"data"
+#define ktx_sh_str_time			"ora"
+
+//settings.
+#define ktx_sh_str_System		"Sistemi"	
+#define ktx_sh_str_Hidden		"E fshehur"
+#define ktx_sh_str_Readonly		"E lexueshme vetëm"
+#define ktx_sh_str_Modifyingdate	"Data e modifikimit"
+#define ktx_sh_str_Modifyingtime	"Ora e modifikimit"
+#define ktx_sh_str_showall		"Shfaq gjithë fishat"
+#define ktx_sh_str_Sortorder		"Rendi i rradhitjes"	
+#define ktx_sh_str_Foldersfirst	"Dosjet në fillim"
+#define ktx_sh_str_speedoptimize	"Ruaj informacion për dosjen"
+#define ktx_sh_str_Recognizefiles	"Dallo fishat"
+#define ktx_sh_str_savepathonexit	"Ruaj adresën në dalje"
+#define ktx_sh_str_exitaks		"Pyet në dalje"
+#define ktx_sh_str_Off			"Fikur"
+#define ktx_sh_str_On			"Ndezur"
+#define ktx_sh_str_No			"Jo"
+#define ktx_sh_str_Yes			"Po"
+#define ktx_sh_str_Decending		"Zbritës"
+#define ktx_sh_str_Ascending		"Ngjitës"
+#define ktx_sh_str_Name			"Emri"
+#define ktx_sh_str_Fileextension	"Prapashtesa e fishës"
+#define ktx_sh_str_Filetype		"Tipi i fishës"
+#define ktx_sh_str_Size			"Masa"
+#define ktx_sh_str_Path			"Adresa"
+#define ktx_sh_str_Filename		"Emri i fishës"
+#define ktx_sh_str_Biggerthan		"Më e madhe se"
+#define ktx_sh_str_Smallerthan	"Më e vogël se"
+#define ktx_sh_str_Modifiedbefore	"Modifikuar përpara"
+#define ktx_sh_str_Modifiedafter	"Modifikuar pas"
+#define ktx_sh_str_types		" tipe(t)"
+#define ktx_sh_str_Excludetypes	"Përjashto tipet"
+#define ktx_sh_str_Includetypes	"Përfshi tipet"
+#define ktx_sh_str_Fileattributes	"Cilësitë e fishave"
+
+#define ktx_sh_str_formatName		"Emri\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Lirë\t%d Kb"
+#define ktx_sh_str_formatUsed		"Përdorur\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Masa\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Masa\t%d Bytes"		
+#define ktx_sh_str_formatType		"Tipi\t%S"
+#define ktx_sh_str_formatFiles	"Fishat\t%d"	
+#define ktx_sh_str_formatFolders	"Dosjet\t%d"
+#define ktx_sh_str_formatTypeID	"TipiID\t%S"	
+#define ktx_sh_str_atrWProt		"Cilës\tPashkrueshme"
+#define ktx_sh_str_atrLocked		"Cilës\tKyçur"
+#define ktx_sh_str_atrFormattable	"Cilës\tFormatueshme"
+#define ktx_sh_str_atrVarSize		"Cilës\tMasë e ndryshueshme"
+#define ktx_sh_str_atrROM		"Cilës\tROM"
+#define ktx_sh_str_atrRemovable	"Cilës\tHeqshme"
+#define ktx_sh_str_atrtHidden		"Cilës\tFshehur"
+#define ktx_sh_str_atrReadonly	"Cilës\tLexueshme vetëm"
+#define ktx_sh_str_atrSystem		"Cilës\tSistemi"
+#define ktx_sh_str_atrVolume		"Cilës\tVolum"
+#define ktx_sh_str_atrArchive		"Cilës\tArkivë"
+
+#define ktx_sh_str_Notpresent		"Jo i pranishëm"
+#define ktx_sh_str_Floppy		"Disketë"
+#define ktx_sh_str_HardDisk		"HardDisk"
+#define ktx_sh_str_CdRom		"CdRom"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Në distancë"
+#define ktx_sh_str_Unknown		"I panjohur"
+#define ktx_sh_str_SCTITLE		"Shkurtimet: Shift+/Pen+"
+#define ktx_sh_str_FREE			"<i lirë>"
+#define ktx_sh_str_Root			"Rrënja"
+#define ktx_sh_str_Selected		"Përzgjedhur"
+#define ktx_sh_str_Cutfiles		"Priti fishat"
+#define ktx_sh_str_CopyFiles		"Kopjo fishat"
+#define ktx_sh_str_COPYINGFF		"Po kopjon %S te %S"
+#define ktx_sh_str_MOVINGFF		"Po zhvendos %S te %S"
+#define ktx_sh_str_RENAMINGFF		"Po riemëron %S te %S"
+#define ktx_sh_str_DELETINGFF		"Po fshin %S"	
+#define ktx_sh_str_EXISTREPLACE	" egziston, ta zëvendësoj?"
+#define ktx_sh_str_ISROMODIFY		" është e lexueshme vetëm, të ndryshoj cilësitë?"
+#define ktx_sh_str_ALREDYEXIST	" egziston tashmë"
+#define ktx_sh_str_ISOPEN		" është në përdorim"
+#define ktx_sh_str_ISREADONLY		" është e lexueshme vetëm"
+#define ktx_sh_str_ACCDENIED		" Ndalohet ndërhyrja"
+#define ktx_sh_str_DISKFULL		"Disku është i mbushur"
+#define ktx_sh_str_DISCKNOTREADY	"Disku mungon/s'është gati"
+#define ktx_sh_str_CORRDISCK		"Disku është i korruptuar"
+#define ktx_sh_str_INVALIDNAME	" është emër i pavlefshëm"
+#define ktx_sh_str_NOTMEMFORFF	"S'ka memorje të mjaftueshme për "
+#define ktx_sh_str_OPERFAILED		"Veprimi në \"%S\" dështoi: Gabim %d"
+#define ktx_sh_str_NEWFILE		"Fishë e re:"
+#define ktx_sh_str_SENDUI		"Dërgo UI"
+#define ktx_sh_str_SENDFFVIA		"Dërgo fishat me"
+#define ktx_sh_str_SELAPPLICATION	"Përzgjidh programin"
+#define ktx_sh_str_OPENFILE		"Hap fishën"
+#define ktx_sh_str_ANDATRIBS		"\'Dhe\'cilësitë"
+#define ktx_sh_str_SEARCFOR		"Linja e kërkimit"
+#define ktx_sh_str_SELFILETYPES	"Përzgjidh tipet e fishave"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bytes"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" DHE "
+#define ktx_sh_str_OR			" OSE "
+#define ktx_sh_str_SYS			"sis."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" fishë(a) u gjetën"
+#define ktx_sh_str_FOUNDENDDDD	"%d fishë(a) u gjetën në %d  sekond(a)"
+
+#define ktx_sh_str_SELCOMMAND		"Përzgjidh komandën"
+#define ktx_sh_str_NOTSET		"Nuk u caktua"
+#define ktx_sh_str_SELICONFF		"Përzgjidh fishën e ikonës"
+
+#define ktx_sh_str_READINGFF		"Po lexon %d / %d"
+#define ktx_str_FILREADERR		"Leximi i fishave mund të jetë i paplotë, gabim: %d"
+#define ktx_str_FILNOTFOND		"Fisha nuk u gjet"
+#define ktx_str_NOAPPFORFIL		"Nuk u gjet program për hapjen e fishës"
+#define ktx_str_SAVESEARCH		"Të ruaj rezultatet e kërkimit të fundit ?"
+#define ktx_str_SELSCNUMBER		"Përzgjidh numrin e shkurtimit"
+#define ktx_str_REBOOTICON		"Ikonat ndryshuan, telefoni/Y-browser mund të duhet të ri-startohet në mënyrë që të shfaqen ikonat"
+#define ktx_str_PASTEFTOFOL		"Të ngjis %d fisha(t) në këtë dosje ?"
+#define ktx_str_DELFOILES		"Fshij %d Fisha"
+#define ktx_str_NEWNAME 		"Emri i ri :"
+#define ktx_str_FDERNAME		"Emri i dosjes :"
+#define ktx_str_ERRCREATEFLDR		"Nuk mund të krijoj dosje, Gabim#: "
+#define ktx_str_FDREXISTS		"Dosja egziston tashmë, jep emër të ri."
+#define ktx_str_APPENDLIST		"Shto te lista"
+#define ktx_str_FILESADCY		"%d fisha(t) u shtuan për kopjim/prerje"
+#define ktx_str_PASTEWILLREM		"Ngjitja nuk do zhvendosë %d fisha(t)."
+#define ktx_str_FORSECOPY		"Nuk mund ta mbyll fishën në burim, të kopjoj gjithsesi?"
+#define ktx_str_STARTNEWSCRH		"Të nis Kërkim të ri?"
+#define ktx_str_RESETSEARCH		"Të rivendos parametrat e kërkimit ?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Shenjo me yll/kod" // Mark menu item
+#define ktx_mnu_MarkInverse		"Përmbys përzgjedhjen"   // Mark menu item
+
+#define ktx_sh_str_General		"Të përgjithshme"//- setting
+
+#define ktx_sh_str_fullscreen		"Gjithë ekrani" // main settings item
+
+#define ktx_sh_str_NOFILES		"S'ka fisha"   // no files in browser
+
+#define ktx_mnu_typassociation	"Shoqërimi i fishave" //settins select item list
+#define ktx_sh_str_plugins		"Plug-ins" //settins select item list
+
+#define ktx_sh_str_Own			"Më vehte"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Hiq tipin e fishës" //file associations
+
+#define ktx_mnu_Modify			"Modifiko"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Shto tipin e fishës"	// menu file associations
+#define ktx_mnu_Remfiltyp		"HIq tipin e fishës"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Hiq prapashtesat"	// menu file associations settings
+#define ktx_mnu_AddExt			"Shto prapashtesë"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Ndrysho prog. përgjegjës"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Ndrysho emrin e tipit"	// menu file associations settings
+#define ktx_mnu_Reset			"Rivendos"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Programi përgjegjës"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Prog. përgjegjës" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Prog. njohëse" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Aktivizo" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Ç'aktivizo" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Shfaq info" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Emri: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Status: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Ç'aktivizuar" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Aktivizuar" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Versioni i Plug-in:  " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (versioni Ok)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (versioni nuk përputhet)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Tipi i Plug-in: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Prog. përgjegjës i fishës" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Dërguesi i fishës" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Marrësi i fishës" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Dosja e fishave" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Hap me prog. përgjegjës" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Njohësi i fishës" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Tip(e) fishash që njihen:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Njeh fisha të reja)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Shto tipe fishash"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Përzgjidh për të hequr"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Tipe fishash"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Program i panjohur për fisha"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+

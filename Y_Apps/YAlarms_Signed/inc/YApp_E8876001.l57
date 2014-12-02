@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"אפשרויות"
+#define ktx_cmd_Exit			"צא"
+#define ktx_cmd_Cancel			"ביטול"
+#define ktx_cmd_Back			"חזור"
+
+#define ktx_cmd_Disable			"הפסק"
+#define ktx_cmd_Enable			"הפעל"
+
+#define ktx_cmd_About			"אודות"
+
+#define ktx_cmd_Select			"בחר"
+
+#define ktx_cmd_Ok				"כן"
+#define ktx_cmd_Change			"שנה"
+#define ktx_cmd_Done			"בוצע"
+#define ktx_cmd_Play			"נגן"
+#define ktx_cmd_Stop			"עצור"
+#define ktx_cmd_Save			"שמור"
+
+#define ktx_JustD				" ד' "
+#define ktx_JustH				" ש' "
+#define ktx_JustMin				" שנ'"
+
+#define ktx_Daily				"יומי"
+#define ktx_Wordays				"ימי עבודה"
+
+
+#define ktx_mnu_Newalarm			"חדש"
+#define ktx_mnu_Resetalarm			"אתחל"
+#define ktx_mnu_Removealarm			"הסר"
+#define ktx_mnu_SetAlarmSounds		"קבע צלצול"
+#define ktx_mnu_SetWorkdays			"קבע ימי עבודה"
+#define ktx_mnu_Update				"עדכן"
+
+#define ktx_mnu_Changevalue			"שנה ערך"
+
+#define ktx_str_Repeat				"חזור"
+#define ktx_str_Daily				"יומי"
+#define ktx_str_Workdays			"ימי עבודה"
+#define ktx_str_InNext24			"תוך 24"
+#define ktx_str_Once				"פעם אחת"
+
+#define ktx_str_Time				"שעה"
+#define ktx_str_Date				"תאריך"
+
+#define ktx_str_Type				"סוג"
+#define ktx_str_Clockalarm			"שעון מעורר"
+#define ktx_str_Calendaralarm		"התראה בתאריך"
+#define ktx_str_Message				"הודעה"
+#define ktx_str_Snooze				"זמזם"
+
+#define ktx_str_Settime				"קבע שעה"
+#define ktx_str_Setdate				"קבע תאריך"
+#define ktx_str_Setmessage			"קבע הודעה"
+		
+#define ktx_str_AlarmDueIn			"צלצול תוך "
+#define ktx_str_GoJukka				"בקר ב: m.DrJukka.com"
+
+#define ktx_cmd_Help				"עזרה"
+
+#define ktx_cmd_Help1				"אפליקציה זו תוכננה לספק ריבוי התרעות עם אפשרויות חזרה למכשירים שבהם אפשרות זו לא קיימת במקור."
+#define ktx_cmd_Help2				"התרעה חדשה נקבעת עם אפשרות חדשה, ובמסך הפתיחה תוכל לקבוע אפשרויות חזרה, זמן ותוכן ההודעה שתופיע. סוג ההתרעה קובע את צלילה. לחץ 'בוצע' כדי לשמור את ההתרעה."
+#define ktx_cmd_Help3				"אפשרות האיתחול מאתחלת את נתוני ההתרעה. מחק - מוחק את ההתרעה, והפסק/הפעל מאפשר הקפאה זמנית של ההתרעה."
+#define ktx_cmd_Help4				"בעזרת \"קבע צליל התרעה\" ניתן לבחור את קובץ הצלצול הרצוי. אפשרות הנודניק מאפשר לקבוע זמן נדנוד בדקות. שים לב שחלק מהמכשירים מתעלמים מאפשרות זו ומשתמשים בערך קבוע מראש."
+#define ktx_cmd_Help5				"בעזרת \"קבע ימי עבודה\" ניתן לשנות את ימי העבודה של הקבועים במכשיר. הגדרות אילו קובעות באילו ימים ההתרעות יהיו פעילות ובאילו לא."
+
+
+
+

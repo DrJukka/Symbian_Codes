@@ -1,0 +1,9 @@
+
+Profile Scheduler is a free Profile scheduler application that allows automated profile changing with timer schduling.
+
+Just open the application by clicking its icon, and select "New shedule" and add the data for the schedule and click "Save".
+
+When you have schedules stored in to the database, you can also use menu options for modifying and deleting them.
+
+ 
+

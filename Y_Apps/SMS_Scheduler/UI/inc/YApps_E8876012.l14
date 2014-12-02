@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Seçenekler"
+#define ktx_cmd_exit 				"Çıkış"
+#define ktx_cmd_cancel 				"İptal"
+
+#define ktx_cmd_Disable				"Devre Dışı"
+#define ktx_cmd_Enable				"Etkin"
+
+#define ktx_cmd_save 				"Kaydet"
+#define ktx_cmd_select 				"Seç"
+
+#define ktx_cmd_about				"Hakkında"
+#define ktx_cmd_visit				"m.DrJukka.com'u ziyaret et"
+
+#define ktx_mnu_New 				"Yeni"
+#define ktx_mnu_Modify 				"Düzenle"
+#define ktx_mnu_Remove 				"Sil"
+
+
+#define ktx_mnu_Savmsgs				"Kayıtlı Mesajlar"
+#define ktx_mnu_ContSend			"Rehberden Alıcı"
+
+#define ktx_sh_str_sndName	 		"İsim"
+#define ktx_sh_str_sndNumber	 	"Numara"
+#define ktx_sh_str_Message		 	"Mesaj"
+#define ktx_sh_str_sndTime		 	"Gönderim Saati"
+#define ktx_sh_str_sndDate		 	"Gönderim Zamanı"
+
+#define ktx_sh_str_DISABLED		"<Etkin Değil>"
+
+#define ktx_str_REMMESSAGE 			"Mesajı Sil?"
+
+#define ktx_sh_str_REPEATS		"Tekrar"
+
+#define ktx_sh_str_ONCE			"Bir kez"
+#define ktx_sh_str_WORKDAYA		"Hafta İçi"
+#define ktx_sh_str_NONWORKD		"Hafta Sonu"
+#define ktx_sh_str_EVERYDAY		"Hergün"
+#define ktx_sh_str_MONDAYS		"Pazartesi"
+#define ktx_sh_str_TUESDAYS		"Salıları"
+#define ktx_sh_str_WEDNESDAYS		"Çarşambaları"
+#define ktx_sh_str_THURSDAYS		"Perşembeleri"
+#define ktx_sh_str_FRIDAYS		"Cumaları"
+#define ktx_sh_str_SATURDAYS		"Cumartesileri"
+#define ktx_sh_str_SUNDAYS		"Pazartesileri"
+
+#define ktx_str_MSGTRUNK		"Mesaj 70 karaktere kısaltılacak. Devam?"
+
+#define ktx_cmd_Back 			"Geri"
+#define ktx_sh_str_HELP			"Yardım"
+#define ktx_sh_str_SMSType		"Mesaj Türü"
+#define ktx_sh_str_Normal		"Normal"
+#define ktx_sh_str_Flash		"FlashSMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Bu uygulama normal hatta Flaş SMS mesajlarını zamanlamak için kullanılır. Sms uzunluğu 160 karakterle ve 70 unicode karakterle sınırlıdır. Unicode kodlama gerekli olduğu zaman otomatik olarak kullanılır."
+#define ktx_str_HELP2			"Flaş mesajlar telefona ulaştığı zaman otomatik olarak açılan Class 0 SMS mesajlarıdır ve sadece kullanıcı istediği zaman telefona kaydedilir."
+#define ktx_str_HELP3			"Yeni zamanlanmış mesaj oluşturmak için menüdeki yeni seçeneği kullanılır. Zamanlanmış mesaj listesine ekledikten sonra Etkin/Devre dışı menüsü kullanılarak zamanlanmış mesaj durdurulabilir veya etkinleştirilebilir. Düzenle menüsü kullanılarak mesaj düzenlenebilir ve sil menüsü kullanılarak silinebilir."
+#define ktx_str_HELP4			"Zamanlanmış SMS mesajları arka planda çalışan bir sunucu ile kontrol edilir ve eğer herhangi bir zamanlanmış SMS varsa o da etkin hale gelir."
+#define ktx_str_HELP5			"Arka planda çalışan uygulama ayrıca telefon açıldığında otomatik olarak çalışmaya başlar. Bütün ayarlama ve zamanlamalar uygulamanın arayüzünü kapatınca etkinleşir."
+
+//Settings Help:
+#define ktx_str_HELP6			"Zamanlanmış SMS mesajı için sadece kontak numarasını, mesajı ve gönderilecek zamanı girmek yeterlidir."
+#define ktx_str_HELP7			"Kontak numarasını seçenekler menüsü aracılığıyla telefonun rehberinden veya direkt yazarak ekleyebilirsiniz."
+#define ktx_str_HELP8			"Mesajları daha sonra kullanmak için kaydedebilirsiniz veya SMS tipini belirleyebilirsiniz. SMS tipi ayarlarında normal SMS veya Flaş SMS ayarları bulunmaktadır."
+#define ktx_str_HELP9			"Zamanlama süresi gönderim zamanı ve saati ayarlamalarından yapılabilir, tekrar ayarlarında seçili günde ve belirlenmiş aralıklarda tekrar mesaj gönderilebilmektedir."
+#define ktx_str_HELP10			"Tekrarlı mesajlar zamanlanmış mesajlar listesinden silinmez, oysa belli bir gün için zamanlanmış mesajlar gönderildikten sonra silinirler."
+
+

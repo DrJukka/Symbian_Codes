@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="64" version="1.0" width="64">
+<defs>
+<radialGradient cx="0.5" cy="0.5" fx="0.25" fy="0.25" id="Shiny" r="0.5">
+<stop offset="0.0" stop-color="#ffffff"/>
+<stop offset="0.5" stop-color="#66cc33"/>
+<stop offset="0.75" stop-color="#339900"/>
+<stop offset="1.0" stop-color="#000000"/>
+</radialGradient>
+</defs>
+<circle cx="32" cy="32" fill="url(#Shiny)" r="30"/>
+</svg>

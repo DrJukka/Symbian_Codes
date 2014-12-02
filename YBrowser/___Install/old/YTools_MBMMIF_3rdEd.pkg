@@ -1,0 +1,28 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"YTools: MBM/MIF Viewer"},(0xA0000F65),0,79,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;zip stuff
+"C:\Symbian\9.1\S60_3rd\\epoc32\release\gcce\urel\YToolsMBM_MIFRec.dll"			-"!:\sys\bin\YToolsMBM_MIFRec.dll"
+"C:\Symbian\9.1\S60_3rd\\epoc32\DATA\Z\resource\Plugins\YToolsMBM_MIFRec.rsc"	-"!:\Resource\Plugins\YToolsMBM_MIFRec.rsc"
+
+"C:\Symbian\9.1\S60_3rd\epoc32\data\z\resource\apps\YToolsMBM_MIFUI_res.RSC"  	-"!:\resource\apps\YToolsMBM_MIFUI_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd\\epoc32\release\gcce\urel\YToolsMBM_MIFUI.dll"			-"!:\sys\bin\YToolsMBM_MIFUI.dll"
+"C:\Symbian\9.1\S60_3rd\\epoc32\DATA\Z\resource\Plugins\YToolsMBM_MIFUI.rsc"	-"!:\Resource\Plugins\YToolsMBM_MIFUI.rsc"
+
+"..\MBM_Mif_Viewer\Image_Rec\data\icons.mbm"	-"!:\system\data\A00007A6\A0000F65\icons.mbm"
+
+

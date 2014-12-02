@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Opzioni"
+#define ktx_cmd_exit 			"Esci"
+
+#define ktx_cmd_about			"Informazioni"
+#define ktx_cmd_visit			"Visita m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Clock screen on"
+#define ktx_sh_str_LGHTINSE		"Intensità luce"
+#define ktx_sh_str_LGHTINSECHR	"Intensità luce in ricarica"
+#define ktx_sh_str_LIGHTON		"Luci accese"
+#define ktx_sh_str_SHOWDATE		"mostra data"
+#define ktx_sh_str_KEYLOCKON	"Blocco tasti attivo"
+#define ktx_sh_str_OFF			"Off"
+#define ktx_sh_str_ON			"On"
+#define ktx_sh_str_DATEONLY		"solo data"
+#define ktx_sh_str_DATETIME		"data + nome giorno"
+#define ktx_sh_str_TIMEOUTOL	"Solo ora"
+#define ktx_sh_str_TIMEOUTCHR	"Ora + carica"
+#define ktx_sh_str_ALWAYS		"Sempre"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Ritratto"
+#define ktx_sh_str_Landscape	"Paesaggio"
+#define ktx_sh_str_Automatic	"Automatico"
+
+#define ktx_sh_str_CURRTHEM		"Tema corrente"
+#define ktx_sh_str_SELCOLOR		"Seleziona Colore"
+#define ktx_sh_str_BACKCOLOR	"Colore sfondo"
+#define ktx_sh_str_FONTCOLOR	"Colore Font"
+#define ktx_sh_str_LIGHTTIM		"Timeout luce"
+#define ktx_sh_str_LOCKTIM		"Blocca dopo (sec.)"
+#define ktx_sh_str_FONT			"Font"
+#define ktx_sh_str_BLACK		"Nero"
+#define ktx_sh_str_DARKGRAY		"Grigio scuro"
+#define ktx_sh_str_DARKRED		"Rosso scuro"
+#define ktx_sh_str_DARKGREEN	"Verde scuro"
+#define ktx_sh_str_DARKYELLOW	"Giallo scuro"
+#define ktx_sh_str_DARKBLUE		"Blu scuro"
+#define ktx_sh_str_DARKMAGENDA	"Magenta scuro"
+#define ktx_sh_str_DARKCYAN		"Ciano scuro"
+#define ktx_sh_str_RED			"Rosso"
+#define ktx_sh_str_GREEN		"Verde"
+#define ktx_sh_str_YELLOW		"Giallo"
+#define ktx_sh_str_BLUE			"Blu"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Ciano"
+#define ktx_sh_str_GRAY			"Grigio"
+#define ktx_sh_str_WHITE		"Bianco"
+
+#define ktx_cmd_Help 			"Aiuto"
+#define ktx_cmd_Back 			"Indietro"
+
+#define ktx_str_HELP1			"Questa applicazione è usata come screensaver attivo quando i tasti sono bloccati dal blocco tasti standard. La luce sarà accesa, se attivata, dopo la pressione di un tasto (frecce destra/sinistra e tasto menu)."
+#define ktx_str_HELP2			"Il blocco è controllato dal servizio in background in esecuzione se l'orologio o il blocco tasti è attivo. Viene eseguita automaticamente quando il dispositivo viene acceso. Le impostazioni prendono effetto solo dopo aver riavviato l'applicazione."
+#define ktx_str_HELP3			"L'intesità della luce in ricarica è usata durante la ricarica. Le impostazioni del timeout indica il tempo di accensione della luce dopo la pressione di un tasto, alcuni dispositivi ignorano tale valore e usano il timeout standard ."
+#define ktx_str_HELP4			"Qui si regola l'accensione della luce. Le impostazioni del font è usato per selezionare il tipo di carattere da usare per l'orologio e anche il colore. Le impostazioni del background seleziona quale colore usare come sfondo dell'orologio."
+#define ktx_str_HELP5			"Abilita o disabilita la visualizzazione di data/ora sopra all'orologio. Si abilita inoltre il blocco automatico dei tasti e il valore di inattività prima di bloccare la tastiera."
+
+
+

@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Seçenekler"
+#define ktx_cmd_exit 			"Çıkış"
+
+#define ktx_cmd_about			"Hakkında"
+#define ktx_cmd_visit			"m.DrJukka.com'u ziyaret et"
+
+
+#define ktx_sh_str_CLOCKON		"Saat Ekranı"
+#define ktx_sh_str_LGHTINSE		"Işık Şiddeti"
+#define ktx_sh_str_LGHTINSECHR	"Şarjdayken Işık Şiddeti"
+#define ktx_sh_str_LIGHTON		"Işığın Açık Olduğu Zamanlar"
+#define ktx_sh_str_SHOWDATE		"Tarihi Göster"
+#define ktx_sh_str_KEYLOCKON	"Tuş Kilidi"
+#define ktx_sh_str_OFF			"Kapalı"
+#define ktx_sh_str_ON			"Açık"
+#define ktx_sh_str_DATEONLY		"Sadece Tarih"
+#define ktx_sh_str_DATETIME		"Tarih + Günün Adı"
+#define ktx_sh_str_TIMEOUTOL	"Sadece Zaman Aşımı"
+#define ktx_sh_str_TIMEOUTCHR	"Zaman Aşımı+Şarj"
+#define ktx_sh_str_ALWAYS		"Her Zaman"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Dikey"
+#define ktx_sh_str_Landscape	"Yatay"
+#define ktx_sh_str_Automatic	"Otomatik"
+
+#define ktx_sh_str_CURRTHEM		"Şuanki Tema"
+#define ktx_sh_str_SELCOLOR		"Renk Seçimi"
+#define ktx_sh_str_BACKCOLOR	"Arkaplan Rengi"
+#define ktx_sh_str_FONTCOLOR	"Yazı Rengi"
+#define ktx_sh_str_LIGHTTIM		"Işık Zaman Aşımı"
+#define ktx_sh_str_LOCKTIM		"Kilitleme Zamanı (sn)"
+#define ktx_sh_str_FONT			"Yazı Tipi"
+#define ktx_sh_str_BLACK		"Siyah"
+#define ktx_sh_str_DARKGRAY		"Koyu Gri"
+#define ktx_sh_str_DARKRED		"Koyu Kırmızı"
+#define ktx_sh_str_DARKGREEN	"Koyu Yeşil"
+#define ktx_sh_str_DARKYELLOW	"Koyu Sarı"
+#define ktx_sh_str_DARKBLUE		"Koyu Mavi"
+#define ktx_sh_str_DARKMAGENDA	"Koyu Magenta"
+#define ktx_sh_str_DARKCYAN		"Koyu Cyan"
+#define ktx_sh_str_RED			"Kırmızı"
+#define ktx_sh_str_GREEN		"Yeşil"
+#define ktx_sh_str_YELLOW		"Sarı"
+#define ktx_sh_str_BLUE			"Mavi"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Cyan"
+#define ktx_sh_str_GRAY			"Gri"
+#define ktx_sh_str_WHITE		"Beyaz"
+
+#define ktx_cmd_Help 			"Yardım"
+#define ktx_cmd_Back 			"Geri"
+
+#define ktx_str_HELP1			"Bu uygulama, telefon standart tuş kilidindeyken  saat tipi ekran koruyucu olarak kullanılabilir. Telefonun ışığı telefonun tuşlarına basıldığı zaman aydınlanacaktır. (izin verilen tuşlar sol/sağ ve menu tuşudur.)"
+#define ktx_str_HELP2			"Kilit ekranı, saat ekranı veya tuş kilidi aktif olduğunda arka planda çalışan bir sunucu tarafından yönetilir. Ayrıca arka planda çalışan uygulama telefon ilk açıldığı zaman otomatik olarak çalışır. Not; bu ayarlamalar kullanıcı arayüzünden çıkıldığı zaman etkin olur."
+#define ktx_str_HELP3			"Işık şiddeti ayarı, tuşa basıldığında ekrandaki saati gösterirken ki ışık şiddeti ayarıdır. Şarjdayken ışık şiddeti, telefon şarjdaykenki parlaklık ayarıdır. Işık zaman aşımı ayarı, tuşa basıldığında ışığın yanık kalma süresini ayarlar. Not: bazı telefon modelleri bu ayarları yoksaymaktadır ve telefonun standart ışık zaman aşımı ayarını kullanmaktadır."
+#define ktx_str_HELP4			"Işığın Açık Olduğu Zamanlar ayarı ile ışığın açık kalacağı zamanlar tanımlanır. Yazı tipi ayarı ile saat ekranında kullanılan yazı tipi ve yazı rengi ayarı ile de yazıların rengi değiştirilebilir. Arkaplan ayarı ile saat ekranının arka plan rengi ayarlanır."
+#define ktx_str_HELP5			"Tarihi göster ayarı ile saat ekranı üzerinde tarihin görünüp görünmemesi ayarlanabilir. Tuş kilidi ayarı arka planda çalışan uygulamaların otomatik tuş kilitlemesini ayarlar ve tuş kilitleme zaman aşımı değeri de tuş kilitlemek için gerekli olan bekleme süresini belirtir."
+
+
+

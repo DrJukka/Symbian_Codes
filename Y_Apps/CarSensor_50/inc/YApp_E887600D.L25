@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Nastavení"
+#define qtn_exit 			"Konec"
+
+#define qtn_about			"O programu"
+#define qtn_visit			"Přejít na m.DrJukka.com"
+#define qtn_backlighton		"Zapnout podsvícení"
+
+#define qtn_backlightoff	"Vypnout podsvícení"
+#define qtn_reset			"Vynulování"
+
+#define qtn_Help			"Nápověda"
+#define qtn_Back			"Zpět"
+
+#define ktx_str_HELP1 		"Tato aplikace ukazuje horizontální a vertikální náklon přístoje a obrázkem ukazuje úhel náklonu vozu. Aplikace pracuje pouze v orientaci na výšku."
+#define ktx_str_HELP2 		"Volba menu umožňuje vynulování úhlů pro přístroje/držáky, které mají náklon již na začátku. Takže je možno napřed umístit přístroj do držáku a pak vynulovat hodnoty na nulu."
+#define ktx_str_HELP3 		"Volba Zapnout podsvícení umožňuje zapnout podsvícení po dobu běhu aplikace. Tato možnost samozřejmě zvyšuje spotřebu energie, ale umožňuje lepší čitelnost v horších světelných podmínkách."
+
+
+
+
+// End of File

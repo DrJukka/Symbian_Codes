@@ -1,0 +1,342 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Voltar"
+#define ktx_cmd_Options			"Opções"
+#define ktx_cmd_Exit			"Sair"
+#define ktx_cmd_Save			"Salvar"
+#define ktx_cmd_Cancel			"Cancelar"
+#define ktx_cmd_Delete			"Apagar"
+
+#define ktx_cmd_Select			"Selecionar"
+#define Ktx_sh_str_SortBy		"Classificar por"	
+
+#define ktx_mnu_setserchoff		"Desat. Busca"
+#define ktx_mnu_File			"Arquivo"
+#define ktx_mnu_Edit			"Editar"
+#define ktx_mnu_Mark			"Marcar"
+#define ktx_mnu_Searchfiles		"Procurar arquivos"
+#define ktx_mnu_Extras			"Extras"
+#define ktx_mnu_About			"Sobre"
+#define ktx_mnu_commandSC		"Atalhos de comandos"
+#define ktx_mnu_ShowSC			"Exibir atalhos"
+#define ktx_mnu_SetSC			"Definir atalhos"
+#define ktx_mnu_Searchon			"Ativ. Busca"
+#define ktx_mnu_Settings			"Configurações"
+#define ktx_mnu_switchlo			"Alternar exibição"
+#define ktx_mnu_changeic			"Alterar ícones"
+#define ktx_mnu_refresh			"Atualizar"
+#define ktx_mnu_munmark			"Marcar/Desmarcar"
+#define ktx_mnu_Markall			"Marcar todos"
+#define ktx_mnu_Unmarkall		"Desmarcar todos"
+#define ktx_mnu_Openwith		"Abrir com"
+#define ktx_mnu_Open			"Abrir"
+#define ktx_mnu_Send			"Enviar"
+#define ktx_mnu_Properties		"Propriedades"
+#define ktx_mnu_Attributes		"Atributos"
+#define ktx_mnu_Delete			"Apagar"
+#define ktx_mnu_Rename			"Renomear"
+#define ktx_mnu_ShowName			"Exibir nome"
+#define ktx_mnu_Newfile			"Novo arquivo"
+#define ktx_mnu_Newfolder		"Nova pasta"
+#define ktx_mnu_Copy			"Copiar"
+#define ktx_mnu_Cut			"Recortar"
+#define ktx_mnu_Paste			"Colar"
+#define ktx_mnu_pastenfile		"Colar em novo arquivo"
+#define ktx_mnu_pasteshow		"Exibir colar arquivos"
+#define ktx_mnu_pasteclear		"Limpar colar arquivos"
+#define ktx_mnu_Done			"Concluir"
+#define ktx_mnu_addsel			"Adicionar à seleção"
+#define ktx_mnu_selshow			"Exibir selecionados"
+#define ktx_mnu_cpyclipp			"Copiar para área transf."
+#define ktx_mnu_Startsearch		"Iniciar busca"
+#define ktx_mnu_nckresulyts		"Voltar aos resultados"
+#define ktx_mnu_resultclear		"Limpar resultados"
+#define ktx_mnu_showseltyp		"Exibir tipos selecionados"
+#define ktx_mnu_clearcond		"Limpr condição"
+#define ktx_mnu_gtofolder		"Ir para pasta"
+#define ktx_mnu_PAGEUP			"Página acima"
+#define ktx_mnu_PAGEDOWN		"Página abaixo"
+
+#define ktx_sh_str_Processing		"Processando"
+#define ktx_sh_str_selfiltyp		"Selecionar tipos de arquivo"
+#define ktx_sh_str_date			"data"
+#define ktx_sh_str_time			"hora"
+
+//settings.
+#define ktx_sh_str_System		"Sistema"	
+#define ktx_sh_str_Hidden		"Oculto"
+#define ktx_sh_str_Readonly		"Somente leitura"
+#define ktx_sh_str_Modifyingdate	"Modificando data"
+#define ktx_sh_str_Modifyingtime	"Modificando hora"
+#define ktx_sh_str_showall		"Exibir todos os arquivos"
+#define ktx_sh_str_Sortorder		"Ordenar"	
+#define ktx_sh_str_Foldersfirst	"Pastas primeiro"
+#define ktx_sh_str_speedoptimize	"Salvar info. da pasta"
+#define ktx_sh_str_Recognizefiles	"Reconhecer arquivos"
+#define ktx_sh_str_savepathonexit	"Salva caminho ao sair"
+#define ktx_sh_str_exitaks		"Perguntar ao sair"
+#define ktx_sh_str_Off			"Desligado"
+#define ktx_sh_str_On			"Ligado"
+#define ktx_sh_str_No			"Não"
+#define ktx_sh_str_Yes			"Sim"
+#define ktx_sh_str_Decending		"Decrescente"
+#define ktx_sh_str_Ascending		"Crescente"
+#define ktx_sh_str_Name			"Nome"
+#define ktx_sh_str_Fileextension	"Extensão do arquivo"
+#define ktx_sh_str_Filetype		"Tipo do arquivo"
+#define ktx_sh_str_Size			"Tamanho"
+#define ktx_sh_str_Path			"Caminho"
+#define ktx_sh_str_Filename		"Nome de arquivo"
+#define ktx_sh_str_Biggerthan		"Maior que"
+#define ktx_sh_str_Smallerthan	"Menor que"
+#define ktx_sh_str_Modifiedbefore	"Modificado antes de"
+#define ktx_sh_str_Modifiedafter	"Modificado após"
+#define ktx_sh_str_types		" tipo(s)"
+#define ktx_sh_str_Excludetypes	"Não incluir tipos"
+#define ktx_sh_str_Includetypes	"Incluir tipos"
+#define ktx_sh_str_Fileattributes	"Atributos do arquivo"
+
+#define ktx_sh_str_formatName		"Nome\t%S"
+#define ktx_sh_str_formatFsys		"SisArq\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Livre\t%d Kb"
+#define ktx_sh_str_formatUsed		"Usado\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Tamanho\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Tamanho\t%d Bytes"		
+#define ktx_sh_str_formatType		"Tipo\t%S"
+#define ktx_sh_str_formatFiles	"Arquivos\t%d"	
+#define ktx_sh_str_formatFolders	"Pastas\t%d"
+#define ktx_sh_str_formatTypeID	"IDTipo\t%S"	
+#define ktx_sh_str_atrWProt		"Attr\tWrite protected"
+#define ktx_sh_str_atrLocked		"Atrib\tBloqueado"
+#define ktx_sh_str_atrFormattable	"Atrib\tFormatável"
+#define ktx_sh_str_atrVarSize		"Atrib\tTamanho da variável"
+#define ktx_sh_str_atrROM		"Attr\tROM"
+#define ktx_sh_str_atrRemovable	"Atrib\tRemovível"
+#define ktx_sh_str_atrtHidden		"Atrib\tOculto"
+#define ktx_sh_str_atrReadonly	"Atrib\tSomente leitura"
+#define ktx_sh_str_atrSystem		"Atrib\tSistema"
+#define ktx_sh_str_atrVolume		"Attr\tVolume"
+#define ktx_sh_str_atrArchive		"Atrib\tArquivamento"
+
+#define ktx_sh_str_Notpresent		"Não apresenta"
+#define ktx_sh_str_Floppy		"Disquete"
+#define ktx_sh_str_HardDisk		"Disco Rígido"
+#define ktx_sh_str_CdRom		"CD-Rom"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Remoto"
+#define ktx_sh_str_Unknown		"Desconhecido"
+#define ktx_sh_str_SCTITLE		"Atalhos: Shift+/Caneta+"
+#define ktx_sh_str_FREE			"<livre>"
+#define ktx_sh_str_Root			"Root"
+#define ktx_sh_str_Selected		"Selecionado"
+#define ktx_sh_str_Cutfiles		"Recortar arquivos"
+#define ktx_sh_str_CopyFiles		"Copiar arquivos"
+#define ktx_sh_str_COPYINGFF		"Copiando %S to %S"
+#define ktx_sh_str_MOVINGFF		"Movendo %S to %S"
+#define ktx_sh_str_RENAMINGFF		"Renomeando %S to %S"
+#define ktx_sh_str_DELETINGFF		"Excluindo %S"	
+#define ktx_sh_str_EXISTREPLACE	" existe, sobrescreve?"
+#define ktx_sh_str_ISROMODIFY		" é somente leitura, altera atributos ?"
+#define ktx_sh_str_ALREDYEXIST	" já existe"
+#define ktx_sh_str_ISOPEN		" está em uso"
+#define ktx_sh_str_ISREADONLY		" é somente leitura"
+#define ktx_sh_str_ACCDENIED		" Acesso negado"
+#define ktx_sh_str_DISKFULL		"Disco está cheio"
+#define ktx_sh_str_DISCKNOTREADY	"Disco ausente/não está pronto"
+#define ktx_sh_str_CORRDISCK		"Disco corrompido"
+#define ktx_sh_str_INVALIDNAME	" é um nome inválido"
+#define ktx_sh_str_NOTMEMFORFF	"Não há memória para "
+#define ktx_sh_str_OPERFAILED		"Operação em \"%S\" falhou: Erro %d"
+#define ktx_sh_str_NEWFILE		"Novo arquivo:"
+#define ktx_sh_str_SENDUI		"Send UI"
+#define ktx_sh_str_SENDFFVIA		"Enviar arquivos por"
+#define ktx_sh_str_SELAPPLICATION	"Selecionar aplicação"
+#define ktx_sh_str_OPENFILE		"Abrir arquivo"
+#define ktx_sh_str_ANDATRIBS		"\'E\'atributos"
+#define ktx_sh_str_SEARCFOR		"Procurar texto"
+#define ktx_sh_str_SELFILETYPES	"Selecionar tipos de arquivo"
+#define ktx_sh_str_MB			"MB"
+#define ktx_sh_str_KB			"KB"
+#define ktx_sh_str_BYTES		"Bytes"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" E "
+#define ktx_sh_str_OR			" Ou "
+#define ktx_sh_str_SYS			"sys."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" arquivo(s) encontrado(s)"
+#define ktx_sh_str_FOUNDENDDDD	"%d arquivos(s) encontrado(s) en %d  segundo(s)"
+
+#define ktx_sh_str_SELCOMMAND		"Selecionar comando"
+#define ktx_sh_str_NOTSET		"Não definido"
+#define ktx_sh_str_SELICONFF		"Selecione arquivo de ícone"
+
+#define ktx_sh_str_READINGFF		"Lendo %d / %d"
+#define ktx_str_FILREADERR		"Leitura de arquivo incompleta, erro: %d"
+#define ktx_str_FILNOTFOND		"Arquivo não encontrado"
+#define ktx_str_NOAPPFORFIL		"Nenhuma aplicação encontrada para abir este arquivo"
+#define ktx_str_SAVESEARCH		"Salvar o último resultado da busca ?"
+#define ktx_str_SELSCNUMBER		"Selecione o número do atalho"
+#define ktx_str_REBOOTICON		"Ícones alterados, o aparelho precisa ser reiniciado para que esta alteração tenha efeito."
+#define ktx_str_PASTEFTOFOL		"Colar %d arquivo(s) nesta pasta ?"
+#define ktx_str_DELFOILES		"Apagar %d arquivos"
+#define ktx_str_NEWNAME 		"Novo nome :"
+#define ktx_str_FDERNAME		"Nome da pasta :"
+#define ktx_str_ERRCREATEFLDR		"Não pode criar pasta, NumErr: "
+#define ktx_str_FDREXISTS		"Pasta já existe, dê um novo nome."
+#define ktx_str_APPENDLIST		"Acrescentar à lista"
+#define ktx_str_FILESADCY		"%d arquivo(s) adicionado(s) para copiar/colar"
+#define ktx_str_PASTEWILLREM		"Colar irá remover %d arquivo(s)."
+#define ktx_str_FORSECOPY		"Não pode fechar arq. origem, copia ?"
+#define ktx_str_STARTNEWSCRH		"Inicia nova busca ?"
+#define ktx_str_RESETSEARCH		"Redefinir configuração de busca anterior ?"
+	
+		// new ones
+
+#define ktx_mnu_MarkWild		"Seleccionar com caracteres wildcard" // Mark menu item
+#define ktx_mnu_MarkInverse		"Selecção inversa"   // Mark menu item
+
+#define ktx_sh_str_General		"Geral"//- setting
+
+#define ktx_sh_str_fullscreen		"Ecrã cheio" // main settings item
+
+#define ktx_sh_str_NOFILES		"Sem ficheiros"   // no files in browser
+
+#define ktx_mnu_typassociation	"Associações de ficheiros" //settins select item list
+#define ktx_sh_str_plugins		"Extensões" //settins select item list
+
+#define ktx_sh_str_Own			"Utilizador"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Remover tipo de ficheiro" //file associations
+
+#define ktx_mnu_Modify			"Modificar"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Adicionar tipo de ficheiro"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Remover tipo de ficheiro"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Remover extensões"	// menu file associations settings
+#define ktx_mnu_AddExt			"Adicionar extensão"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Mudar predefinição"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Mudar nome do tipo"	// menu file associations settings
+#define ktx_mnu_Reset			"Repor definições"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Aplicação predefinida"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Predefinições" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Reconhecedores" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Activar" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Desactivar" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Mostrar detalhes" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Nome: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Estado: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Desactivado" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Activado" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Versão da Extensão: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (versão correcta)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (versão incompatível)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Tipo da extensão: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Predefinição do ficheiro" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Transmissor do ficheiro" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Receptor do ficheiro" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Pasta do ficheiro" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Abrir com predefinição" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Reconhecedor do ficheiro" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Tipos de ficheiro suportados:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Suporta novos ficheiros.)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Adicionar tipos de ficheiro"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Seleccione para remover"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Tipos de ficheiro"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Predefinição de ficheiros desconhecidos"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."

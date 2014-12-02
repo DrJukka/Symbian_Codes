@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Valinnat"
+#define ktx_cmd_exit 			"Poistu"
+
+#define ktx_cmd_about			"Tietoja sovelluks."
+#define ktx_cmd_visit			"Vieraile m.DrJukka.com:issa"
+
+
+#define ktx_sh_str_CLOCKON		"Taustaohjelman tila"
+#define ktx_sh_str_LGHTINSE		"Taustavalon voimakkuus"
+#define ktx_sh_str_LGHTINSECHR	"Taustavalo ladattaessa"
+#define ktx_sh_str_LIGHTON		"Valot päällä"
+#define ktx_sh_str_SHOWDATE		"Näytä päiväys"
+#define ktx_sh_str_KEYLOCKON	"Näppäinlukkon tila"
+#define ktx_sh_str_OFF			"Poissa"
+#define ktx_sh_str_ON			"Päällä"
+#define ktx_sh_str_DATEONLY		"Vain päivämäärä"
+#define ktx_sh_str_DATETIME		"Päivämäärä ja nimi"
+#define ktx_sh_str_TIMEOUTOL	"Vain ajastin"
+#define ktx_sh_str_TIMEOUTCHR	"Ajastin + ladatessa"
+#define ktx_sh_str_ALWAYS		"Aina"
+
+#define ktx_sh_str_orientation	"Orientaation"
+#define ktx_sh_str_Portrait		"Vertikaalisesti"
+#define ktx_sh_str_Landscape	"Horisontaalisti"
+#define ktx_sh_str_Automatic	"Automaattinen"
+
+#define ktx_sh_str_CURRTHEM		"Teema"
+#define ktx_sh_str_SELCOLOR		"Valitse väri"
+#define ktx_sh_str_BACKCOLOR	"Taustan väri"
+#define ktx_sh_str_FONTCOLOR	"Tekstin väri"
+#define ktx_sh_str_LIGHTTIM		"Valojen aikakatkaisu"
+#define ktx_sh_str_LOCKTIM		"Lukitse jälkeen"
+#define ktx_sh_str_FONT			"Kirjasinlaji"
+#define ktx_sh_str_BLACK		"Musta"
+#define ktx_sh_str_DARKGRAY		"Tummanharmaa"
+#define ktx_sh_str_DARKRED		"Tummanpunainen"
+#define ktx_sh_str_DARKGREEN	"Tummanvihreä"
+#define ktx_sh_str_DARKYELLOW	"Tummankeltainen"
+#define ktx_sh_str_DARKBLUE		"Tummansininen"
+#define ktx_sh_str_DARKMAGENDA	"Tumma magenda"
+#define ktx_sh_str_DARKCYAN		"Tumma cyan"
+#define ktx_sh_str_RED			"Punainen"
+#define ktx_sh_str_GREEN		"Vihreä"
+#define ktx_sh_str_YELLOW		"Keltainen"
+#define ktx_sh_str_BLUE			"Sininen"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Cyan"
+#define ktx_sh_str_GRAY			"Harmaa"
+#define ktx_sh_str_WHITE		"Valkoinen"
+
+#define ktx_cmd_Help 			"Ohjeet"
+#define ktx_cmd_Back 			"Takaisin"
+
+#define ktx_str_HELP1			"Key lock Clock ohjelman tarkoituksena on toimia näytönsäästäjä tyyppisenä kello näyttönä, kello näyttö näytetään ainoastaan puhelimen näppäinlukon ollessa päällä. Näytön valojen päällä oloa voi säätää asetuksista, kello näytön päälle mennessä valot eivät mene automaattisesti päälle, valot saa päälle painamalla näppäintä (menu tai vase/oikea nuoli näppäin)."
+#define ktx_str_HELP2			"Kellonäyttö toimii tausta prosessin avulla, tausta prosessi on päällä mikäli kello näyttö tai ajastettu näppäinlukitus on päällä. Tausta prosessi käynnistyy myös automaattisesti puhelita käynnistettäessä. Huomio kuitenkin että tausta prosessin asetuksen muutokset tulevat voimaan vasta kun pääohjelmasta poistutaan."
+#define ktx_str_HELP3			"Taustavalojen voimakuus asetuksella voi säätää taustavalon voimakkuutta 1:n ja 100% valillä. Taustavalo ladattaessa asetus on käytössä taustavalon kanssa puhelinta ladattaessa. Valojen aikakatkaisu asetus määrittelee kuinka kauan valot pidetään päällä näppäimen painalluksen jälkeen. Huomio että joissain puhelimissa Valojen aikakatkaisu asetuksen sijasta puhelin käyttää puhelimen normaaleja asetuksia."
+#define ktx_str_HELP4			"Valot päällä asetuksella voi määritellä milloin taustavaloa käytetään. Kirjasinlaji asetuksella voi määritellä kello näytön kirjaisinlajin puhelimessa olevien kirjaisinlajien joukosta. Taustan väri ja Tekstin väri asetuksilla voi määritellä kello näytön taustan ja tekstin värin."
+#define ktx_str_HELP5			"Näytä päiväys asetuksella voi määritellä päiväyksen ja viikonpäivän nimen nayttamisen kellonäytön yläreunassa. Näppäinlukko asetuksilla voi määritellä ajastetun näppäinlukon asetuksia."
+
+
+

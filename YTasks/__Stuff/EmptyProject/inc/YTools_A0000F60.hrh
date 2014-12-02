@@ -1,0 +1,23 @@
+/*
+	Copyright (C) 2007 Jukka Silvennoinen
+
+*/
+
+#ifndef __YUCCABROWSER_HRH__
+#define __YUCCABROWSER_HRH__
+
+
+enum TYuccaBrowserIds
+    {
+	EBacktoYTasks =0x7000,  
+	EAbout
+    };
+
+
+enum TControldIDListView
+    {
+	EProgressNoteId = 0x100,
+	EYBWaitNoteId
+	};
+
+#endif // __YUCCABROWSER_HRH__

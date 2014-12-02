@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Val"
+#define ktx_cmd_exit 				"Avsluta"
+#define ktx_cmd_cancel 				"Avbryt"
+#define ktx_cmd_Back 				"Tillbaka"
+
+#define ktx_cmd_Disable				"Inaktivera"
+#define ktx_cmd_Enable				"Aktivera"
+
+#define ktx_cmd_save 				"Spara"
+#define ktx_cmd_select 				"Välj"
+
+#define ktx_mnu_Settings			"Inställnignar"
+#define ktx_mnu_help				"Hjälp"
+#define ktx_cmd_about				"Om"
+#define ktx_cmd_visit				"Besök m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nytt"
+#define ktx_cmd_Test				"Förhandsgranska"
+#define ktx_mnu_Modify 				"Ändra"
+#define ktx_mnu_Remove 				"Radera"
+
+#define ktx_mnu_newContact			"Nytt nummer"
+
+#define ktx_sh_str_sndNumber	 		"Nummer"
+#define ktx_sh_str_sndTime		 	"tid"
+#define ktx_sh_str_sndDate		 	"datum"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<Avstängd>"
+
+#define ktx_str_REMMESSAGE 			"Radera schema?"
+#define ktx_sh_str_REPEATS			"Upprepa"
+
+#define ktx_str_GREENBUTTON			"Grön"
+#define ktx_str_REDBUTTON			"Röd"
+#define ktx_str_OFFBUTTON			"Av"
+#define ktx_str_CAMERABUTTON			"Kamera"
+
+
+#define ktx_sh_str_ONCE				"En gång"
+#define ktx_sh_str_WORKDAYA			"Arbetsdagar"
+#define ktx_sh_str_NONWORKD			"Helgdagar"
+#define ktx_sh_str_EVERYDAY			"Varje dag"
+#define ktx_sh_str_MONDAYS			"Måndagar"
+#define ktx_sh_str_TUESDAYS			"Tisdagar"
+#define ktx_sh_str_WEDNESDAYS			"Onsdagar"
+#define ktx_sh_str_THURSDAYS			"Torsdagar"
+#define ktx_sh_str_FRIDAYS			"Fredagar"
+#define ktx_sh_str_SATURDAYS			"Lördagar"
+#define ktx_sh_str_SUNDAYS			"Söndagar"
+
+#define ktx_sh_str_SNOZTEXT			"Snooze knappens text"
+#define ktx_str_MAXTIME				"Max rigningstid"
+#define ktx_str_SNOOZETIME			"Snooze tid"
+#define ktx_sh_str_OPERNAME			"Operatörens namn"
+#define ktx_sh_str_SUNDFILE			"Reservrington"
+
+//Main Application help
+#define ktx_str_HELP1				"Det här programmet används för att simulera inkommande samtal, inga riktiga samtal genomförs, därav tillkommer inga avgifter när Fake Calls används."
+#define ktx_str_HELP2				"Det finns fyra fördefinerade knappar som kan användas för att starta Fake Calls (snabbstartsfunktion). Dessa knappar är Grön telfon knapp, Röd telefon knapp, kamera knappen, och På/Av knappen. Notera att dessa knappar endast startar Fake Calls när knapplåset är igång."
+#define ktx_str_HELP3				"För att ställa in en kontakt för knapparna, välj alternativet "redigera" i menyn. Aktivera/Inaktivera i menyvalet kan användas för att aktivere eller inaktivera Fake Call via knappen."
+#define ktx_str_HELP4				"Tidsinställda fejkade samtal kan ställas in under valet "Nytt" i menyn, dessa tidsinställda "samtal" kan senare redigeras genom att välja "Redigera" i valmenyn, dessa kan även raderas i menyn. "
+#define ktx_str_HELP5				"Förhandsgrandska samtal kan göras under menyn  \"Förhandsgranska\" för markerat \"samtal\" i listan."
+#define ktx_str_HELP6				"Den faktiska schemaläggningen av fejkade samtal hanteras i bakgrunden av servern som startar om det finns något fejkat samtal eller falska samtalscheman aktiverade. Programmet startas i bakgrunden automatiskt när enheten startas. Observera att alla inställningar och ändringar i schemat genomförs först efter att man avslutat Fake Calls applikationen."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Med tidsinställda Fake samtal, behöver du bara ange kontaktnummer (eller sträng) och den tidpunkt då det fejkade samtalet skall genomföras."
+#define ktx_str_HELP8				"Du kan välja en kontakt i enhetens kontaktlista, och sedan kommer kontaktens namn användas i huvudsidans tidsinställda lista. Observera att om fejkade samtalets nummer hittas i enhetens kontakter, så kommer all information, inklusive namn, bild, ringsignal etc. att användas när Fake samtalet visas."
+#define ktx_str_HELP9				"Menyalternativet \"Nytt nummer\" kan användas för valfri textslinga i Fake Call displayen."
+#define ktx_str_HELP10				"Tiden för  schemaläggning kan väljas med \"Tidsinställning\". med \"Upprepa\"-inställningen kan schemaläggning göras på utvald dag som upprepar fejkade samtal med bestämda intervaller. Observera att upprepade schemalagda listor tas inte bort från schemalistan, däremot Fejkade samtal som är inställda för ett specifik tidpunkt raderas efter det att \"samtalet\" genomförts."
+
+//Key settings
+#define ktx_str_HELP11				"Med snabb knapp Fake samtal, behöver du bara ange kontaktnummer (eller sträng) för det fejkade samtalet. Du kan välja en kontakt från kontaktlistans databas eller använda menyalternativet \"Nytt nummer\" möjlighet finns även för att använda någon text slinga för Fake samtalet i displayen."
+#define ktx_str_HELP12				"Observera att om Fake samtalets nummer hittas i enhetens kontakter, så kommer all information, inklusive namn, bild, ringsignal etc. kommer att användas när Fake samtalet visas."
+#define ktx_str_HELP13				"Kom ihåg att Aktivera huvud fake samtalet i schemalistan. Och att snabb knapps Fake samtal endast fungerar om enhetens knapplås är på."
+
+// Default Settings
+#define ktx_str_HELP14				"Operatörens namn används i den övre delen av Fake samtal skärmen i de fall då det riktiga namnet på operatören inte kan hämtas. Detta innebär tex. att när profilen Offline är igång så kommer denna funktion att träda i kraft."
+#define ktx_str_HELP15				"Reservringtonen används i de fall där kontakten inte har en egenrignsignal och när profilen inte har någon ringsignal. Den faktiska ringsignalen används i första hand, om denna saknas så används profilens allmänna ringsignal, och om den saknas så används reservringtonen."
+#define ktx_str_HELP16				"Snooze-tid är snooze tidsvärdet i sekunder som används med snooze-knappen i Fake samtal displayen. När Snooze-knappen trycks in när fake samtalet visas i displayen så kommer \"samtalet\" att döljas.Samtalet vissas igen i displayen efter angiven snooze-tid."
+#define ktx_str_HELP17				"Max ringtid definierar hur länge Fake samtalet visas i displayen. Observera att trycka på snooze återställs timern."
+#define ktx_str_HELP18				"Snooze-knappens text inställning kan användas för att ändra texten som visas på snooze-knappen för mer autentiskt Fake samtal display."
+
+
+
+
+

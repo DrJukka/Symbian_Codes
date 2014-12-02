@@ -1,0 +1,39 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"选项"
+#define ktx_cmd_exit 				"退出"
+#define ktx_cmd_cancel 				"取消"
+#define ktx_cmd_save 				"保存"
+#define ktx_cmd_select 				"选择"
+
+#define ktx_cmd_about				"关于"
+#define ktx_cmd_visit				"访问m.DrJukka.com"
+
+#define ktx_mnu_New 				"新建"
+#define ktx_mnu_Modify 				"修改"
+#define ktx_mnu_Remove 				"删除"
+
+
+#define ktx_mnu_Savmsgs				"已存信息"
+#define ktx_mnu_ContSend			"从名片夹选择发件人"
+
+#define ktx_sh_str_sndName	 		"发件人"
+#define ktx_sh_str_sndNumber	 	"发送号码"
+#define ktx_sh_str_Message		 	"信息内容"
+#define ktx_sh_str_sndTime		 	"发送时间"
+#define ktx_sh_str_sndDate		 	"发送日期"
+
+
+#define ktx_str_REMMESSAGE 			"删除信息？"
+
+
+#define ktx_cmd_help				"帮助"
+#define ktx_cmd_Back				"返回"
+
+#define ktx_str_HELP1 				"Fake Message是用来显示虚假来信的程序。Fake Message可以制造 未来 来的信息，或者 过去 的信息，在退出软件后会立即在收件箱生成所需的短信。"
+#define ktx_str_HELP2 				"编辑一个新短信，点击新建菜单，输入发送者名称(号码)，输入短信内容或者导入之前已存的信息，设置发送时间和日期，然后选择保存命令，保存到数据库。"
+#define ktx_str_HELP3 				"在短信被创造后，它会显示在主菜单列表。在此列表里，你可以使用修改，删除等命令更改短信。"
+#define ktx_str_HELP4 				"注意短信只有在退出程序后，日程短信和前个日程短信才会被刷新。真实的日程短信被后台服务控制着，并且随机自启。关机时无任何日程短信会发生。"
+

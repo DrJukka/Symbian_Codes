@@ -1,0 +1,353 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+
+============================================================================
+*/
+//  RESOURCE IDENTIFIER
+NAME YCSR	// 4 letter ID
+
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+#include <appinfo.rh>
+
+#include "YApp_E887600D.hrh"
+#include "Definitions.h"
+
+
+
+#ifdef LANGUAGE_02		  // French
+#include "YApp_E887600D.l02"
+#elif defined LANGUAGE_03 // German
+#include "YApp_E887600D.l03"
+#elif defined LANGUAGE_04 // Spanish
+#include "YApp_E887600D.l04"
+#elif defined LANGUAGE_05 // Italian
+#include "YApp_E887600D.l05"
+#elif defined LANGUAGE_06 // Swedish
+#include "YApp_E887600D.l06"
+#elif defined LANGUAGE_07 // Danish
+#include "YApp_E887600D.l07"
+#elif defined LANGUAGE_08 // Norwegian
+#include "YApp_E887600D.l08"
+#elif defined LANGUAGE_09 // Finnish
+#include "YApp_E887600D.l09"
+#elif defined LANGUAGE_13 // Portuguese
+#include "YApp_E887600D.l13"
+#elif defined LANGUAGE_14 // Turkish
+#include "YApp_E887600D.l14"
+#elif defined LANGUAGE_16 // Russian
+#include "YApp_E887600D.l16"
+#elif defined LANGUAGE_17 // Hungarian
+#include "YApp_E887600D.l17"
+#elif defined LANGUAGE_18 // Dutch
+#include "YApp_E887600D.l18"
+#elif defined LANGUAGE_25 // Czech
+#include "YApp_E887600D.l25"
+#elif defined LANGUAGE_26 // Slovak
+#include "YApp_E887600D.l26"
+#elif defined LANGUAGE_27 // Polish
+#include "YApp_E887600D.l27"
+#elif defined LANGUAGE_28 // Slovenian
+#include "YApp_E887600D.l28"
+#elif defined LANGUAGE_29 // Taiwanese Chinese
+#include "YApp_E887600D.l29"
+#elif defined LANGUAGE_31 // PRC-Chinese
+#include "YApp_E887600D.l31"
+#elif defined LANGUAGE_33 // Thai
+#include "YApp_E887600D.l33"
+#elif defined LANGUAGE_35 // Albanian
+#include "YApp_E887600D.l35"
+#elif defined LANGUAGE_37 // Arabic
+#include "YApp_E887600D.l37"
+#elif defined LANGUAGE_42 // Bulgarian
+#include "YApp_E887600D.l42"
+#elif defined LANGUAGE_44 // catalan
+#include "YApp_E887600D.l44"
+#elif defined LANGUAGE_45 // Croatian
+#include "YApp_E887600D.l45"
+#elif defined LANGUAGE_50 // Farsi
+#include "YApp_E887600D.l50"
+#elif defined LANGUAGE_54 // Greek
+#include "YApp_E887600D.l54"
+#elif defined LANGUAGE_57 // Hebrew
+#include "YApp_E887600D.l57"
+#elif defined LANGUAGE_59 // Indonesian
+#include "YApp_E887600D.l59"
+#elif defined LANGUAGE_65 // Korean
+#include "YApp_E887600D.l65"
+#elif defined LANGUAGE_69 // Macedonian
+#include "YApp_E887600D.l69"
+#elif defined LANGUAGE_70 // Malay
+#include "YApp_E887600D.l70"
+#elif defined LANGUAGE_78 // Romanian
+#include "YApp_E887600D.l78"
+#elif defined LANGUAGE_79 // Serbian
+#include "YApp_E887600D.l79"
+#elif defined LANGUAGE_87 // Tamil
+#include "YApp_E887600D.l87"
+#elif defined LANGUAGE_93 // Ukrainian
+#include "YApp_E887600D.l93"
+#elif defined LANGUAGE_106//azeri latin
+#include "YApp_E887600D.l106"
+#else
+#include "YApp_E887600D.l01" //English
+#endif
+
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+	{
+	}
+
+RESOURCE TBUF r_default_document_name
+	{
+	buf="YCSR";
+	}
+
+
+RESOURCE EIK_APP_INFO
+	{
+	menubar = r_menubar;
+    cba=r_exit_cba;  
+	}
+
+
+// -----------------------------------------------------------------------------
+//
+//   r_menubar
+//   Main menubar
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_BAR r_menubar
+	{
+	titles =
+		{
+		MENU_TITLE { menu_pane = r_menu; }
+		};
+	}
+
+RESOURCE MENU_PANE r_menu
+	{
+	items =
+		{
+		// added the new Options menu command here
+		MENU_ITEM
+				{
+				command = EVisitDrJukka;
+				txt = qtn_visit;
+				},
+		MENU_ITEM
+				{
+				command = EResset;
+				txt = qtn_reset;
+				},
+		MENU_ITEM
+				{
+				command = EBGLOff;
+				txt = qtn_backlightoff;
+				},
+		MENU_ITEM
+				{
+				command = EBGLOn;
+				txt = qtn_backlighton;
+				},
+				MENU_ITEM
+				{
+				command = EAbout;
+				txt = qtn_about;
+				},
+		MENU_ITEM {command = EAppHelp;						txt = qtn_Help;},
+		MENU_ITEM {command = EAknSoftkeyExit;				txt = qtn_exit;}
+				
+		};
+	}
+
+RESOURCE CBA R_APPHELP_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAppHelpBack; 
+		txt = qtn_Back; 
+	}
+  };
+}
+
+
+RESOURCE CBA r_exit_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= "";//ktx_cmd_exit;
+		},
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= "";//ktx_cmd_exit;
+		}
+	};
+}
+
+RESOURCE CBA r_myoptexit_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyOptions;
+			txt= qtn_options;//ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyExit;
+			txt= qtn_exit;//ktx_cmd_exit;
+		}
+	};
+}
+
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+//
+RESOURCE DIALOG r_about_query_dialog
+	{
+	flags = EGeneralQueryFlags | EEikDialogFlagNoBorder | EEikDialogFlagNoShadow;
+	buttons = R_AVKON_SOFTKEYS_OK_EMPTY;
+	items=
+		{
+		DLG_LINE 
+			{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			itemflags = EEikDlgItemNonFocusing;
+			control = AVKON_HEADING
+				{
+				};
+			},
+		DLG_LINE
+			{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+				{
+				};
+			}
+		};
+	}
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_ddd_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+// -----------------------------------------------------------------------------
+//
+// Resources for messages.
+//
+// -----------------------------------------------------------------------------
+//
+
+RESOURCE TBUF r_about_dialog_text { buf=qtn_about_dialog_text; }
+RESOURCE TBUF r_command1_text { buf=qtn_command1_text; }
+
+RESOURCE TBUF R_STR_HELP1				{buf =ktx_str_HELP1;}
+RESOURCE TBUF R_STR_HELP2				{buf =ktx_str_HELP2;}
+RESOURCE TBUF R_STR_HELP3				{buf =ktx_str_HELP3;}
+
+// ---------------------------------------------------------------------------- 
+//
+// r_localisable_app_info
+//
+// ---------------------------------------------------------------------------- 
+//
+#ifdef SONE_VERSION
+RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+	{
+	short_caption = "Inclinometer";
+	caption_and_icon = 
+	CAPTION_AND_ICON_INFO
+		{
+		caption = "Inclinometer";
+
+		number_of_icons = 1;
+	   	icon_file = "\\resource\\apps\\YApp_20028857_aif.mif";
+		};
+	}
+#else
+
+	#ifdef LAL_VERSION
+		RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+			{
+			short_caption = "Inclinometer";
+			caption_and_icon = 
+			CAPTION_AND_ICON_INFO
+				{
+				caption = "Inclinometer";
+		
+				number_of_icons = 1;
+				icon_file = "\\resource\\apps\\YApp_E887600D_aif.mif";
+				};
+			}
+	#else
+		RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+			{
+			short_caption = "Inclinometer";
+			caption_and_icon = 
+			CAPTION_AND_ICON_INFO
+				{
+				caption = "Inclinometer";
+		
+				number_of_icons = 1;
+				icon_file = "\\resource\\apps\\YApp_E887600D_aif.mif";
+				};
+			}
+	#endif
+#endif
+
+
+
+
+// End of File

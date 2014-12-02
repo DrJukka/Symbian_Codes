@@ -1,0 +1,61 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+*/
+
+TARGET            	YTools_GIFUI.dll
+TARGETTYPE        	PLUGIN
+
+UID               	0x10009d8d 0xA0000F63
+
+VENDORID			0x00000000
+CAPABILITY 			ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+
+EPOCSTACKSIZE		0x5000
+
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+
+START RESOURCE 		..\data\A0000F63.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET YTools_GIFUI.rsc
+#endif
+END
+
+START RESOURCE    ..\data\YTools_GIFUI_res.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH        ..\src
+SOURCE            YTools_GIFUI.cpp
+SOURCE            CTimeOutTimer.cpp
+SOURCE            Gif_Reader.cpp
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           eikcdlg.lib 
+LIBRARY           eikctl.lib 
+LIBRARY           eikcoctl.lib 
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           gdi.lib 
+LIBRARY           fbscli.lib
+LIBRARY           bitgdi.lib 
+LIBRARY           egul.lib
+LIBRARY           bafl.lib 
+LIBRARY           ezlib.lib 
+LIBRARY           ezip.lib 
+LIBRARY           estor.lib 
+LIBRARY           CommonDialogs.lib 
+LIBRARY           mediaclientimage.lib 
+LIBRARY           aknicon.lib
+LIBRARY           imageconversion.lib 
+

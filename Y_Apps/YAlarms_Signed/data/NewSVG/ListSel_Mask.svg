@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="246.5" height="34" viewBox="0 0 246.5 34">
+<switch>
+<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1" content="structured text"/>
+<g>
+<g>
+<radialGradient id="XMLID_1_" cx="123.25" cy="17" r="87.976" fx="123.25" fy="17" gradientUnits="userSpaceOnUse">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.4472" style="stop-color:#8F8F8F"/>
+<stop offset="1" style="stop-color:#000000"/>
+</radialGradient>
+<path fill-opacity="0.4" stroke-opacity="0.4" fill="url(#XMLID_1_)" d="M246.5,34H0V0h246.5V34z"/>
+</g>
+</g>
+</switch>
+</svg>

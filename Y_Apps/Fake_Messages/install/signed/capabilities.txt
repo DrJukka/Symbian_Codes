@@ -1,0 +1,9 @@
+
+CMsv* for SMS creation :: ReadUserData WriteUserData 
+
+CContactDatabase :: ReadUserData
+
+CPolicyServer (my own restriction for usage):: ReadDeviceData 
+
+TApaTask::SendMessage :: SwEvent
+

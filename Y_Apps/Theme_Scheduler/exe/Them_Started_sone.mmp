@@ -1,0 +1,32 @@
+
+#include "..\..\common_inc\Definitions.h"
+
+TARGET           	YApp_2002884D.exe 
+TARGETTYPE      	EXE
+
+UID  				0 0x2002884D
+EPOCSTACKSIZE		0x5000
+
+SOURCEPATH	.
+SOURCE				Starter.cpp
+
+START RESOURCE [E8876004].rss
+HEADER
+TARGET [2002884D].rsc
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH      	..\common_src 
+SOURCE          	CTimeOutTimer.cpp
+
+USERINCLUDE     	..\inc
+USERINCLUDE     	..\common_inc 
+SYSTEMINCLUDE   	\epoc32\include
+
+LIBRARY				euser.lib 
+LIBRARY				efsrv.lib 
+LIBRARY				apgrfx.lib 
+LIBRARY				apparc.lib
+
+LANG SC
+VENDORID	  	  0

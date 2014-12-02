@@ -1,0 +1,25 @@
+#include <ecom\RegistryInfo.rh>
+//#include "plugin_uids.h"
+
+RESOURCE REGISTRY_INFO
+{
+	dll_uid = 0xA0000F6B; // third UID in the mmp file
+	interfaces = 
+	{
+		INTERFACE_INFO
+		{
+			interface_uid = 0x20009992;// static YTool UID
+			implementations =
+			{
+				IMPLEMENTATION_INFO
+				{
+					implementation_uid = 0x7145;// implementation UID, returned with interface
+					version_no=1;
+					display_name="Additional icons";
+					default_data="";
+					opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILERECOGNIZER</TYPE></IMPLEMENTATION></YTOOLS>";
+				}
+			};
+		}
+	};
+}

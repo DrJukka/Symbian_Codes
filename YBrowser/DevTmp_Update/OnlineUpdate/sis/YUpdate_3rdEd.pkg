@@ -1,0 +1,28 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"YTools: Y-Update"},(0xA000257A),0,87,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000257A_res.RSC"  -"!:\resource\apps\YTools_A000257A_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YTools_A000257A.dll"	-"!:\sys\bin\YTools_A000257A.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YTools_A000257A.rsc"-"!:\Resource\Plugins\YTools_A000257A.rsc"
+
+
+"..\XML_Data\Freewares.txt"	-"!:\Update_Data\Freewares.txt"
+"..\XML_Data\YBrowser.txt"	-"!:\Update_Data\YBrowser.txt"
+"..\XML_Data\YNews.txt"		-"!:\Update_Data\YNews.txt"
+"..\XML_Data\YTasks.txt"	-"!:\Update_Data\YTasks.txt"
+"..\XML_Data\YUpdate.mif"	-"!:\Update_Data\YUpdate.mif"
+"..\XML_Data\YUpdate.txt"	-"!:\Update_Data\YUpdate.txt"

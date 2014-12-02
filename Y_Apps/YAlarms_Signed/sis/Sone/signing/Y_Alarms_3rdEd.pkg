@@ -1,0 +1,109 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Alarms"},(0x2002DD36),1,10,0
+
+;Localised Vendor name
+%{"Dr. Jukka"}
+
+;Unique Vendor name
+:"Dr. Jukka"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YApp_2002DD36.exe"	                	 	-"!:\sys\bin\YApp_2002DD36.exe"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YApp_2002DD36_reg.r01"  	-"!:\private\10003a3f\import\apps\YApp_2002DD36_reg.rsc"
+
+!({"English"},{"Albanian"},{"Arabic"},{"Bulgarian"},{"Chinese(PRC)"},{"Dutch"},{"Finnish"},{"German"},{"Greek"},{"Hebrew"},{"Hungarian"},{"Italian"},{"Korean"},{"Polish"},{"Portuguese"},{"Romanian"},{"Russian"},{"Spanish"},{"Swedish"},{"Tamil"},{"Thai"})
+
+
+IF option1	;English
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r01"         		     	-"!:\resource\apps\YApp_2002DD36.r01"
+ENDIF
+
+IF option2	;Albanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r35"         		     	-"!:\resource\apps\YApp_2002DD36.r35"
+ENDIF
+
+IF option3	;Arabic
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r37"         		     	-"!:\resource\apps\YApp_2002DD36.r37"
+ENDIF
+
+IF option4	;Bulgarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r42"         		     	-"!:\resource\apps\YApp_2002DD36.r42"
+ENDIF
+
+IF option5	;Chinese(PRC)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r31"         		     	-"!:\resource\apps\YApp_2002DD36.r31"
+ENDIF
+
+IF option6	;Dutch
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r18"         		     	-"!:\resource\apps\YApp_2002DD36.r18"
+ENDIF
+
+IF option7	;Finnish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r09"         		     	-"!:\resource\apps\YApp_2002DD36.r09"
+ENDIF
+
+IF option8	;German
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r03"         		     	-"!:\resource\apps\YApp_2002DD36.r03"
+ENDIF
+
+IF option9	;Greek
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r54"         		     	-"!:\resource\apps\YApp_2002DD36.r54"
+ENDIF
+
+IF option10	;Hebrew
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r57"         		     	-"!:\resource\apps\YApp_2002DD36.r57"
+ENDIF
+
+IF option11	;Hungarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r17"         		     	-"!:\resource\apps\YApp_2002DD36.r17"
+ENDIF
+
+IF option12	;Italian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r05"         		     	-"!:\resource\apps\YApp_2002DD36.r05"
+ENDIF
+
+IF option13	;Korean
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r65"         		     	-"!:\resource\apps\YApp_2002DD36.r65"
+ENDIF
+
+IF option14	;Polish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r27"         		     	-"!:\resource\apps\YApp_2002DD36.r27"
+ENDIF
+
+IF option15	;Portuguese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r13"         		     	-"!:\resource\apps\YApp_2002DD36.r13"
+ENDIF
+
+IF option16	;Romanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r78"         		     	-"!:\resource\apps\YApp_2002DD36.r78"
+ENDIF
+
+IF option17	;Russian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r16"         		     	-"!:\resource\apps\YApp_2002DD36.r16"
+ENDIF
+
+IF option18	;Spanish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r04"         		     	-"!:\resource\apps\YApp_2002DD36.r04"
+ENDIF
+
+IF option19	;Swedish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r06"         		     	-"!:\resource\apps\YApp_2002DD36.r06"
+ENDIF
+
+IF option20	;Tamil
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r87"         		     	-"!:\resource\apps\YApp_2002DD36.r87"
+ENDIF
+
+IF option21	;Thai
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApp_2002DD36.r33"         		     	-"!:\resource\apps\YApp_2002DD36.r33"
+ENDIF
+
+"..\..\data\icon_bmp\YApp_E8876001_aif.mif"			-"!:\resource\apps\YApp_2002DD36_aif.mif"
+"..\..\data\YApp_E8876001.mif"					-"!:\resource\apps\YApp_2002DD36.mif"

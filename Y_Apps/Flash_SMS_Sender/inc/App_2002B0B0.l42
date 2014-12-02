@@ -1,0 +1,61 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Избери"
+#define ktx_cmd_back			"Назад"
+#define ktx_cmd_options			"Опции"
+#define ktx_cmd_cancel			"Отмяна"
+#define ktx_cmd_ok				"Ок"
+#define ktx_cmd_exit			"Изход"
+
+#define ktx_cmd_REMOVE			"Премахни"
+#define ktx_str_ABOUT			"Относно"
+
+///----
+
+#define ktx_mnu_done			"Готово"
+#define ktx_mnu_toggle			"Превключване"
+#define ktx_mnu_MarkAll			"Маркирай всички"
+#define ktx_mnu_UnmarkAll		"Демаркирай всички"
+
+
+#define ktx_mnu_Message			"Съобщение"
+
+#define ktx_mnu_Recipient		"Получатели"
+#define ktx_mnu_SelRecipient	"Добави от контактите"
+#define ktx_mnu_NewRecipient	"Нов контакт"
+#define ktx_mnu_RemRecipient	"Премахни всчички"
+#define ktx_mnu_SendMMS			"Изпрати СМС"
+
+
+#define ktx_sh_str_appname		"Флаш СМС"
+
+#define ktx_str_MSGSENT			"Съобщението изпратено"
+#define ktx_str_CONTACTS		" Контакти"
+#define ktx_str_PHONENUMBER		"Телефонен номер"
+#define ktx_str_ExitQ			"Изход ?"
+
+#define ktx_str_MSGTRUNK		"Съобщението ще бъде съкратено до 70 знака, продължение?"
+
+#define ktx_str_FAIL_1			"СМС Списъка Неуспешен"
+#define ktx_str_FAIL_2			"СМС Изпращането Неуспешно"
+#define ktx_str_FAIL_3			"СМС Няма Център за услуги"
+#define ktx_str_FAIL_4			"СМС Фатална грешка на сървара"
+#define ktx_str_FAIL_5			"СМС грешка: "
+
+#define ktx_str_ALLSENT			"Всички съобщения изпратени"
+
+#define ktx_cmd_visit			"Посетете m.DrJukka.com"
+#define ktx_mnu_help			"Помощ"
+
+#define ktx_str_HELP1			"FlashSMS sender is used for sending type 0 SMS messages that are opened directly when received, also FlashSMS messages are not saved automatically in the receiving end."
+#define ktx_str_HELP2			"To make a new FlashSMS message, type the message to be included in the Flash SMS, note that for normal SMS characters the message can be 160 characters long, and for other the message will be truncated to 70 characters."
+#define ktx_str_HELP3			"Recipients can be added from contacts or by specifying the recipients number, both options are available in menu. Note that each message can have multiple recipients."
+#define ktx_str_HELP4			"After the recipient(s) are defined and the message body written, you can send then message with send option from the menu."
+#define ktx_str_HELP5			""
+
+
+
+
+
+

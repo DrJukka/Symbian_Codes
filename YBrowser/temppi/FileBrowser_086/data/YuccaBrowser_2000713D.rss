@@ -1,0 +1,1840 @@
+/* 
+	Copyright (c) 2006, 
+	Jukka Silvennoinen
+	All rights reserved 
+*/
+CHARACTER_SET UTF8
+NAME YBR2
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+
+#include <appinfo.rh>
+
+//#ifdef LANGUAGE_01
+#include "YuccaBrowser.l01"
+//#endif
+
+//#ifdef LANGUAGE_02// French
+//#include "YuccaBrowser.l02"
+//#endif
+
+//#ifdef LANGUAGE_03 // german
+//#include "YuccaBrowser.l03"
+//#endif
+
+//#ifdef LANGUAGE_04 // Spanish
+//#include "YuccaBrowser.l04"
+//#endif
+
+//#ifdef LANGUAGE_05 // Italian
+//#include "YuccaBrowser.l05"
+//#endif
+
+//#ifdef LANGUAGE_06 // Swedish
+//#include "YuccaBrowser.l06"
+//#endif
+
+//#ifdef LANGUAGE_07 // Danish
+//#include "YuccaBrowser.l07"
+//#endif
+
+//#ifdef LANGUAGE_08 // Norwegian
+//#include "YuccaBrowser.l08"
+//#endif
+
+//#ifdef LANGUAGE_09 // Finnish
+//#include "YuccaBrowser.l09"
+//#endif
+
+//#ifdef LANGUAGE_13 // Portuguese
+//#include "YuccaBrowser.l13"
+//#endif
+
+//#ifdef LANGUAGE_14 // Turkish
+//#include "YuccaBrowser.l14"
+//#endif
+
+//#ifdef LANGUAGE_16 // Russian
+//#include "YuccaBrowser.l16"
+//#endif
+
+//#ifdef LANGUAGE_17 // Hungarian
+//#include "YuccaBrowser.l17"
+//#endif
+
+//#ifdef LANGUAGE_18 // Dutch
+//#include "YuccaBrowser.l18"
+//#endif
+
+//#ifdef LANGUAGE_26 // Slovak
+//#include "YuccaBrowser.L26"
+//#endif
+
+//#ifdef LANGUAGE_27 // Polish
+//#include "YuccaBrowser.L27"
+//#endif
+
+//#ifdef LANGUAGE_28 // Slovenian
+//#include "YuccaBrowser.L28"
+//#endif
+
+//#ifdef LANGUAGE_29 // Taiwan Chinese
+//#include "YuccaBrowser.L29"
+//#endif
+
+//#ifdef LANGUAGE_31 // ELangPrcChinese
+//#include "YuccaBrowser.L31"
+//#endif
+
+//#ifdef LANGUAGE_32//Japanize
+//#include "YuccaBrowser.l32"
+//#endif
+
+//#ifdef LANGUAGE_33//thai
+//#include "YuccaBrowser.l33"
+//#endif
+
+//#ifdef LANGUAGE_37//Arabic
+//#include "YuccaBrowser.L37"
+//#endif
+
+//#ifdef LANGUAGE_42//Bulgarian
+//#include "YuccaBrowser.l42"
+//#endif
+
+//#ifdef LANGUAGE_45//Croatian
+//#include "YuccaBrowser.l45"
+//#endif
+
+//#ifdef LANGUAGE_54//Greek
+//#include "YuccaBrowser.l54"
+//#endif
+
+//#ifdef LANGUAGE_57//Hebrew
+//#include "YuccaBrowser.l57"
+//#endif
+
+//#ifdef LANGUAGE_59//Indonesian
+//#include "YuccaBrowser.l59"
+//#endif
+
+//#ifdef LANGUAGE_68//Lithuanian
+//#include "YuccaBrowser.l68"
+//#endif
+
+//#ifdef LANGUAGE_69//Macedonian
+//#include "YuccaBrowser.L69"
+//#endif
+
+//#ifdef LANGUAGE_78//Romanian
+//#include "YuccaBrowser.l78"
+//#endif
+
+//#ifdef LANGUAGE_79//Serbian
+//#include "YuccaBrowser.l79"
+//#endif
+
+#include "YuccaBrowser.hrh"
+
+
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF r_default_document_name { buf=""; }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    menubar = r_y_browser_menubar;
+    status_pane=R_AVKON_STATUS_PANE_LAYOUT_USUAL;//R_AVKON_STATUS_PANE_LAYOUT_SMALL_WITH_SIGNAL_PANE;//;R_AVKON_STATUS_PANE_LAYOUT_SMALL;
+    cba = r_myoptexit_cba;
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_y_browser_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_y_browser_menu;}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_PANE r_y_browser_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EExtrasSearchOff;				txt = ktx_mnu_setserchoff;},
+		MENU_ITEM {command = EFileMenu;cascade=r_file_menu;		txt = ktx_mnu_File; },
+		MENU_ITEM {command = EEditMenu;cascade=r_edit_menu;		txt = ktx_mnu_Edit; },
+		MENU_ITEM {command = EFolderViewMark;cascade=r_mark_menu;	txt = ktx_mnu_Mark; },
+		MENU_ITEM {command = ESearchFiles;					txt = ktx_mnu_Searchfiles; },
+		MENU_ITEM {command = EExtrasMenu;cascade=r_extras_menu;	txt = ktx_mnu_Extras; },
+		MENU_ITEM {command = EAbout;						txt = ktx_mnu_About;},
+		MENU_ITEM {command = EAknSoftkeyExit;				txt = ktx_cmd_Exit;}
+        };
+    }
+
+RESOURCE MENU_PANE r_extras_menu
+    {
+    items = 
+        {
+		MENU_ITEM {command = EExtrasCommandSC;			txt = ktx_mnu_commandSC;},
+		MENU_ITEM {command = EExtrasShowShortCut;			txt = ktx_mnu_ShowSC;},
+		MENU_ITEM {command = EExtrasSetShortCut;			txt = ktx_mnu_SetSC;},
+		MENU_ITEM {command = EExtrasSearchOn;			txt = ktx_mnu_Searchon;},
+		MENU_ITEM {command = ESettings;				txt = ktx_mnu_Settings;},
+		MENU_ITEM {command = EExtrasLayout;				txt = ktx_mnu_switchlo;},
+		MENU_ITEM {command = EExtrasIcons;				txt = ktx_mnu_changeic;},
+		MENU_ITEM {command = EExtrasRefresh;			txt = ktx_mnu_refresh;}
+        };
+    }
+
+RESOURCE MENU_PANE r_mark_menu
+    {
+    items = 
+        {
+		MENU_ITEM {command = EFolderViewMarkTogle;			txt = ktx_mnu_munmark;},
+		MENU_ITEM {command = EFolderViewMarkAll;				txt = ktx_mnu_Markall;},
+		MENU_ITEM {command = EFolderViewUnMarkAll;			txt = ktx_mnu_Unmarkall;}
+        };
+    }
+
+RESOURCE MENU_PANE r_file_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EOpenWithViewer;				txt = ktx_mnu_Openwith;},
+		MENU_ITEM {command = ESendFiles;					txt = ktx_mnu_Send;},
+		MENU_ITEM {command = EFileDetails;					txt = ktx_mnu_Properties;},
+		MENU_ITEM {command = EFileAttributes;				txt = ktx_mnu_Attributes;},
+		MENU_ITEM {command = EFileDelete;					txt = ktx_mnu_Delete;},
+		MENU_ITEM {command = EFileRename;					txt = ktx_mnu_Rename;},
+		MENU_ITEM {command = EFileShowName;					txt = ktx_mnu_ShowName;},
+		MENU_ITEM {command = EFileNewFile;					txt = ktx_mnu_Newfile;},
+		MENU_ITEM {command = EFileNewFolder;				txt = ktx_mnu_Newfolder;}
+        };
+    }
+
+RESOURCE MENU_PANE r_edit_menu
+    {
+    items = 
+        {
+		MENU_ITEM {command = EEditCopy;					txt = ktx_mnu_Copy;},
+		MENU_ITEM {command = EEditCut;					txt = ktx_mnu_Cut;},
+		MENU_ITEM {command = EEditPaste;					txt = ktx_mnu_Paste;},
+		MENU_ITEM {command = EEditPasteNewFile;				txt = ktx_mnu_pastenfile;},
+		MENU_ITEM {command = EEditShowPaste;				txt = ktx_mnu_pasteshow;},
+		MENU_ITEM {command = EEditClearPaste;				txt = ktx_mnu_pasteclear;}
+        };
+    }
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+
+RESOURCE MENU_BAR r_selection_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_selection_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_selection_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EAddFilesDone;					txt = ktx_mnu_Done; },
+		MENU_ITEM {command = EAddFilesToSelection;			txt = ktx_mnu_addsel; },
+		MENU_ITEM {command = EEditShowPaste;				txt = ktx_mnu_selshow;},
+		MENU_ITEM {command = EFolderViewMark;cascade=r_mark_menu;	txt = ktx_mnu_Mark; },
+		MENU_ITEM {command = EAbout;						txt = ktx_mnu_About;}
+        };
+    }
+
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+
+RESOURCE MENU_BAR r_showstring_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_showstring_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_showstring_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = ESSCopyClipBoard;				txt = ktx_mnu_cpyclipp;}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+
+RESOURCE MENU_BAR r_types_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_types_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_types_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = ETypesSelectionDone;				txt = ktx_mnu_Done;}
+        };
+    }
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+
+RESOURCE MENU_BAR r_search_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_search_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_search_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = ESearchStart;					txt = ktx_mnu_Startsearch;},
+		MENU_ITEM {command = ESearchBackToResults;			txt = ktx_mnu_nckresulyts;},
+		MENU_ITEM {command = ESearchClearREsults;				txt = ktx_mnu_resultclear;},
+		MENU_ITEM {command = ESearchShowTypes;				txt = ktx_mnu_showseltyp;},
+		MENU_ITEM {command = ESearchClearCondition;			txt = ktx_mnu_clearcond;}
+        };
+    }
+
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+
+RESOURCE MENU_BAR r_search_b_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_search_b_menu;}
+        };
+    }
+
+RESOURCE MENU_PANE r_search_b_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EExtrasSearchOff;				txt = ktx_mnu_setserchoff;},
+		MENU_ITEM {command = EFileMenu;cascade=r_fileb_menu;		txt = ktx_mnu_File; },
+		MENU_ITEM {command = EEditMenu;cascade=r_editb_menu;		txt = ktx_mnu_Edit; },
+		MENU_ITEM {command = EFolderViewMark;cascade=r_markb_menu;	txt = ktx_mnu_Mark; },
+		MENU_ITEM {command = EExtrasSearchOn;				txt = ktx_mnu_Searchon;}
+        };
+    }
+
+RESOURCE MENU_PANE r_markb_menu
+    {
+    items = 
+        {
+		MENU_ITEM {command = EFolderViewMarkTogle;			txt = ktx_mnu_munmark;},
+		MENU_ITEM {command = EFolderViewMarkAll;				txt = ktx_mnu_Markall;},
+		MENU_ITEM {command = EFolderViewUnMarkAll;			txt = ktx_mnu_Unmarkall;}
+        };
+    }
+
+RESOURCE MENU_PANE r_fileb_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EGoToFolder;					txt = ktx_mnu_gtofolder;},
+		MENU_ITEM {command = EOpenWithViewer;				txt = ktx_mnu_Openwith;},
+		MENU_ITEM {command = ESendFiles;					txt = ktx_mnu_Send;},
+		MENU_ITEM {command = EFileDetails;					txt = ktx_mnu_Properties;},
+		MENU_ITEM {command = EFileAttributes;				txt = ktx_mnu_Attributes;},
+		MENU_ITEM {command = EFileDelete;					txt = ktx_mnu_Delete;},
+		MENU_ITEM {command = EFileRename;					txt = ktx_mnu_Rename;},
+		MENU_ITEM {command = EFileShowName;					txt = ktx_mnu_ShowName;}
+        };
+    }
+
+RESOURCE MENU_PANE r_editb_menu
+    {
+    items = 
+        {
+		MENU_ITEM {command = EEditCopy;					txt = ktx_mnu_Copy;},
+		MENU_ITEM {command = EEditCut;					txt = ktx_mnu_Cut;},
+		MENU_ITEM {command = EEditShowPaste;				txt = ktx_mnu_pasteshow;},
+		MENU_ITEM {command = EEditClearPaste;				txt = ktx_mnu_pasteclear;}
+        };
+    }
+
+// ---------------------------------------------------------
+//			CBA
+// ---------------------------------------------------------
+//
+
+
+RESOURCE CBA r_myoptexit_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_Options;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyExit; 
+		txt = ktx_cmd_Exit; 
+	}
+  };
+}
+
+RESOURCE CBA r_myob_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_Options;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EBackOneLevel; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+RESOURCE CBA r_selection2_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAddFilesDone; 
+		txt = ktx_cmd_Select;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAddFilesCancel; 
+		txt = ktx_cmd_Cancel; 
+	}
+  };
+}
+
+
+RESOURCE CBA r_selection_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_Options;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAddFilesCancel; 
+		txt = ktx_cmd_Cancel; 
+	}
+  };
+}
+
+RESOURCE CBA r_search_b_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_Options;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EBackFromSearchB; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+} 
+
+RESOURCE CBA r_search_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_Options;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EBackFromSearch; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+} 
+
+
+RESOURCE CBA r_commandsc_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EExtrasCommandSCSave; 
+		txt = ktx_cmd_Save; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EExtrasCommandSCBack; 
+		txt = ktx_cmd_Cancel; 
+	}
+  };
+} 
+
+RESOURCE CBA r_showstring_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_Options; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = ESSBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}  
+
+RESOURCE CBA r_settings_cba
+{
+  buttons = 
+  { 
+    CBA_BUTTON 
+	{ 
+		id = ESettingsSave; 
+		txt = ktx_cmd_Save; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = ESettingsCancel; 
+		txt = ktx_cmd_Cancel; 
+	}
+  };
+}  
+
+RESOURCE CBA r_attr_cba
+{
+  buttons = 
+  { 
+    CBA_BUTTON 
+	{ 
+		id = EFileAttributesSave; 
+		txt = ktx_cmd_Save; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EFileAttributesCancel; 
+		txt = ktx_cmd_Cancel; 
+	}
+  };
+} 
+
+RESOURCE CBA r_attr_back_cba
+{
+  buttons = 
+  { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EFileAttributesCancel; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+RESOURCE CBA r_myexit_cba
+{
+  buttons = 
+  { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = ""; 
+	},
+    CBA_BUTTON 
+	{ 
+		id = EClose; 
+		txt = ktx_cmd_Exit; 
+	}
+  };
+}
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE DIALOG r_sel_app_dialog 
+{ 
+	flags = EAknDialogSelectionList; 
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL; 
+	items = 
+	{ 
+	DLG_LINE 
+	{
+		 type = EAknCtSingleGraphicListBox; 
+		id = ESelectionListControl; 
+		control = LISTBOX 
+		{
+			 flags = EAknListBoxSelectionList; 
+		};
+	 } , 
+	DLG_LINE 
+	{
+	 itemflags = EEikDlgItemNonFocusing; 
+	id = EFindControl; 
+	type = EAknCtSelectionListFixedFind; 
+	} 
+	};
+ }
+
+RESOURCE MENU_BAR r_res_id_for_a_menubar 
+{
+	 titles = 
+	{ 
+		MENU_TITLE 
+		{
+			 menu_pane = R_AVKON_MENUPANE_SELECTION_LIST; 
+		}
+	 };
+ };
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+
+RESOURCE DIALOG r_types_dialog 
+{ 
+	flags = EAknDialogMultiselectionList;//EAknDialogMarkableList;//EAknDialogSelectionList;//EAknCtListQueryControl;
+	buttons = R_AVKON_SOFTKEYS_OPTIONS_BACK; 
+	items = 
+	{  
+		DLG_LINE 
+		{ 
+			type = EAknCtSingleGraphicListBox; 
+			id = ESelectionListControl; 
+			control = LISTBOX 
+			{ 
+				flags = EAknListBoxMultiselectionList;//EAknListBoxMarkableList; 
+			};
+		} 
+	}; 
+} 
+
+
+
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_wait_note_softkey_cancel
+    {
+    flags = EAknWaitNoteFlags | EEikDialogFlagNotifyEsc;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EYBWaitNoteId;
+            control= AVKON_NOTE 
+                { 
+                layout = EWaitLayout;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EProgressNoteId;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label =ktx_sh_str_Processing;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG R_ASK_NAME2_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 250; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+
+RESOURCE DIALOG R_ASK_NAME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 50; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE DIALOG R_BIG_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY
+                {
+                layout = ENumberLayout;
+                control = AVKON_INTEGER_EDWIN
+                    {
+                    min = 0;
+                    max = 100000000;
+                    };
+                };
+            }
+        };
+    }
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE DIALOG R_SC_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY
+                {
+                layout = ENumberLayout;
+                control = AVKON_INTEGER_EDWIN
+                    {
+                    min = 0;
+                    max = 9;
+                    };
+                };
+            }
+        };
+    }
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_types_selection_query
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtListQueryControl;
+            id = EListQueryControl;
+            control = AVKON_LIST_QUERY_CONTROL
+                {
+                listtype = EAknCtSingleGraphicPopupMenuListBox;
+                listbox = LISTBOX
+                    {
+                    flags = EAknListBoxMultiselectionList;
+                    height = 3;
+                    width = 3;
+                    };
+                heading = ktx_sh_str_selfiltyp;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_attr_selection_query
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtListQueryControl;
+            id = EListQueryControl;
+            control = AVKON_LIST_QUERY_CONTROL
+                {
+                listtype = EAknCtSingleGraphicPopupMenuListBox;
+                listbox = LISTBOX
+                    {
+                    flags = EAknListBoxMultiselectionList;
+                    height = 3;
+                    width = 3;
+//                    array_id = r_aknexquery_multi_selection_query_list_item;
+                    };
+                heading = ktx_mnu_Attributes;
+                };
+            }
+        };
+    }
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_alarm_time_query
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtMultilineQuery;
+            id = EMultilineFirstLine;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EMultiDataFirstDateEd;
+                label = ktx_sh_str_date;
+                control = DATE_EDITOR
+                    {
+                    minDate = DATE
+                        {
+                        year = 1800;
+                        };
+                    maxDate = DATE
+                        {
+                        year = 2599;
+                        };
+                    flags = 0;
+                    };
+                };
+            },
+        DLG_LINE
+            {
+            type = EAknCtMultilineQuery;
+            id = EMultilineSecondLine;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EMultiDataSecondTimeEd;
+                label = ktx_sh_str_time;
+                control = TIME_EDITOR
+                    {
+                    minTime = TIME
+                        {
+                        second = 0;
+                        minute = 0;
+                        hour = 0;
+                        };
+                    maxTime = TIME
+                        {
+                        second = 59;
+                        minute = 59;
+                        hour = 23;
+                        };
+                    flags = EEikTimeWithoutSecondsField |
+                            EEikTimeForce24HourFormat;
+                    };
+                };
+            }
+        };
+    }
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_ddd_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_about_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+
+
+RESOURCE DIALOG r_filetype_dialog
+	{
+	flags = EAknDialogSelectionList; 
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL; 
+	pages=r_filetype_dialog_pages;
+	}
+
+RESOURCE ARRAY r_filetype_dialog_pages
+	{
+	items=
+		{
+		PAGE { text="Info"		; id=EFTypePage1; lines=r_ftpe_dialog1; },
+		PAGE { text="Contact"		; id=EFTypePage2; lines=r_ftpe_dialog2; }	
+		};
+	}
+
+//ESelectionListControl
+
+RESOURCE ARRAY r_ftpe_dialog1
+	{
+	items=
+		{
+		DLG_LINE
+			{
+			type=EAknCtSingleGraphicListBox;
+			prompt="Audio";
+			id=EListAudio;
+			control=LISTBOX
+				{
+					flags = EAknListBoxSelectionList;
+				};		
+			}
+		};
+	}
+
+RESOURCE ARRAY r_ftpe_dialog2
+	{
+	items=
+		{
+		DLG_LINE
+			{
+			type=EAknCtSingleGraphicListBox;
+			prompt="Image";
+			id=EListImage;
+			control=LISTBOX
+				{
+				//	flags = CEikListBox::ES60StyleMultiselection;
+				};		
+			}
+		};
+	}
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_ITEM_LIST r_yucca_attr
+    {
+    items =
+        {
+        AVKON_SETTING_ITEM
+            {
+            identifier = EAttrSystem;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_System;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = EAttrHidden;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_Hidden;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = EAttrReadOnly;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_Readonly;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = EAttrDate;
+            setting_page_resource = r_attr_date_setting_page;
+            name = ktx_sh_str_Modifyingdate;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = EAttrTime;
+            setting_page_resource = r_attr_time_setting_page;
+            name = ktx_sh_str_Modifyingtime;
+            }
+        };
+    }
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_attr_date_setting_page
+    {
+    label= ktx_sh_str_Modifyingdate;
+    type = EEikCtDateEditor;
+    editor_resource_id = r_attr_date_date;
+    }
+
+RESOURCE DATE_EDITOR r_attr_date_date
+    {
+    minDate= DATE {year=1900;};
+    maxDate= DATE {year=2900;};
+    flags=0;
+    }
+
+RESOURCE AVKON_SETTING_PAGE r_attr_time_setting_page
+    {
+    label= ktx_sh_str_Modifyingtime;
+    type = EEikCtTimeEditor;
+    editor_resource_id = r_attr_time_date;
+    }
+
+RESOURCE TIME_EDITOR r_attr_time_date
+    {
+	minTime =  TIME {second=0;minute=0;hour=0;};
+	maxTime =  TIME {second=59;minute=59;hour=23;};
+    }
+
+	
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_ITEM_LIST r_yucca_setting
+    {
+    items =
+        {
+	  AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetFullScreen;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_fullscreen;
+            },
+        AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetShowAll;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_showall;
+            },
+        AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetSortOrder;
+            setting_page_resource = r_yucca_sortorder_setting_page;
+            associated_resource = r_yucca_sortorder_popup_setting_list;
+            name = ktx_sh_str_Sortorder;
+            },
+		AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetSortBy;
+            setting_page_resource = r_yucca_sortby_setting_page;
+            associated_resource = r_yucca_sortby_popup_setting_list;
+            name = Ktx_sh_str_SortBy;
+            },
+        AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetFoldersFirst;
+            setting_page_resource = r_yucca_foldersfirst_setting_page;
+            associated_resource = r_yucca_foldersfirst_popup_setting_list;
+            name = ktx_sh_str_Foldersfirst;
+            },
+	  AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetOptmize;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_speedoptimize;
+            },
+	  AVKON_SETTING_ITEM
+            {
+            identifier = EEYDoRecocnize;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_Recognizefiles;
+            },
+	  AVKON_SETTING_ITEM
+            {
+            identifier = EEYSetSavePath;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_savepathonexit;
+            },
+	  AVKON_SETTING_ITEM
+            {
+            identifier = EEYConfirmExit;
+            setting_page_resource = r_yucca_showall_setting_page;
+            associated_resource = r_yucca_showall_popup_setting_list;
+            name = ktx_sh_str_exitaks;
+            }
+        };
+    }
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_yucca_so_setting_page
+    {   
+    number= 1;
+    label= ktx_sh_str_speedoptimize;
+    type = EAknCtPopupSettingList;
+    }
+
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_yucca_so_popup_setting_list
+    {
+    setting_texts_resource = r_yucca_so_list;
+    popped_up_texts_resource = r_yucca_so_item_array;
+    }
+
+
+RESOURCE ARRAY r_yucca_so_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = ktx_sh_str_Off;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = ktx_sh_str_On;
+            }
+        };
+    }
+
+RESOURCE ARRAY r_yucca_so_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = ktx_sh_str_Off;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_On;
+            }
+        };
+    }
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_yucca_showall_setting_page
+    {   
+    number= 1;
+    label= ktx_sh_str_showall;
+    type = EAknCtPopupSettingList;
+    }
+
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_yucca_showall_popup_setting_list
+    {
+    setting_texts_resource = r_yucca_showall_list;
+    popped_up_texts_resource = r_yucca_showall_item_array;
+    }
+
+
+RESOURCE ARRAY r_yucca_showall_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = ktx_sh_str_No;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = ktx_sh_str_Yes;
+            }
+        };
+    }
+
+RESOURCE ARRAY r_yucca_showall_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = ktx_sh_str_No;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_Yes;
+            }
+        };
+    }
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_yucca_sortorder_setting_page
+    {   
+    number= 1;
+    label= ktx_sh_str_Sortorder;
+    type = EAknCtPopupSettingList;
+    }
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_yucca_sortorder_popup_setting_list
+    {
+    setting_texts_resource = r_yucca_sortorder_list;
+    popped_up_texts_resource = r_yucca_sortorder_item_array;
+    }
+
+
+RESOURCE ARRAY r_yucca_sortorder_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = ktx_sh_str_Decending;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = ktx_sh_str_Ascending;
+            }
+        };
+    }
+
+RESOURCE ARRAY r_yucca_sortorder_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = ktx_sh_str_Decending;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_Ascending;
+            }
+        };
+    }
+
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+
+RESOURCE AVKON_SETTING_PAGE r_yucca_foldersfirst_setting_page
+    {   
+    number= 1;
+    label= ktx_sh_str_Foldersfirst;
+    type = EAknCtPopupSettingList;
+    }
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_yucca_foldersfirst_popup_setting_list
+    {
+    setting_texts_resource = r_yucca_foldersfirst_list;
+    popped_up_texts_resource = r_yucca_foldersfirst_item_array;
+    }
+
+
+RESOURCE ARRAY r_yucca_foldersfirst_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = ktx_sh_str_No;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = ktx_sh_str_Yes;
+            }
+        };
+    }
+
+RESOURCE ARRAY r_yucca_foldersfirst_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = ktx_sh_str_No;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_Yes;
+            }
+        };
+    }
+
+	//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_yucca_sortby_setting_page
+    {   
+    number= 1;
+    label= Ktx_sh_str_SortBy;
+    type = EAknCtPopupSettingList;
+    editor_resource_id = r_yucca_sortby_popup_setting_list_new_entry;
+    }
+
+RESOURCE POPUP_SETTING_LIST r_yucca_sortby_popup_setting_list_new_entry
+    {
+    flags = 0;//EAknPopupSettingListFlagAllowsUserDefinedEntry;
+    }
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_yucca_sortby_popup_setting_list
+    {
+    setting_texts_resource = r_yucca_sortby_list;
+    popped_up_texts_resource = r_yucca_sortby_item_array;
+    }
+
+
+RESOURCE ARRAY r_yucca_sortby_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = ktx_sh_str_Name;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = ktx_sh_str_Fileextension;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 2;
+            text = ktx_sh_str_Filetype;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 3;
+            text = ktx_sh_str_Size;
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 4;
+            text = ktx_sh_str_Modifyingtime;
+            }
+        };
+    }
+
+RESOURCE ARRAY r_yucca_sortby_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = ktx_sh_str_Name;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_Fileextension;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_Filetype;
+            }/*,
+		LBUF
+            {
+            txt = ktx_sh_str_Size;
+            },
+		LBUF
+            {
+            txt = ktx_sh_str_Modifyingtime;
+            }*/
+        };
+    }
+
+//************************ Search ***************************
+
+
+RESOURCE AVKON_SETTING_ITEM_LIST r_search_setting
+    {
+    items =
+        {
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchPath;
+            setting_page_resource = r_path_setting_page;
+            name = ktx_sh_str_Path;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchFname;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Filename;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchBigthan;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Biggerthan;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchSmallThan;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Smallerthan;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchModBefore;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Modifiedbefore;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchModAfter;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Modifiedafter;
+            },
+      AVKON_SETTING_ITEM
+            {
+            identifier = ESearchCheckTypes;
+            setting_page_resource = r_yucca_foldersfirst_setting_page;
+            associated_resource = r_yucca_foldersfirst_popup_setting_list;
+            name = ktx_sh_str_Recognizefiles;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchExludeTyp;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Excludetypes;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchIncludeTyp;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Includetypes;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchAttr;
+            setting_page_resource = r_commandsc_setting_page;
+            name = ktx_sh_str_Fileattributes;
+            }
+// removed from current version, add later when it is fixed and tested.
+/*,
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchString;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "String to search";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchCaseSensitive;
+            setting_page_resource = r_yucca_foldersfirst_setting_page;
+            associated_resource = r_yucca_foldersfirst_popup_setting_list;
+            name = "Case sensitive";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ESearchUnicode;
+            setting_page_resource = r_yucca_foldersfirst_setting_page;
+            associated_resource = r_yucca_foldersfirst_popup_setting_list;
+            name = "Unicode";
+            }*/
+        };
+    }
+
+RESOURCE AVKON_SETTING_PAGE r_path_setting_page
+     {
+    number = 1;
+    label = ktx_sh_str_Path;
+    type = EEikCtEdwin;
+    editor_resource_id = r_path_edwin;
+    }
+
+RESOURCE EDWIN r_path_edwin
+    {
+    width = 9;
+    lines = 5;
+    maxlength = 255;
+	default_input_mode = EAknEditorTextInputMode;
+	allowed_input_modes = EAknEditorAllInputModes;
+    }
+
+
+//************************ Settings ***************************
+
+
+RESOURCE AVKON_SETTING_ITEM_LIST r_commandsc_setting
+    {
+    items =
+        {
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC0;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "0";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC1;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "1";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC2;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "2";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC3;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "3";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC4;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "4";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC5;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "5";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC6;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "6";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC7;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "7";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC8;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "8";
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = ECommandSC9;
+            setting_page_resource = r_commandsc_setting_page;
+            name = "9";
+            }
+        };
+    }
+
+
+RESOURCE AVKON_SETTING_PAGE r_commandsc_setting_page
+     {
+    number = 1;
+    label = "";
+    type = EEikCtEdwin;
+    editor_resource_id = r_commandsc_edwin;
+    }
+
+RESOURCE EDWIN r_commandsc_edwin
+    {
+    width = 9;
+    lines = 5;
+    maxlength = 50;
+       flags = EEikEdwinReadOnly;
+	default_input_mode = EAknEditorTextInputMode;
+	allowed_input_modes = EAknEditorAllInputModes;
+    }
+
+
+
+#include <CommonDialogs.hrh>
+#include <CommonDialogs.rh>
+
+RESOURCE FILESELECTIONDIALOG r_selaudio_prompt
+{
+title = "Select target folder";
+root_path= "!:\\Nokia\\";
+}
+
+RESOURCE TBUF R_CMD_EXIT		{buf =ktx_cmd_Exit;}
+RESOURCE TBUF R_CMD_DELETE		{buf =ktx_cmd_Delete;}
+
+RESOURCE TBUF R_MNU_COPY		{buf =ktx_mnu_Copy;}
+RESOURCE TBUF R_MNU_CUT			{buf =ktx_mnu_Cut;}
+RESOURCE TBUF R_MNU_PASTE		{buf =ktx_mnu_Paste;}
+RESOURCE TBUF R_MNU_DELETE		{buf =ktx_mnu_Delete;}
+RESOURCE TBUF R_MNU_RENAME		{buf =ktx_mnu_Rename;}
+RESOURCE TBUF R_MNU_PROPERTIES	{buf =ktx_mnu_Properties;}
+RESOURCE TBUF R_MNU_ATTRIBUTES	{buf =ktx_mnu_Attributes;}
+RESOURCE TBUF R_MNU_SHOWNAME		{buf =ktx_mnu_ShowName;}
+RESOURCE TBUF R_MNU_SEND		{buf =ktx_mnu_Send;}
+RESOURCE TBUF R_MNU_NEWFILE		{buf =ktx_mnu_Newfile;}
+RESOURCE TBUF R_MNU_NEWFOLDER		{buf =ktx_mnu_Newfolder;}
+RESOURCE TBUF R_MNU_SETTINGS		{buf =ktx_mnu_Settings;}
+RESOURCE TBUF R_MNU_SHOWSC		{buf =ktx_mnu_ShowSC;}
+RESOURCE TBUF R_MNU_SETSC		{buf =ktx_mnu_SetSC;}
+RESOURCE TBUF R_MNU_SETSEARCHON	{buf =ktx_mnu_Searchon;}
+RESOURCE TBUF R_MNU_REFRESH		{buf =ktx_mnu_refresh;}
+RESOURCE TBUF R_MNU_MARKALL		{buf =ktx_mnu_Markall;}
+RESOURCE TBUF R_MNU_UNMARKALL		{buf =ktx_mnu_Unmarkall;}
+RESOURCE TBUF R_MNU_OPEN		{buf =ktx_mnu_Open;}
+RESOURCE TBUF R_MNU_OPENWITH		{buf =ktx_mnu_Openwith;}
+RESOURCE TBUF R_MNU_PASTESHOW		{buf =ktx_mnu_pasteshow;}
+RESOURCE TBUF R_MNU_CLEARPASTE	{buf =ktx_mnu_pasteclear;}
+RESOURCE TBUF R_MNU_SEARCHFLES	{buf =ktx_mnu_Searchfiles;}
+RESOURCE TBUF R_MNU_PAGEUP		{buf =ktx_mnu_PAGEUP;}
+RESOURCE TBUF R_MNU_PAGEDOWN		{buf =ktx_mnu_PAGEDOWN;}
+RESOURCE TBUF R_MNU_SELCOMMAND	{buf =ktx_sh_str_SELCOMMAND;}
+RESOURCE TBUF R_MNU_NOTSET		{buf =ktx_sh_str_NOTSET;}
+
+RESOURCE TBUF R_SH_STR_FORMETNAME		{buf =ktx_sh_str_formatName;}
+RESOURCE TBUF R_SH_STR_FORMETFSYS		{buf =ktx_sh_str_formatFsys;}
+RESOURCE TBUF R_SH_STR_FORMETID		{buf =ktx_sh_str_formatID;}
+RESOURCE TBUF R_SH_STR_FORMETFREE		{buf =ktx_sh_str_formatFree;}
+RESOURCE TBUF R_SH_STR_FORMETUSED		{buf =ktx_sh_str_formatUsed;}
+RESOURCE TBUF R_SH_STR_FORMETSIZEKB		{buf =ktx_sh_str_formatSizeKb;}
+RESOURCE TBUF R_SH_STR_FORMETSIZEB		{buf =ktx_sh_str_formatSizeB;}
+RESOURCE TBUF R_SH_STR_FORMETTYPE		{buf =ktx_sh_str_formatType;}
+RESOURCE TBUF R_SH_STR_FORMETFILES		{buf =ktx_sh_str_formatFiles;}
+RESOURCE TBUF R_SH_STR_FORMETFLDR		{buf =ktx_sh_str_formatFolders;}
+RESOURCE TBUF R_SH_STR_FORMETTYPEID		{buf =ktx_sh_str_formatTypeID;}
+RESOURCE TBUF R_SH_STR_ATRWPROT		{buf =ktx_sh_str_atrWProt;}
+RESOURCE TBUF R_SH_STR_ATRLOCKED		{buf =ktx_sh_str_atrLocked;}
+RESOURCE TBUF R_SH_STR_ATRFRMATTABLE	{buf =ktx_sh_str_atrFormattable;}
+RESOURCE TBUF R_SH_STR_ATRVARSIZE		{buf =ktx_sh_str_atrVarSize;}
+RESOURCE TBUF R_SH_STR_ATRREMABLE		{buf =ktx_sh_str_atrRemovable;}
+RESOURCE TBUF R_SH_STR_ATRHIDDEN		{buf =ktx_sh_str_atrtHidden;}
+RESOURCE TBUF R_SH_STR_ATRREADONLY		{buf =ktx_sh_str_atrReadonly;}
+RESOURCE TBUF R_SH_STR_ATRSYSTEM		{buf =ktx_sh_str_atrSystem;}
+RESOURCE TBUF R_SH_STR_ATRVOLUME		{buf =ktx_sh_str_atrVolume;}
+RESOURCE TBUF R_SH_STR_ATRARCHIV		{buf =ktx_sh_str_atrArchive;}
+RESOURCE TBUF R_SH_STR_ATRROM			{buf =ktx_sh_str_atrROM;}
+
+RESOURCE TBUF R_SH_STR_DATE			{buf =ktx_sh_str_date;}
+RESOURCE TBUF R_SH_STR_TIME			{buf =ktx_sh_str_time;}
+
+RESOURCE TBUF R_SH_STR_NOTPRESENT		{buf =ktx_sh_str_Notpresent;}
+RESOURCE TBUF R_SH_STR_FLOPPY			{buf =ktx_sh_str_Floppy;}
+RESOURCE TBUF R_SH_STR_HARDDISK		{buf =ktx_sh_str_HardDisk;}
+RESOURCE TBUF R_SH_STR_CDROM			{buf = ktx_sh_str_CdRom;}
+RESOURCE TBUF R_SH_STR_RAM			{buf =ktx_sh_str_Ram;}
+RESOURCE TBUF R_SH_STR_FLASH			{buf =ktx_sh_str_Flash;}
+RESOURCE TBUF R_SH_STR_ROM			{buf =ktx_sh_str_Rom;}
+RESOURCE TBUF R_SH_STR_REMOTE			{buf =ktx_sh_str_Remote;}
+RESOURCE TBUF R_SH_STR_UNKNOWN		{buf =ktx_sh_str_Unknown;}
+RESOURCE TBUF R_SH_STR_SCTITLE		{buf =ktx_sh_str_SCTITLE;}
+RESOURCE TBUF R_SH_STR_FREE			{buf =ktx_sh_str_FREE;}
+RESOURCE TBUF R_SH_STR_ROOT			{buf =ktx_sh_str_Root;}
+RESOURCE TBUF R_SH_STR_SELECTED		{buf =ktx_sh_str_Selected;}
+RESOURCE TBUF R_SH_STR_FILCUT			{buf =ktx_sh_str_Cutfiles;}
+RESOURCE TBUF R_SH_STR_FILCOPY		{buf =ktx_sh_str_CopyFiles;}
+RESOURCE TBUF R_SH_STR_COPYINGFF		{buf =ktx_sh_str_COPYINGFF;}
+RESOURCE TBUF R_SH_STR_MOVINGFF		{buf =ktx_sh_str_MOVINGFF;}
+RESOURCE TBUF R_SH_STR_RENAMINGFF		{buf =ktx_sh_str_RENAMINGFF;}
+RESOURCE TBUF R_SH_STR_DELETINGFF		{buf =ktx_sh_str_DELETINGFF;}
+RESOURCE TBUF R_SH_STR_EXISTREPLACE		{buf =ktx_sh_str_EXISTREPLACE;}
+RESOURCE TBUF R_SH_STR_ISROMODIFY		{buf =ktx_sh_str_ISROMODIFY;}
+RESOURCE TBUF R_SH_STR_ALREDYEXIST		{buf =ktx_sh_str_ALREDYEXIST;}
+RESOURCE TBUF R_SH_STR_ISOPEN			{buf =ktx_sh_str_ISOPEN;}
+RESOURCE TBUF R_SH_STR_ISREADONLY		{buf =ktx_sh_str_ISREADONLY;}
+RESOURCE TBUF R_SH_STR_ACCDENIED		{buf =ktx_sh_str_ACCDENIED;}
+RESOURCE TBUF R_SH_STR_DISKFULL		{buf =ktx_sh_str_DISKFULL;}
+RESOURCE TBUF R_SH_STR_DISCKNOTREADY	{buf =ktx_sh_str_DISCKNOTREADY;}
+RESOURCE TBUF R_SH_STR_CORRDISCK		{buf =ktx_sh_str_CORRDISCK;}
+RESOURCE TBUF R_SH_STR_INVALIDNAME		{buf =ktx_sh_str_INVALIDNAME;}
+RESOURCE TBUF R_SH_STR_NOTMEMFORFF		{buf =ktx_sh_str_NOTMEMFORFF;}
+RESOURCE TBUF R_SH_STR_OPERFAILED		{buf =ktx_sh_str_OPERFAILED;}
+RESOURCE TBUF R_SH_STR_SENDFFVIA		{buf =ktx_sh_str_SENDFFVIA;}
+RESOURCE TBUF R_SH_STR_SELAPPLICATION	{buf =ktx_sh_str_SELAPPLICATION;}
+RESOURCE TBUF R_SH_STR_OPENFILE		{buf =ktx_sh_str_OPENFILE;}
+RESOURCE TBUF R_SH_STR_PATH			{buf = ktx_sh_str_Path;}
+RESOURCE TBUF R_SH_STR_FILENAME		{buf =ktx_sh_str_Filename;}
+RESOURCE TBUF R_SH_STR_BIGTHAN		{buf =ktx_sh_str_Biggerthan;}
+RESOURCE TBUF R_SH_STR_SMALTHAN		{buf =ktx_sh_str_Smallerthan;}
+RESOURCE TBUF R_SH_STR_TYPES			{buf =ktx_sh_str_types;}
+RESOURCE TBUF R_SH_STR_ANDATRIBS		{buf =ktx_sh_str_ANDATRIBS;}
+RESOURCE TBUF R_SH_STR_SYSTEM			{buf =ktx_sh_str_System;}
+RESOURCE TBUF R_SH_STR_HIDDEN			{buf =ktx_sh_str_Hidden;}
+RESOURCE TBUF R_SH_STR_READONLY		{buf =ktx_sh_str_Readonly;}
+RESOURCE TBUF R_SH_STR_SEARCFOR		{buf =ktx_sh_str_SEARCFOR;}
+RESOURCE TBUF R_SH_STR_SELFILETYPES		{buf =ktx_sh_str_SELFILETYPES;}
+RESOURCE TBUF R_SH_STR_MB			{buf =ktx_sh_str_MB;}
+RESOURCE TBUF R_SH_STR_KB			{buf =ktx_sh_str_KB;}
+RESOURCE TBUF R_SH_STR_BYTES			{buf =ktx_sh_str_BYTES;}
+RESOURCE TBUF R_SH_STR_HIDD			{buf =ktx_sh_str_HIDD;}
+RESOURCE TBUF R_SH_STR_AND			{buf =ktx_sh_str_AND;}
+RESOURCE TBUF R_SH_STR_OR			{buf =ktx_sh_str_OR;}
+RESOURCE TBUF R_SH_STR_SYS			{buf =ktx_sh_str_SYS;}
+RESOURCE TBUF R_SH_STR_RO			{buf =ktx_sh_str_RO;}
+RESOURCE TBUF R_SH_STR_FILESFOUND		{buf =ktx_sh_str_FILESFOUND;}
+RESOURCE TBUF R_SH_STR_FOUNDENDDDD		{buf =ktx_sh_str_FOUNDENDDDD;}
+RESOURCE TBUF R_SH_STR_READINGFF		{buf =ktx_sh_str_READINGFF;}
+RESOURCE TBUF R_SH_STR_SELICONFF		{buf =ktx_sh_str_SELICONFF;}
+
+RESOURCE TBUF R_STR_FILREADERR		{buf =ktx_str_FILREADERR;}
+RESOURCE TBUF R_STR_FILNOTFOND		{buf =ktx_str_FILNOTFOND;}
+RESOURCE TBUF R_STR_NOAPPFORFIL		{buf =ktx_str_NOAPPFORFIL;}
+RESOURCE TBUF R_STR_SAVESEARCH		{buf =ktx_str_SAVESEARCH;}
+RESOURCE TBUF R_STR_SELSCNUMBER		{buf =ktx_str_SELSCNUMBER;}
+RESOURCE TBUF R_STR_REBOOTICON		{buf =ktx_str_REBOOTICON;}
+RESOURCE TBUF R_STR_PASTEFTOFOL		{buf =ktx_str_PASTEFTOFOL;}
+RESOURCE TBUF R_STR_DELFOILES			{buf =ktx_str_DELFOILES;}
+RESOURCE TBUF R_STR_NEWNAME			{buf =ktx_str_NEWNAME;}
+RESOURCE TBUF R_STR_FDERNAME			{buf =ktx_str_FDERNAME;}
+RESOURCE TBUF R_STR_ERRCREATEFLDR		{buf =ktx_str_ERRCREATEFLDR;}
+RESOURCE TBUF R_STR_FDREXISTS			{buf =ktx_str_FDREXISTS;}
+RESOURCE TBUF R_STR_APPENDLIST		{buf =ktx_str_APPENDLIST;}
+RESOURCE TBUF R_STR_FILESADCY			{buf =ktx_str_FILESADCY;}
+RESOURCE TBUF R_STR_PASTEWILLREM		{buf =ktx_str_PASTEWILLREM;}
+RESOURCE TBUF R_STR_FORSECOPY			{buf =ktx_str_FORSECOPY;}
+RESOURCE TBUF R_STR_NEWFILE			{buf =ktx_sh_str_NEWFILE;}
+RESOURCE TBUF R_STR_SENDUI			{buf =ktx_sh_str_SENDUI;}
+RESOURCE TBUF R_STR_STARTNEWSCRH		{buf =ktx_str_STARTNEWSCRH;}
+RESOURCE TBUF R_STR_RESETSEARCH		{buf =ktx_str_RESETSEARCH;}
+
+#ifdef EKA2
+/*
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+*/
+RESOURCE LOCALISABLE_APP_INFO r_yb_localisable_app_info
+{
+short_caption = "Y-FBrowser";
+caption_and_icon =
+{
+CAPTION_AND_ICON_INFO
+{
+caption = "Y-FBrowser";
+number_of_icons = 1; // each icon must be a bitmap/mask pair
+icon_file = "\\Resource\\Apps\\YuccaBrowser_2000713D_aif.mif"; 
+
+}
+}; 
+}
+#else
+
+#endif
+
+

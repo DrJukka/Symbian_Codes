@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Optionen"
+#define ktx_cmd_Exit			"Schließen"
+#define ktx_cmd_Cancel			"Abbrechen"
+#define ktx_cmd_Back			"Zurück"
+
+#define ktx_cmd_Disable			"Deaktivieren"
+#define ktx_cmd_Enable			"Aktivieren"
+
+#define ktx_cmd_About			"Über"
+
+#define ktx_cmd_Select			"Auswählen"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Ändern"
+#define ktx_cmd_Done			"Fertig"
+#define ktx_cmd_Play			"Abspielen"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Speichern"
+
+#define ktx_JustD				" T "
+#define ktx_JustH				" S "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"täglich"
+#define ktx_Wordays				"werktags"
+
+
+#define ktx_mnu_Newalarm			"Neu"
+#define ktx_mnu_Resetalarm			"Ändern"
+#define ktx_mnu_Removealarm			"Entfernen"
+#define ktx_mnu_SetAlarmSounds		"Alarm Sound eingeben"
+#define ktx_mnu_SetWorkdays			"Arbeitstage eingeben"
+#define ktx_mnu_Update				"Neue Version"
+
+#define ktx_mnu_Changevalue			"Ändern"
+
+#define ktx_str_Repeat				"Wiederholen"
+#define ktx_str_Daily				"täglich"
+#define ktx_str_Workdays			"werktags"
+#define ktx_str_InNext24			"In den nächsten 24 Stunden"
+#define ktx_str_Once				"Sofort"
+
+#define ktx_str_Time				"Zeit"
+#define ktx_str_Date				"Datum"
+
+#define ktx_str_Type				"Typ"
+#define ktx_str_Clockalarm			"Wecker Alarm"
+#define ktx_str_Calendaralarm		"Kalender Alarm"
+#define ktx_str_Message				"Nachricht"
+#define ktx_str_Snooze				"Schlummern"
+
+#define ktx_str_Settime				"Zeit eingeben"
+#define ktx_str_Setdate				"Datum eingeben"
+#define ktx_str_Setmessage			"Nachricht eingeben"
+		
+#define ktx_str_AlarmDueIn			"Alarm due in "
+#define ktx_str_GoJukka				"DrJukka.com aufrufen"
+
+#define ktx_cmd_Help				"Hilfe"
+
+#define ktx_cmd_Help1				"Diese Anwendung wurde entwickelt für Geräte die diese Funktion nicht eingebaut haben."
+#define ktx_cmd_Help2				"Der Alarm wird definiert ebenfalls die Wiederholung, welche Art Alarmton für den Alarm abgespielt werden soll. Gehen Sie auf Fertig, um den Alarm abzuspeichern."
+#define ktx_cmd_Help3				"Mit der Reset Option  werden alle Alarmdetails zurückgesetzt, um den Alarm zu aktivieren entfernen oder deaktivieren Ebenfalls die Optionen des vorübergehenden Deaktivierens des Alarms ."
+#define ktx_cmd_Help4				"Mit Set Alarm ertönt der Alarm Sound der Ausgewählt wurde. Die Schlummer-Einstellungen definiert die Schlummer-Zeit in Minuten, beachten Sie, dass einige Geräte die Schlummer Funktion nicht unterstützen."
+#define ktx_cmd_Help5				"Wenn die Werktagen im Gerät eingestellt wurden können die auch jederzeit wieder geändert werden.Auch an welchen Tagen die Alarme Aktiv sein sollen."
+
+
+
+

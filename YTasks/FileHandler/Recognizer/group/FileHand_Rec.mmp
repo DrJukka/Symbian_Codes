@@ -1,0 +1,30 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+
+TARGET          YTASK_20009998.dll
+TARGETTYPE      PLUGIN
+UID             0x10009D8D 0x20009998
+
+START RESOURCE  ..\data\20009998.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET          YTASK_20009998.rsc
+#endif
+END
+
+CAPABILITY      ProtServ
+VENDORID        0
+
+SOURCEPATH      ..\src
+SOURCE          YTASK_20009998.cpp
+
+USERINCLUDE     ..\inc
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \epoc32\include\ecom
+
+LIBRARY         euser.lib
+LIBRARY         apmime.lib
+LIBRARY         EFSRV.LIB
+LIBRARY         bafl.lib 
+LIBRARY         edbms.lib 

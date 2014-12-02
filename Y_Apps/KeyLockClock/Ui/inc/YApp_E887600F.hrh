@@ -1,0 +1,42 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+#ifndef __STHSMS_HRH__
+#define __STHSMS_HRH__
+
+
+enum 
+    {
+    EClose= 0x6000,
+    EClose2,
+    EAbout,
+    EVisitDrJukka,
+	EAppHelp,
+	EAppHelpBack,
+	EQuickExit
+    };
+
+
+
+enum 
+    {
+    EAknExNoteCtrlIdWaitNoteCancel= 0x1000,
+	EAknExNoteCtrlIdWaitNote,
+	EProgressNoteId,
+	EkeyLockOn,
+	EkeyLockTime,
+	EClockOn,
+	ELightsVal,
+	ELightsOn,
+	EFontSel,
+	ELightsTimeOut,
+	ELightsVal2,
+	EBackColor,
+	EFontColor,
+	EShowDate,
+	EOrientaOn
+	};
+
+
+
+#endif  //__STHSMS_HRH__
+

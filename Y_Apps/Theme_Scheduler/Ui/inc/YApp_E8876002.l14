@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Seçenekler"
+#define ktx_cmd_exit 			"Çıkış"
+#define ktx_cmd_Cancel			"İptal"
+
+
+#define ktx_cmd_Disable			"Devre Dışı"
+#define ktx_cmd_Enable			"Etkin"
+
+#define ktx_cmd_about			"Hakkında"
+#define ktx_cmd_New				"Yeni"
+#define ktx_cmd_Modify			"Düzenle"
+#define ktx_cmd_Remove			"Sil"
+#define ktx_cmd_Randomthes		"Rastgele Temalar"
+#define ktx_cmd_ViewTheme		"Temayı Görüntüle"
+#define ktx_cmd_Profchange		"Tercihe Bağlı Değişiklik"
+#define ktx_cmd_Timechange		"Zamanlı Değişiklik"
+#define ktx_cmd_Stop			"Dur"
+#define ktx_cmd_Save			"Kaydet"
+
+#define ktx_cmd_VisitJukka		"m.DrJukka.com'u ziyaret et"
+
+#define ktx_sh_str_DISABLED		"<Etkin Değil>"
+#define ktx_sh_str_BGIMAGE		"Duvar Kağıdı"
+#define ktx_sh_str_RANDOM		"Rastgele"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Tercih"
+#define ktx_sh_str_REMOVESCHED	"Zamanlamayı Sil?"
+#define ktx_sh_str_ACTIVEON		"Aktiflik"
+#define ktx_sh_str_SELECTTHEME	"Tema Seçin"
+#define ktx_sh_str_NONAME		"İsimsiz"
+#define ktx_sh_str_SELECTPROF		"Tercih Seçin"
+#define ktx_sh_str_Time			"Zaman"
+#define ktx_sh_str_Date			"Tarih"
+#define ktx_sh_str_Theme		"Tema/Duvar Kağıdı"
+#define ktx_sh_str_SETONTIME		"Ayarlanma Zamanı"
+#define ktx_sh_str_SETONWITH		"Ayarlama Tercihi"
+
+#define ktx_sh_str_WORKDAYA		"İş Günleri"
+#define ktx_sh_str_NONWORKD		"Tatil Günleri"
+#define ktx_sh_str_EVERYDAY		"Hergün"
+#define ktx_sh_str_MONDAYS		"Pazartesileri"
+#define ktx_sh_str_TUESDAYS		"Salıları"
+#define ktx_sh_str_WEDNESDAYS	"Çarşambaları"
+#define ktx_sh_str_THURSDAYS	"Perşembeleri"
+#define ktx_sh_str_FRIDAYS		"Cumaları"
+#define ktx_sh_str_SATURDAYS	"Cumartesileri"
+#define ktx_sh_str_SUNDAYS		"Pazarları"
+
+#define ktx_cmd_Help			"Yardım"
+#define ktx_cmd_Back			"Geri"
+
+#define ktx_str_HELP1			"Bu uygulama temaları ve duvar kağıtlarını belli bir zaman aralığına göre veya tercihe bağlı değişikliğine göre zamanlayabilir. Herbiri için seçenekler menüsündeki yeni menü altında yeni menü seçeneği bulunmaktadır. Uygun menü seçenekleriyle yeni zamanlayıcı ayarlanabilir."
+#define ktx_str_HELP2			"Zamanlayıcıyı ayarlamak için öncelikle tema veya duvar kağıdı seçin ve sonra zamanı ve tekrar seçeneklerini seçin veya zamanlayıcı ile çalışacak tercihler modunu seçin. Daha kaydet komutu ile zamanlayıcıyı kaydedin. Rastgele tema seçeneği ile zamanlayıcı rastgele  seçim yapmaktadır, eğer rastgele tema listesinde seçili tema yoksa halihazırdaki temalar kullanılır."
+#define ktx_str_HELP3			"Zamanlamayıcı ayarlandıktan sonra ana listede görünecektir. Bu listede menü seçenekleri yardımıyla zamanlamaları açıp değişiklik yapılabilir ve hatta silinebilir. Ayrıca geçici olarak aktif ve pasif hale getirebilir."
+#define ktx_str_HELP4			"Tema zamanlamaları ve önceki zamanlamalar uygulamadan çıkıldıktan sonra yenilenerek aktif olur. İyi bir kullanılabilirlik için her bir zamanlama iki dakikalık aralıklarla ayarlanmalı. Zamanlayıcı telefon açıldığında otomatik olarak arka planda çalışır. Telefon kapalı durumdayken zamanlayıcı mesajları görünmeyecektir."
+

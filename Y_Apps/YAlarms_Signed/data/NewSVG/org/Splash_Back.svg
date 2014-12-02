@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 76)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg 
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="263.7939 445.3799" i:rulerOrigin="0 0" i:pageBounds="0 792 612 0"
+	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="85.412" height="99.76" viewBox="0 0 85.412 99.76" overflow="visible" enable-background="new 0 0 85.412 99.76"
+	 xml:space="preserve">
+	<metadata>
+		<variableSets  xmlns="&ns_vars;">
+			<variableSet  varSetName="binding1" locked="none">
+				<variables></variables>
+				<v:sampleDataSets  xmlns="&ns_custom;" xmlns:v="&ns_vars;"></v:sampleDataSets>
+			</variableSet>
+		</variableSets>
+		<sfw  xmlns="&ns_sfw;">
+			<slices></slices>
+			<sliceSourceBounds  y="345.62" x="263.794" width="85.412" height="99.76" bottomLeftOrigin="true"></sliceSourceBounds>
+		</sfw>
+	</metadata>
+	<switch>
+		<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+			<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+			</i:pgfRef>
+		</foreignObject>
+		<g i:extraneous="self">
+			<g id="Layer_1" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F008000FFFF">
+				<g i:knockout="Off">
+					
+						<linearGradient id="XMLID_1_" gradientUnits="userSpaceOnUse" x1="-263.2944" y1="236.8789" x2="88.7041" y2="236.8789" gradientTransform="matrix(0.2398 0 0 -0.2398 63.64 106.6854)">
+						<stop  offset="0" style="stop-color:#B15000"/>
+						<stop  offset="0.2593" style="stop-color:#CF8500"/>
+						<stop  offset="0.4157" style="stop-color:#DFA000"/>
+						<stop  offset="0.4789" style="stop-color:#D48F00"/>
+						<stop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<stop  offset="0.7741" style="stop-color:#AE5000"/>
+						<stop  offset="0.9012" style="stop-color:#A44000"/>
+						<stop  offset="1" style="stop-color:#A13A00"/>
+						<a:midPointStop  offset="0" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.2593" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.4157" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.4789" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.7741" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.9012" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="1" style="stop-color:#A13A00"/>
+					</linearGradient>
+					<path i:knockout="Off" fill="url(#XMLID_1_)" d="M0.5,99.76V0h84.412v99.76"/>
+					
+						<linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="-358.2686" y1="172.623" x2="-147.2216" y2="48.9061" gradientTransform="matrix(0.2398 0 0 0.2398 117.4769 15.0168)">
+						<stop  offset="0" style="stop-color:#B15000"/>
+						<stop  offset="0.2593" style="stop-color:#CF8500"/>
+						<stop  offset="0.4157" style="stop-color:#DFA000"/>
+						<stop  offset="0.4789" style="stop-color:#D48F00"/>
+						<stop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<stop  offset="0.7741" style="stop-color:#AE5000"/>
+						<stop  offset="0.9012" style="stop-color:#A44000"/>
+						<stop  offset="1" style="stop-color:#A13A00"/>
+						<a:midPointStop  offset="0" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.2593" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.4157" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.4789" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.7741" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.9012" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="1" style="stop-color:#A13A00"/>
+					</linearGradient>
+					<path i:knockout="Off" fill="url(#XMLID_2_)" d="M0.5,99.76V0h84.412v99.76"/>
+					
+						<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="-487.2935" y1="310.5791" x2="-487.2935" y2="310.5791" gradientTransform="matrix(0.2398 0 0 0.2398 117.4769 15.0168)">
+						<stop  offset="0" style="stop-color:#B15000"/>
+						<stop  offset="0.2593" style="stop-color:#CF8500"/>
+						<stop  offset="0.4157" style="stop-color:#DFA000"/>
+						<stop  offset="0.4789" style="stop-color:#D48F00"/>
+						<stop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<stop  offset="0.7741" style="stop-color:#AE5000"/>
+						<stop  offset="0.9012" style="stop-color:#A44000"/>
+						<stop  offset="1" style="stop-color:#A13A00"/>
+						<a:midPointStop  offset="0" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.2593" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.4157" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.4789" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.7741" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.9012" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="1" style="stop-color:#A13A00"/>
+					</linearGradient>
+					<path i:knockout="Off" fill="url(#XMLID_3_)" d="M0.62,99.76V79.232"/>
+					
+						<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="-136.2944" y1="289.9795" x2="-136.2944" y2="289.9795" gradientTransform="matrix(0.2398 0 0 0.2398 117.4769 15.0168)">
+						<stop  offset="0" style="stop-color:#B15000"/>
+						<stop  offset="0.2593" style="stop-color:#CF8500"/>
+						<stop  offset="0.4157" style="stop-color:#DFA000"/>
+						<stop  offset="0.4789" style="stop-color:#D48F00"/>
+						<stop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<stop  offset="0.7741" style="stop-color:#AE5000"/>
+						<stop  offset="0.9012" style="stop-color:#A44000"/>
+						<stop  offset="1" style="stop-color:#A13A00"/>
+						<a:midPointStop  offset="0" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#B15000"/>
+						<a:midPointStop  offset="0.2593" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#CF8500"/>
+						<a:midPointStop  offset="0.4157" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#DFA000"/>
+						<a:midPointStop  offset="0.4789" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#D48F00"/>
+						<a:midPointStop  offset="0.6316" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#BE6A00"/>
+						<a:midPointStop  offset="0.7741" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#AE5000"/>
+						<a:midPointStop  offset="0.9012" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="0.5" style="stop-color:#A44000"/>
+						<a:midPointStop  offset="1" style="stop-color:#A13A00"/>
+					</linearGradient>
+					<path i:knockout="Off" fill="url(#XMLID_4_)" d="M84.792,69.353V99.76"/>
+					<g i:knockout="Off">
+						<path i:knockout="Off" opacity="0.2" fill="none" stroke="#E5E5E5" d="M0.5,99.76V84.964"/>
+					</g>
+					<g i:knockout="Off">
+						<path i:knockout="Off" opacity="0.2" fill="none" stroke="#E5E5E5" d="M84.912,0v99.76"/>
+					</g>
+					<g i:knockout="Off">
+						<path i:knockout="Off" opacity="0.2" fill="none" stroke="#E5E5E5" d="M75.151,63.142"/>
+					</g>
+					<g i:knockout="Off">
+						<path i:knockout="Off" opacity="0.2" fill="none" stroke="#E5E5E5" d="M60.356,35.084"/>
+					</g>
+				</g>
+				<g i:knockout="Off">
+					<g i:knockout="Off">
+						<g i:knockout="Off" opacity="0.2">
+							<path i:knockout="Off" fill="none" stroke="#E5E5E5" d="M15.368,69.4"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</switch>
+	<i:pgf  id="adobe_illustrator_pgf">
+		<![CDATA[
+		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
+		]]>
+		<![CDATA[
+		6LSdezNu/om+z7dzVQ3PogsxDI3G4B/lOvyD3UYVtSYMmF0XWP8xLNjRORIs+vGnhowCm9quodiW
+ankOPSxH11VP03X4r1AtCwo0TVP1dMeScWFbJoyLCT3bU11Nt3pIj3QDtnZ1YSlHWPbhnobLdoX3
+gxNTgct5u81JnuPgIxKfqdom9NJD5UBlriYU0xIklclUmMpzYX7Vdfp4FK6BJssBkaMKS6ungtsb
+mMpCBPVS2bLaNS0Polg1ldAxO/3w3Okj8jCegDJM1Mq2ZRtMZFMesRVUzw7scJfK0BAuhmmCyqk0
+yFlB0zRDEaoHs/ZSuapuQypHx1SmJNrJaAYZhynBrQtX+nWBeK/3/dZBaOrYB20HoWy0kWcRJV8L
+LdG7sHw1lCT+EdYAk/KNnM7UeTq6awCFzUM4pOsHcXYZ54+K86/ni5TROY4Mx8ay6xjki21jJ833
+Nn5/BzV0WpUtZYMxS7Pdrofej9Rx0a8g7TTSHxvpX89VaaP/qKtZN68F/foWyLDpLhc2+fbF/rv9
+7apCXilp07P03v9NHljuGa3b3I73bPp6nx4l2PxklUb4TkLd3a0t7tmt7SRV73Cd5u6Av6lYhqt6
+poVSwhVwOZez024S9FFusmp/X1axg6QbUigmqhLhWd7urPZRbrJqSVwabIt8vU/w53V9Lek3SiEc
+bBBtKuqwO/Ucz5Jc//ldNdnWVdRbk+8gHHGGcOibhkQEwjteQeRdJu4R8mXnQlI+PMDXg/EDGN8W
+UZLSsYjrVXRLl7VleRmV8RJddFxvVeZFrKxu8k/UQkQNwbNn4zeT/b3/A8Jz08M=
+		]]>
+	</i:pgf>
+</svg>

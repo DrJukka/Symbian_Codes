@@ -1,0 +1,38 @@
+0. English   :: -me-
+1. Norwegian :: Tommy Bäckström <backers@gmail.com>
+2. Slovak    :: 8sabo@t-zones.sk, "Dr. Atec" <dr.atec@gmail.com>
+3. Hebrew    :: A= Ofir Tadmor <otadmor@gmail.com> , B=Elad Bachar <Elad.Bachar@orange.co.il>
+4. Indonesian:: imel yuku <yuku@ikitek.com>
+5. Danish    :: Stefan Borch <sbc@mailsnare.com>
+6. Romanian  :: vmurariu@gmail.com
+7. Croatian  :: |hotJay| <hot.jay@usa.net>
+8. German    :: Roman Schweigler <Roman.Schweigler@gmx.at>
+9. French    :: "Wijmmersch, Willy" <willy.wijmmersch@citi.com>
+10.Spanish   :: A=Gustavo A Betancourt <gustavoab@gmail.com>, B= Gonzalo Grosso <gongrosso@gmail.com>
+11.Taiwan    :: KIA <tgbvfryhn2002@gmail.com>
+12.Russian   :: A=maxim_minton@mail.ru, B= Vania Chernysh <Santehnik.UA@gmail.com>
+
+13.Bulgarian :: Kamen Lichev <kamenlitchev@yahoo.com>
+14.Arabic    :: "MR. WHO" <mr.who@msn.com>
+15.Italian   :: Contagiri <contagiri@yahoo.it>, ale zo <zo.system@gmail.com>
+16.Dutch     :: Arjen van Hassent <arjen.vanhassent@graafstroom.nl>
+17.Portuguese:: Márcio Faustino <m.faustino@gmail.com>
+18.Brazilian Portuguese:: Márcio Faustino <m.faustino@gmail.com>
+19.Polish    :: red <red@redsymbian.com>
+20.Thai      :: S-One
+21.Suomi     :: Mikkis <mikkis1@gmail.com>
+22.Turkish   :: Hamdi Oguz SAAT <hosaat@gmail.com>
+23. Czech    :: Jakub Belica <Jakub.Belica@email.cz>    -25-
+24. Ukraina  :: Daniel Bohdan <daniel.bohdan@gmail.com> -93-
+25. Greek    :: Konstantinos Koukopoulos <koukopoulos@gmail.com>
+26. Swedish  :: "yngvik@bostream.nu" <yngvik@bostream.nu>
+27. Chinese  :: wangyihua564 <wangyihua564@126.com>
+28. Serbian  :: Majorski Karol <tatatira@gmail.com>
+
+1. Hungarian  :: Yves d'Esprit <yvesdesprit@gmail.com>
+
+Missing still:
+1. Japan      :: 
+2. lithuanian :: 
+3. Macedonian :: 
+4. Slovenian  :: 

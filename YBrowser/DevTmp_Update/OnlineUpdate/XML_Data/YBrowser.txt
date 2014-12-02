@@ -1,0 +1,108 @@
+<INFOITEMS>
+	<NAME>Y-Browser</NAME>
+	<VERSION>090</VERSION>
+
+	<INFOPAGE>
+		<TITLE>Y-Browser version 0.85.</TITLE>
+		<DESCRIPTION>Y-Browser is a filebrowser application designed for S60 3rd edition device</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>Screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YBrowser_Main.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+
+		<LINKS>
+		 	<ITEM>
+				<TYPE>DWNLOAD</TYPE>
+				<NAME>Download</NAME>
+				<LINK>http://www.drjukka.com/files/Y_Browser_085_0_3rdEd.SIS</LINK>
+			</ITEM>
+		 	<ITEM>
+				<NAME>Download(B-version)</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/Y_Browser_085_0_B_3rdEd.SIS</LINK>	
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+
+	<INFOPAGE>
+		<TITLE>BT-Sender plug-in</TITLE>
+		<DESCRIPTION>Bluetooth sender plug-in for sending files over the bluetooth.
+Requires Y-Browser application to be installed.
+</DESCRIPTION>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTools_BTObex_081_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Mail folders plug-in</TITLE>
+		<DESCRIPTION>Enables browsing and copying attached files from phones mailboxes.
+Requires Y-Browser application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>Screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YBrowser_MailFolders.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTools_MailFolders_080_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Textviewer plug-in</TITLE>
+		<DESCRIPTION>Text viewer that can view files saved with all supported character encodings.
+Requires Y-Browser application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>Screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YBrowser_TexViewer.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTools_TextViewer_080_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Zip plug-in</TITLE>
+		<DESCRIPTION>Zip application that can extract files from most of Zip formatted files, also with this plug-in you can make new PK Zip files.
+
+This plug-in is open source (undel GPL license), and more details can be found from www.DrJukka.com.
+
+Requires Y-Browser application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>Screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YBrowser_Zip.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTools_PkZip_080_3rdEd.SISx</LINK>
+			</ITEM>
+			<ITEM>
+				<NAME>Visit DrJukka.com</NAME>
+				<TYPE>WEBOPN</TYPE>
+				<LINK>http://www.drjukka.com</LINK>
+			</ITEM>
+		</LINKS>		
+	</INFOPAGE>
+</INFOITEMS>
+

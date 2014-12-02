@@ -1,0 +1,30 @@
+TARGET           	YApp_2002B09E.exe 
+TARGETTYPE      	EXE
+
+UID  				0 0x2002B09E
+EPOCSTACKSIZE		0x5000
+
+SOURCEPATH      ..\src
+SOURCE		Starter.cpp
+
+START RESOURCE    ..\data\[E8876014].rss
+HEADER
+TARGET [2002B09E].rsc
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH      	..\..\common_src 
+SOURCE	    	CTimeOutTimer.cpp 
+SOURCE		ExampleServerSession.cpp 
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE   	\epoc32\include
+
+LIBRARY				euser.lib 
+LIBRARY				efsrv.lib 
+LIBRARY				apgrfx.lib 
+LIBRARY				apparc.lib
+
+LANG SC
+VENDORID	  	  0

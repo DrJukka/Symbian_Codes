@@ -1,0 +1,63 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+
+#include <appinfo.rh>
+#include "Definitions.h"
+
+#ifdef SONE_VERSION
+	#include <YApp_2002884B.rsg>
+	
+	UID2 KUidAppRegistrationResourceFile
+	UID3 0x2002884B
+	
+	RESOURCE APP_REGISTRATION_INFO
+	  {
+		app_file="YApp_2002884B";
+		localisable_resource_file = "\\resource\\apps\\YApp_2002884B";
+			localisable_resource_id = R_EL_LOCALISABLE_APP_INFO;
+	
+		embeddability=KAppNotEmbeddable;
+		newfile=KAppDoesNotSupportNewFile;
+	  }
+#else
+
+	#ifdef LAL_VERSION
+		#include <YApp_2002207B.rsg>
+	
+		UID2 KUidAppRegistrationResourceFile
+		UID3 0x2002207B
+	
+		RESOURCE APP_REGISTRATION_INFO
+		  {
+			app_file="YApp_2002207B";
+			localisable_resource_file = "\\resource\\apps\\YApp_2002207B";
+			localisable_resource_id = R_EL_LOCALISABLE_APP_INFO;
+	
+			embeddability=KAppNotEmbeddable;
+			newfile=KAppDoesNotSupportNewFile;
+	
+			group_name    = "DrJukka.com"; 
+	 	 }
+	#else
+
+		#include <YApp_E8876002.rsg>
+	
+		UID2 KUidAppRegistrationResourceFile
+		UID3 0xE8876002
+	
+		RESOURCE APP_REGISTRATION_INFO
+		  {
+			app_file="YApp_E8876002";
+			localisable_resource_file = "\\resource\\apps\\YApp_E8876002";
+			localisable_resource_id = R_EL_LOCALISABLE_APP_INFO;
+	
+			embeddability=KAppNotEmbeddable;
+			newfile=KAppDoesNotSupportNewFile;
+	
+			group_name    = "DrJukka.com"; 
+	 	 }
+	#endif
+#endif
+	

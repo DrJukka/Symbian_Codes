@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Опции"
+#define ktx_cmd_exit 				"Излез"
+#define ktx_cmd_cancel 				"Откажи"
+#define ktx_cmd_save 				"Зачувај"
+#define ktx_cmd_select 				"Избери"
+
+#define ktx_cmd_about				"За"
+#define ktx_cmd_visit				"Посети го m.DrJukka.com"
+
+#define ktx_mnu_New 				"Нова"
+#define ktx_mnu_Modify 				"Измени"
+#define ktx_mnu_Remove 				"Избриши"
+
+
+#define ktx_mnu_Savmsgs				"Зачувани Пораки"
+#define ktx_mnu_ContSend			"Испраќач од Именик"
+
+#define ktx_sh_str_sndName	 		"Име на Испраќачот"
+#define ktx_sh_str_sndNumber	 	"Број на испраќачот"
+#define ktx_sh_str_Message		 	"Порака"
+#define ktx_sh_str_sndTime		 	"Време на испраќање"
+#define ktx_sh_str_sndDate		 	"Датум на испраќање"
+
+
+#define ktx_str_REMMESSAGE 			"Отстрани порака?"
+
+
+#define ktx_cmd_help				"Help"
+#define ktx_cmd_Back				"Back"
+
+#define ktx_str_HELP1 				"This application is used for faking incoming SMS messages, fake messages can be scheduled to be made in the future time, or if past time is set for the message it will be made immediate after exiting the application with the past timestamp on it."
+#define ktx_str_HELP2 				"To make a new message, click new from the options menu, set the sender name and number (or get them from contacts with menu options), write the message (or use previously saved messages with menu options), set the sending time and date and select save menu option to save the message into the database."
+#define ktx_str_HELP3 				"After the message is made it will be shown in the main view list. Within this list you can use menu options for opening the message for modifications as well as you can delete them. "
+#define ktx_str_HELP4 				"Note that messages are scheduled as well as previous schedules are re-freshed only after exiting the application. The actual scheduling is handled by background application that is also automatically started when the device is started. No message scheduling will appear while the device is off."
+
+

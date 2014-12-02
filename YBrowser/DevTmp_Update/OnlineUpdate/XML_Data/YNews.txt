@@ -1,0 +1,13 @@
+<INFOITEMS>
+	<NAME>Y-News</NAME>
+	<VERSION>090</VERSION>
+
+	<INFOPAGE>
+		<TITLE>No news</TITLE>
+		<DESCRIPTION>no news what so ever...</DESCRIPTION>
+	</INFOPAGE>
+
+
+
+</INFOITEMS>
+

@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"选项"
+#define ktx_cmd_exit 				"退出"
+#define ktx_cmd_Back 				"返回"
+
+#define ktx_mnu_help				"帮助"
+#define ktx_cmd_about				"关于"
+#define ktx_cmd_visit				"访问m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"打盹"
+#define ktx_sh_str_ANSWER			"接听"
+#define ktx_sh_str_SILENSE			"静音"
+#define ktx_sh_str_CALLING			"来电中"
+
+#define ktx_str_HELP1				"Fake Call是用来显示虚假来电的程序。程序所有的背景和图片都是来自手机主题，不产生任何信息费用！"
+#define ktx_str_HELP2				"显示的铃声首先是从名片夹关联的铃声读取的，如果未关联，那么应用的是情景模式中的铃声。如果情景模式不可用，Fake Calls设置中的响铃铃声才会被使用。"
+#define ktx_str_HELP3				"可以按住静音键来关闭铃声。应答键和绿键在此版本是不可用的。"
+#define ktx_str_HELP4				"可以按红键退出Fake Calls，也可以从菜单选择退出。"
+#define ktx_str_HELP5				"如果有群指定的打盹时间，打盹命令将自动隐藏。"
+
+
+
+		

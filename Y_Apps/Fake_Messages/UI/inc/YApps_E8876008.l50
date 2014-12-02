@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"تنظیمات"
+#define ktx_cmd_exit 				"خروج"
+#define ktx_cmd_cancel 				"انصراف"
+#define ktx_cmd_save 				"دخیره کردن"
+#define ktx_cmd_select 				"انتخاب کردن"
+
+#define ktx_cmd_about				"درباره ی"
+#define ktx_cmd_visit				"برو به DrJukka.com"
+
+#define ktx_mnu_New 				"جدید"
+#define ktx_mnu_Modify 				"اصلاح"
+#define ktx_mnu_Remove 				"حذف کردن"
+
+
+#define ktx_mnu_Savmsgs				"پیام های ذخیره شده"
+#define ktx_mnu_ContSend			"فرستنده از لیست مخاطبین"
+
+#define ktx_sh_str_sndName	 		" نام فرستنده"
+#define ktx_sh_str_sndNumber	 	" شماره ی فرستنده"
+#define ktx_sh_str_Message		 	"پیام"
+#define ktx_sh_str_sndTime		 	"زمان فرستادن"
+#define ktx_sh_str_sndDate		 	"تاریخ فرستادن"
+
+
+#define ktx_str_REMMESSAGE 			"آیا پیام را پاک کند؟"
+
+
+#define ktx_cmd_help				"راهنما"
+#define ktx_cmd_Back				"بازگشت"
+
+#define ktx_str_HELP1 				"این نرم افزار برای پیام کوتاه های دریافتی استفاده می شود ،  می توانید پیام های جعلی برنامه ریزی کنید ، یا اگر وقت از پیام جعلی گذشته بود با خروج از برنامه پیام را سریع دریافت می کنید"
+#define ktx_str_HELP2 				"برای ایجاد یک پیام جدید ، روی جدید از گزینه های منو ، تعیین نام فرستنده و شماره (و یا از لیست مخاطبین) ، نوشتن پیام (و یا از پیام های ذخیره شده) ، تعیین زمان ارسال و تاریخ و در نهایت ذخیره کنید."
+#define ktx_str_HELP3 				"پس از دخیره شدن پیام ساخته شده . در لیست نمایش اصلی نشان داده خواهد شد. در لیست منو شما از گزینه های اصلاحات و حذف می توانید استفاده کنید."
+#define ktx_str_HELP4 				"توجه داشته باشید که پیام های برنامه ریزی شده و همچنین برنامه ریزی های قبلی تنها با از خروج از برنامه بازخوانی می شوند. برنامه ریزی توسط برنامه در پس زمینه به کار گرفته شده به طور خودکار در زمانی که به دستگاه داده انجام می دهد.  پیام برنامه ریزی خواهد شد ظاهر نخواهد شد در حالی که دستگاه خاموش است."
+
+

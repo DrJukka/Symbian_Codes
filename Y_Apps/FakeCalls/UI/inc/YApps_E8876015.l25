@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Volby"
+#define ktx_cmd_exit 				"Konec"
+#define ktx_cmd_cancel 				"Zrušit"
+#define ktx_cmd_Back 				"Zpět"
+
+#define ktx_cmd_Disable				"Zakázat"
+#define ktx_cmd_Enable				"Povolit"
+
+#define ktx_cmd_save 				"Uložit"
+#define ktx_cmd_select 				"Vybrat"
+
+#define ktx_mnu_Settings			"Nastavení"
+#define ktx_mnu_help				"Nápověda"
+#define ktx_cmd_about				"O programu"
+#define ktx_cmd_visit				"Přejít na m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nový"
+#define ktx_cmd_Test				"Náhled"
+#define ktx_mnu_Modify 				"Změnit"
+#define ktx_mnu_Remove 				"Odstranit"
+
+#define ktx_mnu_newContact			"Nové číslo"
+
+#define ktx_sh_str_sndNumber	 		"Číslo"
+#define ktx_sh_str_sndTime		 	"čas"
+#define ktx_sh_str_sndDate		 	"datum"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<Zakázáno>"
+
+#define ktx_str_REMMESSAGE 			"Odstranit plán?"
+#define ktx_sh_str_REPEATS			"Opakovat"
+
+#define ktx_str_GREENBUTTON			"Zelená"
+#define ktx_str_REDBUTTON			"Červená"
+#define ktx_str_OFFBUTTON			"Vypnuto"
+#define ktx_str_CAMERABUTTON			"Fotoaparát"
+
+
+#define ktx_sh_str_ONCE				"Jednou"
+#define ktx_sh_str_WORKDAYA			"Pracovní dny"
+#define ktx_sh_str_NONWORKD			"Víkend"
+#define ktx_sh_str_EVERYDAY			"Denně"
+#define ktx_sh_str_MONDAYS			"Pondělí"
+#define ktx_sh_str_TUESDAYS			"Úterý"
+#define ktx_sh_str_WEDNESDAYS			"Středa"
+#define ktx_sh_str_THURSDAYS			"Čtvrtek"
+#define ktx_sh_str_FRIDAYS			"Pátek"
+#define ktx_sh_str_SATURDAYS			"Sobota"
+#define ktx_sh_str_SUNDAYS			"Neděle"
+
+#define ktx_sh_str_SNOZTEXT			"Text tlačítka odložení"
+#define ktx_str_MAXTIME				"Maximální čas zvonění"
+#define ktx_str_SNOOZETIME			"Čas odložení"
+#define ktx_sh_str_OPERNAME			"Název operátora"
+#define ktx_sh_str_SUNDFILE			"Záložní vyzváněcí tón"
+
+//Main Application help
+#define ktx_str_HELP1				"Tato aplikace slouží pro falešné příchozí hovory, ale žádný skutečný hovor neprobíhá, takže tyto falešné hovory jsou zdarma."
+#define ktx_str_HELP2				"Pro spuštění falešného hovoru lze použít následující tlačítka: zelený telefon, červený telefon, tlačítko fotoaparátu a tlačítko pro zapnutí/vypnutí. Tato tlačítka lze použít pouze při zamknuté klávesnici."
+#define ktx_str_HELP3				"Pro výběr kontaktu na určené tlačítko vyberte volbu Změnit. Volby menu Povolit/Zakázat slouží k povolení/zákazu falešného hovoru pro tlačítko."
+#define ktx_str_HELP4				"Naplánovaný falešný hovor lze vytvořit výběrem volby Nový z menu. Tento plán může být později změněn pomocí volby Změnit nebo odstraněn pomocí volby Odstranit."
+#define ktx_str_HELP5				"Volba Náhled slouží k předvedení falešného hovoru pro vybranou položku."
+#define ktx_str_HELP6				"Aktuální plán falešných hovorů je řízen aplikací na pozadí, která běží dokud jsou nadefinovaná nějaká tlačítka pro falešné hovory nebo je nějaký falešný hovor naplánovaný a povolený. Tato aplikace se spouští automaticky při zapnutí přístroje. Všechny změny v nastavení se provádí při zavření aplikace pro nastavení."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"U naplánovaných falešných hovorů stačí vyplnit číslo (nebo text) a čas hovoru."
+#define ktx_str_HELP8				"Lze vybrat kontakt ze seznamu kontaktů a pak bude jméno použito v hlavním seznamu plánů. Když je číslo falešného hovoru nalezeno v seznamu kontaktů, pak jsou pro falešný hovor použity všechny informace včetně jména, obrázku, vyzváněcího tónu atd."
+#define ktx_str_HELP9				"Volba Nové číslo také umožňuje vyplnění jakéhokoliv textu pro falešný hovor."
+#define ktx_str_HELP10				"Čas pro plán lze vybrat pomocí volby času, volba Opakovat umožňuje pro hovor nastavit určitý den a opakování. Opakované hovory nebudou ze seznamu odstraněny, zatímco hovory s určeným datumem budou odstraněny po zobrazení."
+
+//Key settings
+#define ktx_str_HELP11				"U falešných hovorů na klávesu stačí vyplnit číslo (nebo text) pro hovor. Lze vybrat kontakt ze seznamu kontaktů, použít volbu Nové číslo nebo použít jakýkoliv text pro falešný hovor."
+#define ktx_str_HELP12				"Když je číslo falešného hovoru nalezeno v seznamu kontaktů, pak jsou pro falešný hovor použity všechny informace včetně jména, obrázku, vyzváněcího tónu atd."
+#define ktx_str_HELP13				"Nezapomeňte také nastavit tlačítko pro falešný hovor v hlavním seznamu. Toto tlačítko bude reagovat pouze při zamčené klávesnici."
+
+// Default Settings
+#define ktx_str_HELP14				"Název operátora je použitý v horní části obrazovky falešného hovoru v případě, že skutečný název operátora nelze zjistit. Například v off-line profilu."
+#define ktx_str_HELP15				"Záložní vyzváněcí tón se použije v případě, že ani pro vybraný kontakt ani pro aktuální profil není nalezen aktuální vyzváněcí tón. Aktuální vyzváněcí tón se hledá napřed u kontaktu, pak v profilu a nakonec v nastavení Záložní vyzváněcí tón."
+#define ktx_str_HELP16				"Čas odložení znamená počet sekund které uběhnou po stisku tlačítka Odložit než se zobrazí obrazovka falešného hovoru znovu."
+#define ktx_str_HELP17				"Maximální čas zvonění udává čas, jak dlouho je zobrazena obrazovka falešného hovoru. Stisk tlačítka Odložit způsobí, že obrazovka bude následně opět zobrazena po tuto dobu."
+#define ktx_str_HELP18				"Text tlačítka odložení může být změněn pro větší hodnověrnost zobrazení falešného hovovru."
+
+
+
+
+

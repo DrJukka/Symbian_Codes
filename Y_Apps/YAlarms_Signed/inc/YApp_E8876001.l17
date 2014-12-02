@@ -1,0 +1,72 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Opciók"
+#define ktx_cmd_Exit			"Kilép"
+#define ktx_cmd_Cancel			"Törlés"
+#define ktx_cmd_Back			"Vissza"
+
+#define ktx_cmd_Disable			"kikapcsol"
+#define ktx_cmd_Enable			"Bekapcsol"
+
+#define ktx_cmd_About			"Névjegy"
+
+#define ktx_cmd_Select			"Választ"
+
+#define ktx_cmd_Ok				"Rendben"
+#define ktx_cmd_Change			"Változtat"
+#define ktx_cmd_Done			"Kész"
+#define ktx_cmd_Play			"Lejátszik"
+#define ktx_cmd_Stop			"Állj"
+#define ktx_cmd_Save			"Ment"
+
+#define ktx_JustD				" nap "
+#define ktx_JustH				" óra "
+#define ktx_JustMin				" perc."
+
+#define ktx_Daily				"Napi"
+#define ktx_Wordays				"Hétköznap"
+
+
+#define ktx_mnu_Newalarm			"Új"
+#define ktx_mnu_Resetalarm			"Nulláz"
+#define ktx_mnu_Removealarm			"Eltávolit"
+#define ktx_mnu_SetAlarmSounds		"Jelzőhang beállit"
+#define ktx_mnu_SetWorkdays			"Munkanapok beállit"
+#define ktx_mnu_Update				"Frissités"
+
+#define ktx_mnu_Changevalue			"Érték változtat"
+
+#define ktx_str_Repeat				"Ismétlés"
+#define ktx_str_Daily				"Napi"
+#define ktx_str_Workdays			"Hétköznap"
+#define ktx_str_InNext24			"Következő 24 óra"
+#define ktx_str_Once				"Egyszer"
+
+#define ktx_str_Time				"Idő"
+#define ktx_str_Date				"Dátum"
+
+#define ktx_str_Type				"Tipus"
+#define ktx_str_Clockalarm			"Ébresztő óra"
+#define ktx_str_Calendaralarm		"Naptári jelzőhang"
+#define ktx_str_Message				"Üzenet"
+#define ktx_str_Snooze				"Szundi"
+
+#define ktx_str_Settime				"Idő beállit"
+#define ktx_str_Setdate				"Dátum beállit"
+#define ktx_str_Setmessage			"Üzenet beállit"
+		
+#define ktx_str_AlarmDueIn			"Riasztás ideje "
+#define ktx_str_GoJukka				"m.DrJukka.com meglátogatása"
+
+#define ktx_cmd_Help				"Segitség"
+
+#define ktx_cmd_Help1				"Ezzel az alkalmazással többszöri,ismétlődő riasztásokat,jelzéseket állithat be azon készülékeken,amelyekbe gyárilag nem került ilyen funkció."
+#define ktx_cmd_Help2				"Új jelzést az Új opcióval készithet.A főképernyő megnyilása után beállithatja a jelzések idejét, ismétléseket és a jelzés üzenetét.A jelzés tipusa meghatározza melyik hang kerül lejátszásra a jelzéshez.Nyomja meg a Kész gombot a mentéshez."
+#define ktx_cmd_Help3				"A Nullázás opció, a beállitott jelzések törlésére használható,az Eltávolit opció eltávolitja a jelzéseket,mig az Kikapcsol/bekapcsol opció ideiglenesen letiltja a funkciót."
+#define ktx_cmd_Help4				"A Jelzőhang beállit opcióval adhatjuk meg milyen hangot kivánunk használni.A Szundi ideje percekben kerül meghatározásra.Néhány készülék nem működik együtt a Szundi beállitással és az alapbeállitást használja."
+#define ktx_cmd_Help5				"A Munkanapok beállit opcióval megadható mely napokon legyen aktiv a jelzés."
+
+
+

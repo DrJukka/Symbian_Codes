@@ -1,0 +1,217 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Browser"},(0x2002B0AA),1,00,4
+
+;Localised Vendor name
+%{"Dr. Jukka"}
+
+;Unique Vendor name
+:"Dr. Jukka"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Supports S60 release 5.0
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YFB_2002B0AA.exe"	                 -"!:\sys\bin\YFB_2002B0AA.exe"
+
+
+!({"English"},{"Arabic"},{"Azerbaijan"},{"Brazilian Portuguese"},{"Bulgarian"},{"Catalan"},{"Chinese (PRC)"},{"Chinese (Taiwan)"},{"Croatian"},{"Czech "},{"Danish"},{"Dutch"},{"Farsi"},{"Finnish"},{"French"},{"German"},{"Greek"},{"Hebrew"},{"Hungarian"},{"Indonesian"},{"Italian"},{"Japanese"},{"Lithuanian"},{"Macedonian"},{"Norwegian"},{"Polish"},{"Portuguese"},{"Romanian"},{"Russian"},{"Serbian"},{"Slovak"},{"Slovenian"},{"Spanish"},{"Swedish"},{"Thai"},{"Turkish"},{"Ukraina"})
+
+
+IF option1	;English
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r01"         	     -"!:\resource\apps\YFB_2002B0AA.r01"
+ENDIF
+
+IF option2	;Arabic
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r37"         	     -"!:\resource\apps\YFB_2002B0AA.r37"
+ENDIF
+
+IF option3	;Azerbaijan
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r106"         	     -"!:\resource\apps\YFB_2002B0AA.r106"
+ENDIF
+
+IF option4	;Brazilian Portuguese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r76"         	     -"!:\resource\apps\YFB_2002B0AA.r76"
+ENDIF
+
+IF option5	;Bulgarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r42"         	     -"!:\resource\apps\YFB_2002B0AA.r42"
+ENDIF
+
+IF option6	;Catalan
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r44"         	     -"!:\resource\apps\YFB_2002B0AA.r44"
+ENDIF
+
+IF option7	;Chinese (PRC)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r31"         	     -"!:\resource\apps\YFB_2002B0AA.r31"
+ENDIF
+
+IF option8	;Chinese (Taiwan)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r29"         	     -"!:\resource\apps\YFB_2002B0AA.r29"
+ENDIF
+
+IF option9	;Croatian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r45"         	     -"!:\resource\apps\YFB_2002B0AA.r45"
+ENDIF
+
+IF option10	;Czech 
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r25"         	     -"!:\resource\apps\YFB_2002B0AA.r25"
+ENDIF
+
+IF option11	;Danish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r07"         	     -"!:\resource\apps\YFB_2002B0AA.r07"
+ENDIF
+
+IF option12	;Dutch
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r18"         	     -"!:\resource\apps\YFB_2002B0AA.r18"
+ENDIF
+
+IF option13	;Farsi
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r50"         	     -"!:\resource\apps\YFB_2002B0AA.r50"
+ENDIF
+
+IF option14	;Finnish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r09"         	     -"!:\resource\apps\YFB_2002B0AA.r09"
+ENDIF
+
+IF option15	;French
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r02"         	     -"!:\resource\apps\YFB_2002B0AA.r02"
+ENDIF
+
+IF option16	;German
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r03"         	     -"!:\resource\apps\YFB_2002B0AA.r03"
+ENDIF
+
+IF option17	;Greek
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r54"         	     -"!:\resource\apps\YFB_2002B0AA.r54"
+ENDIF
+
+IF option18	;Hebrew
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r57"         	     -"!:\resource\apps\YFB_2002B0AA.r57"
+ENDIF
+
+IF option19	;Hungarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r17"         	     -"!:\resource\apps\YFB_2002B0AA.r17"
+ENDIF
+
+IF option20	;Indonesian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r59"         	     -"!:\resource\apps\YFB_2002B0AA.r59"
+ENDIF
+
+IF option21	;Italian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r05"         	     -"!:\resource\apps\YFB_2002B0AA.r05"
+ENDIF
+
+IF option22	;Japanese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r32"         	     -"!:\resource\apps\YFB_2002B0AA.r32"
+ENDIF
+
+IF option23	;Lithuanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r68"         	     -"!:\resource\apps\YFB_2002B0AA.r68"
+ENDIF
+
+IF option24	;Macedonian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r69"         	     -"!:\resource\apps\YFB_2002B0AA.r69"
+ENDIF
+
+IF option25	;Norwegian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r08"         	     -"!:\resource\apps\YFB_2002B0AA.r08"
+ENDIF
+
+IF option26	;Polish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r27"         	     -"!:\resource\apps\YFB_2002B0AA.r27"
+ENDIF
+
+IF option27	;Portuguese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r13"         	     -"!:\resource\apps\YFB_2002B0AA.r13"
+ENDIF
+
+IF option28	;Romanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r78"         	     -"!:\resource\apps\YFB_2002B0AA.r78"
+ENDIF
+
+IF option29	;Russian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r16"         	     -"!:\resource\apps\YFB_2002B0AA.r16"
+ENDIF
+
+IF option30	;Serbian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r79"         	     -"!:\resource\apps\YFB_2002B0AA.r79"
+ENDIF
+
+IF option31	;Slovak
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r26"         	     -"!:\resource\apps\YFB_2002B0AA.r26"
+ENDIF
+
+IF option32	;Slovenian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r28"         	     -"!:\resource\apps\YFB_2002B0AA.r28"
+ENDIF
+
+IF option33	;Spanish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r04"         	     -"!:\resource\apps\YFB_2002B0AA.r04"
+ENDIF
+
+IF option34	;Swedish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r06"         	     -"!:\resource\apps\YFB_2002B0AA.r06"
+ENDIF
+
+IF option35	;Thai
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r33"         	     -"!:\resource\apps\YFB_2002B0AA.r33"
+ENDIF
+
+IF option36	;Turkish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r14"         	     -"!:\resource\apps\YFB_2002B0AA.r14"
+ENDIF
+
+IF option37	;Ukraina
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AA.r93"         	     -"!:\resource\apps\YFB_2002B0AA.r93"
+ENDIF
+
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YFB_2002B0AA_reg.r01"  	-"!:\private\10003a3f\import\apps\YFB_2002B0AA_reg.rsc"
+"..\..\FileBrowser\data\icon_bmp\YuccaBrowser_aif.mif"							-"!:\resource\apps\YFB_2002B0AA_aif.mif"
+
+"..\..\FileBrowser\data\Original.mif" 											-"!:\system\data\2002B0AA\Img\Original.mif"
+
+
+; text viewer stuff
+"..\..\textViewer\data\icons.mbm"												-"!:\system\data\2002B0AA\2002B0AD\icons.mbm"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AD_res.RSC"  	-"!:\resource\apps\YFB_2002B0AD_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YFB_2002B0AD.dll"			-"!:\sys\bin\YFB_2002B0AD.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YFB_2002B0AD.rsc"		-"!:\Resource\Plugins\YFB_2002B0AD.rsc"
+
+; mail fodler stuff
+;"..\..\MailFolders\data\icons.mbm"									-"!:\system\data\2002B0AA\2002B0AC\icons.mbm"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AC_res.RSC"  	-"!:\resource\apps\YFB_2002B0AC_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YFB_2002B0AC.dll"			-"!:\sys\bin\YFB_2002B0AC.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YFB_2002B0AC.rsc"		-"!:\Resource\Plugins\YFB_2002B0AC.rsc"
+
+;bt-sENDER
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AB_res.RSC"  	-"!:\resource\apps\YFB_2002B0AB_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YFB_2002B0AB.dll"			-"!:\sys\bin\YFB_2002B0AB.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YFB_2002B0AB.rsc"		-"!:\Resource\Plugins\YFB_2002B0AB.rsc"
+
+;zip recognizer files
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YFB_2002B0AE.dll"				-"!:\sys\bin\YFB_2002B0AE.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YFB_2002B0AE.rsc"		-"!:\Resource\Plugins\YFB_2002B0AE.rsc"
+
+;zip UI plug-in files
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YFB_2002B0AF_res.RSC"  		-"!:\resource\apps\YFB_2002B0AF_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YFB_2002B0AF.dll"			-"!:\sys\bin\YFB_2002B0AF.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YFB_2002B0AF.rsc"		-"!:\Resource\Plugins\YFB_2002B0AF.rsc"
+
+"..\..\YToolZipper\ZipperUI\data\Zip_icons.mbm"							-"!:\system\data\2002B0AA\2002B0AF\icons.mbm"
+
+
+

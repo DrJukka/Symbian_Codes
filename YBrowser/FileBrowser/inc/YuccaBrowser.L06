@@ -1,0 +1,349 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Tillbaka"
+#define ktx_cmd_Options			"Val"
+#define ktx_cmd_Exit			"Avsluta"
+#define ktx_cmd_Save			"Spara"
+#define ktx_cmd_Cancel			"Avbryta"
+#define ktx_cmd_Delete			"Ta bort"
+
+#define ktx_cmd_Select			"Välj"
+#define Ktx_sh_str_SortBy		"Sorteras med"	
+
+#define ktx_mnu_setserchoff		"Sätt söka AV"
+#define ktx_mnu_File			"Fil"
+#define ktx_mnu_Edit			"Editera"
+#define ktx_mnu_Mark			"Markera"
+#define ktx_mnu_Searchfiles		"Sök filer"
+#define ktx_mnu_Extras			"Extra"
+#define ktx_mnu_About			"Om"
+#define ktx_mnu_commandSC		"Kommando genvägar"
+#define ktx_mnu_ShowSC			"Visa genvägar"
+#define ktx_mnu_SetSC			"Sätt genvägar"
+#define ktx_mnu_Searchon			"Sätt söka PÅ"
+#define ktx_mnu_Settings			"Inställningar"
+#define ktx_mnu_switchlo			"Skifta utseende"
+#define ktx_mnu_changeic			"Byt ikoner"
+#define ktx_mnu_refresh			"Uppdatera"
+#define ktx_mnu_munmark			"Markera/Avmarkera"
+#define ktx_mnu_Markall			"Markera alla"
+#define ktx_mnu_Unmarkall		"Avmarkera alla"
+#define ktx_mnu_Openwith		"Öppna med"
+#define ktx_mnu_Open			"Öppna"
+#define ktx_mnu_Send			"Skicka"
+#define ktx_mnu_Properties		"Egenskaper"
+#define ktx_mnu_Attributes		"Attribut"
+#define ktx_mnu_Delete			"Ta bort"
+#define ktx_mnu_Rename			"Byt namn"
+#define ktx_mnu_ShowName			"Visa Namn"
+#define ktx_mnu_Newfile			"Ny fil"
+#define ktx_mnu_Newfolder		"Ny mapp"
+#define ktx_mnu_Copy			"Kopiera"
+#define ktx_mnu_Cut			"Klipp ut"
+#define ktx_mnu_Paste			"Klistra in"
+#define ktx_mnu_pastenfile		"Klistra in till ny fil"
+#define ktx_mnu_pasteshow		"Visa urklippsfiler"
+#define ktx_mnu_pasteclear		"Rensa urklippsfiler"
+#define ktx_mnu_Done			"Klart"
+#define ktx_mnu_addsel			"Lägg till valda"
+#define ktx_mnu_selshow			"Visa valt"
+#define ktx_mnu_cpyclipp			"Kopiera till urklipp"
+#define ktx_mnu_Startsearch		"Börja söka"
+#define ktx_mnu_nckresulyts		"Tillbaka till resultat"
+#define ktx_mnu_resultclear		"Rensa resultat"
+#define ktx_mnu_showseltyp		"Visa valda typer"
+#define ktx_mnu_clearcond		"Rensa läget"
+#define ktx_mnu_gtofolder		"Gå till mapp"
+#define ktx_mnu_PAGEUP			"Sida upp"
+#define ktx_mnu_PAGEDOWN		"Sida ner"
+
+#define ktx_sh_str_Processing		"Bearbetar"
+#define ktx_sh_str_selfiltyp		"Välj filtyper"
+#define ktx_sh_str_date			"Datum"
+#define ktx_sh_str_time			"Tid"
+
+//settings.
+#define ktx_sh_str_System		"System"	
+#define ktx_sh_str_Hidden		"Dålda"
+#define ktx_sh_str_Readonly		"Skrivskyddad"
+#define ktx_sh_str_Modifyingdate	"Ändra datum"
+#define ktx_sh_str_Modifyingtime	"Ändra tid"
+#define ktx_sh_str_showall		"Visa alla filer"
+#define ktx_sh_str_Sortorder		"Sortering"	
+#define ktx_sh_str_Foldersfirst	"Mapp först"
+#define ktx_sh_str_speedoptimize	"Spara mapp info"
+#define ktx_sh_str_Recognizefiles	"Känn igen filerna"
+#define ktx_sh_str_savepathonexit	"Spara sökväg vid avsluta"
+#define ktx_sh_str_exitaks		"Fråga vid avsluta"
+#define ktx_sh_str_Off			"Av"
+#define ktx_sh_str_On			"På"
+#define ktx_sh_str_No			"Nej"
+#define ktx_sh_str_Yes			"Ja"
+#define ktx_sh_str_Decending		"Fallande"
+#define ktx_sh_str_Ascending		"Stigande"
+#define ktx_sh_str_Name			"Namn"
+#define ktx_sh_str_Fileextension	"File extension"
+#define ktx_sh_str_Filetype		"Filtyp"
+#define ktx_sh_str_Size			"Storlek"
+#define ktx_sh_str_Path			"Sökväg"
+#define ktx_sh_str_Filename		"Filnamn"
+#define ktx_sh_str_Biggerthan		"Större än"
+#define ktx_sh_str_Smallerthan	"Mindre än"
+#define ktx_sh_str_Modifiedbefore	"Ändrad före"
+#define ktx_sh_str_Modifiedafter	"Ändrad efter"
+#define ktx_sh_str_types		" sort(er)"
+#define ktx_sh_str_Excludetypes	"Uteslut sorterna"
+#define ktx_sh_str_Includetypes	"Inkludera sorterna"
+#define ktx_sh_str_Fileattributes	"Filegenskaper"
+
+#define ktx_sh_str_formatName		"Namn\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Ledigt\t%d Kb"
+#define ktx_sh_str_formatUsed		"Använt\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Storlek\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Storlek\t%d Bytes"		
+#define ktx_sh_str_formatType		"Sort\t%S"
+#define ktx_sh_str_formatFiles	"Fil\t%d"	
+#define ktx_sh_str_formatFolders	"Mappar\t%d"
+#define ktx_sh_str_formatTypeID	"SortID\t%S"	
+#define ktx_sh_str_atrWProt		"Attr\tSkrivskyddad"
+#define ktx_sh_str_atrLocked		"Attr\tLåst"
+#define ktx_sh_str_atrFormattable	"Attr\tFormaterbar"
+#define ktx_sh_str_atrVarSize		"Attr\tVariabel storlek"
+#define ktx_sh_str_atrROM		"Attr\tROM"
+#define ktx_sh_str_atrRemovable	"Attr\tFlyttbar"
+#define ktx_sh_str_atrtHidden		"Attr\tDåld"
+#define ktx_sh_str_atrReadonly	"Attr\tEndast läsbart"
+#define ktx_sh_str_atrSystem		"Attr\tSystem"
+#define ktx_sh_str_atrVolume		"Attr\tVolym"
+#define ktx_sh_str_atrArchive		"Attr\tArkiv"
+
+#define ktx_sh_str_Notpresent		"Saknas"
+#define ktx_sh_str_Floppy		"Diskett"
+#define ktx_sh_str_HardDisk		"Hårddisk"
+#define ktx_sh_str_CdRom		"Cd"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Fjärr"
+#define ktx_sh_str_Unknown		"Okänt"
+#define ktx_sh_str_SCTITLE		"Genvägar: Shift+/Pen+"
+#define ktx_sh_str_FREE			"<ledig>"
+#define ktx_sh_str_Root			"Rot"
+#define ktx_sh_str_Selected		"Vald"
+#define ktx_sh_str_Cutfiles		"Klipper ut filer"
+#define ktx_sh_str_CopyFiles		"Kopierar filer"
+#define ktx_sh_str_COPYINGFF		"Kopierar %S till %S"
+#define ktx_sh_str_MOVINGFF		"Flyttar %S till %S"
+#define ktx_sh_str_RENAMINGFF		"Byter namn %S till %S"
+#define ktx_sh_str_DELETINGFF		"Ta bort %S"	
+#define ktx_sh_str_EXISTREPLACE	" finns redan, ersättas ?"
+#define ktx_sh_str_ISROMODIFY		" skrivskyddad, ändra egenskaper ?"
+#define ktx_sh_str_ALREDYEXIST	" finns redan"
+#define ktx_sh_str_ISOPEN		" används"
+#define ktx_sh_str_ISREADONLY		" är skrivskyddad"
+#define ktx_sh_str_ACCDENIED		" Åtkomst nekas"
+#define ktx_sh_str_DISKFULL		"Disken är full"
+#define ktx_sh_str_DISCKNOTREADY	"Disk saknas/ej klar"
+#define ktx_sh_str_CORRDISCK		"Disk felaktig/trasig"
+#define ktx_sh_str_INVALIDNAME	" är ett felaktigt namn"
+#define ktx_sh_str_NOTMEMFORFF	"Minnet räcker ej till "
+#define ktx_sh_str_OPERFAILED		"Operationen på \"%S\" felade: Fel %d"
+#define ktx_sh_str_NEWFILE		"Ny fil:"
+#define ktx_sh_str_SENDUI		"Skicka UI"
+#define ktx_sh_str_SENDFFVIA		"Skicka fil(er) via"
+#define ktx_sh_str_SELAPPLICATION	"Välj program"
+#define ktx_sh_str_OPENFILE		"Öppna fil"
+#define ktx_sh_str_ANDATRIBS		"\'And\'egenskaper"
+#define ktx_sh_str_SEARCFOR		"Söksträng"
+#define ktx_sh_str_SELFILETYPES	"Välj filtyper"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bytes"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" AND "
+#define ktx_sh_str_OR			" OR "
+#define ktx_sh_str_SYS			"sys."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" fil(er) funna"
+#define ktx_sh_str_FOUNDENDDDD	"%d fil(er) funna i %d  sekund(er)"
+
+#define ktx_sh_str_SELCOMMAND		"Välj kommando"
+#define ktx_sh_str_NOTSET		"Ej satt"
+#define ktx_sh_str_SELICONFF		"Välj ikonfil"
+
+#define ktx_sh_str_READINGFF		"Läser %d / %d"
+#define ktx_str_FILREADERR		"Läsfel, fel: %d"
+#define ktx_str_FILNOTFOND		"Filen ej funnen"
+#define ktx_str_NOAPPFORFIL		"Hittar inget program för filen"
+#define ktx_str_SAVESEARCH		"Spara senaste sökresultatet ?"
+#define ktx_str_SELSCNUMBER		"Välj genvägs nr"
+#define ktx_str_REBOOTICON		"Ikoner ändrade, Phone/Y-browser behöver startas om."
+#define ktx_str_PASTEFTOFOL		"Klistra in %d fil(er) i denna mapp ?"
+#define ktx_str_DELFOILES		"Ta bort %d fil(er)"
+#define ktx_str_NEWNAME 		"Nytt namn:"
+#define ktx_str_FDERNAME		"Mapp namn:"
+#define ktx_str_ERRCREATEFLDR		"Kan ej skapa mapp, ErrNo: "
+#define ktx_str_FDREXISTS		"Mappen finns redan, ange nytt namn."
+#define ktx_str_APPENDLIST		"Lägg till i listan"
+#define ktx_str_FILESADCY		"%d fil(er) lagts till kopiera/klipp ut"
+#define ktx_str_PASTEWILLREM		"Klistra in kommer att ta bort %d fil(er)."
+#define ktx_str_FORSECOPY		"Kan ej spara/stänga käll fil, kopiera ändå ?"
+#define ktx_str_STARTNEWSCRH		"Söka igen?"
+#define ktx_str_RESETSEARCH		"Nolla/rensa tidigare sök inställningar ?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Markera sumpmässigt" // Mark menu item
+#define ktx_mnu_MarkInverse		"Omkastad markering"   // Mark menu item
+
+#define ktx_sh_str_General		"Allmänt"//- setting
+
+#define ktx_sh_str_fullscreen		"Helskärm" // main settings item
+
+#define ktx_sh_str_NOFILES		"Inga filer"   // no files in browser
+
+#define ktx_mnu_typassociation	"Fil association" //settins select item list
+#define ktx_sh_str_plugins		"Plugin" //settins select item list
+
+
+#define ktx_sh_str_Own			"Äga"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Ta bort filtyp" //file associations
+
+#define ktx_mnu_Modify			"Ändra"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Lägga till filtyp"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Ta bort filtyp"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Ta bort filändelse"	// menu file associations settings
+#define ktx_mnu_AddExt			"Lägga till filändelse"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Ändra hanterare"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Ändra typ namn"	// menu file associations settings
+#define ktx_mnu_Reset			"Nollställ"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Programhanterare"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Hanterare" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Igenkännare" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Aktivera" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Avaktivera" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Visa info" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Namn: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Status: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Avaktiverad" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Aktiverad" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Plugin version: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (version OK)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (Inkompatibel version)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Plugin typ: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Fil hanterare" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Fil sändare" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Fil mottagare" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Fil mapp" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Öppna med hanterare" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Fil igenkännare" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Stödda filtyper:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Stödjer nya filer)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Lägga till filtyper"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Markera för bortagning"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Fil typer"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Ogiltlig programhanterare"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+

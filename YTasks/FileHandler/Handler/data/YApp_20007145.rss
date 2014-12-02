@@ -1,0 +1,275 @@
+/* Copyright (c) 2001 - 2005, Jukka Silvennoinen, Solution One Telecom LTd. All rights reserved */
+
+NAME YHAP
+
+#include <eikon.rh>
+#include "YApp_20007145.hrh"
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+//#include <avkon.loc>
+#include <avkon.hrh>
+
+#ifdef EKA2
+	#include <appinfo.rh>
+#endif
+
+//#ifdef LANGUAGE_01
+#include "YApp_20007145.l01"
+//#endif
+
+
+
+
+RESOURCE RSS_SIGNATURE {}
+
+RESOURCE TBUF {buf="";}
+
+RESOURCE EIK_APP_INFO
+    {
+    	menubar=r_main_menubar;
+	status_pane=R_AVKON_STATUS_PANE_LAYOUT_USUAL;
+    	cba=r_main_cba;            
+    }
+
+RESOURCE STATUS_PANE_APP_MODEL r_status_pane_empty
+	{
+	layout = R_AVKON_STATUS_PANE_LAYOUT_EMPTY;
+	} 
+
+
+//*************************  main  **************************
+
+RESOURCE MENU_BAR  r_main_menubar 
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_main_menu; txt = ktx_cmd_options;}
+        };
+    }
+RESOURCE MENU_PANE r_main_menu 
+    {
+    items =
+      	{
+		MENU_ITEM { command = EAbout;					txt= ktx_mnu_about;}
+		};
+    }
+
+
+
+//************************ CBA ***************************
+	
+
+RESOURCE CBA r_main_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyOptions;
+			txt= ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= ktx_cmd_exit;
+		}
+	};
+}
+
+
+
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+//
+RESOURCE DIALOG r_wait_note_softkey_cancel
+    {
+    flags = EAknWaitNoteFlags | EEikDialogFlagNotifyEsc;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EAknExNoteCtrlIdWaitNote;
+            control= AVKON_NOTE 
+                { 
+                layout = EWaitLayout;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EProgressNoteId;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label = ktx_sh_str_processing;
+                };
+            }
+        };
+    }
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+//
+RESOURCE DIALOG R_MYINFO
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_EMPTY;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+RESOURCE DIALOG R_ASK_NAME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 50; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+//
+RESOURCE DIALOG r_about_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+
+RESOURCE DIALOG r_about_heading_pane2
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_OK_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+
+
+//-----------------------------------------------------------------------------
+//
+//
+//-----------------------------------------------------------------------------
+//
+
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+
+#ifdef EKA2
+/*
+------------------------------------------------------------------
+------------------------------------------------------------------
+*/
+RESOURCE LOCALISABLE_APP_INFO r_bgm_localisable_app_info
+{
+short_caption = "Y-FileHandler";
+caption_and_icon =
+{
+CAPTION_AND_ICON_INFO
+{
+caption = "Y-FileHandler";
+number_of_icons = 1; // each icon must be a bitmap/mask pair
+icon_file = "\\Resource\\Apps\\YApp_20007145_aif.mif"; 
+
+}
+}; 
+}
+#endif

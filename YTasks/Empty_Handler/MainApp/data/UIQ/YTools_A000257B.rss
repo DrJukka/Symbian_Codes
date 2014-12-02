@@ -1,0 +1,174 @@
+/* 
+	Copyright (c) 2001 - 2007, 
+	Jukka Silvennoinen 
+	All rights reserved 
+*/
+
+CHARACTER_SET UTF8
+NAME YTTS
+
+
+#include <eikon.rsg>
+#include <eikon.rh>
+#include <qikon.rh>
+#include <eikcdlg.rsg>
+#include <eikcore.rsg>
+
+#ifdef EKA2
+	#include <appinfo.rh>
+#else
+
+#endif
+
+#include "YTools_A000257B.hrh"
+
+RESOURCE RSS_SIGNATURE {}
+RESOURCE TBUF {buf="";}
+
+RESOURCE EIK_APP_INFO
+    {
+	hotkeys = r_GraphicsBasics_hotkeys; 
+    	menubar=r_main_menubar;        
+    }
+
+RESOURCE HOTKEYS r_GraphicsBasics_hotkeys
+    {
+    control=
+        {
+        HOTKEY { command = EEikCmdExit; key='e'; }
+        };
+    }
+//*************************  main  **************************
+
+RESOURCE MENU_BAR  r_main_menubar 
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_main_menu; txt = ktx_cmd_options;}
+        };
+    }
+RESOURCE MENU_PANE r_main_menu 
+    {
+    items =
+      	{
+		MENU_ITEM { command = EAppOpen;				txt= "Open";},
+		MENU_ITEM { command = EListGrid;				txt= "Change view";},
+		MENU_ITEM { command = EChangeLayout;			txt= "Change layout";},
+		MENU_ITEM { command = ESendSisFile;				txt= "Send Y-Tasks";},
+		MENU_ITEM { command = EAbout;					txt= "About";}	
+		};
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_update_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_update_menu;}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_PANE r_update_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EUpdateList1;					txt = "Get HTTP";},
+		MENU_ITEM {command = EUpdateList2;					txt = "Get HTTPS";},
+		MENU_ITEM {command = EUpdateList3;					txt = "POST HTTP";},
+		MENU_ITEM {command = EUpdateList4;					txt = "POST HTTP: Multipart";},
+		MENU_ITEM {command = EUpdateList5;					txt = "POST HTTPS";},
+		MENU_ITEM {command = EUpdateList6;					txt = "POST HTTPS: Multipart";}
+        };
+    }
+
+
+
+//************************ CBA ***************************
+
+RESOURCE CBA r_update_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id=EAknSoftkeyOptions;
+		txt= "Options";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EUpdateBack; 
+		txt = "Back"; 
+	}
+  };
+} 
+
+RESOURCE CBA r_main_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyOptions;
+			txt= "Options";
+		},
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyExit;
+			txt= "Exit";
+		}
+	};
+}
+
+
+RESOURCE CBA r_exit_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= "";//ktx_cmd_exit;
+		},
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= "";//ktx_cmd_exit;
+		}
+	};
+}
+
+
+
+
+
+
+
+#ifdef EKA2
+
+/*
+------------------------------------------------------------------
+------------------------------------------------------------------
+*/
+RESOURCE LOCALISABLE_APP_INFO r_bgm_localisable_app_info
+{
+short_caption = "Y-Tasks";
+caption_and_icon =
+{
+CAPTION_AND_ICON_INFO
+{
+caption = "Y-Tasks";
+number_of_icons = 3; // each icon must be a bitmap/mask pair
+icon_file = "\\Resource\\Apps\\YTools_A000257B_aif.mbm"; 
+
+}
+}; 
+}
+#else
+
+#endif
+
+

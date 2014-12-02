@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Možnosti"
+#define ktx_cmd_exit 			"Ukončiť"
+#define ktx_cmd_Cancel			"Zrušiť"
+
+
+#define ktx_cmd_Disable			"Nepovoliť"
+#define ktx_cmd_Enable			"Povoliť"
+
+#define ktx_cmd_about			"O aplikácii"
+#define ktx_cmd_New				"Nový"
+#define ktx_cmd_Modify			"Upraviť"
+#define ktx_cmd_Remove			"Vymazať"
+#define ktx_cmd_Randomthes		"Náhodná téma"
+#define ktx_cmd_ViewTheme		"Zobraziť tému"
+#define ktx_cmd_Profchange		"Podľa profilu"
+#define ktx_cmd_Timechange		"Podľa času"
+#define ktx_cmd_Stop			"Zastaviť"
+#define ktx_cmd_Save			"Uložiť"
+
+#define ktx_cmd_VisitJukka		"m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Nepovolené>"
+#define ktx_sh_str_BGIMAGE		"Tapeta"
+#define ktx_sh_str_RANDOM		"Náhodný"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Vymazať plánovač?"
+#define ktx_sh_str_ACTIVEON		"Aktivovať v"
+#define ktx_sh_str_SELECTTHEME	"Vyberte tému"
+#define ktx_sh_str_NONAME		"Nemenovaný"
+#define ktx_sh_str_SELECTPROF		"Vyberte profil"
+#define ktx_sh_str_Time			"Čas"
+#define ktx_sh_str_Date			"Dátum"
+#define ktx_sh_str_Theme		"Téma/Tapeta"
+#define ktx_sh_str_SETONTIME		"Nastavte čas"
+#define ktx_sh_str_SETONWITH		"Spustiť v"
+
+#define ktx_sh_str_WORKDAYA		"Pracovné dni"
+#define ktx_sh_str_NONWORKD		"Nepracovné dni"
+#define ktx_sh_str_EVERYDAY		"Každý deň"
+#define ktx_sh_str_MONDAYS		"Pondelok"
+#define ktx_sh_str_TUESDAYS		"Utorok"
+#define ktx_sh_str_WEDNESDAYS	"Streda"
+#define ktx_sh_str_THURSDAYS	"Štvrtok"
+#define ktx_sh_str_FRIDAYS		"Piatok"
+#define ktx_sh_str_SATURDAYS	"Sobota"
+#define ktx_sh_str_SUNDAYS		"Nedeľa"
+
+#define ktx_cmd_Help			"Pomoc"
+#define ktx_cmd_Back			"Späť"
+
+#define ktx_str_HELP1			"This application is used for scheduling themes and wallpapers with timer or by profile change events, for each event type there is a menu option under the new menu item in the options menu, and new schedule can be made by selecting appropriate menu option."
+#define ktx_str_HELP2			"To make a scheduler, first select either theme or wallpaper to be scheduled, and then select time and repeat options, or the profile which with the schedule is supposed to work with. Once done, save the schedule with save command. With random theme option the theme is picked randomly during the scheduling event, and if no theme is selected in the random theme list, all available themes will be used."
+#define ktx_str_HELP3			"After the schedule is made it will be shown in the main view list. Within this list you can use menu options for opening the schedule for modifications as well as you can delete them, also temporal disabling/enabling menu options can be found from the options menu. "
+#define ktx_str_HELP4			"Note that theme are scheduled as well as previous schedules are re-freshed only after exiting the application. For best usability, each schedule should be spaced two minutes apart from each other. The actual scheduling is handled by background application that is also automatically started when the device is started. No message scheduling will appear while the device is off."
+

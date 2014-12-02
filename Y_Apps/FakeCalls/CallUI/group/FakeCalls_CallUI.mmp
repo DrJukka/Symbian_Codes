@@ -1,0 +1,85 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+
+TARGET            YApps_E8876018.exe
+TARGETTYPE        exe
+UID		  		  0x100039CE 0xE8876018
+
+EPOCSTACKSIZE	  0x9000
+
+SOURCEPATH        ..\src
+SOURCE            YApps_E8876018.cpp
+SOURCE            Play_Container.cpp
+SOURCE            Caller_Active.cpp
+
+SOURCEPATH        ..\data
+
+START RESOURCE    YApps_E8876018.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE    YApps_E8876018_reg.rss
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END //RESOURCE
+
+SOURCEPATH      ..\..\common_src 
+SOURCE	    	CTimeOutTimer.cpp 
+SOURCE	    	Ps_Observer.cpp
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\common_inc 
+SYSTEMINCLUDE     \epoc32\include \Epoc32\include\ecom
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           commonengine.lib
+LIBRARY		      efsrv.lib
+LIBRARY           estor.lib
+LIBRARY           eikcoctl.lib
+LIBRARY           eikdlg.lib
+LIBRARY           eikctl.lib 
+LIBRARY           bafl.lib
+LIBRARY           aknnotify.lib 
+LIBRARY           eiksrv.lib 
+LIBRARY           eikcdlg.lib
+LIBRARY           etext.lib
+LIBRARY           gdi.lib 
+LIBRARY           ws32.lib 
+LIBRARY           hal.lib 
+LIBRARY           etel3rdparty.lib 
+LIBRARY         aknskins.lib 
+LIBRARY         aknskinsrv.lib 
+LIBRARY         aknswallpaperutils.lib
+LIBRARY         aknicon.lib 
+LIBRARY         cntmodel.lib 
+LIBRARY         mediaclientimage.lib 
+LIBRARY         fbscli.lib 
+LIBRARY         mediaclientaudio.lib 
+LIBRARY         HWRMLightClient.lib
+LIBRARY         HWRMVibraClient.lib
+LIBRARY         egul.lib
+LIBRARY         apgrfx.lib
+LIBRARY  		centralrepository.lib
+LIBRARY     	alarmclient.lib 
+LIBRARY     	alarmshared.lib 
+LIBRARY         ProfileEngine.lib
+
+
+LANG 01 04 05 06 07 09 13 14 16 17 18 25 27 31 33 35 42 45 50 54 57 65 78 87 106
+
+VENDORID	  	  0
+
+CAPABILITY 		SwEvent WriteDeviceData ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+
+SOURCEPATH ..\src
+SOURCE playeradapter.cpp OperatorName.cpp Help_Container.cpp CalAlarm_Observer.cpp

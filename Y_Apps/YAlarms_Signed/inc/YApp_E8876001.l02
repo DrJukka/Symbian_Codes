@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Options"
+#define ktx_cmd_Exit			"Quitter"
+#define ktx_cmd_Cancel			"Abandonner"
+#define ktx_cmd_Back			"Retour"
+
+#define ktx_cmd_Disable			"Désactiver"
+#define ktx_cmd_Enable			"Activer"
+
+#define ktx_cmd_About			"A propos"
+
+#define ktx_cmd_Select			"Choisir"
+
+#define ktx_cmd_Ok				"Oui"
+#define ktx_cmd_Change			"Modifier"
+#define ktx_cmd_Done			"Effectué"
+#define ktx_cmd_Play			"Lire"
+#define ktx_cmd_Stop			"Arrêter"
+#define ktx_cmd_Save			"Sauvegarder"
+
+#define ktx_JustD				" j "
+#define ktx_JustH				" h "
+#define ktx_JustMin				" mn."
+
+#define ktx_Daily				"Quotidien"
+#define ktx_Wordays				"Ouvrés"
+
+
+#define ktx_mnu_Newalarm			"Nouveau"
+#define ktx_mnu_Resetalarm			"Modifier"
+#define ktx_mnu_Removealarm			"Supprimer"
+#define ktx_mnu_SetAlarmSounds		"Définir les sonneries"
+#define ktx_mnu_SetWorkdays			"Définir les jours ouvrés"
+#define ktx_mnu_Update				"Mise à Jour"
+
+#define ktx_mnu_Changevalue			"Changer valeur"
+
+#define ktx_str_Repeat				"Répéter"
+#define ktx_str_Daily				"Quotidien"
+#define ktx_str_Workdays			"Ouvrés"
+#define ktx_str_InNext24			"24H après"
+#define ktx_str_Once				"Unique"
+
+#define ktx_str_Time				"Heure"
+#define ktx_str_Date				"Date"
+
+#define ktx_str_Type				"Type"
+#define ktx_str_Clockalarm			"Sonnerie Pendule"
+#define ktx_str_Calendaralarm		"Sonnerie Agenda"
+#define ktx_str_Message				"Message"
+#define ktx_str_Snooze				"Réveil"
+
+#define ktx_str_Settime				"Régler l'heure"
+#define ktx_str_Setdate				"Régler la date"
+#define ktx_str_Setmessage			"Définir le message"
+		
+#define ktx_str_AlarmDueIn			"Alarm due in "
+#define ktx_str_GoJukka				"Visiter m.DrJukka.com"
+
+#define ktx_cmd_Help				"Aide"
+
+#define ktx_cmd_Help1				"Cette application est destinée à affecter de multiples alarmes avec des possibilités de répétition à des applications qui en sont dépourvues."
+#define ktx_cmd_Help2				"La nouvelle alarme peut être élaborée avec de nouvelles options et à l'activayion , vous pouvez définir la répétition, l'heure et le message de l'alarme. Cliquez sur Effectué pour sauvegarder l'alarme."
+#define ktx_cmd_Help3				"L'option Modifier peut être utilisée pour redéfinir les détails de l'alarme, l'option Supprimer pour enlever l'alarme, les options Activer/Désactiver pour désactiver ponctuellement l'alarme"
+#define ktx_cmd_Help4				"Avec l'option Réglages, l'alame peut être définie.Les réglages de Réveil déterminent le réveil en minutes. Certaines applications ne reconnaissent pas ces réglages et utilisent à la place la valeur par défaut."
+#define ktx_cmd_Help5				"Le réglage des Jours Ouvrés permet de modifier les jours travaillés. Les alarmes seront ainisi définies pour ces jours là et non pour les autres."
+
+
+
+

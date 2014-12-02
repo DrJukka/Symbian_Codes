@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Seçenekler"
+#define ktx_cmd_exit 				"Çıkış"
+#define ktx_cmd_cancel 				"İptal"
+#define ktx_cmd_save 				"Kaydet"
+#define ktx_cmd_select 				"Seç"
+
+#define ktx_cmd_about				"Hakkında"
+#define ktx_cmd_visit				"m.DrJukka'yı ziyaret et"
+
+#define ktx_mnu_New 				"Yeni"
+#define ktx_mnu_Modify 				"Düzenle"
+#define ktx_mnu_Remove 				"Sil"
+
+
+#define ktx_mnu_Savmsgs				"Kayıtlı Mesajlar"
+#define ktx_mnu_ContSend			"Rehberden Gönderen"
+
+#define ktx_sh_str_sndName	 		"Gönderen Adı"
+#define ktx_sh_str_sndNumber	 	"Gönderen Numarası"
+#define ktx_sh_str_Message		 	"Mesaj"
+#define ktx_sh_str_sndTime		 	"Gönderme Zamanı"
+#define ktx_sh_str_sndDate		 	"Gönderme Tarihi"
+
+
+#define ktx_str_REMMESSAGE 			"Mesaj silinsin mi?"
+
+
+
+#define ktx_cmd_help				"Yardım"
+#define ktx_cmd_Back				"Geri"
+
+#define ktx_str_HELP1 				"Bu uygulama sahte gelen SMS oluşturmaktadır, sahte mesajlar ileriki bir zamanda gönderilmek üzere zamanlanabilir. Eğer zamanlama geçmiş bir zamana yapılırsa sahte mesaj uygulamadan çıkar çıkmaz gelecektir."
+#define ktx_str_HELP2 				"Yeni mesaj oluşturmak için, seçenekler menüsünden yeniyi seçiniz, gönderici adını ve numarasını giriniz( veya seçenekler menüsüyle rehberden seçiniz), mesajı yazınız ( veya seçenekler menüsüyle önceden kayıtlı mesajları kullanınız), gönderme saatini ve tarihini seçiniz ve kaydet komutunu kullanarak mesajı kaydediniz. "
+#define ktx_str_HELP3 				"Mesaj kaydedildikten sonra ana menü listesinde görünecektir. Seçenekler menüsünü kullanarak mesajı düzenlemek için açabilir ve silebilirsiniz."
+#define ktx_str_HELP4 				"Sahte mesaj zamanlamaları ve önceki zamanlamalar uygulamadan çıkıldıktan sonra yenilenerek aktif olur. İyi bir kullanılabilirlik için her bir zamanlama iki dakikalık aralıklarla ayarlanmalı. Zamanlayıcı telefon açıldığında otomatik olarak arka planda çalışır. Telefon kapalı durumdayken zamanlayıcı mesajları görünmeyecektir."
+

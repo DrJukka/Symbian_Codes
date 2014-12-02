@@ -1,0 +1,24 @@
+#include <ecom\RegistryInfo.rh>
+
+RESOURCE REGISTRY_INFO
+{
+	dll_uid = 0x20007143; // third UID in the mmp file
+	interfaces = 
+	{
+		INTERFACE_INFO
+		{
+			interface_uid = 0x2000713E;// static YTool UID
+			implementations =
+			{
+				IMPLEMENTATION_INFO
+				{
+					implementation_uid = 0x0F6D;// implementation UID, returned with interface
+					version_no=1;
+					display_name="Zipper";
+					default_data="";
+					opaque_data="";
+				}
+			};
+		}
+	};
+}

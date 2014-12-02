@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opciones"
+#define ktx_cmd_exit 				"Salir"
+#define ktx_cmd_cancel 				"Cancelar"
+#define ktx_cmd_save 				"Guardar"
+#define ktx_cmd_select 				"Elegir"
+
+#define ktx_cmd_about				"Acerca de"
+#define ktx_cmd_visit				"Visitar m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nuevo"
+#define ktx_mnu_Modify 				"Modificar"
+#define ktx_mnu_Remove 				"Borrar"
+
+
+#define ktx_mnu_Savmsgs				"Mensajes guardados"
+#define ktx_mnu_ContSend			"Remitente desde contactos"
+
+#define ktx_sh_str_sndName	 		"Nombre del Remitente"
+#define ktx_sh_str_sndNumber	 	"Número del Remitente"
+#define ktx_sh_str_Message		 	"Mensaje"
+#define ktx_sh_str_sndTime		 	"Hora de envío"
+#define ktx_sh_str_sndDate		 	"Fecha de envío"
+
+
+#define ktx_str_REMMESSAGE 			"Remover mensaje?"
+
+
+#define ktx_cmd_help				"Ayuda"
+#define ktx_cmd_Back				"Atrás"
+
+#define ktx_str_HELP1 				"This application is used for faking incoming SMS messages, fake messages can be scheduled to be made in the future time, or if past time is set for the message it will be made immediate after exiting the application with the past timestamp on it."
+#define ktx_str_HELP2 				"To make a new message, click new from the options menu, set the sender name and number (or get them from contacts with menu options), write the message (or use previously saved messages with menu options), set the sending time and date and select save menu option to save the message into the database."
+#define ktx_str_HELP3 				"After the message is made it will be shown in the main view list. Within this list you can use menu options for opening the message for modifications as well as you can delete them. "
+#define ktx_str_HELP4 				"Note that messages are scheduled as well as previous schedules are re-freshed only after exiting the application. The actual scheduling is handled by background application that is also automatically started when the device is started. No message scheduling will appear while the device is off."
+
+

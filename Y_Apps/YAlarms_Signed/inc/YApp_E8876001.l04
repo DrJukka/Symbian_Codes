@@ -1,0 +1,71 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Opciones"
+#define ktx_cmd_Exit			"Salir"
+#define ktx_cmd_Cancel			"Cancelar"
+#define ktx_cmd_Back			"Atrás"
+
+#define ktx_cmd_Disable			"Desactivado"
+#define ktx_cmd_Enable			"Activado"
+
+#define ktx_cmd_About			"Acerca de…"
+
+#define ktx_cmd_Select			"Seleccionar"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Cambiar"
+#define ktx_cmd_Done			"Ok"
+#define ktx_cmd_Play			"Play"
+#define ktx_cmd_Stop			"Parar"
+#define ktx_cmd_Save			"Guardar"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" h "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Diariamente"
+#define ktx_Wordays				"Días laborables"
+
+
+#define ktx_mnu_Newalarm			"Nueva alarma"
+#define ktx_mnu_Resetalarm			"Reiniciar alarma"
+#define ktx_mnu_Removealarm			"Eliminar alarma"
+#define ktx_mnu_SetAlarmSounds		"Fijar sonidos de alarma"
+#define ktx_mnu_SetWorkdays			"Fijar días laborables"
+#define ktx_mnu_Update				"Actualizar"
+
+#define ktx_mnu_Changevalue			"Cambio validado"
+
+#define ktx_str_Repeat				"Repetir"
+#define ktx_str_Daily				"Diariamente"
+#define ktx_str_Workdays			"Días laborables"
+#define ktx_str_InNext24			"Las próximas 24h."
+#define ktx_str_Once				"Una vez"
+
+#define ktx_str_Time				"Hora"
+#define ktx_str_Date				"Fecha"
+
+#define ktx_str_Type				"Tipo"
+#define ktx_str_Clockalarm			"Despertador"
+#define ktx_str_Calendaralarm		"Alarma de la agenda"
+#define ktx_str_Message				"Mensaje"
+#define ktx_str_Snooze				"Repetir"
+
+#define ktx_str_Settime				"Establecer hora"
+#define ktx_str_Setdate				"Establecer fecha"
+#define ktx_str_Setmessage			"Establecer mensaje"
+		
+
+#define ktx_str_AlarmDueIn			"La alarma vence en "
+#define ktx_str_GoJukka				"Visita m.DrJukka.com"
+
+#define ktx_cmd_Help				"Ayuda"
+
+#define ktx_cmd_Help1				"Esta aplicación está diseñada para proporcionar la alarma con múltiples opciones de repetir a los dispositivos que por defecto no implementan esta funcionalidad."
+#define ktx_cmd_Help2				"Nueva alarma se puede hacer con la nueva opción, y en la apertura de la interfaz de usuario puedes configurar la opción de repetición, el tiempo y el mensaje de la alarma. El tipo de alarma que se define en sonido de la alarma se reproduce para la alarma. Haga clic en Hecho para guardar la alarma."
+#define ktx_cmd_Help3				"Reinicializar mi opción se puede utilizar para restablecer información de alarma, eliminar la opción de quitar la alarma y activar / desactivar las opciones se puede utilizar para la desactivación temporal de la alarma."
+#define ktx_cmd_Help4				"Con el sistema de fijar sonido se pueden configurar los sonidos. La configuración de despertador define el tiempo de repetición de minutos, teniendo en cuenta que algunos dispositivos de ignoran la opción de repetir del despertador y utilizan el predeterminado en su lugar."
+#define ktx_cmd_Help5				"Si fijas los días laborables, el dispositivo tiene gran cantidad de opciones de días laborables que pueden ser modificados. Estos ajustes definen los días que las alarmas serán activadas para los días de laborables."
+

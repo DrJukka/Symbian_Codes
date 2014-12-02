@@ -1,0 +1,32 @@
+; standard SIS file header
+#{"Theme Scheduler"},(0x2002884D),1,10,0
+
+;Localised Vendor name
+%{"Solution One Holding Co., Ltd."}
+
+;Unique Vendor name
+:"Solution One Holding Co., Ltd."
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Supports S60 release 5.0
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"YApp_2002884B.exe"	            -"!:\sys\bin\YApp_2002884B.exe"
+"YApp_2002884B_reg.r01"  		-"!:\private\10003a3f\import\apps\YApp_2002884B_reg.rsc"
+"YApp_E8876002_aif.mif"			-"!:\resource\apps\YApp_2002884B_aif.mif"
+
+"YApp_2002884B.r01"         		-"!:\resource\apps\YApp_2002884B.r01"
+"YApp_2002884B.r33"         		-"!:\resource\apps\YApp_2002884B.r33"
+
+"empty.txt"					-"!:\system\data\2002884B\ThemeSchedule.db"
+
+;server app
+"YApp_2002884C.exe"	-"!:\sys\bin\YApp_2002884C.exe"
+
+;starter app
+"YApp_2002884D.exe" 	-"c:\sys\bin\YApp_2002884D.exe"
+"apps[2002884D].RSC"	-"c:\private\101f875a\import\[2002884D].RSC"
+

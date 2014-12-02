@@ -1,0 +1,349 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Natrag"
+#define ktx_cmd_Options			"Opcije"
+#define ktx_cmd_Exit			"Izlaz"
+#define ktx_cmd_Save			"Snimi"
+#define ktx_cmd_Cancel			"Poništi"
+#define ktx_cmd_Delete			"Izbriši"
+
+#define ktx_cmd_Select			"Odaberi"
+#define Ktx_sh_str_SortBy		"Razvrstaj po"	
+
+#define ktx_mnu_setserchoff		"Isključi pretraživanje"
+#define ktx_mnu_File			"Datoteka"
+#define ktx_mnu_Edit			"Uredi"
+#define ktx_mnu_Mark			"Označi"
+#define ktx_mnu_Searchfiles		"Pretraži datoteke"
+#define ktx_mnu_Extras			"Dodaci"
+#define ktx_mnu_About			"O programu"
+#define ktx_mnu_commandSC		"Naredbe za Prečace"
+#define ktx_mnu_ShowSC			"Pokaži Prečace"
+#define ktx_mnu_SetSC			"Postavi Prečace"
+#define ktx_mnu_Searchon			"Uključi pretraživanje"
+#define ktx_mnu_Settings			"Postavke"
+#define ktx_mnu_switchlo			"Promijeni izgled"
+#define ktx_mnu_changeic			"Promijeni ikone"
+#define ktx_mnu_refresh			"Osvježi"
+#define ktx_mnu_munmark			"Označi/Odznači"
+#define ktx_mnu_Markall			"Označi sve"
+#define ktx_mnu_Unmarkall		"Odznači sve"
+#define ktx_mnu_Openwith		"Otvori sa"
+#define ktx_mnu_Open			"Otvori"
+#define ktx_mnu_Send			"Pošalji"
+#define ktx_mnu_Properties		"Svojstvo"
+#define ktx_mnu_Attributes		"Atributi"
+#define ktx_mnu_Delete			"Obriši"
+#define ktx_mnu_Rename			"Preimenuj"
+#define ktx_mnu_ShowName			"Pokaži Ime"
+#define ktx_mnu_Newfile			"Nova datoteka"
+#define ktx_mnu_Newfolder		"Nova mapa"
+#define ktx_mnu_Copy			"Kopiraj"
+#define ktx_mnu_Cut			"Izreži"
+#define ktx_mnu_Paste			"Zaljepi"
+#define ktx_mnu_pastenfile		"Zaljepi u novu datoteku"
+#define ktx_mnu_pasteshow		"Pokaži zaljepljenu datoteku"
+#define ktx_mnu_pasteclear		"Izbriši zaljepljenu datoteku"
+#define ktx_mnu_Done			"Gotovo"
+#define ktx_mnu_addsel			"Dodaj odabiru"
+#define ktx_mnu_selshow			"Pokaži odabrano"
+#define ktx_mnu_cpyclipp			"Kopiraj u spremnik"
+#define ktx_mnu_Startsearch		"Počni pretraživanje"
+#define ktx_mnu_nckresulyts		"Povratak na rezultate"
+#define ktx_mnu_resultclear		"Izbriši rezultate"
+#define ktx_mnu_showseltyp		"Pokaži odabrane tipove"
+#define ktx_mnu_clearcond		"Izbriši uvijete"
+#define ktx_mnu_gtofolder		"Idi na mapu"
+#define ktx_mnu_PAGEUP			"Stranica gore"
+#define ktx_mnu_PAGEDOWN		"Stranica dole"
+
+#define ktx_sh_str_Processing		"Procesuiram"
+#define ktx_sh_str_selfiltyp		"Odaberi tipove datoteke"
+#define ktx_sh_str_date			"Datum"
+#define ktx_sh_str_time			"Vrijeme"
+
+//settings.
+#define ktx_sh_str_System		"Sistem"	
+#define ktx_sh_str_Hidden		"Skriveno"
+#define ktx_sh_str_Readonly		"Samo čitanje"
+#define ktx_sh_str_Modifyingdate	"Datum izmjene"
+#define ktx_sh_str_Modifyingtime	"Vremenu izmjene"
+#define ktx_sh_str_showall		"Pokaži sve datoteke"
+#define ktx_sh_str_Sortorder		"Razvrstaj redosljed"	
+#define ktx_sh_str_Foldersfirst	"Mape prvo"
+#define ktx_sh_str_speedoptimize	"Snimi info mape"
+#define ktx_sh_str_Recognizefiles	"Prepoznaj datoteke"
+#define ktx_sh_str_savepathonexit	"Snimi putanju na izlazu"
+#define ktx_sh_str_exitaks		"Pitaj za izlazak iz programa"
+#define ktx_sh_str_Off			"Isključeno"
+#define ktx_sh_str_On			"Uključeno"
+#define ktx_sh_str_No			"Ne"
+#define ktx_sh_str_Yes			"Da"
+#define ktx_sh_str_Decending		"Silazno"
+#define ktx_sh_str_Ascending		"Uzlazno"
+#define ktx_sh_str_Name			"Imenu"
+#define ktx_sh_str_Fileextension	"Produžetku datoteke"
+#define ktx_sh_str_Filetype		"Tipu datoteke"
+#define ktx_sh_str_Size			"Veličini"
+#define ktx_sh_str_Path			"Putanja"
+#define ktx_sh_str_Filename		"Ime datoteke"
+#define ktx_sh_str_Biggerthan		"Veće od"
+#define ktx_sh_str_Smallerthan	"Manje od"
+#define ktx_sh_str_Modifiedbefore	"Izmijenjeno prije"
+#define ktx_sh_str_Modifiedafter	"Izmijenjeno nakon"
+#define ktx_sh_str_types		" tip(ovi)"
+#define ktx_sh_str_Excludetypes	"Izuzmi tipove"
+#define ktx_sh_str_Includetypes	"Obuhvati tipove"
+#define ktx_sh_str_Fileattributes	"Svojstvo datoteke (atribut)"
+
+#define ktx_sh_str_formatName		"Ime\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Slobodno\t%d Kb"
+#define ktx_sh_str_formatUsed		"Iskorišteno\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Veličina\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Veličina\t%d Bytes"		
+#define ktx_sh_str_formatType		"Tip\t%S"
+#define ktx_sh_str_formatFiles	"Datoteke\t%d"	
+#define ktx_sh_str_formatFolders	"Mape\t%d"
+#define ktx_sh_str_formatTypeID	"TypeID\t%S"	
+#define ktx_sh_str_atrWProt		"Attr\tWrite protected"
+#define ktx_sh_str_atrLocked		"Attr\tLocked"
+#define ktx_sh_str_atrFormattable	"Attr\tFormattable"
+#define ktx_sh_str_atrVarSize		"Attr\tVariable size"
+#define ktx_sh_str_atrROM		"Attr\tROM"
+#define ktx_sh_str_atrRemovable	"Attr\tRemovable"
+#define ktx_sh_str_atrtHidden		"Attr\tHidden"
+#define ktx_sh_str_atrReadonly	"Attr\tRead only"
+#define ktx_sh_str_atrSystem		"Attr\tSystem"
+#define ktx_sh_str_atrVolume		"Attr\tVolume"
+#define ktx_sh_str_atrArchive		"Attr\tArchive"
+
+#define ktx_sh_str_Notpresent		"Nije prisutan"
+#define ktx_sh_str_Floppy		"Floppy"
+#define ktx_sh_str_HardDisk		"HardDisk"
+#define ktx_sh_str_CdRom		"CdRom"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Remote"
+#define ktx_sh_str_Unknown		"Nepoznat"
+#define ktx_sh_str_SCTITLE		"Prečaci: Shift+/Pen+"
+#define ktx_sh_str_FREE			"<slobodno>"
+#define ktx_sh_str_Root			"Root"
+#define ktx_sh_str_Selected		"Odabrano"
+#define ktx_sh_str_Cutfiles		"Izreži datoteke"
+#define ktx_sh_str_CopyFiles		"Kopiraj datoteke"
+#define ktx_sh_str_COPYINGFF		"Kopiraj %S u %S"
+#define ktx_sh_str_MOVINGFF		"Premjesti %S u %S"
+#define ktx_sh_str_RENAMINGFF		"Preimenuj %S u %S"
+#define ktx_sh_str_DELETINGFF		"Obriši %S"	
+#define ktx_sh_str_EXISTREPLACE	" postoji, zamijeni ?"
+#define ktx_sh_str_ISROMODIFY		" readonly, promijeni atribut ?"
+#define ktx_sh_str_ALREDYEXIST	" već postoji"
+#define ktx_sh_str_ISOPEN		" u upotrebi"
+#define ktx_sh_str_ISREADONLY		" is read-only"
+#define ktx_sh_str_ACCDENIED		" Pristup zabranjen"
+#define ktx_sh_str_DISKFULL		"Disk je pun"
+#define ktx_sh_str_DISCKNOTREADY	"Disk nije prisutan ili nije spreman"
+#define ktx_sh_str_CORRDISCK		"Disk je pokvaren"
+#define ktx_sh_str_INVALIDNAME	" to je nepravilno ime"
+#define ktx_sh_str_NOTMEMFORFF	"Nema dovoljno memorije za "
+#define ktx_sh_str_OPERFAILED		"Operacija je \"%S\" neuspijela: Greška %d"
+#define ktx_sh_str_NEWFILE		"Nova datoteka:"
+#define ktx_sh_str_SENDUI		"Pošalji UI"
+#define ktx_sh_str_SENDFFVIA		"Pošalji datoteke putem"
+#define ktx_sh_str_SELAPPLICATION	"Odaberi aplikaciju"
+#define ktx_sh_str_OPENFILE		"Otvori datoteku"
+#define ktx_sh_str_ANDATRIBS		"\'I\'atribut"
+#define ktx_sh_str_SEARCFOR		"Pretraži po nizu znakova"
+#define ktx_sh_str_SELFILETYPES	"Odabrane datoteke po tipu"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bitova"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" I "
+#define ktx_sh_str_OR			" ILI "
+#define ktx_sh_str_SYS			"sys."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" datoteka nađena(o)"
+#define ktx_sh_str_FOUNDENDDDD	"%d datoteka nađena(o) u %d sekundi"
+
+#define ktx_sh_str_SELCOMMAND		"Odaberi naredbu"
+#define ktx_sh_str_NOTSET		"Nije postavljeno"
+#define ktx_sh_str_SELICONFF		"Odaberi ikonu datoteke"
+
+#define ktx_sh_str_READINGFF		"Čitam %d / %d"
+#define ktx_str_FILREADERR		"Čitanje datoteka nije završeno, greška %d"
+#define ktx_str_FILNOTFOND		"Datoteka nije nađena"
+#define ktx_str_NOAPPFORFIL		"Za otvaranje datoteka nije nađena ni jedna aplikacija"
+#define ktx_str_SAVESEARCH		"Snimi rezultate zadnjeg pretraživanja ?"
+#define ktx_str_SELSCNUMBER		"Odaberi broj prečaca"
+#define ktx_str_REBOOTICON		"Ikone su izmjenjene, potrebno je ponovo pokrenuti telefon/Y-browser za prikaz."
+#define ktx_str_PASTEFTOFOL		"Zalijepi %d datoteku(e) u ovu mapu ?"
+#define ktx_str_DELFOILES		"Obriši %d Datoteke"
+#define ktx_str_NEWNAME 		"Novo ime:"
+#define ktx_str_FDERNAME		"Ime mape:"
+#define ktx_str_ERRCREATEFLDR		"Nemogu napraviti mapu, ErrNo: "
+#define ktx_str_FDREXISTS		"Mapa već postoji, odaberi novo ime."
+#define ktx_str_APPENDLIST		"Dodaj na listu"
+#define ktx_str_FILESADCY		"%d datoteka je dodano za kopiranje/rezanje"
+#define ktx_str_PASTEWILLREM		"Ljepljenje će maknuti %d datoteku(a)"
+#define ktx_str_FORSECOPY		"Nemogu zatvoriti izvornu datoteku, ipak kopiraj ?"
+#define ktx_str_STARTNEWSCRH		"Kreni sa novim pretraživanjem ?"
+#define ktx_str_RESETSEARCH		"Resetiraj predhodne postavke pretraživanja ?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Označi sa specijalnim znakovima" // Mark menu item
+#define ktx_mnu_MarkInverse		"Obrnut odabir"   // Mark menu item
+
+#define ktx_sh_str_General		"Osnovno"//- setting
+
+#define ktx_sh_str_fullscreen		"Puni ekran" // main settings item
+
+#define ktx_sh_str_NOFILES		"Bez datoteka"   // no files in browser
+
+#define ktx_mnu_typassociation	"Povezivanja sa datotekom" //settins select item list
+#define ktx_sh_str_plugins		"Dodaci" //settins select item list
+
+#define ktx_sh_str_Own			"Vlastiti"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Makni tip datoteke" //file associations
+
+#define ktx_mnu_Modify			"Promjeni"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Dodaj tip datoteke"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Makni tip datoteke"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Makni nastavake"	// menu file associations settings
+#define ktx_mnu_AddExt			"Dodaj nastavak"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Promjeni rukovatelja"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Promjeni tip imena"	// menu file associations settings
+#define ktx_mnu_Reset			"Resetiraj"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Rukovatelj aplikacija"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Rukovatelji" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Prepoznavatelji" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Omogući" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Onemogući" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Pokaži info" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Ime: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Status: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Onemogućeno" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Omogućeno" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Verzija Dodataka: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		",(verzija je u redu)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		",(verzija nije kompatibilna)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Tip dodatka: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Upravitelj datoteke" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Pošiljatelj datoteke" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Primatelj datoteke" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Mapa datoteke" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Otvori sa upraviteljom" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Prepoznavatelj datoteke" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Podrška tipova datoteke(a):" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Podrška novih datoteka)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Dodaj tipove datoteka"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Odaberi za micanje"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Tipovi datoteka"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Neprepoznati upravitelj datoteka"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+
+

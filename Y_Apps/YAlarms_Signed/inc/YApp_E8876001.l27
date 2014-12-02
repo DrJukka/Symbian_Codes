@@ -1,0 +1,72 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Opcje"
+#define ktx_cmd_Exit			"Wyjdź"
+#define ktx_cmd_Cancel			"Anuluj"
+#define ktx_cmd_Back			"Wróć"
+
+#define ktx_cmd_Disable			"Wyłącz"
+#define ktx_cmd_Enable			"Włącz"
+
+#define ktx_cmd_About			"O programie"
+
+#define ktx_cmd_Select			"Wybierz"
+
+#define ktx_cmd_Ok				"OK."
+#define ktx_cmd_Change			"Zmień"
+#define ktx_cmd_Done			"Zrobione"
+#define ktx_cmd_Play			"Odtwórz"
+#define ktx_cmd_Stop			"Zatrzymaj"
+#define ktx_cmd_Save			"Zapisz"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" g "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Codziennie"
+#define ktx_Wordays				"Dni robocze"
+
+
+#define ktx_mnu_Newalarm			"Nowy"
+#define ktx_mnu_Resetalarm			"Resetuj"
+#define ktx_mnu_Removealarm			"Usuń"
+#define ktx_mnu_SetAlarmSounds		"Ustaw dźwięki alarmu"
+#define ktx_mnu_SetWorkdays			"Ustaw dni robocze"
+#define ktx_mnu_Update				"Aktualizuj"
+
+#define ktx_mnu_Changevalue			"Zmień wartość"
+
+#define ktx_str_Repeat				"Powtórz"
+#define ktx_str_Daily				"Codziennie"
+#define ktx_str_Workdays			"Dni robocze"
+#define ktx_str_InNext24			"Za następne 24"
+#define ktx_str_Once				"Jednokrotnie"
+
+#define ktx_str_Time				"Czas"
+#define ktx_str_Date				"Data"
+
+#define ktx_str_Type				"Typ"
+#define ktx_str_Clockalarm			"Budzik"
+#define ktx_str_Calendaralarm		"Alarm kalendarza"
+#define ktx_str_Message				"Wiadomość"
+#define ktx_str_Snooze				"Drzemka"
+
+#define ktx_str_Settime				"Ustaw czas"
+#define ktx_str_Setdate				"Ustaw datę"
+#define ktx_str_Setmessage			"Ustaw wiadomość"
+		
+#define ktx_str_AlarmDueIn			"Alarm planowany za "
+#define ktx_str_GoJukka				"Odwiedź m.DrJukka.com"
+
+#define ktx_cmd_Help				"Pomoc"
+
+#define ktx_cmd_Help1				"Ta aplikacja jest zaprojektowana aby zapewnić wiele alarmów z opcją powtarzania do tych urządzeń, które fabrycznie nie mają zaimplementowanej tej funkcjonalności."
+#define ktx_cmd_Help2				"Nowy alarm może być zrobiony przy pomocy opcji Nowy, a w otwieranym UI możesz ustawić opcję powtarzania, czas i wiadomość dla alarmu. Typ alarmu definiuje, który dźwięk alarmu jest odtwarzany dla alarmu. Kliknij Zrobione, aby zapisać alarm."
+#define ktx_cmd_Help3				"Opcja Resetuj może być używana do wyzerowania szczegółów alarmu, opcja Usuń do usuwania alarmu a opcje Włącz/Wyłącz mogą być używane do tymczasowego wyłączania alarmu."
+#define ktx_cmd_Help4				"Przy użyciu opcji Ustaw dźwięki alarmu mogą zostać ustawione pliki dźwiękowe. Ustawienia drzemki określają czas drzemki w minutach. Zauważ, że niektóre urządzenia ignorują ustawienie drzemki i używają domyślnej wartości zamiast."
+#define ktx_cmd_Help5				"Przy użyciu opcji Ustaw dni robocze ustawienia zakresu dni roboczych urządzenia mogą być modyfikowane. Te ustawienia definiują, w które dni alarmy ustatwione dla dni roboczych będą aktywne."
+
+
+

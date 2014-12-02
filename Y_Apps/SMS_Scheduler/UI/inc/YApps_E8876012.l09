@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valinnat"
+#define ktx_cmd_exit 				"Poistu"
+#define ktx_cmd_cancel 				"Peruuta"
+
+#define ktx_cmd_Disable				"Poista käytöstä"
+#define ktx_cmd_Enable				"Ota käyttöön"
+
+#define ktx_cmd_save 				"Tallenna"
+#define ktx_cmd_select 				"Valitse"
+
+#define ktx_cmd_about				"Tietoja sovelluksesta"
+#define ktx_cmd_visit				"Vieraile m.DrJukka.com:issa"
+
+#define ktx_mnu_New 				"Uusi"
+#define ktx_mnu_Modify 				"Muokkaa"
+#define ktx_mnu_Remove 				"Poista"
+
+
+#define ktx_mnu_Savmsgs				"Tallennetut viestit"
+#define ktx_mnu_ContSend			"Vastaanottaja kontakteista"
+
+#define ktx_sh_str_sndName	 		"Nimi"
+#define ktx_sh_str_sndNumber	 	"Numero"
+#define ktx_sh_str_Message		 	"Viesti"
+#define ktx_sh_str_sndTime		 	"Lähetys aika"
+#define ktx_sh_str_sndDate		 	"Lähetys päivä"
+
+#define ktx_sh_str_DISABLED			"<pois käytöstä>"
+
+#define ktx_str_REMMESSAGE 			"Poista viesti ?"
+
+#define ktx_sh_str_REPEATS			"Toista"
+
+#define ktx_sh_str_ONCE				"Kerran"
+#define ktx_sh_str_WORKDAYA			"Työpäivinä"
+#define ktx_sh_str_NONWORKD			"Vapaapäivinä"
+#define ktx_sh_str_EVERYDAY			"Jokapäivä"
+#define ktx_sh_str_MONDAYS			"Maanantaisin"
+#define ktx_sh_str_TUESDAYS			"Tiistaisin"
+#define ktx_sh_str_WEDNESDAYS		"Keskiviikkoisin"
+#define ktx_sh_str_THURSDAYS		"Torstaisin"
+#define ktx_sh_str_FRIDAYS			"Perjantaisin"
+#define ktx_sh_str_SATURDAYS		"Lauantaisin"
+#define ktx_sh_str_SUNDAYS			"Sunnuntaisin"
+
+#define ktx_str_MSGTRUNK			"Viesti lyhennetään 70 kirjaimiseksi, jatka ?"
+
+#define ktx_cmd_Back 			"Takaisin"
+#define ktx_sh_str_HELP			"Ohjeet"
+#define ktx_sh_str_SMSType		"SMS tyyppi"
+#define ktx_sh_str_Normal		"Normaali"
+#define ktx_sh_str_Flash		"FlashSMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Tämän ohjelman avulla voi lähettää ajattettuja normaaleja SMS viestejä sekä Flash SMS viestejä. Viestin pituus on rajoitettu 160:n merkkiin normaaleissa viesteissä ja 70:n merkkiin unicode enkoodatuissa viesteissä."
+#define ktx_str_HELP2			"Flash SMS viestit ovat Class 0 SMS viestejä, jotka avautuvat automaattisesti vastaanottajan puhelimessa, ja joita ei tallenneta automaattisesti puhelimen muistiin."
+#define ktx_str_HELP3			"Valitse uusi valinta valinnoista uuden ajastetun viestin tekemiseksi ja tallenna viesti Tallenna valinnalla. Tallentamisen jälkeen aikataulu näkyy listassa. Tästä listasta aikatauluja voi poistaa Poista valinalla, sekä tilapäisesti poistaa käytöstä Poista käytöstä / Ota käyttöön valinnoilla. Muokkaa valinnalla voi aikatauluja myös muokata."
+#define ktx_str_HELP4			"Huomio myös että aikataulujen ajastus tapahtuu tausta prosessin avulla, tausta prosessi käynnistyy myös automaattisesti puhelinta käynnistettäessä, mikäli ainakin yksi aikataulu on käytössä."
+#define ktx_str_HELP5			"Huomio myös että aikataulujen muutokset päivitetään taustaprosessiin vasta kun pääohjelmasta poistutaan."
+
+//Settings Help:
+#define ktx_str_HELP6			"Ajastettuja viestejä tehtäessä, vietille täytyy määritellä vastaanottaja, viesti sekä aika jolloin viesti lähetetään."
+#define ktx_str_HELP7			"Vastaanottajan voi joko valita osoitekirjasta tai kirjoittaa vastaanottajan numeron suoraan aikataulun asetuksiin."
+#define ktx_str_HELP8			"Viesti voidaan joko kirjoittaa suoraan tai valita aikaisemmin tallennetuosta viesteistä. SMS tyyppi asetuksella määritellään viesti joko normaaliksi SMS viestiksi tai Flash SMS vistiksi."
+#define ktx_str_HELP9			"Viestin lähetys aika voidaan määritellä toistavaksi, tai viesti voidaan määritellä lähetettäväksi kerran määriteltynä päiväne ja aikana."
+#define ktx_str_HELP10			"Huomio että toistettavia viestejä ei poisteta tiedostosta automaattisesti, mutta kerran lähetettäväksi asetetut viestit poistetaan tiedostosta heti lähetyksen jälkeen."
+
+

@@ -1,0 +1,39 @@
+Old ones:
+
+Arabic :: "MR. WHO" <mr.who@msn.com> && "laytech@aol.com" <laytech@aol.com>
+Brazilian purtuguese :: Glauco <glaucocf@gmail.com>
+Bulgarian :: Kamen Lichev <kamenlitchev@yahoo.com>
+Chinese :: wudaming <puka_wu@hotmail.com>
+Croatian :: |hotJay| <hot.jay@usa.net>
+Danish :: Stefan Borch <sbc@mailsnare.com>
+Dutch :: Arjen Hassent van <arjen.vanhassent@graafstroom.nl> && Joep Berkelaar <joep58@gmail.com>
+Finnish:: Mikkis <mikkis1@gmail.com>
+French :: "Wijmmersch, Willy" <willy.wijmmersch@citi.com>
+German :: Helmut Lindorfer <h.lindorfer@aon.at> && Roman Schweigler <Roman.Schweigler@gmx.at> && Marcus Hoffmann <marcus.hoffmann@gmx.info>
+Greek :: Nikos Papanikolaou <npapanik@gmail.com>
+Hebrew :: Elad Bachar <Elad.Bachar@orange.co.il> && Ofir Tadmor <otadmor@gmail.com>
+Hungarien :: yetie@freemail.hu
+Indonesian :: imel yuku <yuku@ikitek.com>
+italian :: Contagiri <contagiri@yahoo.it> && ale zo <zo.system@gmail.com>
+Japan :: shotaro <shotaro@codename.win1.jp> && 
+lithuanian :: geremi@symbianity.com
+Macedonian :: Nenad Z <znenad@gmail.com>
+Norwegian :: Tommy Bäckström <backers@gmail.com>
+polish :: "Admin symbianOS.pl" <admin@symbianos.pl>
+portuguase :: Marcio Faustino <m.faustino@gmail.com>
+Romanian :: Valentin Murariu <vmurariu@gmail.com>
+Russian :: maxim_minton <maxim_minton@mail.ru> && Vania Chernysh <santehnik@mabila.ua>
+Serbian :: Darko Phantom <darkophantom@gmail.com> 
+Slovak :: "Dr. Atec" <dr.atec@gmail.com> && 8sabo@t-zones.sk
+Slovenian :: Robert Majc <robert.majc@pinkponk.com> && "KND s.p." <knd@amis.net>
+Spanish :: Gonzalo Grosso <gongrosso@gmail.com> && Gustavo A Betancourt <gustavoab@gmail.com>
+Swedish :: ncraft@ncraft.se 
+Taiwan :: KIA <tgbvfryhn2002@gmail.com>
+Thai :: "Pongpat Woraratanadharm" <pongpat@125-telecom.com>, 
+Turkish :: Oguz SAAT <hosaat@gmail.com>
+
+
+
+New ones:
+
+Amir Soleimani <amirsol@comcast.net>:: persian Farsi

@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Opciones"
+#define qtn_exit 			"Salir"
+
+#define qtn_about			"Acerca de.."
+#define qtn_visit			"Visitar m.DrJukka.com"
+#define qtn_backlighton		"Luz encendida"
+
+#define qtn_backlightoff	"Luz apagada"
+#define qtn_reset			"Reiniciar"
+
+#define qtn_Help			"Ayuda"
+#define qtn_Back			"Volver"
+
+#define ktx_str_HELP1 		"Esta aplicación es un inclinómetro que muestra la pendiente vertical y horizontal del dispositivo; e ilustra la imagen de un auto con el ángulo medido. Funciona únicamente en modo portarretrato."
+#define ktx_str_HELP2 		"Luces, en el menú, permite mantener la luz de fondo prendida permanentemente. Tener en cuenta que esta opción consumirá más batería, pero permitirá una mayor visibilidad en ambientes oscuros."
+#define ktx_str_HELP3 		""
+
+
+
+
+// End of File

@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"تنظیمات"
+#define ktx_cmd_exit 				"خروج"
+#define ktx_cmd_Back 				"بازگشت"
+
+#define ktx_mnu_help				"راهنما"
+#define ktx_cmd_about				"درباره ی من"
+#define ktx_cmd_visit				"برو به DrJukka.com"
+
+#define ktx_cmd_Snooze 				"خواب کوتاه"
+#define ktx_sh_str_ANSWER			"پاسخ"
+#define ktx_sh_str_SILENSE			"بی صدا"
+#define ktx_sh_str_CALLING			"در حال تماس"
+
+#define ktx_str_HELP1				"تماس جعلی به شما در نمایش شماره ی دلخواه در تماس های وروردی کمک میکند.پس زمینه و تمام گرافیکها از پوسته ی گوشی شما استفاده می شود."
+#define ktx_str_HELP2				"رینگتون از آهنگ استفاده شده برای مخاطب استفاده می شود و اگرشما آهنگی را انتخاب نکرده باشید از آهنگ انتخاب شده در نمایه استفاده می کند و اگر هم آن را انتخاب نکرده باشید منجر به وا افتادن آهنگ می شود."
+#define ktx_str_HELP3				"شما برای بی صدا کردن می توانید بر روی بی صدا کلیک کنید و برای پاسخ نیز می توانید کلید سبز را بفشارید."
+#define ktx_str_HELP4				"شما می توانید از برنامه تماس جعلی با زدن کلید قرمز خارج شوید و یا با زدن کلید خروج در قسمت تنظیمات می توانید خارج  شوید."
+#define ktx_str_HELP5				"دستور وقفه در تماس با نمایش زمان وقفه پنهان می شود"
+
+
+
+		

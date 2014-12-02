@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Options"
+#define ktx_cmd_exit 				"Quiter"
+#define ktx_cmd_cancel 				"Annuler"
+#define ktx_cmd_save 				"Enregistrer"
+#define ktx_cmd_select 				"Choisir"
+
+#define ktx_cmd_about				"A propos"
+#define ktx_cmd_visit				"Visitez m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nouveau"
+#define ktx_mnu_Modify 				"Modifier"
+#define ktx_mnu_Remove 				"Effacer"
+
+
+#define ktx_mnu_Savmsgs				"Messages enregistés"
+#define ktx_mnu_ContSend			"Liste Contacts"
+
+#define ktx_sh_str_sndName	 		"Nom émetteur"
+#define ktx_sh_str_sndNumber	 	"Numéro émetteur"
+#define ktx_sh_str_Message		 	"Message"
+#define ktx_sh_str_sndTime		 	"Date d'envoi"
+#define ktx_sh_str_sndDate		 	"Heure d'envoi"
+
+
+#define ktx_str_REMMESSAGE 			"Effacer message ?"
+
+
+#define ktx_cmd_help				"Aide"
+#define ktx_cmd_Back				"Retour"
+
+#define ktx_str_HELP1 				"Cette application permet d'envoyer et de reçevoir de faux SMS. Les faux messages peuvent être programmés pour envoi ultérieur. Si programmation antérieure, l'envoi sera immédiat et la date/heure d'envoi du SMS affichée sera celle saisie par l'utilisateur."
+#define ktx_str_HELP2 				"Pour créer un nouveau message, cliquer sur Nouveau dans le menu Options, saisir le nom et le numéro de l'émetteur (ou l'obtenir du carnet d'adresses avec le menu Options), rédiger le message (ou utiliser les messages précédemment sauvegardés avec le menu Options), saisir la date/heure d'envoi et enregistrer le message avec la commande du menu Options."
+#define ktx_str_HELP3 				"Après la création du message, celui-ci sera affiché dans la liste principale. Dans cette liste vous pouvez ouvrir le message afin de le modifier ou bien le supprimer avec le menu Options."
+#define ktx_str_HELP4 				"Notez que les messages sont programmés et les précédentes programmation rafraîchies seulement à la fermeture de l'application. La programmation en cours est gérée par l'application en arrière-plan et démarrée automatiquement au lancement de l'appareil. Aucun message d'horaire n'apparaîtra quand l'appareil est éteint."
+
+

@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Opties"
+#define qtn_exit 			"Sluiten"
+
+#define qtn_about			"Over"
+#define qtn_visit			"Bezoek m.DrJukka.com"
+#define qtn_backlighton		"Verlichting aan"
+
+#define qtn_backlightoff	"Verlichting uit"
+#define qtn_reset			"Reste"
+
+#define qtn_Help			"Help"
+#define qtn_Back			"Terug"
+
+#define ktx_str_HELP1 		"Inclinometer toont de horizontale en verticale draaiïng van uw toestel (en dus uw auto), met een illustratie van uw auto in de gemeten hoek. Deze applicatie werkt alleen in horizontale weergave."
+#define ktx_str_HELP2 		"Via de menuoptie Reset worden de gemeten hoeken als nulpunt ingesteld. U kunt elke hoek instellen als nul, door eerst uw toestel stevig vast te zetten en dan de optie Reset te gebruiken."
+#define ktx_str_HELP3 		"Met Verlichting aan laat u de verlichting continu branden. Het scherm blijft beter leesbaar, vooral in het donker, maar de batterij gaat sneller leeg. "
+
+
+
+
+// End of File

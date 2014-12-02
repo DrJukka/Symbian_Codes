@@ -1,0 +1,314 @@
+CHARACTER_SET UTF8
+
+NAME MMEX
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+
+#include "App_2002B0B0.hrh"
+
+
+#ifdef EKA2
+	#include <appinfo.rh>
+#else
+
+#endif
+
+
+#ifdef LANGUAGE_01        // English
+    #include "App_2002B0B0.l01"
+#elif defined LANGUAGE_02        // French
+    #include "App_2002B0B0.l02"
+#elif defined LANGUAGE_05 // Italian
+    #include "App_2002B0B0.l05"
+#elif defined LANGUAGE_33 // Thai
+    #include "App_2002B0B0.l33"
+#elif defined LANGUAGE_09 // Finnish
+    #include "App_2002B0B0.l09"
+#elif defined LANGUAGE_14 // Turkish
+    #include "App_2002B0B0.l14"
+#elif defined LANGUAGE_17 // Hungarian
+    #include "App_2002B0B0.l17"
+#elif defined LANGUAGE_25 // Czech
+    #include "App_2002B0B0.l25"
+#elif defined LANGUAGE_42 // Bulgarian
+    #include "App_2002B0B0.l42"
+#elif defined LANGUAGE_57 // Hebrew
+    #include "App_2002B0B0.l57"
+#elif defined LANGUAGE_59 // Indonesian
+    #include "App_2002B0B0.l59"
+#elif defined LANGUAGE_65 // Korean
+    #include "App_2002B0B0.l65"
+#elif defined LANGUAGE_78 // Romanian
+    #include "App_2002B0B0.l78"
+#elif defined LANGUAGE_87 // Tamil
+    #include "App_2002B0B0.l87"
+#else
+    #include "App_2002B0B0.l01" // English
+#endif
+
+
+//#include "App_2002B0B0.l01b" // English
+
+RESOURCE RSS_SIGNATURE {}
+
+RESOURCE TBUF {buf="";}
+
+RESOURCE EIK_APP_INFO
+    {
+    hotkeys=r_MMSExamples_hotkeys;
+    menubar=r_MMSExample_menubar;
+    cba=R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+
+RESOURCE HOTKEYS r_MMSExamples_hotkeys
+    {
+    control=
+        {
+        HOTKEY { command=EAknCmdExit; key='e'; }
+        };
+    }
+
+//----------------------------------------------------
+
+//----------------------------------------------------
+//
+RESOURCE MENU_BAR r_MMSExample_menubar
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_MMSExample_options_menu; txt = ktx_cmd_options;}
+        };
+    }
+
+
+RESOURCE MENU_PANE r_MMSExample_options_menu
+    {
+    items =
+        {
+        MENU_ITEM { command = EMMSExampleCmdSend; 				txt = ktx_mnu_SendMMS; },
+        MENU_ITEM { command = ESelectRecipient; 				txt = ktx_mnu_SelRecipient; },
+        MENU_ITEM { command = ENewRecipient; 					txt = ktx_mnu_NewRecipient; },
+        MENU_ITEM { command = ERemoveRecipient; 				txt = ktx_mnu_RemRecipient; },
+      //  MENU_ITEM { command = EVisitDrJukka;					txt = ktx_cmd_visit;},
+        MENU_ITEM { command = EAppHelp;							txt = ktx_mnu_help;},
+		MENU_ITEM { command = EAbout; 							txt = ktx_str_ABOUT; },
+		MENU_ITEM { command = EClose; 							txt = ktx_cmd_exit; }
+        };
+    }
+
+
+//************************ imgview ***************************
+RESOURCE MENU_BAR  r_cont_menubar 
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_cont_menu; txt = ktx_cmd_options;}
+        };
+    }
+
+
+
+RESOURCE MENU_PANE r_cont_menu 
+    {
+    items =
+      	{
+		MENU_ITEM { command = EContOkOne;					txt= ktx_mnu_done;},
+		MENU_ITEM { command = EContMarkTogle;				txt= ktx_mnu_toggle;},
+		MENU_ITEM { command = EContMarkAll;					txt= ktx_mnu_MarkAll;},			
+		MENU_ITEM { command = EContUnMarkAll;				txt= ktx_mnu_UnmarkAll;}
+		};
+    }
+
+
+//***************************************************
+
+RESOURCE CBA R_APPHELP_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAppHelpBack; 
+		txt = ktx_cmd_back; 
+	}
+  };
+}
+
+	
+RESOURCE CBA r_cont_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyOptions;
+			txt= ktx_cmd_options;	//"Options";//ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EContBackOne;
+			txt= ktx_cmd_cancel;	//"Cancel";
+		}
+	};
+}
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_about_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+
+//***************************************************
+
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EAknExNoteCtrlIdWaitNote;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label ="Progressing";
+                };
+            }
+        };
+    }
+
+
+RESOURCE DIALOG R_GETNUMBER_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+			  default_input_mode = EAknEditorNumericInputMode;
+                    maxlength = 25; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+
+
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+//***************************************************
+
+
+RESOURCE TBUF R_SH_STR_ABOUT		{buf = ktx_str_ABOUT;} 
+
+
+RESOURCE TBUF R_STR_MSGSENT				{buf = ktx_str_MSGSENT;}
+RESOURCE TBUF R_SH_STR_CONTACTS 		{buf = ktx_str_CONTACTS;}
+RESOURCE TBUF R_STR_SH_PHONENUMBER		{buf = ktx_str_PHONENUMBER;}
+
+RESOURCE TBUF R_SH_STR_ExitQ			{buf = ktx_str_ExitQ;}
+RESOURCE TBUF R_STR_MSGTRUNK			{buf =ktx_str_MSGTRUNK;}
+
+RESOURCE TBUF R_STR_FAIL_1				{buf =ktx_str_FAIL_1;}
+RESOURCE TBUF R_STR_FAIL_2				{buf =ktx_str_FAIL_2;}
+RESOURCE TBUF R_STR_FAIL_3				{buf =ktx_str_FAIL_3;}
+RESOURCE TBUF R_STR_FAIL_4				{buf =ktx_str_FAIL_4;}
+RESOURCE TBUF R_STR_FAIL_5				{buf =ktx_str_FAIL_5;}
+
+RESOURCE TBUF R_STR_ALLSENT				{buf =ktx_str_ALLSENT;}
+
+RESOURCE TBUF R_STR_HELP1				{buf =ktx_str_HELP1;}
+RESOURCE TBUF R_STR_HELP2				{buf =ktx_str_HELP2;}
+RESOURCE TBUF R_STR_HELP3				{buf =ktx_str_HELP3;}
+RESOURCE TBUF R_STR_HELP4				{buf =ktx_str_HELP4;}
+RESOURCE TBUF R_STR_HELP5				{buf =ktx_str_HELP5;}
+
+#ifdef EKA2
+
+/*
+------------------------------------------------------------------
+------------------------------------------------------------------
+*/
+RESOURCE LOCALISABLE_APP_INFO r_bgm_localisable_app_info
+{
+short_caption = "Flash SMS";
+caption_and_icon =
+{
+CAPTION_AND_ICON_INFO
+{
+caption = "Flash SMS";
+number_of_icons = 1; // each icon must be a bitmap/mask pair
+icon_file = "\\Resource\\Apps\\App_2002B0B0_aif.mif"; 
+
+}
+}; 
+}
+#else
+
+#endif
+

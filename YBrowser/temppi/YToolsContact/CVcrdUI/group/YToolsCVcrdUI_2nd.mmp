@@ -1,0 +1,59 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+TARGET            	YToolsZipperUI.dll
+TARGETTYPE        	ECOMIIC
+
+UID               	0x10009d8d 0x20007142
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\CommonInc
+USERINCLUDE       ..\..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+RESOURCE 		..\data\20007142.rss
+RESOURCE    	..\data\YToolsZipperUI_res.rss
+
+SOURCEPATH        ..\src
+SOURCE            YToolsZipperUI.cpp
+SOURCE            CZipCompressor.cpp
+SOURCE            CZipUncompressor.cpp
+SOURCE            ZipReader.cpp
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           eikcdlg.lib 
+LIBRARY           eikctl.lib 
+LIBRARY           eikcoctl.lib 
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           gdi.lib 
+LIBRARY           fbscli.lib
+LIBRARY           bitgdi.lib 
+LIBRARY           egul.lib
+LIBRARY           bafl.lib 
+LIBRARY           ezlib.lib 
+LIBRARY           ezip.lib 
+LIBRARY           estor.lib 
+LIBRARY           CommonDialogs.lib 
+

@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Setări"
+#define ktx_cmd_exit 				"Ieşire"
+#define ktx_cmd_cancel 				"Anulare"
+
+#define ktx_cmd_Disable				"Dezactivat"
+#define ktx_cmd_Enable				"Activat"
+
+#define ktx_cmd_save 				"Salvează"
+#define ktx_cmd_select 				"Selectează"
+
+#define ktx_cmd_about				"Despre aplicaţie"
+#define ktx_cmd_visit				"Vizitaţi m.DrJukka.com"
+
+#define ktx_mnu_New 				"Creare"
+#define ktx_mnu_Modify 				"Modificare"
+#define ktx_mnu_Remove 				"Ştergere"
+
+
+#define ktx_mnu_Savmsgs				"Mesaje salvate"
+#define ktx_mnu_ContSend			"Destinatar din contacte"
+
+#define ktx_sh_str_sndName	 		"Nume"
+#define ktx_sh_str_sndNumber	 	"Telefon"
+#define ktx_sh_str_Message		 	"Mesaj"
+#define ktx_sh_str_sndTime		 	"Oră expediere"
+#define ktx_sh_str_sndDate		 	"Dată expediere"
+
+#define ktx_sh_str_DISABLED		"<Dezactivat>"
+
+#define ktx_str_REMMESSAGE 			"Şterge mesaj?"
+
+#define ktx_sh_str_REPEATS		"Repetare"
+
+#define ktx_sh_str_ONCE			"O singura dată"
+#define ktx_sh_str_WORKDAYA		"Luni – Vineri"
+#define ktx_sh_str_NONWORKD		"Weekend"
+#define ktx_sh_str_EVERYDAY		"Zilnic"
+#define ktx_sh_str_MONDAYS		"Luni"
+#define ktx_sh_str_TUESDAYS		"Marţi"
+#define ktx_sh_str_WEDNESDAYS		"Miercuri"
+#define ktx_sh_str_THURSDAYS		"Joi"
+#define ktx_sh_str_FRIDAYS		"Vineri"
+#define ktx_sh_str_SATURDAYS		"Sâmbăta"
+#define ktx_sh_str_SUNDAYS		"Duminică"
+
+#define ktx_str_MSGTRUNK		"Mesajul va fi truncat la 70 de caractere. Continuaţi?"
+
+#define ktx_cmd_Back 			"Înapoi"
+#define ktx_sh_str_HELP			"Ajutor"
+#define ktx_sh_str_SMSType		"Tipul SMS-ului"
+#define ktx_sh_str_Normal		"Normal"
+#define ktx_sh_str_Flash		"Mesaj Flash"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Această aplicaţie permite transmiterea automata a mesajelor SMS normale sau Flash la momente de timp prestabilite. Lungimea mesajelor este limitata la 160 de caractere sau 70 de caractere pentru codarea Unicode. Codarea Unicode este folosita automat atunci când este nevoie."
+#define ktx_str_HELP2			"Mesajele Flash sunt SMS-uri de clasă 0 care sunt afişate automat la destinaţie, şi vor fi salvate doar dacă destinatarul decide să o facă."
+#define ktx_str_HELP3			"Pentru crearea unui nou mesaj programat, alegeţi opţiunea „Creare” din meniu. După popularea listei de mesaje programate acestea pot fi modificate, şterse sau activate/dezactivate din meniu."
+#define ktx_str_HELP4			"Trimiterea mesajelor la timpul stabilit este efectuată de o aplicaţie server care rulează în fundal."
+#define ktx_str_HELP5			"Aplicaţia server rulează automat la pornirea telefonului. Toate setările şi programările au efect numai după ieşirea aplicaţiei grafice."
+
+//Settings Help:
+#define ktx_str_HELP6			"Pentru mesajele programate temporal, trebuie să specificaţi doar numărul de telefon al destinatarului, mesajul şi data  trimiterii."
+#define ktx_str_HELP7			"Destinatarul poate fi ales din agenda telefonului sau numărul de telefon poate fi introdus manual."
+#define ktx_str_HELP8			"Mesajele pot fi salvate pentru a fi refolosite după trimitere. De asemenea puteţi alege tipul mesajului SMS: normal sau flash."
+#define ktx_str_HELP9			"Data şi timpul programării este configurată cu opţiunea din meniu. Modul de repetare poate fi de asemenea configurat."
+#define ktx_str_HELP10			"Atenţie: Programările cu repetare nu vor fi şterse din listă după trimiterea mesajului, pe când cele singulare vor dispărea odată ce mesajul este expediat. "
+
+

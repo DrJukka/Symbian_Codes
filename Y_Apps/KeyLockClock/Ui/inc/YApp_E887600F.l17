@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Opciók"
+#define ktx_cmd_exit 			"Kilép"
+
+#define ktx_cmd_about			"Névjegy"
+#define ktx_cmd_visit			"Az m.DrJukka.com meglátogatása"
+
+
+#define ktx_sh_str_CLOCKON		"Óra bekapcsolása"
+#define ktx_sh_str_LGHTINSE		"Fényerő"
+#define ktx_sh_str_LGHTINSECHR	"Fényerő töltéskor"
+#define ktx_sh_str_LIGHTON		"Világítás be"
+#define ktx_sh_str_SHOWDATE		"Dátumot mutat"
+#define ktx_sh_str_KEYLOCKON	"Billentyűzár be"
+#define ktx_sh_str_OFF			"Ki"
+#define ktx_sh_str_ON			"Be"
+#define ktx_sh_str_DATEONLY		"csak dátum"
+#define ktx_sh_str_DATETIME		"dátum és nap"
+#define ktx_sh_str_TIMEOUTOL	"A billentyűk lezárásáig"
+#define ktx_sh_str_TIMEOUTCHR	"Töltés alatt is"
+#define ktx_sh_str_ALWAYS		"Mindig"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Álló"
+#define ktx_sh_str_Landscape	"Fekvő"
+#define ktx_sh_str_Automatic	"Automatikus"
+
+#define ktx_sh_str_CURRTHEM		"Aktuális téma"
+#define ktx_sh_str_SELCOLOR		"Színcsere"
+#define ktx_sh_str_BACKCOLOR	"Háttérszín"
+#define ktx_sh_str_FONTCOLOR	"Betűszín"
+#define ktx_sh_str_LIGHTTIM		"Megvilágítás ideje"
+#define ktx_sh_str_LOCKTIM		"Billentyűzár időzítése (mp)"
+#define ktx_sh_str_FONT			"Betűtípus"
+#define ktx_sh_str_BLACK		"Fekete"
+#define ktx_sh_str_DARKGRAY		"Sötétszürke"
+#define ktx_sh_str_DARKRED		"Sötét piros"
+#define ktx_sh_str_DARKGREEN	"Sötétzöld"
+#define ktx_sh_str_DARKYELLOW	"Sötét sárga"
+#define ktx_sh_str_DARKBLUE		"Sötétkék"
+#define ktx_sh_str_DARKMAGENDA	"Sötét bíbor"
+#define ktx_sh_str_DARKCYAN		"Sötét türkiz"
+#define ktx_sh_str_RED			"Piros"
+#define ktx_sh_str_GREEN		"Zöld"
+#define ktx_sh_str_YELLOW		"Sárga"
+#define ktx_sh_str_BLUE			"Kék"
+#define ktx_sh_str_MAGENDA		"Bíbor"
+#define ktx_sh_str_CYAN			"Türkiz"
+#define ktx_sh_str_GRAY			"Szürke"
+#define ktx_sh_str_WHITE		"Fehér"
+
+#define ktx_cmd_Help 			"Help"
+#define ktx_cmd_Back 			"Vissza"
+
+#define ktx_str_HELP1			"This application is used for a screensaver type clock screen that is on while the devices keyboard is locked by the devices standard key lock. The lock's light will be illuminated if enabled after a device key is pressed (allowed keys are arrow left/right and menu key)."
+#define ktx_str_HELP2			"The lock screen is handled by background server that is running if either the clock screen or the key lock is set to be on. The background application is also started automatically when device is started. Note that settings are taking effect only after exiting the UI application."
+#define ktx_str_HELP3			"Lights intensity settings are used to set the light intensity values that are used when key is pressed to show the clock screen. Charging light intensity is used when the device is charging. Light timeout settings specifies the time the lights are on after pressing the key, note that some devices ignore the value, and use the device lights out time value instead."
+#define ktx_str_HELP4			"With lights on setting allows defining when the lights are on. The font setting can be used to select the font used with the clock display, as well as with the font color setting the text color can be changed. The background setting defines which background color is used with the clock screen."
+#define ktx_str_HELP5			"The show date settings options allows disabling the date/day display on the top of the clock screen. The key lock settings item enables the background applications automatic key locking feature, and the lock after time values defines the required user inactivity time before the keyboard is locked."
+
+
+

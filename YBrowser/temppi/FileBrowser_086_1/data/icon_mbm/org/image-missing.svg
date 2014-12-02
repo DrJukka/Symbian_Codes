@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 9.0, SVG Export Plug-In  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 24 24"
+   xml:space="preserve"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docname="image-missing.svg"
+   sodipodi:docbase="/home/jimmac/gfx/ximian/gorilla-icon-theme/scalable/status"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
+   id="metadata52"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>Missing Image</dc:title><dc:creator><cc:Agent><dc:title>Jakub Steiner</dc:title></cc:Agent></dc:creator><cc:license
+         rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" /><dc:source>http://jimmac.musichall.cz</dc:source></cc:Work><cc:License
+       rdf:about="http://creativecommons.org/licenses/by-sa/2.0/"><cc:permits
+         rdf:resource="http://web.resource.org/cc/Reproduction" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/Distribution" /><cc:requires
+         rdf:resource="http://web.resource.org/cc/Notice" /><cc:requires
+         rdf:resource="http://web.resource.org/cc/Attribution" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/DerivativeWorks" /><cc:requires
+         rdf:resource="http://web.resource.org/cc/ShareAlike" /></cc:License></rdf:RDF></metadata><defs
+   id="defs50" /><sodipodi:namedview
+   inkscape:cy="9.3614721"
+   inkscape:cx="18.671496"
+   inkscape:zoom="1"
+   inkscape:window-height="619"
+   inkscape:window-width="810"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   borderopacity="0.18431373"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   inkscape:showpageshadow="false"
+   inkscape:window-x="293"
+   inkscape:window-y="294"
+   inkscape:current-layer="svg2"
+   showgrid="true" />
+	<rect
+   style="opacity:0.2;color:black;fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+   id="rect1894"
+   width="21.109835"
+   height="3"
+   x="1.625"
+   y="20.5"
+   rx="1.4505296"
+   ry="1.5" /><g
+   id="Layer_x0020_2"
+   style="fill-rule:nonzero;stroke:black;stroke-width:1.00823617;stroke-miterlimit:4"
+   transform="matrix(1,0,0,0.983729,0,2.541464e-2)">
+		<path
+   style="stroke-width:0.88331574"
+   d="M 4.1,1.5 C 3.3,1.5 2.8,2 2.8,2.8 L 2.8,21.2 C 2.8,21.9 3.3,22.4 4,22.4 L 20.2,22.4 C 20.9,22.4 21.4,21.8 21.4,21.2 L 21.4,5.6 C 21.4,5.1 21.2,4.6 20.9,4.3 L 18.7,2.1 C 18.3,1.7 17.7,1.5 17.1,1.5 L 4.1,1.5 L 4.1,1.5 z "
+   id="path5" />
+		<linearGradient
+   id="aigrd1"
+   gradientUnits="userSpaceOnUse"
+   x1="18.4473"
+   y1="19.688499"
+   x2="4.4677"
+   y2="5.3790002">
+			<stop
+   offset="0"
+   style="stop-color:#E4E4E4"
+   id="stop8" />
+			<stop
+   offset="1"
+   style="stop-color:#FEFEFE"
+   id="stop10" />
+		</linearGradient>
+		<path
+   style="fill:url(#aigrd1);stroke:none"
+   d="M 17,2.3 L 4,2.3 C 3.6,2.3 3.5,2.5 3.5,2.8 L 3.5,21.2 C 3.5,21.4 3.6,21.6 3.9,21.6 L 20.1,21.6 C 20.3,21.6 20.5,21.4 20.5,21.2 L 20.5,5.6 C 20.5,5.2 20.4,5 20.2,4.8 L 18,2.6 C 17.7,2.3 17.3,2.2 16.9,2.2 L 17,2.3 z "
+   id="path12" />
+		<linearGradient
+   id="aigrd2"
+   gradientUnits="userSpaceOnUse"
+   x1="4.2494998"
+   y1="5.0995998"
+   x2="18.3962"
+   y2="19.6126">
+			<stop
+   offset="0"
+   style="stop-color:#E4E4E4"
+   id="stop15" />
+			<stop
+   offset="1"
+   style="stop-color:#F8F8F8"
+   id="stop17" />
+		</linearGradient>
+		<path
+   style="fill:url(#aigrd2);stroke:none"
+   d="M 4.4,3.1 C 4.4,4.5 4.4,19.4 4.4,20.8 C 5.8,20.8 18.4,20.8 19.8,20.8 C 19.8,19.4 19.8,6.1 19.8,5.5 C 19.4,5.1 17.8,3.5 17.4,3.1 C 16.8,3.1 5.8,3.1 4.4,3.1 L 4.4,3.1 z "
+   id="path19" />
+		<linearGradient
+   id="aigrd3"
+   gradientUnits="userSpaceOnUse"
+   x1="6.0268998"
+   y1="6.2114"
+   x2="16.8416"
+   y2="17.026199">
+			<stop
+   offset="0"
+   style="stop-color:#CDCDCD"
+   id="stop22" />
+			<stop
+   offset="0.1903"
+   style="stop-color:#D4D4D4"
+   id="stop24" />
+			<stop
+   offset="0.4691"
+   style="stop-color:#E8E8E8"
+   id="stop26" />
+			<stop
+   offset="0.7079"
+   style="stop-color:#FEFEFE"
+   id="stop28" />
+		</linearGradient>
+		<path
+   style="fill:url(#aigrd3);stroke:none"
+   d="M 6.1,18.3 C 6.1,18.5 6.3,18.6 6.5,18.6 L 17.6,18.6 C 17.8,18.6 18,18.4 18,18.3 L 18,6 C 18,5.8 17.8,5.6 17.6,5.6 L 6.4,5.6 C 6.2,5.7 6.1,5.8 6.1,6 L 6.1,18.2 L 6.1,18.3 z "
+   id="path30" />
+		<linearGradient
+   id="aigrd4"
+   gradientUnits="userSpaceOnUse"
+   x1="7.3344998"
+   y1="7.3989"
+   x2="16.4163"
+   y2="16.7159">
+			<stop
+   offset="0"
+   style="stop-color:#E4E4E4"
+   id="stop33" />
+			<stop
+   offset="1"
+   style="stop-color:#FEFEFE"
+   id="stop35" />
+		</linearGradient>
+		<path
+   style="fill:url(#aigrd4);stroke:none"
+   d="M 6.9,6.6 C 6.9,7.5 6.9,16.9 6.9,17.8 C 7.8,17.8 16,17.8 17,17.8 C 17,16.9 17,7.5 17,6.6 C 16.1,6.6 7.9,6.6 6.9,6.6 L 6.9,6.6 z "
+   id="path37" />
+		<linearGradient
+   id="aigrd5"
+   gradientUnits="userSpaceOnUse"
+   x1="10.7593"
+   y1="13.8184"
+   x2="13.4481"
+   y2="10.1814">
+			<stop
+   offset="0"
+   style="stop-color:#BD070A"
+   id="stop40" />
+			<stop
+   offset="1"
+   style="stop-color:#F35559"
+   id="stop42" />
+		</linearGradient>
+		<path
+   style="fill:url(#aigrd5);fill-rule:evenodd;stroke:none"
+   d="M 13.2,12.2 L 14.4,11 C 14.7,10.7 14.7,10.1 14.4,9.8 C 14.1,9.5 13.5,9.5 13.2,9.8 L 12,11 L 10.8,9.8 C 10.5,9.5 9.9,9.5 9.6,9.8 C 9.3,10.1 9.3,10.7 9.6,11 L 10.8,12.2 L 9.6,13.4 C 9.3,13.7 9.3,14.3 9.6,14.6 C 9.9,14.9 10.5,14.9 10.8,14.6 L 12,13.4 L 13.2,14.6 C 13.5,14.9 14.1,14.9 14.4,14.6 C 14.7,14.3 14.7,13.7 14.4,13.4 L 13.2,12.2 z "
+   id="path44" />
+	</g>
+	<g
+   id="Layer_x0020_3"
+   style="fill-rule:nonzero;stroke:#000000;stroke-miterlimit:4">
+		<path
+   style="fill:none;stroke:none"
+   d="M 24,24 L 0,24 L 0,0 L 24,0 L 24,24 z "
+   id="path47" />
+	</g>
+</svg>

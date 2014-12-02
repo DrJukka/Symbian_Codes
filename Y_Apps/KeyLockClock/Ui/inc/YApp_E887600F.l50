@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"تنظیمات"
+#define ktx_cmd_exit 			"خروج"
+
+#define ktx_cmd_about			"درباره ی من"
+#define ktx_cmd_visit			"برو به DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"نمایش ساعت در صفحه"
+#define ktx_sh_str_LGHTINSE		"شدت نور"
+#define ktx_sh_str_LGHTINSECHR	"شدت روشنایی در حال شارژ"
+#define ktx_sh_str_LIGHTON		"روشنایی با"
+#define ktx_sh_str_SHOWDATE		"نمایش تاریخ"
+#define ktx_sh_str_KEYLOCKON	"قفل صفحه"
+#define ktx_sh_str_OFF			"خاموش"
+#define ktx_sh_str_ON			"روشن"
+#define ktx_sh_str_DATEONLY		"فقط تاریخ"
+#define ktx_sh_str_DATETIME		"تاریخ+نام تاریخ"
+#define ktx_sh_str_TIMEOUTOL	"فقط مهلت"
+#define ktx_sh_str_TIMEOUTCHR	"مهلت+شارژ"
+#define ktx_sh_str_ALWAYS		"همیشه"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"پرتره"
+#define ktx_sh_str_Landscape	"چشم انداز"
+#define ktx_sh_str_Automatic	"خودکار"
+
+#define ktx_sh_str_CURRTHEM		"قالب پوسته"
+#define ktx_sh_str_SELCOLOR		"انتخاب رنگ"
+#define ktx_sh_str_BACKCOLOR	"رنگ زمینه"
+#define ktx_sh_str_FONTCOLOR	"رنگ فونت"
+#define ktx_sh_str_LIGHTTIM		"مهلت نور"
+#define ktx_sh_str_LOCKTIM		"قفل بعد از (ثانیه)"
+#define ktx_sh_str_FONT			"فونت"
+#define ktx_sh_str_BLACK		"سیاه"
+#define ktx_sh_str_DARKGRAY		"خاکستری تیره"
+#define ktx_sh_str_DARKRED		"قرمز پررنگ"
+#define ktx_sh_str_DARKGREEN	"سبز تیره"
+#define ktx_sh_str_DARKYELLOW	"زرد تیره"
+#define ktx_sh_str_DARKBLUE		"سرمه ای"
+#define ktx_sh_str_DARKMAGENDA	"تیره سرخابی"
+#define ktx_sh_str_DARKCYAN		"آبی تیره"
+#define ktx_sh_str_RED			"قرمز"
+#define ktx_sh_str_GREEN		"سبز"
+#define ktx_sh_str_YELLOW		"زرد"
+#define ktx_sh_str_BLUE			"آبی"
+#define ktx_sh_str_MAGENDA		"سرخابی"
+#define ktx_sh_str_CYAN			"سبزآبی"
+#define ktx_sh_str_GRAY			"خاکستری"
+#define ktx_sh_str_WHITE		"سفید"
+
+#define ktx_cmd_Help 			"راهنما"
+#define ktx_cmd_Back 			"بازگشت"
+
+#define ktx_str_HELP1			"این نرم افزار در حالی که صفحه کلید قفل است با فشار دادن کلیدهای راست و چپ و منو ساعت را به شما نمایش می دهد "
+#define ktx_str_HELP2			"وقتی صفحه ی کلید شما قفل است با زدن کلید ساعت و تاریخ به شما نمایان می شود و شما می توانید به صورت دستی در برنامه زمان قفل صفحه کلید را مشخص کنید"
+#define ktx_str_HELP3			"تنظیمات شدت برای تنظیم مقادیر شدت نور استفاده می شود که برای نشان دادن ساعت روی صفحه نمایش با فشردن کلید انجام می شود . شارژ شدت نور،زمانی استفاده می شود که دستگاه در شارژ است. تنظیمات نور،مهلت زمان مشخص نور در بعد از فشار دادن کلید است ، توجه داشته باشید با استفاده از این نرم افزار شدت نور را می توانید تغییر دهید"
+#define ktx_str_HELP4			"تنظیمات نور را می توانید تعریف کنید. تنظیم قلم می تواند برای انتخاب فونت نمایش ساعت استفاده شود ، وهمچنین با تنظیم رنگ قلم رنگ متن می تواند تغییر کند. تنظیم رنگ پس زمینه برای نمایش پس زمینه ساعت استفاده می شود."
+#define ktx_str_HELP5			"تنظیمات تاریخ اجازه می دهد تا گزینه های غیر فعال  تاریخ / روز در بالای صفحه نمایش ساعت می شود .تنظیمات قفل صفحه شما را قادر می سازد به قفل کردن خودکار کلید ، قفل پس از  زمان را تعریف شده ی کاربر در زمان عدم فعالیت  صفحه کلید قفل می شود."
+
+
+

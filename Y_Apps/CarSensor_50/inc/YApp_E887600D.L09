@@ -1,0 +1,26 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Valinnat"
+#define qtn_exit 			"Poistu"
+
+#define qtn_about			"Tietoja sovelluksesta"
+#define qtn_visit			"Vieraile m.DrJukka.com:issa"
+#define qtn_backlighton		"Valot päälle"
+
+#define qtn_backlightoff	"Valot pois"
+#define qtn_reset			"Resetoi"
+
+#define qtn_Help			"Ohjeet"
+#define qtn_Back			"Takaisin"
+
+#define ktx_str_HELP1 		"Inclinometer ohjelma on Kaltevuusmittari, jonka tarkoituksena on näyttää puhelimen kallistuskulmaa vaaka sekä pystytasossa, graafisien auto kuviean avulla. Huomio että tämä ohjelma toimii ainoastaan puhelimen pystyasennossa."
+#define ktx_str_HELP2 		"Käyttö-ohje: Aseta puhelin autossa olevaan telineeseen mahdollisimman pystyasentoon, ja resetoi valitsemalla resetoi valinta valinnoista, tämän jälkeen näytön kallistuskulma näytöt näyttävän nollaa, ja oikea kallistuskulma tulee näyttöön ajettaessa autolla ylä/alamäkeen tai niin että auto kallistuu sivuttaissuunnassa"
+#define ktx_str_HELP3 		"Pimeässä käytettäessä, valinnoista voidaan myös valita valojen olevan päällä jatkuvasti, huomio että valojen ollessa päällä jatkuvasti, akun toiminta-aika pienenee valojen viemän energian takia. Huomio myös että tama ohjelma ei ole turvallisuus ohjelma, ja näyttö saattaa näyttää vääriä arvoja."
+
+
+// End of File

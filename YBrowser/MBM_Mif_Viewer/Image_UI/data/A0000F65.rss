@@ -1,0 +1,27 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+*/
+#include <ecom\RegistryInfo.rh>
+
+RESOURCE REGISTRY_INFO
+{
+	dll_uid = 0xA0000F65; // third UID in the mmp file
+	interfaces = 
+	{
+		INTERFACE_INFO
+		{
+			interface_uid = 0x20009991;// static YTool UID
+			implementations =
+			{
+				IMPLEMENTATION_INFO
+				{
+					implementation_uid = 0x0F65;// implementation UID, returned with interface
+					version_no=1;
+					display_name="MBM/MIF Viewer";
+					default_data="";
+					opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILEHANDLER</TYPE><SUPPORT><FILETYPE>image/epoc-mif</FILETYPE></SUPPORT><SUPPORT><FILETYPE>image/x-epoc-mbm</FILETYPE></SUPPORT></IMPLEMENTATION></YTOOLS>";
+				}
+			};
+		}
+	};
+}

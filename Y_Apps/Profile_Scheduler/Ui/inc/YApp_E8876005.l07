@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Valg"
+#define ktx_cmd_exit 			"Luk"
+#define ktx_cmd_Cancel			"Annullér"
+
+
+#define ktx_cmd_Disable			"Deaktivér"
+#define ktx_cmd_Enable			"Aktivér"
+
+#define ktx_cmd_about			"Om"
+#define ktx_cmd_New				"Ny"
+#define ktx_cmd_Modify			"Modificér"
+#define ktx_cmd_Remove			"Fjern"
+#define ktx_cmd_Randomthes		"Tilfældige profiler"
+#define ktx_cmd_Profiles		"Profiler"
+
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Gem"
+
+
+#define ktx_cmd_VisitJukka		"Besøg m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Deaktiveret>"
+#define ktx_sh_str_RANDOM		"Tilfældig"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Fjern planlagt?"
+#define ktx_sh_str_ACTIVEON		"Aktiveret"
+
+#define ktx_sh_str_NONAME		"Unavngivet"
+#define ktx_sh_str_SELECTPROF	"Vælg profil"
+
+#define ktx_sh_str_SETONTIME	"Indstil på tidspunkt"
+
+
+#define ktx_sh_str_WORKDAYA		"Hverdage"
+#define ktx_sh_str_NONWORKD		"Helligdage"
+#define ktx_sh_str_EVERYDAY		"Hver dag"
+#define ktx_sh_str_MONDAYS		"Mandage"
+#define ktx_sh_str_TUESDAYS		"Tirsdage"
+#define ktx_sh_str_WEDNESDAYS	"Onsdage"
+#define ktx_sh_str_THURSDAYS	"Torsdage"
+#define ktx_sh_str_FRIDAYS		"Fredage"
+#define ktx_sh_str_SATURDAYS	"Lørdage"
+#define ktx_sh_str_SUNDAYS		"Søndage"
+
+#define ktx_cmd_Help			"Hjælp"
+#define ktx_cmd_Back			"Tilbage"
+
+#define ktx_str_HELP1			"Denne applikation anvendes til at planlægge profiler med timer, at lave nye planlægninger samt at vælge nye menu muligheder fra menuen Valg."
+#define ktx_str_HELP2			"Vælg nu den profil, der skal planlægges. Bemærk at hvis Tilfældig listen er tom, vil hele planlægningen blive ignoreret. Efter valg af profilen vælges tidspunkt og gentagelse af planlægningen. Når det er gjort gemmes planlægningen med Gem."
+#define ktx_str_HELP3			"Efter planlægningen er lavet, vil den blive vist i hovedplanlægningslisten. I denne liste kan du bruge menumulighederne til at rette planlægningen såvel som at slette dem. Også midlertidig deaktivering/aktivering kan findes i Valg menuen."
+#define ktx_str_HELP4			"Bemærk at profiler der er planlagt, såvel som tidligere planlægninger, kun opdateres når programmet lukkes ned. For største brugbarhed bør planlægningerne have to minutters interval. Selve planlægningen styres i af baggrundsapplikationen, der automatisk startes når enheden tændes. Ingen besked planlægning vil finde sted når enheden er slukket. "
+
+

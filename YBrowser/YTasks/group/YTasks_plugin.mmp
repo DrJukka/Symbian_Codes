@@ -1,0 +1,64 @@
+/* Copyright (c) 2001 - 2008 , Jukka Silvennoinen. All rights reserved */
+
+TARGET          	YTools_A000955F.dll
+TARGETTYPE        	PLUGIN
+UID  				0x10009d8d 0xA000955F
+EPOCSTACKSIZE		0x5000
+
+VENDORID			0x00000000
+CAPABILITY 		ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+//CAPABILITY ALL -TCB
+
+SOURCEPATH      ..\src
+SOURCE          Main_Container.cpp
+SOURCE          Ecom_Handler.cpp
+SOURCE          CTimeOutTimer.cpp
+
+START RESOURCE 		..\data\A000955F.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET YTools_A000955F.rsc
+#endif
+END
+
+START RESOURCE    ..\data\YTools_A000955F_res.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+LIBRARY         euser.lib				// for CBase, CSession, CActiveScheduler, ...
+LIBRARY         avkon.lib				// for CAknView, CAknViewAppUi
+LIBRARY         apparc.lib				// for CApaDocument
+LIBRARY         cone.lib				// for CCoeControl
+LIBRARY         eikcore.lib				// for CEikApplication, CEikDocument, CEikAppUi
+LIBRARY         eikcoctl.lib			// CColumnListBoxItemDrawer
+LIBRARY         aknnotify.lib			// CAknGlobalNote
+LIBRARY         apgrfx.lib				// RApaLsSession,TApaTask,TApaTaskList
+LIBRARY         efsrv.lib				// Rfs,RFile,TParseBase,TFindFile
+LIBRARY         ws32.lib				// RWsSession
+LIBRARY         bafl.lib				// CDesC16Array
+LIBRARY         egul.lib				// TextUtils
+LIBRARY         eikctl.lib				// CColumnListBoxData
+LIBRARY         estor.lib 
+LIBRARY         apgrfx.lib 
+LIBRARY         fbscli.lib
+LIBRARY         apmime.lib 
+LIBRARY         bitgdi.lib 
+LIBRARY         hal.lib
+LIBRARY         edbms.lib
+LIBRARY         etext.lib
+LIBRARY         gdi.lib
+LIBRARY         AknSkins.lib 
+LIBRARY         CommonEngine.lib 
+LIBRARY         commonui.lib
+LIBRARY         aknicon.lib 
+LIBRARY         imageconversion.lib 
+LIBRARY         aknskinsrv.lib 
+LIBRARY         aknswallpaperutils.lib
+LIBRARY         Ecom.lib
+

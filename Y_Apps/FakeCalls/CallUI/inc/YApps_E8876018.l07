@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valg"
+#define ktx_cmd_exit 				"Luk"
+#define ktx_cmd_Back 				"Tilbage"
+
+#define ktx_mnu_help				"Hjælp"
+#define ktx_cmd_about				"Om"
+#define ktx_cmd_visit				"Besøg m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Slumre"
+#define ktx_sh_str_ANSWER			"Svar"
+#define ktx_sh_str_SILENSE			"Stille"
+#define ktx_sh_str_CALLING			"Opkald"
+
+#define ktx_str_HELP1				"Fake Call visningen anvendes til at vise indkomne Fake opkald. Baggrund og alt grafik tages fra enhedens temaer."
+#define ktx_str_HELP2				"Ringetoner anvendt ved visningen bliver hentet fra enhedens kontaktdatabase og hvis ingen findes til den valgte kontakt, så anvendes den valgte profils ringetone. Hvis den heller ikke er tilgængelig, vil Fake Calls' Alternativ ringetone fra Indstillinger blive brugt."
+#define ktx_str_HELP3				"Du kan gøre ringetonen tavs ved at trykke på Stille tasten. Svartasten, såvel som den grønne tast, er ikke aktive i denne version."
+#define ktx_str_HELP4				"Du kan forlade Fake Calls visningen ved at trykke den røde tast, eller ved at vælge Luk tasten fra Valg menuen."
+#define ktx_str_HELP5				"Slumre kommandoen vil gemme visningen i den specificerede slumre tid."
+
+
+
+		

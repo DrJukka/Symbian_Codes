@@ -1,0 +1,60 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"옵션"
+#define ktx_cmd_exit 			"종료"
+#define ktx_cmd_Cancel			"취소"
+
+
+#define ktx_cmd_Disable			"해제"
+#define ktx_cmd_Enable			"동작"
+
+#define ktx_cmd_about			"프로그램 정보"
+#define ktx_cmd_New				"새 설정"
+#define ktx_cmd_Modify			"변경"
+#define ktx_cmd_Remove			"제거"
+#define ktx_cmd_Randomthes		"무작위 프로파일"
+#define ktx_cmd_Profiles		"프로파일"
+
+#define ktx_cmd_Stop			"정지"
+#define ktx_cmd_Save			"저장"
+
+
+#define ktx_cmd_VisitJukka		"m.DrJukka.com 방문"
+
+#define ktx_sh_str_DISABLED		"<해제 됨>"
+#define ktx_sh_str_RANDOM		"무작위"
+#define ktx_sh_str_PROFFILLE2	"프로파일"
+#define ktx_sh_str_REMOVESCHED	"스케쥴을 삭제하시겠습니까?"
+#define ktx_sh_str_ACTIVEON		"동작 on"
+
+#define ktx_sh_str_NONAME		"이름 없슴"
+#define ktx_sh_str_SELECTPROF	"프로파일 선택"
+
+#define ktx_sh_str_SETONTIME	"시간 설정"
+
+
+#define ktx_sh_str_WORKDAYA		"평일"
+#define ktx_sh_str_NONWORKD		"휴일"
+#define ktx_sh_str_EVERYDAY		"매일"
+#define ktx_sh_str_MONDAYS		"월요일"
+#define ktx_sh_str_TUESDAYS		"화요일"
+#define ktx_sh_str_WEDNESDAYS	"수요일"
+#define ktx_sh_str_THURSDAYS	"목요일"
+#define ktx_sh_str_FRIDAYS		"금요일"
+#define ktx_sh_str_SATURDAYS	"토요일"
+#define ktx_sh_str_SUNDAYS		"일요일"
+
+#define ktx_cmd_Help			"도움말"
+#define ktx_cmd_Back			"뒤로"
+
+#define ktx_str_HELP1			"This application is used for scheduling profiles with timer, to make a new schedule, select new menu options from the options menu."
+#define ktx_str_HELP2			"Then select the profile to be scheduled. Note that if the random profiles list is empty, the whole schedule will be ignored by the scheduler. After selecting the profile, then select time and repeat options for the schedule. Once done, save the schedule with save command. "
+#define ktx_str_HELP3			"After the schedule is made it will be shown in the main view list. Within this list you can use menu options for opening the schedule for modifications as well as you can delete them, also temporal disabling/enabling menu options can be found from the options menu. "
+#define ktx_str_HELP4			"Note that profiles are scheduled as well as previous schedules are re-freshed only after exiting the application. For best usability, each schedule should be spaced two minutes apart from each other. The actual scheduling is handled by background application that is also automatically started when the device is started. No message scheduling will appear while the device is off."
+
+
+

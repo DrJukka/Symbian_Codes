@@ -1,0 +1,74 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opcje"
+#define ktx_cmd_exit 				"Wyjście"
+#define ktx_cmd_cancel 				"Anuluj"
+
+#define ktx_cmd_Disable				"Wyłącz"
+#define ktx_cmd_Enable				"Włącz"
+
+#define ktx_cmd_save 				"Zapisz"
+#define ktx_cmd_select 				"Wybierz"
+
+#define ktx_cmd_about				"O programie"
+#define ktx_cmd_visit				"Odwiedź m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nowy"
+#define ktx_mnu_Modify 				"Zmodyfikuj"
+#define ktx_mnu_Remove 				"Usuń"
+
+
+#define ktx_mnu_Savmsgs				"Wiadomości zapisane"
+#define ktx_mnu_ContSend			"Odbiorca z kontaktów"
+
+#define ktx_sh_str_sndName	 		"Nazwa"
+#define ktx_sh_str_sndNumber	 	"Numer"
+#define ktx_sh_str_Message		 	"Wiadomość"
+#define ktx_sh_str_sndTime		 	"Czas wysłania"
+#define ktx_sh_str_sndDate		 	"Data wysłania"
+
+#define ktx_sh_str_DISABLED		"<Wyłączony>"
+
+#define ktx_str_REMMESSAGE 			"Usunąć wiadomość?"
+
+#define ktx_sh_str_REPEATS		"Powtórz"
+
+#define ktx_sh_str_ONCE			"Pojedynczo"
+#define ktx_sh_str_WORKDAYA		"Dni robocze"
+#define ktx_sh_str_NONWORKD		"Dni wolne"
+#define ktx_sh_str_EVERYDAY		"Codziennie"
+#define ktx_sh_str_MONDAYS		"Poniedziałki"
+#define ktx_sh_str_TUESDAYS		"Wtorki"
+#define ktx_sh_str_WEDNESDAYS		"Środy"
+#define ktx_sh_str_THURSDAYS		"Czwartki"
+#define ktx_sh_str_FRIDAYS		"Piątki"
+#define ktx_sh_str_SATURDAYS		"Soboty"
+#define ktx_sh_str_SUNDAYS		"Niedziele"
+
+#define ktx_str_MSGTRUNK		"Wiadomość zostanie skrócona do 70 znaków, kontynuować?"
+
+#define ktx_cmd_Back 			"Wróć"
+#define ktx_sh_str_HELP			"Pomoc"
+#define ktx_sh_str_SMSType		"Typ SMS"
+#define ktx_sh_str_Normal		"Normalny"
+#define ktx_sh_str_Flash		"Flash SMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Ta aplikacja jest używana do planowania normalnych jak również Flash wiadomości SMS z czasem. Długość wiadomości jest limitowana do 160 znaków i 70 znaków z kodowaniem wiadomości Unicode. Kodowanie Unicode jest używane automatycznie gdy potrzebne."
+#define ktx_str_HELP2			"Wiadomości Flash są wiadomościami SMS Klasy 0, które są pokazywane automatycznie w celu otrzymania oraz zapisywane do urządzenia tylko jeśli odbiorca tak zadecyduje. "
+#define ktx_str_HELP3			"Aby zrobić nową zaplanowaną wiadomość, kliknij opcję Nowa z menu. Później na liście terminarza są wiadomości, na których możesz użyć menu Włącz/Wyłącz do włączenia/wyłączenia terminarza. Opcja Modyfikuj może być użyta do modyfikowania wiadomości, a opcja Usuń może być użyta do usuwania jej."
+#define ktx_str_HELP4			"Rzeczywiste planowanie wiadomości SMS jest obsługiwane przez serwer w tle, który jest uruchamiany jeśli są dostępne jakieś terminarze, które są także włączone"
+#define ktx_str_HELP5			"Aplikacja w tle startuje także automatycznie gdy startuje urządzenie. Zauważ, że wszystkie ustawienia i zmiany terminarza przyjmują efekt tylko po wyjściu z UI aplikacji."
+
+//Settings Help:
+#define ktx_str_HELP6			"Z wiadomościami SMS zaplanowanymi czasowo, potrzebujesz tylko zdefiniować numer kontaktu, wiadomość i czas kiedy wiadomość ma być wysłana."
+#define ktx_str_HELP7			"Możesz wybrać kontakt z listy kontaktów urządzenia z menu opcji lub poprzez wpisanie go bezpośrednio z ustawień."
+#define ktx_str_HELP8			"Dla wiadomości możesz użyć magazynu wiadomości aby zapisać wiadomości do użycia później lub możesz wpisać wiadomość z ustawieniami. Ustawienia typu określają czy wiadomość SMS jest normalną wiadomością SMS lub wiadomością Flash SMS."
+#define ktx_str_HELP9			"Czas do terminarza może być wybrany z ustawienia czasu, ustawienie powtórki pozwala planować wykonanie w wybrany dzień jak potwarzanie jednego z określonym okresem powtarzania."
+#define ktx_str_HELP10			"Zauważ, że powtarzane Terminarze nie są usuwane z listy terminarza, podczas gdy terminarze określone tylko dla określonej day będą usunięte z bazy danych planowania po wysłaniu wiadomości."
+
+
+

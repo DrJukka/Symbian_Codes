@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Val"
+#define ktx_cmd_Exit			"Avsluta"
+#define ktx_cmd_Cancel			"Avbryt"
+#define ktx_cmd_Back			"Tillbaka"
+
+#define ktx_cmd_Disable			"Stänga av"
+#define ktx_cmd_Enable			"Sätta på"
+
+#define ktx_cmd_About			"Om"
+
+#define ktx_cmd_Select			"Välja"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Ändra"
+#define ktx_cmd_Done			"Klar"
+#define ktx_cmd_Play			"Spela"
+#define ktx_cmd_Stop			"Stoppa"
+#define ktx_cmd_Save			"Spara"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" t "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Alla dagar"
+#define ktx_Wordays				"Arbetsdagar"
+
+
+#define ktx_mnu_Newalarm			"Ny"
+#define ktx_mnu_Resetalarm			"Ändra"
+#define ktx_mnu_Removealarm			"Ta Bort"
+#define ktx_mnu_SetAlarmSounds		"Alarmsignal"
+#define ktx_mnu_SetWorkdays			"Arbetsdagar"
+#define ktx_mnu_Update				"Uppdatera"
+
+#define ktx_mnu_Changevalue			"Ändra värde"
+
+#define ktx_str_Repeat				"Upprepa"
+#define ktx_str_Daily				"Alla dagar"
+#define ktx_str_Workdays			"Arbetsdagar"
+#define ktx_str_InNext24			"Inom nästa 24"
+#define ktx_str_Once				"En gång"
+
+#define ktx_str_Time				"Tid"
+#define ktx_str_Date				"Datum"
+
+#define ktx_str_Type				"Typ"
+#define ktx_str_Clockalarm			"Klock alarm"
+#define ktx_str_Calendaralarm		"Kalender alarm"
+#define ktx_str_Message				"Meddelande"
+#define ktx_str_Snooze				"Snooze"
+
+#define ktx_str_Settime				"Tid"
+#define ktx_str_Setdate				"Datum"
+#define ktx_str_Setmessage			"Meddelande"
+		
+#define ktx_str_AlarmDueIn			"Alarm pga "
+#define ktx_str_GoJukka				"Besök m.DrJukka.com"
+
+#define ktx_cmd_Help				"Hjälp"
+
+#define ktx_cmd_Help1				"Detta program är skapat för att kunna ha flera alarm med möjlighet att ställa in återkommande alarm för enheter som inte har denna funktion implementerad i mobilens alarm."
+#define ktx_cmd_Help2				"Nya alarm kan göras med nya alternativ, och i huvudsidan kan ställa in alternativ för upprepning, tid och alarmets namn. Alarmtyp definierar ljudet som ska spelas för upp. Klicka på Klar för att spara larmet."
+#define ktx_cmd_Help3				"Reset alternativet kan sedan användas för att återställa alarmets inställningar, "ta bort" för att ta bort larmet och Aktivera/Inaktivera alternativet används för att tillfälligt avaktivera larmet."
+#define ktx_cmd_Help4				"Med \"ange larmljud\" alternativet kan ljudet för larmtillfället ställas in. Snooze inställningar definiera snooze-tiden i minuter, observera att vissa enheter ignorera snooze inställningen och använda standardvärdet istället."
+#define ktx_cmd_Help5				"Med \"ställa in arbetsdagar\" ställer du in vilka dina arbetsdagar är, dessa inställningar är till för att definiera vilka dagar alarmet för vardagarna kommer att vara aktivt."
+
+
+
+

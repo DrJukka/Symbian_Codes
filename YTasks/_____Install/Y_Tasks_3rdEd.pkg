@@ -1,0 +1,73 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Tasks"},(0xA000257B),1,00,4
+
+;Localised Vendor name
+%{"Dr. Jukka"}
+
+;Unique Vendor name
+:"Dr. Jukka"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Supports S60 release 5.0
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+
+;Y-Tasks main app 
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YTools_A000257B.exe"	                 	-"!:\sys\bin\YTools_A000257B.exe"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000257B.rsc"         	     	-"!:\resource\apps\YTools_A000257B.rsc"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YTools_A000257B_reg.rsc"  -"!:\private\10003a3f\import\apps\YTools_A000257B_reg.rsc"
+"..\YTasks\data\icon_bmp\YTools_A000257B_aif.mif"								-"!:\resource\apps\YTools_A000257B_aif.mif"
+"..\YTasks\data\Mif\YTools_A000257B.mif"										-"!:\resource\apps\YTools_A000257B.mif"
+
+"empty.txt" -"!:\system\data\A000257B\settings.dic"
+"..\YTasks\data\Download.txt"					-"!:\private\A000257B\Download.txt"
+
+; YTasks: Apps & Tasks
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A0000F60_res.RSC"  	-"!:\resource\apps\YTools_A0000F60_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YTools_A0000F60.dll"		-"!:\sys\bin\YTools_A0000F60.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YTools_A0000F60.rsc"	-"!:\Resource\Plugins\YTools_A0000F60.rsc"
+"..\AppsTasks\data\SVG\icons.mif"									-"!:\system\data\A000257B\A0000F60\icons.mif"
+
+; Crash Monitor
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000257D_res.RSC"  	-"!:\resource\apps\YTools_A000257D_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A000257D.dll"		-"!:\sys\bin\YTools_A000257D.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A000257D.rsc"	-"!:\Resource\Plugins\YTools_A000257D.rsc"
+"..\CrashMonitor\UI\data\SVG\icons.mif"								-"!:\system\data\A000257B\A000257D\icons.mif"
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YSrv_A000257E.exe"			-"!:\sys\bin\YSrv_A000257E.exe"
+
+; Filetypes
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A0000F5D_res.RSC"  	-"!:\resource\apps\YTools_A0000F5D_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A0000F5D.dll"		-"!:\sys\bin\YTools_A0000F5D.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A0000F5D.rsc"	-"!:\Resource\Plugins\YTools_A0000F5D.rsc"
+"..\Filetypes\data\SVG\icons.mif"									-"!:\system\data\A000257B\A0000F5D\icons.mif"
+"empty.txt"													-"!:\system\data\A000257B\A0000F5D\Rec.db"
+
+; Fonts
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000312C_res.RSC"  -"!:\resource\apps\YTools_A000312C_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A000312C.dll"		-"!:\sys\bin\YTools_A000312C.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A000312C.rsc"	-"!:\Resource\Plugins\YTools_A000312C.rsc"
+"..\Fonts\data\SVG\icons.mif"										-"!:\system\data\A000257B\A000312C\icons.mif"
+
+; Memory status
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A0003128_res.RSC"  	-"!:\resource\apps\YTools_A0003128_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A0003128.dll"		-"!:\sys\bin\YTools_A0003128.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A0003128.rsc"	-"!:\Resource\Plugins\YTools_A0003128.rsc"
+"..\MemoryStatus\data\SVG\icons.mif"								-"!:\system\data\A000257B\A0003128\icons.mif"
+
+; Processes
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000257C_res.RSC"  	-"!:\resource\apps\YTools_A000257C_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A000257C.dll"		-"!:\sys\bin\YTools_A000257C.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A000257C.rsc"	-"!:\Resource\Plugins\YTools_A000257C.rsc"
+"..\ProcessAndTasks\data\SVG\icons.mif"								-"!:\system\data\A000257B\A000257C\icons.mif"
+
+; Trace
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A0003129_res.RSC"  	-"!:\resource\apps\YTools_A0003129_res.RSC"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A0003129.dll"		-"!:\sys\bin\YTools_A0003129.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A0003129.rsc"	-"!:\Resource\Plugins\YTools_A0003129.rsc"
+"..\Trace\UI\data\SVG\icons.mif"									-"!:\system\data\A000257B\A0003129\icons.mif"
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YSrv_A000312A.exe"			-"!:\sys\bin\YSrv_A000312A.exe"

@@ -1,0 +1,82 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	All right reserved
+*/
+#include <ecom\RegistryInfo.rh>
+#include "Definitions.h"
+
+#ifdef SONE_VERSION
+	
+	RESOURCE REGISTRY_INFO
+	{
+		dll_uid = 0x2002B0AC; // third UID in the mmp file
+		interfaces = 
+		{
+			INTERFACE_INFO
+			{
+				interface_uid = 0x2002B0AA;// static YTool UID
+				implementations =
+				{
+					IMPLEMENTATION_INFO
+					{
+						implementation_uid = 0x0F69;// implementation UID, returned with interface
+						version_no=1;
+						display_name="Mail folders";
+						default_data="";
+						opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILEFOLDER</TYPE></IMPLEMENTATION></YTOOLS>";
+					}
+				};
+			}
+		};
+	}	
+#else
+	#ifdef LAL_VERSION
+		
+		RESOURCE REGISTRY_INFO
+		{
+			dll_uid = 0xA0000F69; // third UID in the mmp file
+			interfaces = 
+			{
+				INTERFACE_INFO
+				{
+					interface_uid = 0x20009991;// static YTool UID
+					implementations =
+					{
+						IMPLEMENTATION_INFO
+						{
+							implementation_uid = 0x0F69;// implementation UID, returned with interface
+							version_no=1;
+							display_name="Mail folders";
+							default_data="";
+							opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILEFOLDER</TYPE></IMPLEMENTATION></YTOOLS>";
+						}
+					};
+				}
+			};
+		}
+	#else		
+		RESOURCE REGISTRY_INFO
+		{
+			dll_uid = 0xA0000F69; // third UID in the mmp file
+			interfaces = 
+			{
+				INTERFACE_INFO
+				{
+					interface_uid = 0x20009991;// static YTool UID
+					implementations =
+					{
+						IMPLEMENTATION_INFO
+						{
+							implementation_uid = 0x0F69;// implementation UID, returned with interface
+							version_no=1;
+							display_name="Mail folders";
+							default_data="";
+							opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILEFOLDER</TYPE></IMPLEMENTATION></YTOOLS>";
+						}
+					};
+				}
+			};
+		}
+	#endif
+#endif
+

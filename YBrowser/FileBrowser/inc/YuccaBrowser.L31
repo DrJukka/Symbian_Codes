@@ -1,0 +1,348 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"返回"
+#define ktx_cmd_Options			"选项"
+#define ktx_cmd_Exit			"退出"
+#define ktx_cmd_Save			"保存"
+#define ktx_cmd_Cancel			"取消"
+#define ktx_cmd_Delete			"删除"
+
+#define ktx_cmd_Select			"选择"
+#define Ktx_sh_str_SortBy		"排序依据"	
+
+#define ktx_mnu_setserchoff		"Set search off"
+#define ktx_mnu_File			"文件"
+#define ktx_mnu_Edit			"编辑"
+#define ktx_mnu_Mark			"标记"
+#define ktx_mnu_Searchfiles		"搜索文件"
+#define ktx_mnu_Extras			"其他命令"
+#define ktx_mnu_About			"关于"
+#define ktx_mnu_commandSC		"命令快捷方式"
+#define ktx_mnu_ShowSC			"显示快捷方式"
+#define ktx_mnu_SetSC			"设置快捷方式"
+#define ktx_mnu_Searchon			"搜索模式"
+#define ktx_mnu_Settings			"设置"
+#define ktx_mnu_switchlo			"切换视图布局"
+#define ktx_mnu_changeic			"更改图标"
+#define ktx_mnu_refresh			"刷新"
+#define ktx_mnu_munmark			"标记/取消标记"
+#define ktx_mnu_Markall			"标记全部"
+#define ktx_mnu_Unmarkall		"全部取消标记"
+#define ktx_mnu_Openwith		"打开"
+#define ktx_mnu_Open			"打开"
+#define ktx_mnu_Send			"发送"
+#define ktx_mnu_Properties		"特性"
+#define ktx_mnu_Attributes		"属性"
+#define ktx_mnu_Delete			"删除"
+#define ktx_mnu_Rename			"更改文件名"
+#define ktx_mnu_ShowName			"显示文件名"
+#define ktx_mnu_Newfile			"新建文件"
+#define ktx_mnu_Newfolder		"新建文件夹"
+#define ktx_mnu_Copy			"拷贝"
+#define ktx_mnu_Cut			"剪切"
+#define ktx_mnu_Paste			"粘贴"
+#define ktx_mnu_pastenfile		"粘贴到新文件"
+#define ktx_mnu_pasteshow		"显示粘贴文件"
+#define ktx_mnu_pasteclear		"清除粘贴文件"
+#define ktx_mnu_Done			"完成"
+#define ktx_mnu_addsel			"添加到选择中"
+#define ktx_mnu_selshow			"显示已选择的"
+#define ktx_mnu_cpyclipp			"拷贝到剪贴板"
+#define ktx_mnu_Startsearch		"开始搜索"
+#define ktx_mnu_nckresulyts		"返回到结果"
+#define ktx_mnu_resultclear		"清除结果"
+#define ktx_mnu_showseltyp		"显示被选中的类型"
+#define ktx_mnu_clearcond		"清除条件"
+#define ktx_mnu_gtofolder		"进入文件夹"
+#define ktx_mnu_PAGEUP			"向上翻页"
+#define ktx_mnu_PAGEDOWN		"向下翻页"
+
+#define ktx_sh_str_Processing		"处理中"
+#define ktx_sh_str_selfiltyp		"选择文件类型"
+#define ktx_sh_str_date			"日期"
+#define ktx_sh_str_time			"时间"
+
+//settings.
+#define ktx_sh_str_System		"时间"	
+#define ktx_sh_str_Hidden		"隐藏"
+#define ktx_sh_str_Readonly		"只读"
+#define ktx_sh_str_Modifyingdate	"更改日期"
+#define ktx_sh_str_Modifyingtime	"更改时间"
+#define ktx_sh_str_showall		"显示所有文件"
+#define ktx_sh_str_Sortorder		"排列次序"	
+#define ktx_sh_str_Foldersfirst	"文件夹优先"
+#define ktx_sh_str_speedoptimize	"保存文件夹信息"
+#define ktx_sh_str_Recognizefiles	"重新识别文件"
+#define ktx_sh_str_savepathonexit	"退出时保存路径"
+#define ktx_sh_str_exitaks		"退出时确认"
+#define ktx_sh_str_Off			"关"
+#define ktx_sh_str_On			"开"
+#define ktx_sh_str_No			"否"
+#define ktx_sh_str_Yes			"是"
+#define ktx_sh_str_Decending		"降序排列"
+#define ktx_sh_str_Ascending		"升序排列"
+#define ktx_sh_str_Name			"名字"
+#define ktx_sh_str_Fileextension	"扩展名"
+#define ktx_sh_str_Filetype		"文件类型"
+#define ktx_sh_str_Size			"大小"
+#define ktx_sh_str_Path			"路径"
+#define ktx_sh_str_Filename		"文件名"
+#define ktx_sh_str_Biggerthan		"大于"
+#define ktx_sh_str_Smallerthan	"小于"
+#define ktx_sh_str_Modifiedbefore	"更改前"
+#define ktx_sh_str_Modifiedafter	"更改后"
+#define ktx_sh_str_types		" 类型"
+#define ktx_sh_str_Excludetypes	"不包括的类型"
+#define ktx_sh_str_Includetypes	"包括的类型"
+#define ktx_sh_str_Fileattributes	"文件属性"
+
+#define ktx_sh_str_formatName		"名字\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"标志\t%S"
+#define ktx_sh_str_formatFree		"可用空间\t%d Kb"
+#define ktx_sh_str_formatUsed		"已用空间\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"大小\t%d Kb"
+#define ktx_sh_str_formatSizeB	"大小\t%d Bytes"		
+#define ktx_sh_str_formatType		"类型\t%S"
+#define ktx_sh_str_formatFiles	"文件\t%d"	
+#define ktx_sh_str_formatFolders	"文件夹\t%d"
+#define ktx_sh_str_formatTypeID	"类型标志\t%S"	
+#define ktx_sh_str_atrWProt		"属性\t写保护"
+#define ktx_sh_str_atrLocked		"属性\t锁定"
+#define ktx_sh_str_atrFormattable	"属性\t可格式化"
+#define ktx_sh_str_atrVarSize		"属性\t大小可变"
+#define ktx_sh_str_atrROM		"属性\tROM"
+#define ktx_sh_str_atrRemovable	"属性\t可删除"
+#define ktx_sh_str_atrtHidden		"属性\t隐藏"
+#define ktx_sh_str_atrReadonly	"属性\t只读"
+#define ktx_sh_str_atrSystem		"属性\t系统"
+#define ktx_sh_str_atrVolume		"属性\t卷"
+#define ktx_sh_str_atrArchive		"属性\t归档"
+
+#define ktx_sh_str_Notpresent		"不存在"
+#define ktx_sh_str_Floppy		"软盘"
+#define ktx_sh_str_HardDisk		"硬盘"
+#define ktx_sh_str_CdRom		"CdRom"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash/闪存"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"远程"
+#define ktx_sh_str_Unknown		"未知"
+#define ktx_sh_str_SCTITLE		"快捷方式：Shift+/Pen+"
+#define ktx_sh_str_FREE			"<free>"
+#define ktx_sh_str_Root			"Root"
+#define ktx_sh_str_Selected		"选中的"
+#define ktx_sh_str_Cutfiles		"剪切文件"
+#define ktx_sh_str_CopyFiles		"拷贝文件"
+#define ktx_sh_str_COPYINGFF		"拷贝%S到%S"
+#define ktx_sh_str_MOVINGFF		"移动%S到%S"
+#define ktx_sh_str_RENAMINGFF		"改变名字%S到%S"
+#define ktx_sh_str_DELETINGFF		"删除%S"	
+#define ktx_sh_str_EXISTREPLACE	" 目标已存在，替换吗?"
+#define ktx_sh_str_ISROMODIFY		" 目标只读，更改属性吗？"
+#define ktx_sh_str_ALREDYEXIST	" 目标已存在"
+#define ktx_sh_str_ISOPEN		" 目标使用中"
+#define ktx_sh_str_ISREADONLY		" 目标只读"
+#define ktx_sh_str_ACCDENIED		" 拒绝访问"
+#define ktx_sh_str_DISKFULL		"磁盘满"
+#define ktx_sh_str_DISCKNOTREADY	"磁盘不存在或尚未就绪"
+#define ktx_sh_str_CORRDISCK		"磁盘损坏"
+#define ktx_sh_str_INVALIDNAME	" 无效的名字"
+#define ktx_sh_str_NOTMEMFORFF	"内存不足 "
+#define ktx_sh_str_OPERFAILED		"在操作%S失败，错误: %d"
+#define ktx_sh_str_NEWFILE		"新文件:"
+#define ktx_sh_str_SENDUI		"发送"
+#define ktx_sh_str_SENDFFVIA		"发送文件通过"
+#define ktx_sh_str_SELAPPLICATION	"选择应用程序"
+#define ktx_sh_str_OPENFILE		"打开文件"
+#define ktx_sh_str_ANDATRIBS		"\'And\'属性"
+#define ktx_sh_str_SEARCFOR		"查找字串"
+#define ktx_sh_str_SELFILETYPES	"选择文件类型"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"字节"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" 与 "
+#define ktx_sh_str_OR			" 或 "
+#define ktx_sh_str_SYS			"sys."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" 找到文件"
+#define ktx_sh_str_FOUNDENDDDD	"%d个文件在%d秒内被找到"
+
+#define ktx_sh_str_SELCOMMAND		"选择命令"
+#define ktx_sh_str_NOTSET		"没有设置"
+#define ktx_sh_str_SELICONFF		"选择图标文件"
+
+#define ktx_sh_str_READINGFF		"读取 %d / %d"
+#define ktx_str_FILREADERR		"文件可能未完全读取，错误号: %d"
+#define ktx_str_FILNOTFOND		"文件未找到"
+#define ktx_str_NOAPPFORFIL		"找不到打开此文件的应用程序"
+#define ktx_str_SAVESEARCH		"保存上次搜索结果?"
+#define ktx_str_SELSCNUMBER		"选择快捷方式编号"
+#define ktx_str_REBOOTICON		"图标已经改变，电话/Y-browser可能需要重新启动才能使更改生效"
+#define ktx_str_PASTEFTOFOL		"粘贴 %d 个文件"
+#define ktx_str_DELFOILES		"删除 %d 个文件"
+#define ktx_str_NEWNAME 		"新文件名:"
+#define ktx_str_FDERNAME		"文件夹名:"
+#define ktx_str_ERRCREATEFLDR		"不能创建目录(文件夹), 错误号: "
+#define ktx_str_FDREXISTS		"文件夹已存在，请指定另一文件名"
+#define ktx_str_APPENDLIST		"添加到列表"
+#define ktx_str_FILESADCY		"%d个文件添加到拷贝/剪切文件中"
+#define ktx_str_PASTEWILLREM		"粘贴将要移动%d个文件"
+#define ktx_str_FORSECOPY		"不能关闭源文件，拷贝继续?"
+#define ktx_str_STARTNEWSCRH		"开始新的搜索?"
+#define ktx_str_RESETSEARCH		"重置前一次搜索设置？"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"通配符标记" // Mark menu item
+#define ktx_mnu_MarkInverse		"反向选择"   // Mark menu item
+
+#define ktx_sh_str_General		"常规"//- setting
+
+#define ktx_sh_str_fullscreen		"全屏" // main settings item
+
+#define ktx_sh_str_NOFILES		"没有文件"   // no files in browser
+
+#define ktx_mnu_typassociation	"文件关联" //settins select item list
+#define ktx_sh_str_plugins		"插件" //settins select item list
+
+#define ktx_sh_str_Own			"拥有"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"移动文件类型" //file associations
+
+#define ktx_mnu_Modify			"修改"		// menu file associations
+#define ktx_mnu_Addfiltyp		"添加文件类型"	// menu file associations
+#define ktx_mnu_Remfiltyp		"移动文件类型"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"移动扩展名"	// menu file associations settings
+#define ktx_mnu_AddExt			"添加扩展名"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"改变关联程序"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"改变文件名"	// menu file associations settings
+#define ktx_mnu_Reset			"重置"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"关联的应用程序"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"关联程序" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"识别者" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"启用" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"禁用" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"显示信息" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"名称: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"状态: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"禁用" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"启用" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"插件版本: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (版本正常)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (不兼容版本)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"插件类型: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- 文件关联程序" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- 文件发送者" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- 文件接收者" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- 文件文件夹" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- 用关联程序打开" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- 文件识别者" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"支持的文件类型:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(支持新的文件类型)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"添加文件类型"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"选择到移动"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"文件类型"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"不能识别的文件关联程序"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+

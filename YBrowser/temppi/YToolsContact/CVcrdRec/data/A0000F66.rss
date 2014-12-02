@@ -1,0 +1,24 @@
+#include <ecom\RegistryInfo.rh>
+
+RESOURCE REGISTRY_INFO
+{
+	dll_uid = 0xA0000F66; // third UID in the mmp file
+	interfaces = 
+	{
+		INTERFACE_INFO
+		{
+			interface_uid = 0xA0000F5B;// static YTool UID
+			implementations =
+			{
+				IMPLEMENTATION_INFO
+				{
+					implementation_uid = 0x0F66;// implementation UID, returned with interface
+					version_no=1;
+					display_name="YTools Contacts";
+					default_data="";
+					opaque_data="";
+				}
+			};
+		}
+	};
+}

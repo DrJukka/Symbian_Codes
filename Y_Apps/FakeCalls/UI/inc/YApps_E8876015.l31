@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"选项"
+#define ktx_cmd_exit 				"退出"
+#define ktx_cmd_cancel 				"取消"
+#define ktx_cmd_Back 				"返回"
+
+#define ktx_cmd_Disable				"禁用"
+#define ktx_cmd_Enable				"启用"
+
+#define ktx_cmd_save 				"保存"
+#define ktx_cmd_select 				"选择"
+
+#define ktx_mnu_Settings			"设置"
+#define ktx_mnu_help				"帮助"
+#define ktx_cmd_about				"关于"
+#define ktx_cmd_visit				"访问m.DrJukka.com"
+
+#define ktx_mnu_New 				"新建"
+#define ktx_cmd_Test				"预览"
+#define ktx_mnu_Modify 				"修改"
+#define ktx_mnu_Remove 				"删除"
+
+#define ktx_mnu_newContact			"新号码"
+
+#define ktx_sh_str_sndNumber	 		"来电号码"
+#define ktx_sh_str_sndTime		 	"来电时间"
+#define ktx_sh_str_sndDate		 	"来电日期"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<禁用>"
+
+#define ktx_str_REMMESSAGE 			"删除日程?"
+#define ktx_sh_str_REPEATS			"重复类型"
+
+#define ktx_str_GREENBUTTON			"绿键"
+#define ktx_str_REDBUTTON			"红键"
+#define ktx_str_OFFBUTTON			"电源键"
+#define ktx_str_CAMERABUTTON			"照相键"
+
+
+#define ktx_sh_str_ONCE				"一次"
+#define ktx_sh_str_WORKDAYA			"工作日"
+#define ktx_sh_str_NONWORKD			"非工作日"
+#define ktx_sh_str_EVERYDAY			"每天"
+#define ktx_sh_str_MONDAYS			"星期一"
+#define ktx_sh_str_TUESDAYS			"星期二"
+#define ktx_sh_str_WEDNESDAYS			"星期三"
+#define ktx_sh_str_THURSDAYS			"星期四"
+#define ktx_sh_str_FRIDAYS			"星期五"
+#define ktx_sh_str_SATURDAYS			"星期六"
+#define ktx_sh_str_SUNDAYS			"星期日"
+
+#define ktx_sh_str_SNOZTEXT			"打盹按钮内容"
+#define ktx_str_MAXTIME				"最大响铃时间"
+#define ktx_str_SNOOZETIME			"打盹时间"
+#define ktx_sh_str_OPERNAME			"运营商名称"
+#define ktx_sh_str_SUNDFILE			"响铃铃声"
+
+//Main Application help
+#define ktx_str_HELP1				"本程序是显示一个虚假的来电，并不是拨打电话所以不会产生任何费用。"
+#define ktx_str_HELP2				"总共有4个预设的按键可以一键启动Fake Call。它们是绿色接听键，红色挂机键，照相键和电源键。主意开启的时候必须保证键盘锁已打开。"
+#define ktx_str_HELP3				"可以选择修改命令修改内容。禁用/启用命令可以关闭/打开虚假来电。"
+#define ktx_str_HELP4				"定时的虚假来电日程可以从选项-新建中设置，这些日程可以用修改或者删除命令来更改。"
+#define ktx_str_HELP5				"预览来电命令可以帮你预览列表中已选的虚假来电。"
+#define ktx_str_HELP6				"真实的Fake Calls的日程安排是由后台服务负责的，后台服务由可用的虚假来电按键或者日程决定的。后台程序是随机自启的。注意所有的设置和日程更改只有在退出UI程序的时候才生效。"
+
+// Schedlue Settings
+#define ktx_str_HELP7				"使用定时日程Fake Calls，你只需要定义来电号码(或者字符)和当虚假来电来的时间。"
+#define ktx_str_HELP8				"你可以从名片夹选择联系人，并且名片联系人的名字也会显示在日程列表。注意，如果虚假来电的号码来自名片夹，那么关于联系人的名字，照片，铃声等等都会显示在Fake Call中。"
+#define ktx_str_HELP9				"新号码命令菜单也允许使用文本来显示。"
+#define ktx_str_HELP10				"日程时间可用从时间设置中选择，重复类型设置允许日程在规定的日期间隔下完成。注意重复日程不会从日程列表删除，只有当Fake Call的日程被指定到某个特定日期，才能从日程列表删除。"
+
+//Key settings
+#define ktx_str_HELP11				"单按键的虚假来电，你只需要定义联系人号码(名字)。你可以从名片夹选择联系人也可以使用新号码命令添加号码或者名字显示。"
+#define ktx_str_HELP12				"注意，如果虚假来电的号码发现时来自名片夹的，那么关于此号码的名字，照片等信息将会显示在程序上。"
+#define ktx_str_HELP13				"记住启用虚假来电的主日程列表按键，注意单按键虚假来电只有在键盘锁打开的时候才有用。"
+
+// Default Settings
+#define ktx_str_HELP14				"运营商名称显示在Fake Call的上方位置，以防真正的网络服务商找不到。例如手机位于离线状态。"
+#define ktx_str_HELP15				"响铃铃声只有在名片夹无关联铃声并且情景模式铃声不可用的情况下才会生效。响铃铃声的规则是先名片夹关联铃声，后情景模式铃声，最后是程序响铃铃声。"
+#define ktx_str_HELP16				"打盹时间是以秒计算的在Fake Call显示的打盹按钮上。当打盹按钮按下后，虚假来电将被隐藏，打盹时间过后又会再次显示。"
+#define ktx_str_HELP17				"最大响铃时间取决于Fake Call显示的时间。注意按了打盹按钮，定时器将重置。"
+#define ktx_str_HELP18				"打盹按钮内容设置用来更改打盹按钮的显示名字以便为更加真实的虚假来电显示。"
+
+
+
+
+

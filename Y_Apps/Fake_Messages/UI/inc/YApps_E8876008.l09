@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valinnat"
+#define ktx_cmd_exit 				"Poistu"
+#define ktx_cmd_cancel 				"Peruuta"
+#define ktx_cmd_save 				"Tallenna"
+#define ktx_cmd_select 				"Valitse"
+
+#define ktx_cmd_about				"Tietoja sovelluks."
+#define ktx_cmd_visit				"Vieraile m.DrJukka.com:issa"
+
+#define ktx_mnu_New 				"Uusi"
+#define ktx_mnu_Modify 				"Muokkaa"
+#define ktx_mnu_Remove 				"Poista"
+
+
+#define ktx_mnu_Savmsgs				"Tallennetut viestit"
+#define ktx_mnu_ContSend			"Lähettäjä kontakteista"
+
+#define ktx_sh_str_sndName	 		"Lähettäjän nimi"
+#define ktx_sh_str_sndNumber	 	"Lähettäjän numero"
+#define ktx_sh_str_Message		 	"Viesti"
+#define ktx_sh_str_sndTime		 	"Lähetys aika"
+#define ktx_sh_str_sndDate		 	"Lähetys päivä"
+
+
+#define ktx_str_REMMESSAGE 			"Poista viesti ?"
+
+#define ktx_cmd_help				"Ohjeet"
+#define ktx_cmd_Back				"Takaisin"
+
+
+#define ktx_str_HELP1 				"Fake Messages ohjelman tarkoituksena on tehdä ajastettuja vale SMS viestejä, jotka näyttävän avian samannäköisiltä kuin normaalit vastaanotetut SMS viestit. Viestit tehdään puhelimessa sisäisesti, joten viesteistä ei aiheudu ylimääräisiä kustannuksia."
+#define ktx_str_HELP2 				"Uusi vale viesti voidaan tehdä Uusi valinnalla, jonko jälkeen uudessa ikkunassa annetaan lähettäjän nimi ja numero, sekä viesti sekä myös haluttu aika jolloin vieti vastaamotetaan. Lähettäjän tiedot voidaan myös poimia suoraan osoitekirjasta ja valmiita viestejä voi tallentaa käytettäväksi myöhemmin."
+#define ktx_str_HELP3 				"Viestin tallentamisen jälkeen viestin tiedot näkyvät viesti listassa, josta ne voi poistaa yksitellen Poista valinnalla ja muokata Muokkaa valinnalla. Huomio että viestit lähetetään ja muutokset huomioidaan vasta pääohjelmasta poistuttaessa. Ja menneisyydessä olevalla lähetys ajalla olevat viestit lähetetään välittömästi."
+#define ktx_str_HELP4 				"Viestien lähetys tapahtuu tausta prosessin avulla, tausta processi käynnistyy myös automaattisesti puhelinta käynnistettäessä, mikäli ainakin yksi valeviesti on talletettuna. Huomio että valevietit poistetaan tietokannasta heti lähetyksen jälkeen."
+
+

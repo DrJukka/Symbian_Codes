@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Nastavení"
+#define ktx_cmd_exit 				"Konec"
+#define ktx_cmd_cancel 				"Zrušit"
+
+#define ktx_cmd_Disable				"Zakázat"
+#define ktx_cmd_Enable				"Povolit"
+
+#define ktx_cmd_save 				"Uložit"
+#define ktx_cmd_select 				"Vybrat"
+
+#define ktx_cmd_about				"O programu"
+#define ktx_cmd_visit				"Přejít na m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nová"
+#define ktx_mnu_Modify 				"Upravit"
+#define ktx_mnu_Remove 				"Odstranit"
+
+
+#define ktx_mnu_Savmsgs				"Uložit zprávy"
+#define ktx_mnu_ContSend			"Příjemce z kontaktů"
+
+#define ktx_sh_str_sndName	 		"Jméno"
+#define ktx_sh_str_sndNumber	 	"Číslo"
+#define ktx_sh_str_Message		 	"Zpráva"
+#define ktx_sh_str_sndTime		 	"Čas odeslání"
+#define ktx_sh_str_sndDate		 	"Datum odeslání"
+
+#define ktx_sh_str_DISABLED		"<Zakázáno>"
+
+#define ktx_str_REMMESSAGE 			"Odstranit zprávy?"
+
+#define ktx_sh_str_REPEATS		"Opakovat"
+
+#define ktx_sh_str_ONCE			"Jednou"
+#define ktx_sh_str_WORKDAYA		"Pracovní dny"
+#define ktx_sh_str_NONWORKD		"Víkendy"
+#define ktx_sh_str_EVERYDAY		"Denně"
+#define ktx_sh_str_MONDAYS		"Pondělí"
+#define ktx_sh_str_TUESDAYS		"Úterý"
+#define ktx_sh_str_WEDNESDAYS		"Středa"
+#define ktx_sh_str_THURSDAYS		"Čtvrtek"
+#define ktx_sh_str_FRIDAYS		"Pátek"
+#define ktx_sh_str_SATURDAYS		"Sobota"
+#define ktx_sh_str_SUNDAYS		"Neděle"
+
+#define ktx_str_MSGTRUNK		"Zpráva bude zkrácena na 70 znaků, pokračovat?"
+
+#define ktx_cmd_Back 			"Zpět"
+#define ktx_sh_str_HELP			"Nápověda"
+#define ktx_sh_str_SMSType		"Typ SMS"
+#define ktx_sh_str_Normal		"Běžná"
+#define ktx_sh_str_Flash		"Flash SMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Tato aplikace slouží k plánování běžných i flash SMS zpráv. Délka zprávy je omezena na 160 znaků a 70 znaků pro Unicode kódování. Toto kódování je použito automaticky, když je potřeba."
+#define ktx_str_HELP2			"Flash zprávy jsou SMS zprávy třídy 0, které jsou zobrazeny automaticky při přijetí a jsou uloženy pouze na žádost."
+#define ktx_str_HELP3			"Pro vytvoření nové plánované zprávy vyberte volbu Nová z menu. Po vytvoření je možno pomocí menu zprávy v seznamu povolit/zakázat, upravit nebo odstranit."
+#define ktx_str_HELP4			"Aktuální plán SMS zpráv je zpracováván aplikací na pozadí dokud existují nějaké položky plánu a jsou povoleny."
+#define ktx_str_HELP5			"Aplikace běžící na pozadí je spuštěna při startu přístroje. Změny se projeví při zavření aplikace pro nastavení. "
+
+//Settings Help:
+#define ktx_str_HELP6			"U naplánovaných zpráv je potřeba vyplnit číslo, zprávu a čas odeslání."
+#define ktx_str_HELP7			"Kontakt lze vybrat ze seznamu nebo přímo napsáním pomocí položky nastavení."
+#define ktx_str_HELP8			"Zprávu lze uložit pro pozdější použití nebo lze zprávu přímo napsat. Typ SMS určuje zda je zpráva běžná nebo Flash SMS."
+#define ktx_str_HELP9			"Čas odeslání určuje kdy bude zpráva odeslána. Volba Opakovat umožňuje vybrat určitý den a interval opakování."
+#define ktx_str_HELP10			"Opakované zprávy nebudou ze seznamu odstraněny, zatímco zprávy s určeným datumem budou odstraněny po odeslání."
+
+

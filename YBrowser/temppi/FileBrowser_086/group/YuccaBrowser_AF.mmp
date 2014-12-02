@@ -1,0 +1,87 @@
+
+TARGET            	YuccaBrowser_2000713D.exe
+TARGETTYPE        	exe
+UID               	0x100039CE 0x2000713D
+
+EPOCSTACKSIZE		0x8000
+EPOCHEAPSIZE		4000 8000000
+
+
+START RESOURCE    ..\data\YuccaBrowser_2000713D.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE    ..\data\YuccaBrowser_2000713D_reg.rss
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END //RESOURCE
+
+
+SOURCEPATH        ..\src
+SOURCE            YuccaBrowser.cpp
+SOURCE            YuccaBrowser_Container.cpp
+
+SOURCE            Folder_reader.cpp
+SOURCE            FileManHandler.cpp
+SOURCE            Navipanel.cpp
+SOURCE            CTimeOutTimer.cpp
+SOURCE            ShowString.cpp
+SOURCE            Yucca_Settings.cpp
+SOURCE            IconHandler.cpp
+SOURCE            CommandSC_Settings.cpp
+SOURCE            Search_Settings.cpp
+SOURCE            Search_Container.cpp
+SOURCE            File_Searcher.cpp
+SOURCE            Selection_Container.cpp
+SOURCE            Dialogs.cpp
+
+SOURCEPATH        ..\..\Common\src
+SOURCE            Public_Interfaces.cpp
+
+
+USERINCLUDE       ..\inc 
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\libc
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib 
+LIBRARY           eikcore.lib  
+LIBRARY           avkon.lib  
+LIBRARY           eikcoctl.lib 
+LIBRARY           bafl.lib 
+LIBRARY         	egul.lib				// TextUtils
+LIBRARY         	eikctl.lib				// CColumnListBoxData
+LIBRARY         	apgrfx.lib
+LIBRARY         	efsrv.lib 
+LIBRARY         	apmime.lib 
+LIBRARY         	fbscli.lib 
+LIBRARY         	sendui.lib 
+LIBRARY         	aknnotify.lib 
+LIBRARY         	eiksrv.lib 
+LIBRARY         	aknskins.lib 
+LIBRARY         	aknskinsrv.lib 
+LIBRARY         	aknswallpaperutils.lib 
+LIBRARY         	gdi.lib 
+LIBRARY         	estor.lib 
+LIBRARY         	etext.lib
+LIBRARY         	ws32.lib 
+LIBRARY         	bitgdi.lib
+LIBRARY				msgs.lib 
+LIBRARY				CommonDialogs.lib 
+LIBRARY				ECom.lib
+LIBRARY				aknicon.lib 
+LIBRARY				commonui.lib 
+LIBRARY				eikdlg.lib 
+LIBRARY				CommonEngine.lib 
+
+LANG SC
+VENDORID	  	  0
+CAPABILITY ALL -TCB
+
+

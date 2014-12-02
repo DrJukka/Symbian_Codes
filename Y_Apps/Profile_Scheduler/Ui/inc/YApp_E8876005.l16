@@ -1,0 +1,58 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Опции"
+#define ktx_cmd_exit 			"Выход"
+#define ktx_cmd_Cancel			"Отмена"
+
+
+#define ktx_cmd_Disable			"Выключить"
+#define ktx_cmd_Enable			"Включить"
+
+#define ktx_cmd_about			"Описание"
+#define ktx_cmd_New				"Создать"
+#define ktx_cmd_Modify			"Изменить"
+#define ktx_cmd_Remove			"Удалить"
+#define ktx_cmd_Randomthes		"Случайные профили"
+#define ktx_cmd_Profiles		"Профили"
+
+#define ktx_cmd_Stop			"Стоп"
+#define ktx_cmd_Save			"Сохранить"
+
+
+#define ktx_cmd_VisitJukka		"Посетите m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Выключено>"
+#define ktx_sh_str_RANDOM		"Случайно"
+#define ktx_sh_str_PROFFILLE2	"Профиль"
+#define ktx_sh_str_REMOVESCHED	"Удалить расписание?"
+#define ktx_sh_str_ACTIVEON		"Активизация…"
+
+#define ktx_sh_str_NONAME		"Без имени"
+#define ktx_sh_str_SELECTPROF	"Выберите профиль"
+
+#define ktx_sh_str_SETONTIME	"Установить время"
+
+
+#define ktx_sh_str_WORKDAYA		"Рабочие дни"
+#define ktx_sh_str_NONWORKD		"Нерабочие дни"
+#define ktx_sh_str_EVERYDAY		"Каждый день"
+#define ktx_sh_str_MONDAYS		"Понедельник"
+#define ktx_sh_str_TUESDAYS		"Вторник"
+#define ktx_sh_str_WEDNESDAYS	"Среда"
+#define ktx_sh_str_THURSDAYS	"Четверг"
+#define ktx_sh_str_FRIDAYS		"Пятница"
+#define ktx_sh_str_SATURDAYS	"Суббота"
+#define ktx_sh_str_SUNDAYS		"Воскресенье"
+
+#define ktx_cmd_Help			"Помощь"
+#define ktx_cmd_Back			"Назад"
+
+#define ktx_str_HELP1			"Эта программа используется для включения профилей по расписанию. Чтобы создать новое расписание, выберите Новый из меню параметры."
+#define ktx_str_HELP2			"Затем выберите профиль. Если список случайных профилей пуст, расписание будет проигнорировано. После выбора профиля выберите время и параметры повтора. По завершении сохраните расписание командой Сохранить."
+#define ktx_str_HELP3			"После создания расписания, оно появится в основном списке. В нем вы сможете использовать опции меню для изменения, временного отключения/включения и удаления расписания."
+#define ktx_str_HELP4			"Учтите, что расписания обновляются только после выхода из программы. Для лучшего результата разделяйте расписания промежутком в 2 мин. Обработка расписаний проводится фоновой программой, запускающейся при включении устройства. При отключенном устройстве расписания не работают."
+

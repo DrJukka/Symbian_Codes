@@ -1,0 +1,61 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"선택"
+#define ktx_cmd_back			"뒤로"
+#define ktx_cmd_options			"옵션"
+#define ktx_cmd_cancel			"취소"
+#define ktx_cmd_ok				"완료"
+#define ktx_cmd_exit			"종료"
+
+#define ktx_cmd_REMOVE			"제거"
+#define ktx_str_ABOUT			"프로그램 정보"
+
+///----
+
+#define ktx_mnu_done			"완료"
+#define ktx_mnu_toggle			"전환"
+#define ktx_mnu_MarkAll			"전체 선택"
+#define ktx_mnu_UnmarkAll		"전체 선택 해제"
+
+
+#define ktx_mnu_Message			"메시지"
+
+#define ktx_mnu_Recipient		"받는 사람"
+#define ktx_mnu_SelRecipient	"연락처에서 추가"
+#define ktx_mnu_NewRecipient	"새 연락처"
+#define ktx_mnu_RemRecipient	"전부 제거"
+#define ktx_mnu_SendMMS			"SMS 전송"
+
+
+#define ktx_sh_str_appname		"Flash SMS"
+
+#define ktx_str_MSGSENT			"보낸 메시지"
+#define ktx_str_CONTACTS		" 연락처"
+#define ktx_str_PHONENUMBER		"전화번호"
+#define ktx_str_ExitQ			"종료 하시겠습니까?"
+
+#define ktx_str_MSGTRUNK		"메시지가 70자만 전송됩니다. 계속하시겠습니까?"
+
+#define ktx_str_FAIL_1			"SMS 스케쥴 실패"
+#define ktx_str_FAIL_2			"SMS 전송 실패"
+#define ktx_str_FAIL_3			"SMS 서버 통화불능"
+#define ktx_str_FAIL_4			"SMS 서버 에러"
+#define ktx_str_FAIL_5			"SMS 에러: "
+
+#define ktx_str_ALLSENT			"메시지가 전부 전송 되었습니다."
+
+#define ktx_cmd_visit			"m.DrJukka.com 방문"
+#define ktx_mnu_help			"도움말"
+
+#define ktx_str_HELP1			"FlashSMS sender is used for sending type 0 SMS messages that are opened directly when received, also FlashSMS messages are not saved automatically in the receiving end."
+#define ktx_str_HELP2			"To make a new FlashSMS message, type the message to be included in the Flash SMS, note that for normal SMS characters the message can be 160 characters long, and for other the message will be truncated to 70 characters."
+#define ktx_str_HELP3			"Recipients can be added from contacts or by specifying the recipients number, both options are available in menu. Note that each message can have multiple recipients."
+#define ktx_str_HELP4			"After the recipient(s) are defined and the message body written, you can send then message with send option from the menu."
+#define ktx_str_HELP5			""
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+*/
+
+NAME YRMM
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+
+#include "YTools_GIFUI.hrh"
+
+
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF r_default_document_name { buf=""; }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    cba = r_main_cba;
+    }
+
+RESOURCE CBA r_main_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EBacktoYBrowser; 
+		txt = "Back"; 
+	}
+  };
+} 
+
+

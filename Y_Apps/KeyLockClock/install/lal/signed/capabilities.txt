@@ -1,0 +1,10 @@
+
+CRepository:: ReadDeviceData & WriteDeviceData
+
+CMsv* for SMS monitoring :: ReadUserData WriteUserData 
+
+
+HAL::Set :: PowerMgmt
+
+TApaTask::SendMessage :: SwEvent
+

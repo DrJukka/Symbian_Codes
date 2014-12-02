@@ -1,0 +1,249 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+
+//  RESOURCE IDENTIFIER
+NAME FKCU    // 4 letter ID
+
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+#include <e32keys.h>
+
+#include <appinfo.rh>
+#include "Definitions.h"
+
+#include "YApps_E8876018.hrh"
+
+#ifdef LANGUAGE_04 // Spanish
+#include "YApps_E8876018.l04"
+#elif defined LANGUAGE_05 // Italien
+#include "YApps_E8876018.l05"
+#elif defined LANGUAGE_06 // Swedish
+#include "YApps_E8876018.l06"
+#elif defined LANGUAGE_07 // Danish
+#include "YApps_E8876018.l07"
+#elif defined LANGUAGE_09 // Finnish
+#include "YApps_E8876018.l09"
+#elif defined LANGUAGE_13 // Portuguese
+#include "YApps_E8876018.l13"
+#elif defined LANGUAGE_14 // Turkish
+#include "YApps_E8876018.l14"
+#elif defined LANGUAGE_16 // Russian
+#include "YApps_E8876018.l16"
+#elif defined LANGUAGE_17 // Hungarian
+#include "YApps_E8876018.l17"
+#elif defined LANGUAGE_18 // Dutch
+#include "YApps_E8876018.l18"
+#elif defined LANGUAGE_25 // Czech
+#include "YApps_E8876018.l25"
+#elif defined LANGUAGE_27 // Polish
+#include "YApps_E8876018.l27"
+#elif defined LANGUAGE_31 // PRC-Chinese
+#include "YApps_E8876018.l31"
+#elif defined LANGUAGE_33 // Thai
+#include "YApps_E8876018.l33"
+#elif defined LANGUAGE_35 // Albanian
+#include "YApps_E8876018.l35"
+#elif defined LANGUAGE_42 // Bulgarian
+#include "YApps_E8876018.l42"
+#elif defined LANGUAGE_45 // Croatian
+#include "YApps_E8876018.l45"
+#elif defined LANGUAGE_50 // Farsi
+#include "YApps_E8876018.l50"
+#elif defined LANGUAGE_54 // Greek
+#include "YApps_E8876018.l54"
+#elif defined LANGUAGE_57 // Hebrew
+#include "YApps_E8876018.l57"
+#elif defined LANGUAGE_65 // Korean
+#include "YApps_E8876018.l65"
+#elif defined LANGUAGE_78 // Romanian
+#include "YApps_E8876018.l78"
+#elif defined LANGUAGE_87 // Tamil
+#include "YApps_E8876018.l87"
+#elif defined LANGUAGE_106//azeri latin
+#include "YApps_E8876018.l106"
+#else
+#include "YApps_E8876018.l01" //English
+#endif
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+
+RESOURCE RSS_SIGNATURE
+    {
+    }
+
+
+RESOURCE TBUF r_default_document_name
+    {
+    buf="";
+    }
+
+
+RESOURCE EIK_APP_INFO
+    {
+    	menubar=r_main_menubar;
+#ifdef __S60_50__       
+    	status_pane=r_status_pane_empty;
+#else
+    	status_pane=R_AVKON_STATUS_PANE_LAYOUT_USUAL;
+#endif    	
+    	cba=r_main_cba;            
+    }
+
+RESOURCE STATUS_PANE_APP_MODEL r_status_pane_empty
+	{
+	layout = R_AVKON_STATUS_PANE_LAYOUT_IDLE;
+	} 
+
+// -----------------------------------------------------------------------------
+//
+//   r_main_menubar
+//   Menubar for dmgetuidvalds example
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_BAR r_main_menubar
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_main_menu; }
+        };
+    }
+
+RESOURCE MENU_PANE r_main_menu
+    {
+    items =
+        { 
+ 	MENU_ITEM { command = EAppHelp; 			txt = ktx_mnu_help; },
+	MENU_ITEM { command = EAbout; 				txt = ktx_cmd_about;},
+	MENU_ITEM { command = EVisitDrJukka;		txt = ktx_cmd_visit;},    
+	MENU_ITEM { command = EAknSoftkeyExit; 		txt = ktx_cmd_exit;}
+        };
+    }
+
+
+RESOURCE CBA r_main_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = ktx_cmd_options;
+	},
+    CBA_BUTTON 
+	{ 
+		id = EMeHide; 
+		txt = ktx_cmd_Snooze; 
+	}
+  };
+}
+
+RESOURCE CBA R_APPHELP_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAppHelpBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_about_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+
+RESOURCE TBUF R_SH_STR_ANSWER			{buf =ktx_sh_str_ANSWER;}
+RESOURCE TBUF R_SH_STR_SILENSE			{buf =ktx_sh_str_SILENSE;}
+RESOURCE TBUF R_SH_STR_CALLING			{buf =ktx_sh_str_CALLING;}
+
+RESOURCE TBUF R_STR_HELP1				{buf =ktx_str_HELP1;}
+RESOURCE TBUF R_STR_HELP2				{buf =ktx_str_HELP2;}
+RESOURCE TBUF R_STR_HELP3				{buf =ktx_str_HELP3;}
+RESOURCE TBUF R_STR_HELP4				{buf =ktx_str_HELP4;}
+RESOURCE TBUF R_STR_HELP5				{buf =ktx_str_HELP5;}
+
+
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+//
+
+#ifdef SONE_VERSION
+RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+    {
+    short_caption = "Fake Calls UI";
+    caption_and_icon =
+    CAPTION_AND_ICON_INFO
+        {
+        caption = "Fake Calls UI";
+
+        number_of_icons = 1;
+	   	icon_file = "\\resource\\apps\\YApps_2002DD34_aif.mif";
+	    };
+    }
+#else
+
+	#ifdef LAL_VERSION
+
+	#else
+	RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+		{
+		short_caption = "Fake Calls UI";
+		caption_and_icon =
+		CAPTION_AND_ICON_INFO
+			{
+			caption = "Fake Calls UI";
+	
+			number_of_icons = 1;
+			icon_file = "\\resource\\apps\\YApps_E8876018_aif.mif";
+			};
+		}
+	#endif
+#endif
+
+
+
+
+
+// End of File
+

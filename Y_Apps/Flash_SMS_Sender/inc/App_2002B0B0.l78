@@ -1,0 +1,61 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Selecteaza"
+#define ktx_cmd_back			"Inapoi"
+#define ktx_cmd_options			"Optiuni"
+#define ktx_cmd_cancel			"Anulare"
+#define ktx_cmd_ok				"Ok"
+#define ktx_cmd_exit			"Iesire"
+
+#define ktx_cmd_REMOVE			"Elimina"
+#define ktx_str_ABOUT			"Despre"
+
+///----
+
+#define ktx_mnu_done			"Efectueaza"
+#define ktx_mnu_toggle			"Comuta"
+#define ktx_mnu_MarkAll			"Marcheaza tot"
+#define ktx_mnu_UnmarkAll		"Demarcheaza tot"
+
+
+#define ktx_mnu_Message			"Mesaj"
+
+#define ktx_mnu_Recipient		"Destinatari"
+#define ktx_mnu_SelRecipient	"Adauga din contacte"
+#define ktx_mnu_NewRecipient	"Contact nou"
+#define ktx_mnu_RemRecipient	"Elimina tot"
+#define ktx_mnu_SendMMS			"Trimite SMS"
+
+
+#define ktx_sh_str_appname		"Mesaj Flash"
+
+#define ktx_str_MSGSENT			"Mesaj trimis"
+#define ktx_str_CONTACTS		" Contacte"
+#define ktx_str_PHONENUMBER		"Numar de telefon"
+#define ktx_str_ExitQ			"Iesire ?"
+
+#define ktx_str_MSGTRUNK		"Mesajele vor fi truncate la 70 de caractere, continuati ?"
+
+#define ktx_str_FAIL_1			"Programarea SMS-ului esuata"
+#define ktx_str_FAIL_2			"Trimiterea SMS-ului esuata"
+#define ktx_str_FAIL_3			"Nici un centru de mesaje"
+#define ktx_str_FAIL_4			"Eroare fatala serverului de SMS-uri"
+#define ktx_str_FAIL_5			"Eroare SMS: "
+
+#define ktx_str_ALLSENT			"Toate mesajele trimise"
+
+#define ktx_cmd_visit			"Vizitati m.DrJukka.com"
+#define ktx_mnu_help			"Ajutor"
+
+#define ktx_str_HELP1			"Această aplicaţie este proiectat pentru trimiterea de mesaje SMS Flash."
+#define ktx_str_HELP2			"Mesajele SMSFlash sunt mesaje text care sunt deschise şi prezentate în mod automat atunci când e primit şi nu sunt stocate automat în dispozitivului de primire."
+#define ktx_str_HELP3			"Pentru a creeă un mesaj nou, adăugaţi persoană de contact utilizând opţiunile din meniu. Poţi selectă adăugarea unui nou număr sau selectarea receptorului din  bază de date de contacte din dispozitiv. Eliminarea tuturor, din opţiunile din meniu, poate fi folosită pentru a scoate toate contactele adăugate. "
+#define ktx_str_HELP4			"Mesajul poate fi scris în mod normal la rubrică de mesaje. Numărul de caractere afişate în partea de sus a interfeţei de utilizator corespunde numai cu numărul de caractere normal codificate. Pentru altele limita maximă este de 70 caractere. "
+#define ktx_str_HELP5			"După ce aţi scris mesajul şi adăugat numărul de contact mesajul poate fi trimis cu opţiunea din meniu \"Trimite SMS\"."
+
+
+
+
+
+

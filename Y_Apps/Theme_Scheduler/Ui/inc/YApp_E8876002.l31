@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"选项"
+#define ktx_cmd_exit 			"退出"
+#define ktx_cmd_Cancel			"取消"
+
+
+#define ktx_cmd_Disable			"禁用"
+#define ktx_cmd_Enable			"启用"
+
+#define ktx_cmd_about			"关于"
+#define ktx_cmd_New				"新建"
+#define ktx_cmd_Modify			"修改"
+#define ktx_cmd_Remove			"删除"
+#define ktx_cmd_Randomthes		"随机主题"
+#define ktx_cmd_ViewTheme		"查看主题"
+#define ktx_cmd_Profchange		"随情景更换"
+#define ktx_cmd_Timechange		"随时间更换"
+#define ktx_cmd_Stop			"停止"
+#define ktx_cmd_Save			"保存"
+
+#define ktx_cmd_VisitJukka		"访问m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<禁用>"
+#define ktx_sh_str_BGIMAGE		"壁纸"
+#define ktx_sh_str_RANDOM		"随机"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"情景模式"
+#define ktx_sh_str_REMOVESCHED	"删除计划表？"
+#define ktx_sh_str_ACTIVEON		"激活在"
+#define ktx_sh_str_SELECTTHEME	"选择主题"
+#define ktx_sh_str_NONAME		"未命名"
+#define ktx_sh_str_SELECTPROF		"选择情景模式"
+#define ktx_sh_str_Time			"时间"
+#define ktx_sh_str_Date			"日期"
+#define ktx_sh_str_Theme		"主题/壁纸"
+#define ktx_sh_str_SETONTIME		"设置时间"
+#define ktx_sh_str_SETONWITH		"设置情景"
+
+#define ktx_sh_str_WORKDAYA		"工作日"
+#define ktx_sh_str_NONWORKD		"非工作日"
+#define ktx_sh_str_EVERYDAY		"每天"
+#define ktx_sh_str_MONDAYS		"星期一"
+#define ktx_sh_str_TUESDAYS		"星期二"
+#define ktx_sh_str_WEDNESDAYS	"星期三"
+#define ktx_sh_str_THURSDAYS	"星期四"
+#define ktx_sh_str_FRIDAYS		"星期五"
+#define ktx_sh_str_SATURDAYS	"星期六"
+#define ktx_sh_str_SUNDAYS		"星期日"
+
+#define ktx_cmd_Help			"帮助"
+#define ktx_cmd_Back			"返回"
+
+#define ktx_str_HELP1			"Theme Scheduler是用来根据情景模式定时更换主题和墙纸的程序。可以选择新建新建一个主题日程安排。"
+#define ktx_str_HELP2			"创建一个日程安排，先选择一个主题或者墙纸，然后选择时间，重复日期或者可用的情景模式。一旦设置完，保存好设置。随机主题选项会随机变更手机主题，如果在随机主题列表没有选择主题，所有的可用主题将会被使用。"
+#define ktx_str_HELP3			"在日程安排被创建后，将会在主菜单列表显示。在此列表中，你可以打开某个日程，并运用修改，删除，激活/禁用等命令更改之。"
+#define ktx_str_HELP4			"注意主题只有在退出程序后，日程主题和前个日程主题才会被刷新。为了更好的使用，每个日程安排最好间隔2分钟以上。真实的日程主题被后台服务控制着，并且随机自启。关机时无任何日程主题会发生。"
+

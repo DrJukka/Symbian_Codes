@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Επιλογές"
+#define ktx_cmd_exit 				"Έξοδος"
+#define ktx_cmd_cancel 				"Άκυρο"
+
+#define ktx_cmd_Disable				"Απενεργοποίηση"
+#define ktx_cmd_Enable				"Ενεργοποίηση"
+
+#define ktx_cmd_save 				"Αποθήκευση"
+#define ktx_cmd_select 				"Επιλογή"
+
+#define ktx_cmd_about				"Περί"
+#define ktx_cmd_visit				"Επίσκεψη m.DrJukka.com"
+
+#define ktx_mnu_New 				"Νέο"
+#define ktx_mnu_Modify 				"Τροποποίηση"
+#define ktx_mnu_Remove 				"Διαγραφή"
+
+
+#define ktx_mnu_Savmsgs				"Αποθηκευμένα SMS"
+#define ktx_mnu_ContSend			"Παραλήπτης από επαφές"
+
+#define ktx_sh_str_sndName	 		"Όνομα"
+#define ktx_sh_str_sndNumber	 	"Αριθμός"
+#define ktx_sh_str_Message		 	"Μήνυμα"
+#define ktx_sh_str_sndTime		 	"Ώρα αποστολής"
+#define ktx_sh_str_sndDate		 	"Ημερομηνία αποστολής"
+
+#define ktx_sh_str_DISABLED		"<Απενεργοποιημένο>"
+
+#define ktx_str_REMMESSAGE 			"Αφαίρεση μηνύματος ;"
+
+#define ktx_sh_str_REPEATS		"Επανάληψη"
+
+#define ktx_sh_str_ONCE			"Μία φορά"
+#define ktx_sh_str_WORKDAYA		"Εργάσιμες μέρες"
+#define ktx_sh_str_NONWORKD		"Μη-εργάσιμες μέρες"
+#define ktx_sh_str_EVERYDAY		"Κάθε μέρα"
+#define ktx_sh_str_MONDAYS		"Κάθε Δευτέρα"
+#define ktx_sh_str_TUESDAYS		"Κάθε Τρίτη"
+#define ktx_sh_str_WEDNESDAYS		"Κάθε Τετάρτη"
+#define ktx_sh_str_THURSDAYS		"Κάθε Πέμπτη"
+#define ktx_sh_str_FRIDAYS		"Κάθε Παρασκευή"
+#define ktx_sh_str_SATURDAYS		"Κάθε Σαββάτο"
+#define ktx_sh_str_SUNDAYS		"Κάθε Κυριακή"
+
+#define ktx_str_MSGTRUNK		"Θα περικοπεί το μήνυμα στους 70 χαρακτήρες, Συνέχεια;"
+
+#define ktx_cmd_Back 			"Πίσω"
+#define ktx_sh_str_HELP			"Βοήθεια"
+#define ktx_sh_str_SMSType		"Τύπος SMS"
+#define ktx_sh_str_Normal		"Κανονικό"
+#define ktx_sh_str_Flash		"FlashSMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"This application is used for scheduling normal as well as Flash SMS messages with time. The length of the SMS is limited to 160 characters and 70 characters with Unicode encoded messages. Unicode encoding is used automatically when needed."
+#define ktx_str_HELP2			"Flash messages are Class 0 SMS messages that are shown automatically in the receiving end, and only saved to the device if the receiver decides so."
+#define ktx_str_HELP3			"To make a new scheduled message click new options from the menu. After there are messages in the schedule list you can use Enable/Disable menu for enabling/disabling the schedule. Modify option can be used for modifying the message, and delete option can be used for deleting it."
+#define ktx_str_HELP4			"The actual scheduling of the SMS messages is handled by background server that is running if there are any schedules available that is also enabled."
+#define ktx_str_HELP5			"The background application is also started automatically when device is started. Note that all settings and schedule changes are taking effect only after exiting the UI application."
+
+//Settings Help:
+#define ktx_str_HELP6			"With timer scheduled SMS messages, you only need to define the contact number, message and the time when the message is to be sent."
+#define ktx_str_HELP7			"You can select the contact from the device's contacts list with menu options or by typing it directly with the settings item."
+#define ktx_str_HELP8			"For the messages you could use the message store to save messages to be used later, or you can type the message with the settings item. The type settings defined whether the SMS message is normal SMS message or Flash SMS message."
+#define ktx_str_HELP9			"The time for schedule can be selected with time settings item, the Repeat settings item allows the scheduling to be done on selected day on as repeating ones with specified repeat interval." 
+#define ktx_str_HELP10			"Note that repeated Schedules are not deleted from the schedule list, whereas the schedules specified for a specific date only, will be deleted from the scheduling database after the message is sent."
+
+

@@ -1,0 +1,27 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Opcje"
+#define qtn_exit 			"Wyjście"
+
+#define qtn_about			"O programie"
+#define qtn_visit			"Odwiedź m.DrJukka.com"
+#define qtn_backlighton		"Włącz światło"
+
+#define qtn_backlightoff	"Wyłącz światło"
+#define qtn_reset			"Resetuj"
+
+#define qtn_Help			"Pomoc"
+#define qtn_Back			"Wróć"
+
+#define ktx_str_HELP1 		"Ta aplikacja jest aplikacją pochyłomierza, która pokazuje poziomy i pionowy kąt nachylenia urządzenia oraz ilustruje obraz samochodu z wymierzonym kątem. Aplikacja działa tylko w orientacji portretowej."
+#define ktx_str_HELP2 		"Opcja menu Reset pozwala wyzerować wartości kąta nachylenia do jakiegoś innego nachylenia urządzenia niż domyślne, więc możesz najpierw umieścić urządzenie w uchwycie, a następnie wyzerować wartości nachylenia do zera."
+#define ktx_str_HELP3 		"Opcja Włącz podświetlenie pozwala podświetleniu urządzenia pozostać przez cały czas. Zauważ, że ta opcja będzie zużywać więcej baterii, podczas pozwalania ekranowi być bardziej czytelnym w ciemnych warunkach."
+
+
+
+// End of File

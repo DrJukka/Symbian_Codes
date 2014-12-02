@@ -1,0 +1,70 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Opzioni"
+#define ktx_cmd_Exit			"Esci"
+#define ktx_cmd_Cancel			"Cancella"
+#define ktx_cmd_Back			"Indietro"
+
+#define ktx_cmd_Disable			"Disabilita"
+#define ktx_cmd_Enable			"Abilita"
+
+#define ktx_cmd_About			"Informazioni"
+
+#define ktx_cmd_Select			"Seleziona"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Cambia"
+#define ktx_cmd_Done			"Ok"
+#define ktx_cmd_Play			"Play"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Salva"
+
+#define ktx_JustD				" g "
+#define ktx_JustH				" 0 "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Ogni giorno"
+#define ktx_Wordays				"Giorni lavorativi"
+
+
+#define ktx_mnu_Newalarm			"Nuova sveglia"
+#define ktx_mnu_Resetalarm			"Reimposta sveglia"
+#define ktx_mnu_Removealarm			"Elimina sveglia"
+#define ktx_mnu_SetAlarmSounds		"Imposta suono"
+#define ktx_mnu_SetWorkdays			"Imposta giorni lavorativi"
+#define ktx_mnu_Update				"Aggiorna"
+
+#define ktx_mnu_Changevalue			"Cambia valore"
+
+#define ktx_str_Repeat				"Ripeti"
+#define ktx_str_Daily				"Ogni giorno"
+#define ktx_str_Workdays			"Giorni lavorativi"
+#define ktx_str_InNext24			"Per le prossime 24 ore"
+#define ktx_str_Once				"Una volta"
+
+#define ktx_str_Time				"Ora"
+#define ktx_str_Date				"Data"
+
+#define ktx_str_Type				"Tipo"
+#define ktx_str_Clockalarm			"Memo Sveglia"
+#define ktx_str_Calendaralarm		"Memo calendario"
+#define ktx_str_Message				"Messaggio"
+#define ktx_str_Snooze				"Snooze"
+
+#define ktx_str_Settime				"Imposta ora"
+#define ktx_str_Setdate				"Imposta data"
+#define ktx_str_Setmessage			"Imposta messaggio"
+		
+#define ktx_str_AlarmDueIn			"Tempo rimanente: "
+#define ktx_str_GoJukka				"Visit m.DrJukka.com"
+
+#define ktx_cmd_Help				"Aiuto"
+
+#define ktx_cmd_Help1				"L'applicazione è progettata per fornire allarmi multipli con funzione di ripetizione ai dispositivi che non implementano nativamente tale funzione."
+#define ktx_cmd_Help2				"Un nuovo allarme può essere creato con l'opzione Nuovo, nell'interfaccia puoi impostare la ripetizione, ora e messaggio per l'allarme. Il tipo di allarme definisce il suono da associare. Clicca su Fatto per salvare."
+#define ktx_cmd_Help3				"L'opzione Reset può essere usata per azzerare i dettagli degli allarmi, Elimina sveglia può rimuovere l'allarme e l'opzione abilita/disabilita può sospendere temporaneamente l'allarme."
+#define ktx_cmd_Help4				"Con Imposta Suono viene selezionato quale file usare come allarme. L'impostazione Posponi definisce l'intervallo in minuti, alcuni dispositivi ignorano questa impostazione e utilizzano quella di default."
+#define ktx_cmd_Help5				"Con l'opzioni Giorni Lavorativi si possono modificare i giorni lavorativi per decidere in quali giorni usare gli allarmi."
+

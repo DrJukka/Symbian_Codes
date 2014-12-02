@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"تنظیمات"
+#define ktx_cmd_exit 			"خروج"
+#define ktx_cmd_Cancel			"انصراف"
+
+
+#define ktx_cmd_Disable			"غیرفعال"
+#define ktx_cmd_Enable			"فعال"
+
+#define ktx_cmd_about			"درباره ی من"
+#define ktx_cmd_New				"جدید"
+#define ktx_cmd_Modify			"اصلاح"
+#define ktx_cmd_Remove			"حذف کردن"
+#define ktx_cmd_Randomthes		"پوسته های تصادفی"
+#define ktx_cmd_ViewTheme		"View Theme"
+#define ktx_cmd_Profchange		"تعیین نمایه"
+#define ktx_cmd_Timechange		"تعیین زمان"
+#define ktx_cmd_Stop			"توقف"
+#define ktx_cmd_Save			"ذخیره کردن"
+
+#define ktx_cmd_VisitJukka		"برو به DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<غیرفعال>"
+#define ktx_sh_str_BGIMAGE		"پس زمینه"
+#define ktx_sh_str_RANDOM		"تصادفی"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"نمایه"
+#define ktx_sh_str_REMOVESCHED	" برنامه ریزی حذف شود؟"
+#define ktx_sh_str_ACTIVEON		"فعال شود با"
+#define ktx_sh_str_SELECTTHEME	"انتخاب پوسته"
+#define ktx_sh_str_NONAME		"نامیده نشده"
+#define ktx_sh_str_SELECTPROF		"انتخاب نمایه"
+#define ktx_sh_str_Time			"زمان"
+#define ktx_sh_str_Date			"تاریخ"
+#define ktx_sh_str_Theme		"پوسته/پس زمینه"
+#define ktx_sh_str_SETONTIME		"انتخاب شود با زمان"
+#define ktx_sh_str_SETONWITH		"انتخاب شود با"
+
+#define ktx_sh_str_WORKDAYA		"روزهای کاری"
+#define ktx_sh_str_NONWORKD		"هیچ یک-از روزهای کاری"
+#define ktx_sh_str_EVERYDAY		"هر روز"
+#define ktx_sh_str_MONDAYS		"دوشنبه ها"
+#define ktx_sh_str_TUESDAYS		"سه شنبه ها"
+#define ktx_sh_str_WEDNESDAYS	"چهارشنبه ها"
+#define ktx_sh_str_THURSDAYS	"پنج شنبه ها"
+#define ktx_sh_str_FRIDAYS		"جمعه ها"
+#define ktx_sh_str_SATURDAYS	"شنبه ها"
+#define ktx_sh_str_SUNDAYS		"یکشنبه ها"
+
+#define ktx_cmd_Help			"راهنما"
+#define ktx_cmd_Back			"بازگشت"
+
+#define ktx_str_HELP1			"این برنامه برای تم ها و تصاویر پس زمینه با برنامه ریزی تایمر یا با وقایع تغییر مشخصات استفاده می شود ، برای هر نوع رویداد می باشد گزینه آیتم جدید در منو گزینه وجود دارد ، و برنامه ریزی جدیدی می توانید با انتخاب مناسب بسازید."
+#define ktx_str_HELP2			"برای اتخاذ یک زمانبندی ، تم و یا تصویر زمینه برنامه ریزی شده  را انتخاب کنید ، و سپس زمان را انتخاب کنید و گزینه های تکرار و یا مشخصات که با برنامه ریزی قرار است انجام شود. پس از انجام این مرحله ،  با دستور ذخیره برنامه ریزی را ذخیره کنید. گزینه تم با موضوع تصادفی یعنی به طور تصادفی در طی یک رویداد برنامه ریزی شده انجام می شود ، و اگردر لیست تم ها ، تم تصادفی انتخاب نشود ، تمام تم ها در دسترس ، استفاده خواهد شد."
+#define ktx_str_HELP3			"بعد از برنامه ریزی آن را در لیست نمایش اصلی نشان می دهد.در گزینه های منو می توانید به تغییرات در برنامه ریزی و حذف را بپردازید، همچنین در گزینه های منو می توانید از غیرفعال / فعال کردن استفاده کنید."
+#define ktx_str_HELP4			"توجه داشته باشید که موضوع برنامه ریزی شده و همچنین باز خوانی برنامه ی قبلی تنها پس از خروج از برنامه رخ می دهد. برای بهترین کارایی هر یک از برنامه ریزی ها باید دو دقیقه با یکدیگر فاصله زمانی داشته باشند. برنامه ریزی را به طور خودکار دستگاه آغاز می کند. بدون ظاهر شدن پیام برنامه ریزی خواهد شد در حالی که دستگاه خاموش است کار خود را انجام میدهد."
+

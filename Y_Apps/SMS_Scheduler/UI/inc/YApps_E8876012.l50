@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"تنظیمات"
+#define ktx_cmd_exit 				"خروج"
+#define ktx_cmd_cancel 				"انصراف"
+
+#define ktx_cmd_Disable				"فعال"
+#define ktx_cmd_Enable				"غیرفعال"
+
+#define ktx_cmd_save 				"ذخیره کردن"
+#define ktx_cmd_select 				"انتخاب"
+
+#define ktx_cmd_about				"درباره ی من"
+#define ktx_cmd_visit				"برو به DrJukka.com"
+
+#define ktx_mnu_New 				"جدید"
+#define ktx_mnu_Modify 				"اصلاح"
+#define ktx_mnu_Remove 				"پاک کردن"
+
+
+#define ktx_mnu_Savmsgs				"پیام های ذخیره شده"
+#define ktx_mnu_ContSend			"دریافت کننده از لیست مخاطبین"
+
+#define ktx_sh_str_sndName	 		" نام"
+#define ktx_sh_str_sndNumber	 	" شماره"
+#define ktx_sh_str_Message		 	"پیام"
+#define ktx_sh_str_sndTime		 	"زمان فرستادن"
+#define ktx_sh_str_sndDate		 	"تاریخ فرستادن"
+
+#define ktx_sh_str_DISABLED		"<غیرفعال>"
+
+#define ktx_str_REMMESSAGE 			"پیام  پاک شود؟"
+
+#define ktx_sh_str_REPEATS		"تکرار کردن"
+
+#define ktx_sh_str_ONCE			"یک بار"
+#define ktx_sh_str_WORKDAYA		"روزهای کاری"
+#define ktx_sh_str_NONWORKD		"هیچ یک-از روزهای کاری"
+#define ktx_sh_str_EVERYDAY		"هر روز"
+#define ktx_sh_str_MONDAYS		"دوشنبه ها"
+#define ktx_sh_str_TUESDAYS		"سه شنبه ها"
+#define ktx_sh_str_WEDNESDAYS		"چهارشنبه ها"
+#define ktx_sh_str_THURSDAYS		"پنج شنبه ها"
+#define ktx_sh_str_FRIDAYS		"جمعه ها"
+#define ktx_sh_str_SATURDAYS		"شنبه ها"
+#define ktx_sh_str_SUNDAYS		"یکشنبه ها"
+
+#define ktx_str_MSGTRUNK		"پیام به 70 کارکتر بریده می شود. ادامه می دهید؟"
+
+#define ktx_cmd_Back 			"بازگشت"
+#define ktx_sh_str_HELP			"راهنما"
+#define ktx_sh_str_SMSType		"نوع پیام کوتاه"
+#define ktx_sh_str_Normal		"عادی"
+#define ktx_sh_str_Flash		"پیامی که فقط یک بار قابل خواندن است"
+
+
+//Main Application help
+#define ktx_str_HELP1			"این برنامه برای زمانبندی پیام کوتاه هایی که وقت یک بار قابل خواندن است استفاده می شود. طول پیام کوتاه به 160 کاراکتر و 70 کاراکتر یونیکد است با پیام های رمزی شده محدود شده است. کدبندی یونیکد به طور خودکار استفاده می شود."
+#define ktx_str_HELP2			"پیام های فلش هستند کلاس 0 پیام کوتاه که به صورت خودکار در پایان از دریافت نشان داده شده ، و تنها به دستگاه گیرنده ذخیره شد اگر تصمیم بگیرد تا."
+#define ktx_str_HELP3			"بر روی برنامه ریزی جدید کلیک کنید. بعد از آن در لیست برنامه شما می توانید از فعال / غیر فعال کردن منو برای فعال کردن / غیر فعال برنامه استفاده کنید. گزینه اصلاح برای اصلاح کردن پیام مورد نظر استفاده می شود ، وگزینه حذف برای حذف آن مورد استفاده قرار می گیرد."
+#define ktx_str_HELP4			"برنامه ریزی دستگاه به طور خودکار در زمانی که داده شده آغاز می شود. توجه داشته باشید که تمام تنظیمات و تغییرات برنامه تنها پس از خروج از نرم افزار صورت می گیرد."
+#define ktx_str_HELP5			""
+
+//Settings Help:
+#define ktx_str_HELP6			"با برنامه ریزی تایمر پیام کوتاه ، شما تنها نیاز به تعریف کردن شماره تماس ، پیام و زمانی است که پیام ارسال می شود."
+#define ktx_str_HELP7			"شما می توانید از لیست تماس با استفاده از گزینه های منو استفاده کنید و یا با تایپ آن."
+#define ktx_str_HELP8			"برای پیامها می توانید از پیام ذخیره شده استفاده کنید تا بعدا مورد استفاده قرار گیرد ، یا شما می توانید نوع پیام را نیز انتخاب کنید که آیا پیام شما عادی ویا فقط یک بار خوانده شود باشد"
+#define ktx_str_HELP9			"در زمان،زمان برنامه ریزی را می توانید تنظیم کنید ، در تکرار می توانید به تکرار پیام در تاریخ استفاده کنید."
+#define ktx_str_HELP10			"توجه داشته باشید که با تکراربرنامه ریزی ها برنامه ریزی قبلی حذف خواهد شد، در حالی که برنامه مشخص شده برای یک تاریخ خاص فقط از پایگاه داده شده باشد وبرنامه ریزی ارسال شده حذف می شود."
+
+

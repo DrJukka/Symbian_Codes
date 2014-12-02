@@ -1,0 +1,40 @@
+/* 
+	Copyright (c) 2006 , 
+	Jukka Silvennoinen. 
+	All rights reserved 
+*/
+
+TARGET        		YSrv_A000257E.exe
+targettype 	 		exe
+
+UID           		0 0xA000257E
+VENDORID	  		0
+CAPABILITY 		ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+
+
+SOURCEPATH        	..\src
+SOURCE            	ExampleServer.cpp
+SOURCE            	ExampleSession.cpp
+SOURCE            	CrashMonitor.cpp
+
+SOURCEPATH      	..\..\common_src 
+SOURCE          	CTimeOutTimer.cpp
+
+USERINCLUDE       	..\inc
+USERINCLUDE       	..\..\common_inc 
+USERINCLUDE         ..\..\..\Common\inc
+SYSTEMINCLUDE     	\epoc32\include
+
+LIBRARY           	euser.lib
+LIBRARY           	efsrv.lib 
+LIBRARY           	apparc.lib
+LIBRARY           	apgrfx.lib
+LIBRARY           	estor.lib
+LIBRARY           	ws32.lib 
+LIBRARY           	avkon.lib
+LIBRARY           	bafl.lib
+LIBRARY         	edbms.lib 
+LIBRARY         	IMUT.LIB				// TImCodecB64
+LIBRARY         	estor.lib 
+LIBRARY         	aknnotify.lib 
+LIBRARY         	eiksrv.lib 

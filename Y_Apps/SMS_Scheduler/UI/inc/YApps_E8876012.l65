@@ -1,0 +1,76 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"옵션"
+#define ktx_cmd_exit 				"종료"
+#define ktx_cmd_cancel 				"취소"
+
+#define ktx_cmd_Disable				"해제"
+#define ktx_cmd_Enable				"동작"
+
+#define ktx_cmd_save 				"저장"
+#define ktx_cmd_select 				"닫기"
+
+#define ktx_cmd_about				"프로그램 정보"
+#define ktx_cmd_visit				"m.DrJukka.com 홈페이지로"
+
+#define ktx_mnu_New 				"새 설정"
+#define ktx_mnu_Modify 				"수정"
+#define ktx_mnu_Remove 				"삭제"
+
+
+#define ktx_mnu_Savmsgs				"저장된 메시지"
+#define ktx_mnu_ContSend			"전화번호부에서 가져오기"
+
+#define ktx_sh_str_sndName	 		"이름"
+#define ktx_sh_str_sndNumber	 	"번호"
+#define ktx_sh_str_Message		 	"메시지"
+#define ktx_sh_str_sndTime		 	"보낼 시간"
+#define ktx_sh_str_sndDate		 	"보낼 날짜"
+
+#define ktx_sh_str_DISABLED		"<해제됨>"
+
+#define ktx_str_REMMESSAGE 			"메시지를 삭제하시겠습니까?"
+
+#define ktx_sh_str_REPEATS		"반복"
+
+#define ktx_sh_str_ONCE			"한 번만"
+#define ktx_sh_str_WORKDAYA		"평일"
+#define ktx_sh_str_NONWORKD		"휴일"
+#define ktx_sh_str_EVERYDAY		"매일"
+#define ktx_sh_str_MONDAYS		"월요일"
+#define ktx_sh_str_TUESDAYS		"화요일"
+#define ktx_sh_str_WEDNESDAYS		"수요일"
+#define ktx_sh_str_THURSDAYS		"목요일"
+#define ktx_sh_str_FRIDAYS		"금요일"
+#define ktx_sh_str_SATURDAYS		"토요일"
+#define ktx_sh_str_SUNDAYS		"일요일"
+
+#define ktx_str_MSGTRUNK		"메시지가 70자로 잘려서 전송됩니다. 계속하시겠습니까?"
+
+#define ktx_cmd_Back 			"뒤로"
+#define ktx_sh_str_HELP			"도움말"
+#define ktx_sh_str_SMSType		"SMS 유형"
+#define ktx_sh_str_Normal		"일반"
+#define ktx_sh_str_Flash		"FlashSMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"이 애플리케이션은 메시지를 예약 전송해주는 애플리케이션입니다. SMS의 길이는 160자로 제한되며, 유니코드가 포함됐을 경우엔 70자로 제한됩니다. 유니코드 인코딩은 필요할 경우 자동적으로 적용됩니다."
+#define ktx_str_HELP2			"Flash SMS는 Class 0 SMS 메시지로, 메시지를 받았을 때 자동적으로 메인 화면에 표시되며 사용자가 저장하는 것을 선택했을 때에만 핸드폰에 저장됩니다. 단, 대한민국에서는 일반 SMS와 Flash SMS의 차이가 없습니다."
+#define ktx_str_HELP3			"새 설정을 작성하시려면 '옵션' -> '새 설정'으로 들어가서 작성할 수 있습니다. 설정을 작성하고 난 후에는 '옵션' -> '동작/해제'로 설정이 동작하거나 동작하지 않도록 설정할 수 있습니다. "
+#define ktx_str_HELP4			"설정된 스케쥴은 핸드폰을 부팅할 때 동시에 실행되는 백그라운드 애플리케이션에 의해 제어됩니다."
+#define ktx_str_HELP5			"메인 애플리케이션에서 변경한 설정은 메인 애플리케이션을 종료해야 적용됩니다."
+
+//Settings Help:
+#define ktx_str_HELP6			"특정 시간에 SMS를 발송하도록 설정하려면, 보낼 번호와 메시지를 보낼 시간을 설정해야 합니다."
+#define ktx_str_HELP7			"보낼 번호는 핸드폰의 전화번호부에서 선택하거나 번호를 직접 입력할 수 있습니다."
+#define ktx_str_HELP8			"보낼 메시지는 저장된 메시지를 사용하거나 직접 입력할 수 있습니다. SMS 유형은 일반 메시지와 Flash SMS 중에서 선택 가능합니다. 단, 대한민국에서는 일반 SMS와 Flash SMS의 차이가 없습니다."
+#define ktx_str_HELP9			"'반복' 설정을 해 두면 지정된 요일마다 한 번씩 메시지를 발송해 줍니다."
+#define ktx_str_HELP10			"'반복' 설정을 해 두면 메시지가 전송된 후에도 설정이 자동적으로 삭제되지 않으며, '반복' 설정이 되어 있지 않으면 메시지가 전송된 후 설정은 자동적으로 삭제됩니다."
+
+
+
+
+

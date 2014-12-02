@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opciók"
+#define ktx_cmd_exit 				"Kilépés"
+#define ktx_cmd_Back 				"Vissza"
+
+#define ktx_mnu_help				"Segitség"
+#define ktx_cmd_about				"Névjegy"
+#define ktx_cmd_visit				"DrJukka.com oldal meglatogatása"
+
+#define ktx_cmd_Snooze 				"Szundi"
+#define ktx_sh_str_ANSWER			"Válasz"
+#define ktx_sh_str_SILENSE			"Némit"
+#define ktx_sh_str_CALLING			"Hivás"
+
+#define ktx_str_HELP1				"A program kijelzőjén jelennek meg a kamu hivások,de a háttér és a grafika a készülék adott témáját használja."
+#define ktx_str_HELP2				"A csengőhangot alapból a névjegyekhez hozzárendeltből adaptálja,de ha nincs hozzárendelve csengőhang,akkor a profil hangot használja.Ha ez sem elérhető,úgy a tartalék csengőhangot alkalmazza."
+#define ktx_str_HELP3				"A csengés elnémitható Némit gombbal.A válasz-és a zöld gomb itt nem alkalmazható."
+#define ktx_str_HELP4				"A programból kilépni a piros gombbal vagy a menü kilépés opcióval lehetséges."
+#define ktx_str_HELP5				"A Szundi parancs a kijelzőt elrejti a beállitott időnek megfelelően."
+
+
+
+		

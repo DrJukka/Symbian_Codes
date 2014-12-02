@@ -1,0 +1,175 @@
+; standard SIS file header
+#{"FlashSMS Scheduler"},(0x2002B09E),1,15,0
+
+;Localised Vendor name
+%{"Dr. Jukka"}
+
+;Unique Vendor name
+:"Dr. Jukka"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Supports S60 release 5.0
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+
+;UI settings application
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YApps_20028858.exe"	            	     	-"!:\sys\bin\YApps_20028858.exe"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YApps_20028858_reg.r01"  	-"!:\private\10003a3f\import\apps\YApps_20028858_reg.rsc"
+"..\..\Ui\data\icon\YApps_E8876012_aif.mif"										-"!:\resource\apps\YApps_20028858_aif.mif"
+
+
+!({"English"},{"Albanian"},{"Arabic"},{"Azerbaijan"},{"Bulgarian"},{"Chinese (PRC)"},{"Chinese (Taiwan)"},{"Croatian"},{"Czech"},{"Danish"},{"Dutch"},{"Farsi"},{"Finnish"},{"French"},{"German"},{"Greek"},{"Hebrew"},{"Hungarian"},{"Indonesian"},{"Italian"},{"Korean"},{"Norwegian"},{"Malay"},{"Polish"},{"Portuguese"},{"Romanian"},{"Russian"},{"Slovak"},{"Slovenian"},{"Spanish"},{"Swedish"},{"Tamil"},{"Thai"},{"Turkish"},{"Ukrainian"})
+
+IF option1	;English
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r01"         		     	-"!:\resource\apps\YApps_20028858.r01"
+ENDIF
+
+IF option2	;Albanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r35"         		     	-"!:\resource\apps\YApps_20028858.r35"
+ENDIF
+
+IF option3	;Arabic
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r37"         		     	-"!:\resource\apps\YApps_20028858.r37"
+ENDIF
+
+IF option4	;Azerbaijan
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r106"         	     	-"!:\resource\apps\YApps_20028858.r106"
+ENDIF
+
+IF option5	;Bulgarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r42"         		     	-"!:\resource\apps\YApps_20028858.r42"
+ENDIF
+
+IF option6	;Chinese (PRC)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r31"         		     	-"!:\resource\apps\YApps_20028858.r31"
+ENDIF
+
+IF option7	;Chinese (Taiwan)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r29"         		     	-"!:\resource\apps\YApps_20028858.r29"
+ENDIF
+
+IF option8	;Croatian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r45"         		     	-"!:\resource\apps\YApps_20028858.r45"
+ENDIF
+
+IF option9	;Czech
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r25"         		     	-"!:\resource\apps\YApps_20028858.r25"
+ENDIF
+
+IF option10	;Danish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r07"         		     	-"!:\resource\apps\YApps_20028858.r07"
+ENDIF
+
+IF option11	;Dutch
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r18"         		     	-"!:\resource\apps\YApps_20028858.r18"
+ENDIF
+
+IF option12	;Farsi
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r50"         		     	-"!:\resource\apps\YApps_20028858.r50"
+ENDIF
+
+IF option13	;Finnish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r09"         		     	-"!:\resource\apps\YApps_20028858.r09"
+ENDIF
+
+IF option14	;French
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r02"         		     	-"!:\resource\apps\YApps_20028858.r02"
+ENDIF
+
+IF option15	;German
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r03"         		     	-"!:\resource\apps\YApps_20028858.r03"
+ENDIF
+
+IF option16	;Greek
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r54"         		     	-"!:\resource\apps\YApps_20028858.r54"
+ENDIF
+
+IF option17	;Hebrew
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r57"         		     	-"!:\resource\apps\YApps_20028858.r57"
+ENDIF
+
+IF option18	;Hungarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r17"         		     	-"!:\resource\apps\YApps_20028858.r17"
+ENDIF
+
+IF option19	;Indonesian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r59"         		     	-"!:\resource\apps\YApps_E8876012.r59"
+ENDIF
+
+IF option20	;Italian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r05"         		     	-"!:\resource\apps\YApps_20028858.r05"
+ENDIF
+
+IF option21	;Korean
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r65"         		     	-"!:\resource\apps\YApps_20028858.r65"
+ENDIF
+
+IF option22	;Norwegian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r08"         		     	-"!:\resource\apps\YApps_20028858.r08"
+ENDIF
+
+IF option23	;Malay
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r70"         		     	-"!:\resource\apps\YApps_20028858.r70"
+ENDIF
+
+IF option24	;Polish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r27"         		     	-"!:\resource\apps\YApps_20028858.r27"
+ENDIF
+
+IF option25	;Portuguese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r13"         		     	-"!:\resource\apps\YApps_20028858.r13"
+ENDIF
+
+IF option26	;Romanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r78"         		     	-"!:\resource\apps\YApps_20028858.r78"
+ENDIF
+
+IF option27	;Russian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r16"         		     	-"!:\resource\apps\YApps_20028858.r16"
+ENDIF
+
+IF option28	;Slovak
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r26"         		     	-"!:\resource\apps\YApps_20028858.r26"
+ENDIF
+
+IF option29	;Slovenian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r28"         		     	-"!:\resource\apps\YApps_20028858.r28"
+ENDIF
+
+IF option30	;Spanish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r04"         		     	-"!:\resource\apps\YApps_20028858.r04"
+ENDIF
+
+IF option31	;Swedish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r06"         		     	-"!:\resource\apps\YApps_20028858.r06"
+ENDIF
+
+IF option32	;Tamil
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r87"         		     	-"!:\resource\apps\YApps_20028858.r87"
+ENDIF
+
+IF option33	;Thai
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r33"         		     	-"!:\resource\apps\YApps_20028858.r33"
+ENDIF
+
+IF option34	;Turkish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r14"         		     	-"!:\resource\apps\YApps_20028858.r14"
+ENDIF
+
+IF option35	;Ukrainian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YApps_20028858.r93"         		     	-"!:\resource\apps\YApps_20028858.r93"
+ENDIF
+
+
+; empty default database
+"empty.txt"												-"!:\system\data\20028858\MsgSchedule.db"
+
+;server app
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YApp_20028859.exe"		-"!:\sys\bin\YApp_20028859.exe"
+
+;starter app
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YApp_2002B09E.exe" 		-"c:\sys\bin\YApp_2002B09E.exe"
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\Data\z\resource\apps[2002B09E].RSC"		-"c:\private\101f875a\import\[2002B09E].RSC"
+
+

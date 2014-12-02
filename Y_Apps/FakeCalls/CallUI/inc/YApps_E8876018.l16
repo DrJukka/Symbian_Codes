@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Функции"
+#define ktx_cmd_exit 				"Выход"
+#define ktx_cmd_Back 				"Назад"
+
+#define ktx_mnu_help				"Помощь"
+#define ktx_cmd_about				"О нас."
+#define ktx_cmd_visit				"Посетите m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Отклонить"
+#define ktx_sh_str_ANSWER			"Ответить"
+#define ktx_sh_str_SILENSE			"Без звука"
+#define ktx_sh_str_CALLING			"Вызывает"
+
+#define ktx_str_HELP1				"Fake Call служит для отображения входящих поддельных(фальшивых) вызовов. Фон и все изображения взяты из темы вашего устройства."
+#define ktx_str_HELP2				"Рингтоны используются из данных контакта. При отсутствии его на выбраном контакте, тогда используется рингтон профиля.(если это не доступно, то настраивается рингтон звонка в самой программе). "
+#define ktx_str_HELP3				"Вы можете отключить звук в мелодии, нажав на кнопку Без звука. Кнопка ответа, а также зеленая кнопка не является функциональным с этой версии."
+#define ktx_str_HELP4				"Вы можете выйти из Fake Calls  нажатием красной клавиши или выбрав команду Выход из меню настроек."
+#define ktx_str_HELP5				"Команда \"Отклонить\" скроет дисплей в течение указанного времени отсрочки."
+
+
+
+		

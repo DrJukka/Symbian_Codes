@@ -1,0 +1,62 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Sélectionner"
+#define ktx_cmd_back			"Retour"
+#define ktx_cmd_options			"Options"
+#define ktx_cmd_cancel			"Abandonner"
+#define ktx_cmd_ok				"Valider"
+#define ktx_cmd_exit			"Quitter"
+
+#define ktx_cmd_REMOVE			"Effacer"
+#define ktx_str_ABOUT			"A propos"
+
+///----
+
+#define ktx_mnu_done			"Effectué"
+#define ktx_mnu_toggle			"Inverser"
+#define ktx_mnu_MarkAll			"Tout sélectionner"
+#define ktx_mnu_UnmarkAll		"Désélectionner tout"
+
+
+#define ktx_mnu_Message			"Message"
+
+#define ktx_mnu_Recipient		"Destinataires"
+#define ktx_mnu_SelRecipient	"Ajouter à partir des Contacts"
+#define ktx_mnu_NewRecipient	"Nouveau contact"
+#define ktx_mnu_RemRecipient	"Effacer Tout"
+#define ktx_mnu_SendMMS			"Envoyer SMS"
+
+
+#define ktx_sh_str_appname		"SMS flash"
+
+#define ktx_str_MSGSENT			"Message envoyé"
+#define ktx_str_CONTACTS		" Contacts"
+#define ktx_str_PHONENUMBER		"Numéro téléphone"
+#define ktx_str_ExitQ			"Quitter ?"
+
+#define ktx_str_MSGTRUNK		"Le message va être réduit à 70 caractères, continuer ?"
+
+#define ktx_str_FAIL_1			"Echec de la planification"
+#define ktx_str_FAIL_2			"Echec de l'envoi du SMS"
+#define ktx_str_FAIL_3			"Pas de Centre Serveur"
+#define ktx_str_FAIL_4			"Erreur du Serveur"
+#define ktx_str_FAIL_5			"Erreur dans le SMS: "
+
+#define ktx_str_ALLSENT			"Tous messages envoyés"
+
+#define ktx_cmd_visit			"Visiter m.Dr.Jucca.com"
+#define ktx_mnu_help			"Aide"
+
+#define ktx_str_HELP1			"Cette application est destinée à envoyer des SMS flash."
+#define ktx_str_HELP2			"Les SMS flash sont des messages SMS qui sont ouverts et affichés automatiquement à réception, et ne sont pas automatiquement enregistrés dans le récepteur."
+#define ktx_str_HELP3			"Pour rédiger un nouveau message, ajoutez les contacts en utilisant le menu Options. Vous devez choisir entre entrer un nouveau Numéro ou choisir le destinataire dans la base de Contacts par défaut. L'option Effacer Tout sert à effacer les contacts ajoutés."
+#define ktx_str_HELP4			"Le message peut être rédigé normalement dans la fenêtre de l'écran principal.Le compteur de caractères dans le coin haut correspond aux messages écrits avec les caractères utilisables dans les SMS normaux. Pour les autres, la limite est fixée à 70 caractères."
+#define ktx_str_HELP5			"Après avoir rédigé le message et choisi les destinataires, le message SMS peut êre envoyé à partie de l'option Envoyer du menu."
+
+
+
+
+
+
+

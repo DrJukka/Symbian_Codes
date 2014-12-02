@@ -1,0 +1,348 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Späť"
+#define ktx_cmd_Options			"Možnosti"
+#define ktx_cmd_Exit			"Koniec"
+#define ktx_cmd_Save			"Uložiť"
+#define ktx_cmd_Cancel			"Zrušiť"
+#define ktx_cmd_Delete			"Vymazať"
+
+#define ktx_cmd_Select			"Vybrať"
+#define Ktx_sh_str_SortBy		"Triediť podľa"	
+
+#define ktx_mnu_setserchoff		"Vypnúť hľadanie"
+#define ktx_mnu_File			"Súbor"
+#define ktx_mnu_Edit			"Operácie"
+#define ktx_mnu_Mark			"Označiť"
+#define ktx_mnu_Searchfiles		"Hľadať súbory"
+#define ktx_mnu_Extras			"Ďalšie funkcie"
+#define ktx_mnu_About			"O programe"
+#define ktx_mnu_commandSC		"Príkazové skratky"
+#define ktx_mnu_ShowSC			"Ukázať skratky"
+#define ktx_mnu_SetSC			"Nastaviť skratky"
+#define ktx_mnu_Searchon			"Zapnúť hľadanie"
+#define ktx_mnu_Settings			"Nastavenia"
+#define ktx_mnu_switchlo			"Otočiť displej"
+#define ktx_mnu_changeic			"Zmeniť ikony"
+#define ktx_mnu_refresh			"Obnoviť"
+#define ktx_mnu_munmark			"Označiť/Odznačiť"
+#define ktx_mnu_Markall			"Označiť všetko"
+#define ktx_mnu_Unmarkall		"Odznačiť všetko"
+#define ktx_mnu_Openwith		"Otvoriť v aplikácii"
+#define ktx_mnu_Open			"Otvoriť"
+#define ktx_mnu_Send			"Poslať"
+#define ktx_mnu_Properties		"Vlastnosti"
+#define ktx_mnu_Attributes		"Atribúty"
+#define ktx_mnu_Delete			"Vymazať"
+#define ktx_mnu_Rename			"Premenovať"
+#define ktx_mnu_ShowName			"Ukázať meno"
+#define ktx_mnu_Newfile			"Nový súbor"
+#define ktx_mnu_Newfolder		"Nový priečinok"
+#define ktx_mnu_Copy			"Kopírovať"
+#define ktx_mnu_Cut			"Vystrihnúť"
+#define ktx_mnu_Paste			"Vložiť"
+#define ktx_mnu_pastenfile		"Vložiť do nového súboru"
+#define ktx_mnu_pasteshow		"Ukázať súbory na vloženie"
+#define ktx_mnu_pasteclear		"Vymazať súbory na vloženie"
+#define ktx_mnu_Done			"Hotovo"
+#define ktx_mnu_addsel			"Pridať do výberu"
+#define ktx_mnu_selshow			"Ukázať výber"
+#define ktx_mnu_cpyclipp			"Kopírovať do schránky"
+#define ktx_mnu_Startsearch		"Spustiť vyhľadávanie"
+#define ktx_mnu_nckresulyts		"Späť na výsledky"
+#define ktx_mnu_resultclear		"Vymazať výsledky"
+#define ktx_mnu_showseltyp		"Ukázať vybrané typy"
+#define ktx_mnu_clearcond		"Vymazať podmienky"
+#define ktx_mnu_gtofolder		"Ísť do priečinku"
+#define ktx_mnu_PAGEUP			"O stranu hore"
+#define ktx_mnu_PAGEDOWN		"O stranu dolu"
+
+#define ktx_sh_str_Processing		"Spracúva sa"
+#define ktx_sh_str_selfiltyp		"Vyberte typy súborov"
+#define ktx_sh_str_date			"dátum"
+#define ktx_sh_str_time			"čas"
+
+//settings.
+#define ktx_sh_str_System		"Systémový"	
+#define ktx_sh_str_Hidden		"Skrytý"
+#define ktx_sh_str_Readonly		"Len na čítanie"
+#define ktx_sh_str_Modifyingdate	"Dátum zmeny"
+#define ktx_sh_str_Modifyingtime	"Čas zmeny"
+#define ktx_sh_str_showall		"Zobraziť všetky súbory"
+#define ktx_sh_str_Sortorder		"Triedenie"	
+#define ktx_sh_str_Foldersfirst	"Priečinky navrchu"
+#define ktx_sh_str_speedoptimize	"Uložiť info o priečinku"
+#define ktx_sh_str_Recognizefiles	"Rozpoznávať súbory"
+#define ktx_sh_str_savepathonexit	"Uložiť cestu pri skončení"
+#define ktx_sh_str_exitaks		"Opýtať sa pri skončení"
+#define ktx_sh_str_Off			"Vyp."
+#define ktx_sh_str_On			"Zap."
+#define ktx_sh_str_No			"Nie"
+#define ktx_sh_str_Yes			"Áno"
+#define ktx_sh_str_Decending		"Zostupne"
+#define ktx_sh_str_Ascending		"Vzostupne"
+#define ktx_sh_str_Name			"Meno súboru"
+#define ktx_sh_str_Fileextension	"Prípona súboru"
+#define ktx_sh_str_Filetype		"Typ súboru"
+#define ktx_sh_str_Size			"Veľkosť"
+#define ktx_sh_str_Path			"Cesta"
+#define ktx_sh_str_Filename		"Meno súboru"
+#define ktx_sh_str_Biggerthan		"Väčší ako"
+#define ktx_sh_str_Smallerthan	"Menší ako"
+#define ktx_sh_str_Modifiedbefore	"Zmenený pred"
+#define ktx_sh_str_Modifiedafter	"Zmenený po"
+#define ktx_sh_str_types		" typ(y)"
+#define ktx_sh_str_Excludetypes	"Vylúčiť typy"
+#define ktx_sh_str_Includetypes	"Zahrnúť typy"
+#define ktx_sh_str_Fileattributes	"Súborové atribúty"
+
+#define ktx_sh_str_formatName		"Meno\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Voľných\t%d Kb"
+#define ktx_sh_str_formatUsed		"Obsadených\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Veľkosť\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Veľkosť\t%d Bytov"		
+#define ktx_sh_str_formatType		"Typ\t%S"
+#define ktx_sh_str_formatFiles	"Súbory\t%d"	
+#define ktx_sh_str_formatFolders	"Priečinky\t%d"
+#define ktx_sh_str_formatTypeID	"TypeID\t%S"	
+#define ktx_sh_str_atrWProt		"Atr\tChránený proti zápisu"
+#define ktx_sh_str_atrLocked		"Atr\tZamknutý"
+#define ktx_sh_str_atrFormattable	"Atr\tFormátovateľný"
+#define ktx_sh_str_atrVarSize		"Atr\tVariabilná veľkosť"
+#define ktx_sh_str_atrROM		"Attr\tROM"
+#define ktx_sh_str_atrRemovable	"Atr\tVymeniteľný"
+#define ktx_sh_str_atrtHidden		"Atr\tSkrytý"
+#define ktx_sh_str_atrReadonly	"Atr\tLen na čítanie"
+#define ktx_sh_str_atrSystem		"Atr\tSystémový"
+#define ktx_sh_str_atrVolume		"Atr\tZväzok"
+#define ktx_sh_str_atrArchive		"Atr\tArchív"
+
+#define ktx_sh_str_Notpresent		"Nie je k dispozícii"
+#define ktx_sh_str_Floppy		"FDD"
+#define ktx_sh_str_HardDisk		"HDD"
+#define ktx_sh_str_CdRom		"CD-ROM"
+#define ktx_sh_str_Ram			"RAM"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"ROM"
+#define ktx_sh_str_Remote		"Vzdialený"
+#define ktx_sh_str_Unknown		"Neznámy"
+#define ktx_sh_str_SCTITLE		"Skratky: Shift+/Ceruzka+"
+#define ktx_sh_str_FREE			"<nenastavené>"
+#define ktx_sh_str_Root			"Koreňový adresár"
+#define ktx_sh_str_Selected		"Vybraných"
+#define ktx_sh_str_Cutfiles		"Vystrihnúť súbory"
+#define ktx_sh_str_CopyFiles		"Kopírovať súbory"
+#define ktx_sh_str_COPYINGFF		"Kopíruje sa %S do %S"
+#define ktx_sh_str_MOVINGFF		"Presúva sa %S do %S"
+#define ktx_sh_str_RENAMINGFF		"Premenúva sa %S na %S"
+#define ktx_sh_str_DELETINGFF		"Vymazáva sa %S"	
+#define ktx_sh_str_EXISTREPLACE	" existuje. Nahradiť?"
+#define ktx_sh_str_ISROMODIFY		" je len na čítanie. Zmeniť atribúty?"
+#define ktx_sh_str_ALREDYEXIST	" už existuje"
+#define ktx_sh_str_ISOPEN		" sa používa"
+#define ktx_sh_str_ISREADONLY		" je len na čítanie"
+#define ktx_sh_str_ACCDENIED		" Prístup zamietnutý"
+#define ktx_sh_str_DISKFULL		"Disk je plný"
+#define ktx_sh_str_DISCKNOTREADY	"Disk nie je prítomný/pripravený"
+#define ktx_sh_str_CORRDISCK		"Disk je pokodený"
+#define ktx_sh_str_INVALIDNAME	" je neplatné meno"
+#define ktx_sh_str_NOTMEMFORFF	"Nedostatok pamäti na "
+#define ktx_sh_str_OPERFAILED		"Operácia na \"%S\" zlyhala: Chyba: %d"
+#define ktx_sh_str_NEWFILE		"Nový súbor:"
+#define ktx_sh_str_SENDUI		"Rozhranie posielania"
+#define ktx_sh_str_SENDFFVIA		"Poslať súbory cez"
+#define ktx_sh_str_SELAPPLICATION	"Vyberte aplikáciu"
+#define ktx_sh_str_OPENFILE		"Otvoriť súbor"
+#define ktx_sh_str_ANDATRIBS		"\'And\' atribúty"
+#define ktx_sh_str_SEARCFOR		"Vyhľadávaný reťazec"
+#define ktx_sh_str_SELFILETYPES	"Vybrané typy súborov"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bytov"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" A "
+#define ktx_sh_str_OR			" ALEBO "
+#define ktx_sh_str_SYS			"sys."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" súborov nájdených"
+#define ktx_sh_str_FOUNDENDDDD	"Nájdených %d súbor(ov) za %d sekúnd"
+
+#define ktx_sh_str_SELCOMMAND		"Vyberte príkaz"
+#define ktx_sh_str_NOTSET		"Nenastavené"
+#define ktx_sh_str_SELICONFF		"Vyberte súbor ikon"
+
+#define ktx_sh_str_READINGFF		"Načítava sa %d / %d"
+#define ktx_str_FILREADERR		"Načítanie súborov môže byť neúplné, chyba: %d"
+#define ktx_str_FILNOTFOND		"Súbor sa nenašiel"
+#define ktx_str_NOAPPFORFIL		"Nenašla sa aplikácia na otvorenie súboru"
+#define ktx_str_SAVESEARCH		"Uložiť výsledky posledného hľadania?"
+#define ktx_str_SELSCNUMBER		"Vyberte číslo klávesovej skratky"
+#define ktx_str_REBOOTICON		"Ikony zmenené, na uplatnenie zmien môže byť potrebné reštartovať telefón alebo Y-browser."
+#define ktx_str_PASTEFTOFOL		"Vložiť %d súbor(ov) do tohto priečinku?"
+#define ktx_str_DELFOILES		"Vymazať %d súbor(ov)"
+#define ktx_str_NEWNAME 		"Nové meno:"
+#define ktx_str_FDERNAME		"Meno priečinku:"
+#define ktx_str_ERRCREATEFLDR		"Priečinok sa nedá vytvoriť, chyba č.: "
+#define ktx_str_FDREXISTS		"Taký priečinok už existuje, zadajte iné meno."
+#define ktx_str_APPENDLIST		"Pripojiť k zoznamu"
+#define ktx_str_FILESADCY		"%d súbor(ov) pridaných na kopírovanie/vystrihnutie"
+#define ktx_str_PASTEWILLREM		"Funkcia Vložiť odstráni %d súbor(ov)"
+#define ktx_str_FORSECOPY		"Zdrojový súbor sa nedá zatvoriť, kopírovať napriek tomu?"
+#define ktx_str_STARTNEWSCRH		"Začať nové hľadanie?"
+#define ktx_str_RESETSEARCH		"Vynulovať nastavenia hľadania?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Použiť hviezdičkovú konvenciu" // Mark menu item
+#define ktx_mnu_MarkInverse		"Obrátiť označenie"   // Mark menu item
+
+#define ktx_sh_str_General		"Všeobecné"//- setting
+
+#define ktx_sh_str_fullscreen		"Celý displej" // main settings item
+
+#define ktx_sh_str_NOFILES		"Žiadne súbory"   // no files in browser
+
+#define ktx_mnu_typassociation	"Typy súborov" //settins select item list
+#define ktx_sh_str_plugins		"Plug-ins" //settins select item list
+
+#define ktx_sh_str_Own			"Vlastné"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Odstrániť typ" //file associations
+
+#define ktx_mnu_Modify			"Upraviť"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Pridať typ súboru"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Odobrať typ súboru"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Odobrať príponu"	// menu file associations settings
+#define ktx_mnu_AddExt			"Pridať príponu"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Zmeniť aplikáciu"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Zmeniť názov typu"	// menu file associations settings
+#define ktx_mnu_Reset			"Vynulovať"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Priradená aplikácia"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Priradené aplikácie" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Rozpoznávanie" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Zapnuté" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Vypnuté" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Zobraziť info" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Názov: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Stav: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Vypnuté" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Zapnuté" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Verzia pluginu: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (Verzia je OK)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (Nekompatibilná verzia)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Typ pluginu: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Priradený program" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"-  Odosielateľ súboru" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Príjemca súboru" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Priečinok súboru" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Otvoriť v programe" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Rozpoznávanie súboru" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Podporované typy súborov:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Podporuje nové typy súborov)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Pridať typ súboru"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Vybrať na odstránenie"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Typy súborov"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Aplikácia priradená neznámym súborom"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+

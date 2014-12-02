@@ -1,0 +1,56 @@
+TARGET          YApp_20022086.exe 
+TARGETTYPE      EXE
+
+UID           	0 0x20022086
+
+EPOCSTACKSIZE	0x8000
+
+SOURCEPATH		..\src
+SOURCE			ExampleServer.cpp
+SOURCE			ExampleSession.cpp
+SOURCE			AutoScheduler.cpp
+SOURCE          Fake_SMS.cpp
+
+SOURCEPATH      ..\..\common_src 
+SOURCE          	MsgDataBase.cpp
+SOURCE          	CTimeOutTimer.cpp
+
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom
+
+LIBRARY		euser.lib 
+LIBRARY		efsrv.lib 
+LIBRARY		apgrfx.lib 
+LIBRARY		apparc.lib
+LIBRARY		cone.lib 
+LIBRARY		eikcore.lib 
+LIBRARY		ws32.lib 
+LIBRARY		AknSkins.lib
+LIBRARY     aknicon.lib
+LIBRARY     avkon.lib 
+LIBRARY     fbscli.lib 
+LIBRARY     etel.lib
+LIBRARY     estor.lib
+LIBRARY     IMUT.LIB				// TImCodecB64
+LIBRARY     egul.lib 
+LIBRARY     gdi.lib
+LIBRARY     msgs.lib 
+LIBRARY     mtur.lib
+LIBRARY     aknnotify.lib			// CAknGlobalNote
+LIBRARY     bitgdi.lib 
+LIBRARY     bafl.lib 
+LIBRARY     edbms.lib
+LIBRARY     avkon.lib 
+LIBRARY     msgs.lib 
+LIBRARY     smcm.lib 
+LIBRARY     gsmu.lib
+LIBRARY     etext.lib 
+ 
+LANG SC
+VENDORID	  	0
+//CAPABILITY 			SWEvent ReadUserData WriteUserData UserEnvironment ReadDeviceData WriteDeviceData 
+CAPABILITY 		ReadUserData WriteUserData ReadDeviceData 
+
+

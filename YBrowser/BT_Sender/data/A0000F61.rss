@@ -1,0 +1,79 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	All right reserved
+*/
+#include <ecom\RegistryInfo.rh>
+#include "Definitions.h"
+
+#ifdef SONE_VERSION
+	RESOURCE REGISTRY_INFO
+	{
+		dll_uid = 0x2002B0AB; // third UID in the mmp file
+		interfaces = 
+		{
+			INTERFACE_INFO
+			{
+				interface_uid = 0x2002B0AA;// or 0xA0000F5C,static Y-Browser Plug-in UID
+				implementations =
+				{
+					IMPLEMENTATION_INFO
+					{
+						implementation_uid = 0x0F61;// implementation UID, returned with interface
+						version_no=080;
+						display_name="BT Obex";
+						default_data="";
+						opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILESENDER</TYPE></IMPLEMENTATION></YTOOLS>";
+					}
+				};
+			}
+		};
+	}
+#else
+	#ifdef LAL_VERSION
+		RESOURCE REGISTRY_INFO
+		{
+			dll_uid = 0xA0000F61; // third UID in the mmp file
+			interfaces = 
+			{
+				INTERFACE_INFO
+				{
+					interface_uid = 0x20009991;// or 0xA0000F5C,static Y-Browser Plug-in UID
+					implementations =
+					{
+						IMPLEMENTATION_INFO
+						{
+							implementation_uid = 0x0F61;// implementation UID, returned with interface
+							version_no=080;
+							display_name="BT Obex";
+							default_data="";
+							opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILESENDER</TYPE></IMPLEMENTATION></YTOOLS>";
+						}
+					};
+				}
+			};
+		}
+	#else
+		RESOURCE REGISTRY_INFO
+		{
+			dll_uid = 0xA0000F61; // third UID in the mmp file
+			interfaces = 
+			{
+				INTERFACE_INFO
+				{
+					interface_uid = 0x20009991;// or 0xA0000F5C,static Y-Browser Plug-in UID
+					implementations =
+					{
+						IMPLEMENTATION_INFO
+						{
+							implementation_uid = 0x0F61;// implementation UID, returned with interface
+							version_no=080;
+							display_name="BT Obex";
+							default_data="";
+							opaque_data="<YTOOLS><VERSION>080</VERSION><IMPLEMENTATION><TYPE>FILESENDER</TYPE></IMPLEMENTATION></YTOOLS>";
+						}
+					};
+				}
+			};
+		}
+	#endif
+#endif

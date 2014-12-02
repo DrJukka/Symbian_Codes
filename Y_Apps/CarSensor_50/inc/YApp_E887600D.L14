@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Seçenekler"
+#define qtn_exit 			"Çıkış"
+
+#define qtn_about			"Hakkında"
+#define qtn_visit			"m.DrJukka.com'u ziyaret et"
+#define qtn_backlighton		"Işık Açık"
+
+#define qtn_backlightoff	"Işık Kapalı"
+#define qtn_reset			"Sıfırla"
+
+#define qtn_Help			"Yardım"
+#define qtn_Back			"Geri"
+
+#define ktx_str_HELP1 		"Bu uygulama telefonun yatay dikey eğimlerini gösteren bir eğim ölçerdir ve tespit edilen eğimde araba resmi gösterir. Bu uygulama sadece telefon dikey konumdayken çalışır."
+#define ktx_str_HELP2 		"Menüdeki sıfırla seçeneği ile telefonun eğim açılarını başka bir cihaza göre ayarlayabilirsiniz.Böylece önce telefonu bir tutucuya yerleştirip daha sonra açılarını sıfırlayabilirsiniz."
+#define ktx_str_HELP3 		"Işık açık seçeneği ile telefonun arka ışığı  sürekli açık kalır. Bu işlem pilin daha hızlı tükenmesine neden olurken karanlıkta ekranın daha iyi görünmesini sağlar."
+
+
+
+
+// End of File

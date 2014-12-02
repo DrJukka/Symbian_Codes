@@ -1,0 +1,27 @@
+/* 
+Copyright (c) 2007 Dr. Jukka Silvennoinen www.DrJukka.com
+
+*/
+
+#ifndef __YUCCABROWSER_HRH__
+#define __YUCCABROWSER_HRH__
+
+
+enum TYuccaBrowserIds
+    {
+	EBacktoYBrowser =0x7000,  
+	EAbout,
+	ETestCommand
+    };
+
+
+enum TStuffiifififIds
+    {
+	EProgressNoteId =0x0001
+    };
+
+
+
+
+
+#endif // __YUCCABROWSER_HRH__

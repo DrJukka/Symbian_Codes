@@ -1,0 +1,66 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"தெரிவு"
+#define ktx_cmd_exit 			"வெளியே"
+
+#define ktx_cmd_about			"பற்றி"
+#define ktx_cmd_visit			"செல்க m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"கடிகார திரை காட்டு"
+#define ktx_sh_str_LGHTINSE		"அதிகூடிய வெளிச்சம்"
+#define ktx_sh_str_LGHTINSECHR	"அதிகூடிய மின்னேற்ற வெளிச்சம்"
+#define ktx_sh_str_LIGHTON		"விளக்கு போடு"
+#define ktx_sh_str_SHOWDATE		"திகதி காட்டு"
+#define ktx_sh_str_KEYLOCKON	"கீ பூட்டு போடு"
+#define ktx_sh_str_OFF			"அணை"
+#define ktx_sh_str_ON			"ஆரம்பி"
+#define ktx_sh_str_DATEONLY		"திகதி மட்டும்"
+#define ktx_sh_str_DATETIME		"திகதி + தினம்"
+#define ktx_sh_str_TIMEOUTOL	"வெளியேறிய நேரம் மட்டும்"
+#define ktx_sh_str_TIMEOUTCHR	"வெளியேறிய நேரம் + மின்னேற்றம்"
+#define ktx_sh_str_ALWAYS		"எப்போதும்"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"போட்ரெயிட்"
+#define ktx_sh_str_Landscape	"லாட்ஸ்கேப்"
+#define ktx_sh_str_Automatic	"தானியங்கி"
+
+#define ktx_sh_str_CURRTHEM		"தற்போதய வார்ப்புரு"
+#define ktx_sh_str_SELCOLOR		"நிறம் தெரிவு"
+#define ktx_sh_str_BACKCOLOR	"பிண்ணனி நிறம்"
+#define ktx_sh_str_FONTCOLOR	"எழுத்துரு நிறம்"
+#define ktx_sh_str_LIGHTTIM		"விளக்கு நேரம்கடந்தது"
+#define ktx_sh_str_LOCKTIM		"பூட்டு பின்பு (செக்)"
+#define ktx_sh_str_FONT			"எழுத்துரு"
+#define ktx_sh_str_BLACK		"கறுப்பு"
+#define ktx_sh_str_DARKGRAY		"கடும் சாம்பல்"
+#define ktx_sh_str_DARKRED		"கடும் சிவப்பு"
+#define ktx_sh_str_DARKGREEN	"கடும் பச்சை"
+#define ktx_sh_str_DARKYELLOW	"கடும் மஞ்சல்"
+#define ktx_sh_str_DARKBLUE		"கடும் நீலம்"
+#define ktx_sh_str_DARKMAGENDA	"கடும் மக்நேடா"
+#define ktx_sh_str_DARKCYAN		"கடும் சையன்"
+#define ktx_sh_str_RED			"சிவப்பு"
+#define ktx_sh_str_GREEN		"பசை"
+#define ktx_sh_str_YELLOW		"மஞ்சள்"
+#define ktx_sh_str_BLUE			"நீலம்"
+#define ktx_sh_str_MAGENDA		"மக்னேட்டா"
+#define ktx_sh_str_CYAN			"சையன்"
+#define ktx_sh_str_GRAY			"சாம்பல்"
+#define ktx_sh_str_WHITE		"வெள்ளை"
+
+#define ktx_cmd_Help 			"உதவி"
+#define ktx_cmd_Back 			"பின்"
+
+#define ktx_str_HELP1			"This application is used for a screensaver type clock screen that is on while the devices keyboard is locked by the devices standard key lock. The lock's light will be illuminated if enabled after a device key is pressed (allowed keys are arrow left/right and menu key)."
+#define ktx_str_HELP2			"The lock screen is handled by background server that is running if either the clock screen or the key lock is set to be on. The background application is also started automatically when device is started. Note that settings are taking effect only after exiting the UI application."
+#define ktx_str_HELP3			"Lights intensity settings are used to set the light intensity values that are used when key is pressed to show the clock screen. Charging light intensity is used when the device is charging. Light timeout settings specifies the time the lights are on after pressing the key, note that some devices ignore the value, and use the device lights out time value instead."
+#define ktx_str_HELP4			"With lights on setting allows defining when the lights are on. The font setting can be used to select the font used with the clock display, as well as with the font color setting the text color can be changed. The background setting defines which background color is used with the clock screen."
+#define ktx_str_HELP5			"The show date settings options allows disabling the date/day display on the top of the clock screen. The key lock settings item enables the background applications automatic key locking feature, and the lock after time values defines the required user inactivity time before the keyboard is locked."
+
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.949" height="58.275" viewBox="0 0 56.949 58.275">
+<switch>
+<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1" content="structured text"/>
+<g>
+<g>
+<g>
+<g>
+<path fill="none" stroke="#0C0C0C" stroke-width="3" d="M55.464,46.763c0,5.506-3.222,10.012-7.155,10.012        H8.656c-3.936,0-7.156-4.506-7.156-10.012V11.455c0-5.506,3.22-10.012,7.156-10.012h39.653c3.934,0,7.155,4.506,7.155,10.012        V46.763z"/>
+</g>
+</g>
+<g>
+<g>
+<linearGradient id="XMLID_1_" gradientUnits="userSpaceOnUse" x1="17.9019" y1="20.3589" x2="23.0151" y2="20.3589">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path fill="url(#XMLID_1_)" stroke="#080808" d="M17.902,12.784c-0.473,5.996,1.197,11.128,5.113,15.15"/>
+<linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="13.4429" y1="20.3813" x2="27.5757" y2="20.3813">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path fill="url(#XMLID_2_)" stroke="#080808" d="M13.443,12.362c-0.408,6.885,1.406,13.352,6.158,18.469        c3.914,4.213,10.77-1.549,6.828-5.793c-3.143-3.383-4.344-7.242-4.07-11.831C22.701,7.446,13.785,6.6,13.443,12.362z"/>
+</g>
+</g>
+<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="15.5874" y1="29.4009" x2="44.6167" y2="29.4009">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path fill="url(#XMLID_3_)" stroke="#080808" d="M22.966,48.938C33.774,39.901,44.66,28.61,44.617,13.58      c-0.016-5.729-8.932-6.61-8.916-0.845c0.037,12.742-9.41,21.752-18.527,29.375C12.748,45.811,18.529,52.647,22.966,48.938"/>
+</g>
+</g>
+</switch>
+</svg>

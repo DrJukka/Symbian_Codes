@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opţiuni"
+#define ktx_cmd_exit 				"Ieşire"
+#define ktx_cmd_cancel 				"Anulare"
+#define ktx_cmd_save 				"Salvează"
+#define ktx_cmd_select 				"Selectare"
+
+#define ktx_cmd_about				"Despre aplicaţie"
+#define ktx_cmd_visit				"Vizitaţi m.DrJukka.com"
+
+#define ktx_mnu_New 				"Creare"
+#define ktx_mnu_Modify 				"Modificare"
+#define ktx_mnu_Remove 				"Ştergere"
+
+
+#define ktx_mnu_Savmsgs				"Mesaje salvate"
+#define ktx_mnu_ContSend			"Contacte"
+
+#define ktx_sh_str_sndName	 		"Nume expeditor"
+#define ktx_sh_str_sndNumber	 	"Număr expeditor"
+#define ktx_sh_str_Message		 	"Mesaj"
+#define ktx_sh_str_sndTime		 	"Ora trimiterii"
+#define ktx_sh_str_sndDate		 	"Data trimiterii"
+
+
+#define ktx_str_REMMESSAGE 			"Ştergere mesaj ?"
+
+
+#define ktx_cmd_help				"Ajutor"
+#define ktx_cmd_Back				"Înapoi"
+
+#define ktx_str_HELP1 				"Această aplicaţie este folosită pentru primirea de mesajele SMS false, mesajele false poat fi programate să fie trimise în timp viitor, sau dacă timpul a trecut mesajul va fi trimis imediat după ce se iese din aplicaţie."
+#define ktx_str_HELP2 				"Pentru a creeă un mesaj nou, selectaţi Nou din meniul de opţiuni, setaţi numele expeditorului şi numărul (sau adăugaţi din contactele cu opţiunea din meniu), scrieţi mesajul (sau folosiţi un mesaj salvat anterior cu opţiunea din meniu),setaţi oră de expediere şi data şi selectaţi opţiunea \"Salvează\" din meniu pentru a salvă mesajul în bază de date."
+#define ktx_str_HELP3 				"După ce mesajul este salvat va fi afişat în lista principală. Din această lista puteţi folosi opţiunile de meniu pentru a deschide, modifica sau şterge mesajul. "
+#define ktx_str_HELP4 				"Reţineţi că mesajele sunt programate, precum şi listele anterioare sunt reimrospatate numai după ieşirea din aplicaţie. Programarea efectivă este asigurată de aplicaţia care rulează în fundal, care în mod automat porneşte atunci când aparatul este pornit. Nici un mesaj programat nu va apărea în timp ce aparatul este oprit."
+
+

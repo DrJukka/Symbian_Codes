@@ -1,0 +1,64 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Opţiuni"
+#define ktx_cmd_exit 			"Ieşire"
+
+#define ktx_cmd_about			"Despre aplicaţie"
+#define ktx_cmd_visit			"Vizitaţi m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Afişare ceas"
+#define ktx_sh_str_LGHTINSE		"Intensitatea iluminării"
+#define ktx_sh_str_LGHTINSECHR	"Intensitatea iluminării (încarcare)"
+#define ktx_sh_str_LIGHTON		"Lumină activata"
+#define ktx_sh_str_SHOWDATE		"Afişare dată"
+#define ktx_sh_str_KEYLOCKON	"Blocare taste"
+#define ktx_sh_str_OFF			"Dezactivat"
+#define ktx_sh_str_ON			"Activat"
+#define ktx_sh_str_DATEONLY		"Numai data"
+#define ktx_sh_str_DATETIME		"Data + ziua"
+#define ktx_sh_str_TIMEOUTOL	"Doar ora"
+#define ktx_sh_str_TIMEOUTCHR	"Ora + Încarcare"
+#define ktx_sh_str_ALWAYS		"Întotdeauna"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Portret"
+#define ktx_sh_str_Landscape	"Peisaj"
+#define ktx_sh_str_Automatic	"Automat"
+
+#define ktx_sh_str_CURRTHEM		"Selectare temă"
+#define ktx_sh_str_SELCOLOR		"Selectare culoare"
+#define ktx_sh_str_BACKCOLOR	"Culoare de fundal"
+#define ktx_sh_str_FONTCOLOR	"Culoarea fontului"
+#define ktx_sh_str_LIGHTTIM		"Durata ilumininării"
+#define ktx_sh_str_LOCKTIM		"Blocare taste (sec.)"
+#define ktx_sh_str_FONT			"Font"
+#define ktx_sh_str_BLACK		"Negru"
+#define ktx_sh_str_DARKGRAY		"Gri închis"
+#define ktx_sh_str_DARKRED		"Roşu închis"
+#define ktx_sh_str_DARKGREEN	"Verde închis"
+#define ktx_sh_str_DARKYELLOW	"Galben închis"
+#define ktx_sh_str_DARKBLUE		"Albastru închis"
+#define ktx_sh_str_DARKMAGENDA	"Violet închis"
+#define ktx_sh_str_DARKCYAN		"Turcoaz închis"
+#define ktx_sh_str_RED			"Roşu"
+#define ktx_sh_str_GREEN		"Verde"
+#define ktx_sh_str_YELLOW		"Galben"
+#define ktx_sh_str_BLUE			"Albastru"
+#define ktx_sh_str_MAGENDA		"Violet"
+#define ktx_sh_str_CYAN			"Turcoaz"
+#define ktx_sh_str_GRAY			"Gri"
+#define ktx_sh_str_WHITE		"Alb"
+
+#define ktx_cmd_Help 			"Ajutor"
+#define ktx_cmd_Back 			"Înapoi"
+
+#define ktx_str_HELP1			"Aceasta aplicaţie este un screensaver ce afişează ora atunci când tastele telefonului sunt blocate. Ecranul va fi iluminat la apăsarea unei taste dacă setarea este activată (tastele permise sunt Stânga/Dreapta şi Meniu)."
+#define ktx_str_HELP2			"Ecranul de blocare este controlat de un server care rulează dacă screensaverul sau blocarea automata a tastelor sunt activate. Acesta porneşte automat odată cu telefonul. Atenţie: modificările au efect doar după ieşirea din interfaţa grafică."
+#define ktx_str_HELP3			"Setarea „Intensitate iluminării” reglează valoarea intensităţii atunci când este apăsată o tasta pentru a arăta ceasul. „Intensitatea iluminării (încărcare)” are efect când telefonul este încărcat. Durata iluminării se referă la timpul cât ecranul va sta iluminat după apăsarea unei taste, dar unele telefoane vor ignora aceasta valoare şi o vor folosi pe cea proprie."
+#define ktx_str_HELP4			"Setările de iluminare stabilesc când va fi luminat ecranul. Setările de font definesc fontul şi culoarea pentru afişarea ceasului. Setările de fundal definesc culoarea fundalului folosit."
+#define ktx_str_HELP5			"Setarea de afişare a datei permite ascunderea datei din partea de sus a ecranului. Setarea „Blocare taste” permite blocarea automata a tastelor iar timpul de blocare reprezinta durata de inactivitate pentru a bloca tastele."
+
+

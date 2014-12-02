@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Možnosti"
+#define ktx_cmd_Exit			"Vypnúť"
+#define ktx_cmd_Cancel			"Zrušiť"
+#define ktx_cmd_Back			"Späť"
+
+#define ktx_cmd_Disable			"deaktivovať"
+#define ktx_cmd_Enable			"aktivovať"
+
+#define ktx_cmd_About			"O aplikácii"
+
+#define ktx_cmd_Select			"Vybrať"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Zmeniť"
+#define ktx_cmd_Done			"Vykonané"
+#define ktx_cmd_Play			"Prehrať"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Uložiť"
+
+#define ktx_JustD				" deň "
+#define ktx_JustH				" hodina "
+#define ktx_JustMin				" minúta."
+
+#define ktx_Daily				"denne"
+#define ktx_Wordays				"V pracovné dni"
+
+
+#define ktx_mnu_Newalarm			"Nové"
+#define ktx_mnu_Resetalarm			"Reset"
+#define ktx_mnu_Removealarm			"Odstrániť"
+#define ktx_mnu_SetAlarmSounds		"Nastaviť zvuky alarmu"
+#define ktx_mnu_SetWorkdays			"Nastaviť pracovné dni"
+#define ktx_mnu_Update				"Update"
+
+#define ktx_mnu_Changevalue			"Zmeniť hodnotu"
+
+#define ktx_str_Repeat				"Opakovať"
+#define ktx_str_Daily				"denne"
+#define ktx_str_Workdays			"V pracovné dni"
+#define ktx_str_InNext24			"Ďalších 24"
+#define ktx_str_Once				"Jednorázovo"
+
+#define ktx_str_Time				"Čas"
+#define ktx_str_Date				"Dátum"
+
+#define ktx_str_Type				"Typ"
+#define ktx_str_Clockalarm			"alarm hodín"
+#define ktx_str_Calendaralarm		"alarm kalendára"
+#define ktx_str_Message				"správa"
+#define ktx_str_Snooze				"Ešte si zdriemnem"
+
+#define ktx_str_Settime				"Nastaviť čas"
+#define ktx_str_Setdate				"Nastaviť dátum"
+#define ktx_str_Setmessage			"Nastaviť správu"
+		
+#define ktx_str_AlarmDueIn			"Alarm pre "
+#define ktx_str_GoJukka				"Navštívte DrJukka.com"
+
+#define ktx_cmd_Help				"Pomoc"
+
+#define ktx_cmd_Help1				"Táto aplikácia umožňuje nastaviť a používať viacero alarmov naraz s možnosťou opakovaného budenia pre zariadenia, ktoré natívne túto funkciu neobsahujú."
+#define ktx_cmd_Help2				"Nový alarm môžete zadať cez \"Nová možnosť\", a následne môžete nastaviť opakovanie, čas a zobrazenú správu. Typ alarmu určuje, aký zvuk bude pri aktivácii alarmu použitý. Kliknutím na \"Done\" uložíte alarm."
+#define ktx_cmd_Help3				"\"Reset\" môžete použiť na zrušenie detailov alarmu, možnosť \"Odstrániť\" na odstránenie alarmu a \"aktivovať/deaktivovať môžete alarm dočasne vypnúť."
+#define ktx_cmd_Help4				"Cez \"Nastavenie zvuku budenia\" môžete vybrať zvukové súbory, ktoré budú použité na budenie. V menu \"ešte si zdriemnem\" môžete určiť čas v minútach, po ktorom sa bude alarm opakovať. Niektoré telefóny túto voľbu neumožňujú a vždy použijú štandardnú hodnotu."
+#define ktx_cmd_Help5				"Cez \"nastavenie pracovných dní\" môžete určiť, v ktorý deň bude určitý alarm aktívny."
+
+
+
+

@@ -1,0 +1,70 @@
+/*
+============================================================================
+
+============================================================================
+*/
+
+TARGET			YApp_E887600D.exe
+TARGETTYPE		exe
+UID		  		0x100039CE 0xE887600D
+EPOCSTACKSIZE		0x5000
+
+SOURCEPATH		..\src
+SOURCE			YApp_E887600D.cpp
+SOURCE			MainView.cpp
+SOURCE			CTimeOutTimer.cpp
+SOURCE			Splash_Screen.cpp
+
+SOURCEPATH		..\data
+
+START RESOURCE	YApp_E887600D.rss
+HEADER
+TARGET YApp_E887600D.rsc
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE	YApp_E887600D_reg.rss
+TARGET YApp_E887600D_reg.rsc
+TARGETPATH 	  \private\10003a3f\apps
+END //RESOURCE
+
+
+
+USERINCLUDE	   ..\inc
+SYSTEMINCLUDE	 \epoc32\include
+SYSTEMINCLUDE	 \Epoc32\include\mmf\plugin
+SYSTEMINCLUDE    \Epoc32\include\ecom
+
+LIBRARY		   euser.lib
+LIBRARY		   apparc.lib
+LIBRARY		   cone.lib
+LIBRARY		   eikcore.lib
+LIBRARY		   avkon.lib
+LIBRARY		   commonengine.lib
+LIBRARY        aknnotify.lib
+LIBRARY        gdi.lib 
+LIBRARY        aknicon.lib 
+LIBRARY        aknskins.lib 
+LIBRARY        aknskinsrv.lib 
+LIBRARY        aknswallpaperutils.lib 
+LIBRARY        efsrv.lib 
+LIBRARY        fbscli.lib 
+LIBRARY        bafl.lib 
+LIBRARY        eikcoctl.lib 
+LIBRARY        eikctl.lib 
+LIBRARY        form.lib 
+LIBRARY        uiklaf.lib 
+LIBRARY        etext.lib 
+LIBRARY	          SensrvClient.lib// Non-public library
+LIBRARY	          SensrvUtil.lib apgrfx.lib// Non-public library
+
+
+LANG 01 02 03 04 05 06 07 08 09 13 14 16 17 18 25 26 27 28 29 31 33 35 37 42 44 45 50 54 57 59 65 69 70 78 79 87 93 106 
+
+VENDORID	  	  0
+
+// End of File
+CAPABILITY	  ReadDeviceData SwEvent  
+
+SOURCEPATH ..\src
+SOURCE Help_Container.cpp

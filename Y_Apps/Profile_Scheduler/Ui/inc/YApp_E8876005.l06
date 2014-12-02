@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Alternativ"
+#define ktx_cmd_exit 			"Avsluta"
+#define ktx_cmd_Cancel			"Avbryt"
+
+
+#define ktx_cmd_Disable			"Stänga av"
+#define ktx_cmd_Enable			"Sätta på"
+
+#define ktx_cmd_about			"Om"
+#define ktx_cmd_New				"Ny"
+#define ktx_cmd_Modify			"Ändra"
+#define ktx_cmd_Remove			"Ta Bort"
+#define ktx_cmd_Randomthes		"Slumpmässig Profil"
+#define ktx_cmd_Profiles		"Profiler"
+
+#define ktx_cmd_Stop			"Stoppa"
+#define ktx_cmd_Save			"Spara"
+
+
+#define ktx_cmd_VisitJukka		"Besök m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Avstängd>"
+#define ktx_sh_str_RANDOM		"Slumpmässig"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Ta bort schemalägning ?"
+#define ktx_sh_str_ACTIVEON		"Aktiv på"
+
+#define ktx_sh_str_NONAME		"Inget valt"
+#define ktx_sh_str_SELECTPROF	"Välj Profil"
+
+#define ktx_sh_str_SETONTIME	"Schemaläggning"
+
+
+#define ktx_sh_str_WORKDAYA		"Arbetsdagar"
+#define ktx_sh_str_NONWORKD		"Helgdagar"
+#define ktx_sh_str_EVERYDAY		"Alla dagar"
+#define ktx_sh_str_MONDAYS		"Måndag"
+#define ktx_sh_str_TUESDAYS		"Tisdag"
+#define ktx_sh_str_WEDNESDAYS	"Onsdag"
+#define ktx_sh_str_THURSDAYS	"Torsdag"
+#define ktx_sh_str_FRIDAYS		"Fredag"
+#define ktx_sh_str_SATURDAYS	"Lördag"
+#define ktx_sh_str_SUNDAYS		"Söndag"
+
+#define ktx_cmd_Help			"Hjälp"
+#define ktx_cmd_Back			"Tillbaka"
+
+#define ktx_str_HELP1			"This application is used for scheduling profiles with timer, to make a new schedule, select new menu options from the options menu."
+#define ktx_str_HELP2			"Then select the profile to be scheduled. Note that if the random profiles list is empty, the whole schedule will be ignored by the scheduler. After selecting the profile, then select time and repeat options for the schedule. Once done, save the schedule with save command. "
+#define ktx_str_HELP3			"After the schedule is made it will be shown in the main view list. Within this list you can use menu options for opening the schedule for modifications as well as you can delete them, also temporal disabling/enabling menu options can be found from the options menu. "
+#define ktx_str_HELP4			"Note that profiles are scheduled as well as previous schedules are re-freshed only after exiting the application. For best usability, each schedule should be spaced two minutes apart from each other. The actual scheduling is handled by background application that is also automatically started when the device is started. No message scheduling will appear while the device is off."
+
+

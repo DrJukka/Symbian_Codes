@@ -1,0 +1,64 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"选项"
+#define ktx_cmd_exit 			"退出"
+
+#define ktx_cmd_about			"关于"
+#define ktx_cmd_visit			"访问m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"屏幕时钟"
+#define ktx_sh_str_LGHTINSE		"背光强度"
+#define ktx_sh_str_LGHTINSECHR	"充电背光强度"
+#define ktx_sh_str_LIGHTON		"开启背光"
+#define ktx_sh_str_SHOWDATE		"显示日期"
+#define ktx_sh_str_KEYLOCKON	"锁键屏保"
+#define ktx_sh_str_OFF			"关"
+#define ktx_sh_str_ON			"开"
+#define ktx_sh_str_DATEONLY		"仅日期"
+#define ktx_sh_str_DATETIME		"日期+星期"
+#define ktx_sh_str_TIMEOUTOL	"仅超时下"
+#define ktx_sh_str_TIMEOUTCHR	"超时+充电时"
+#define ktx_sh_str_ALWAYS		"总是"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"正常"
+#define ktx_sh_str_Landscape	"横屏"
+#define ktx_sh_str_Automatic	"自动"
+
+#define ktx_sh_str_CURRTHEM		"当前主题颜色"
+#define ktx_sh_str_SELCOLOR		"选择颜色"
+#define ktx_sh_str_BACKCOLOR	"背景颜色"
+#define ktx_sh_str_FONTCOLOR	"字体颜色"
+#define ktx_sh_str_LIGHTTIM		"背光超时"
+#define ktx_sh_str_LOCKTIM		"锁定延迟 (秒)"
+#define ktx_sh_str_FONT			"字体设置"
+#define ktx_sh_str_BLACK		"黑色"
+#define ktx_sh_str_DARKGRAY		"深灰色"
+#define ktx_sh_str_DARKRED		"深红色"
+#define ktx_sh_str_DARKGREEN	"深绿色"
+#define ktx_sh_str_DARKYELLOW	"深黄色"
+#define ktx_sh_str_DARKBLUE		"深蓝色"
+#define ktx_sh_str_DARKMAGENDA	"紫色"
+#define ktx_sh_str_DARKCYAN		"暗青色"
+#define ktx_sh_str_RED			"红色"
+#define ktx_sh_str_GREEN		"绿色"
+#define ktx_sh_str_YELLOW		"黄色"
+#define ktx_sh_str_BLUE			"蓝色"
+#define ktx_sh_str_MAGENDA		"洋红色"
+#define ktx_sh_str_CYAN			"青色"
+#define ktx_sh_str_GRAY			"灰色"
+#define ktx_sh_str_WHITE		"白色"
+
+#define ktx_cmd_Help 			"帮助"
+#define ktx_cmd_Back 			"返回"
+
+#define ktx_str_HELP1			"Key Lock Clock是用来更改标准锁键时钟屏保的程序，如果某按键被激活(左/右方向键和菜单键)，键锁的灯光将照亮。"
+#define ktx_str_HELP2			"锁键屏幕被后台服务控制着，如果锁键屏幕或者键盘锁被设置了。后台程序是随机自启的，注意设置只有在退出UI程序时才会生效。"
+#define ktx_str_HELP3			"灯光强度设置是用来设置屏幕灯光强度以查看时钟。背光超时是用来控制背光显示时间的。注意某些设备忽略这个值的，请使用机器自带超时设置。"
+#define ktx_str_HELP4			"背光强度可以更改，同样字体设置也可以选择，字体颜色设置，文本背景颜色设置等等。"
+#define ktx_str_HELP5			"显示日期设置选项允许禁用日期/天数显示在锁键屏幕顶端。按键锁设置启用了自动锁的后台服务特征，会在用户设置的时间后自动上锁。"
+
+

@@ -1,0 +1,18 @@
+ 
+/* This file has been generated, DO NOT MODIFY. */
+enum TMifApp_iccon
+	{
+	EMbmApp_icconDown = 16384,
+	EMbmApp_icconDown_mask = 16385,
+	EMbmApp_icconLeft = 16386,
+	EMbmApp_icconLeft_mask = 16387,
+	EMbmApp_icconRight = 16388,
+	EMbmApp_icconRight_mask = 16389,
+	EMbmApp_icconUp = 16390,
+	EMbmApp_icconUp_mask = 16391,
+	EMbmApp_icconZoonin = 16392,
+	EMbmApp_icconZoonin_mask = 16393,
+	EMbmApp_icconZoonout = 16394,
+	EMbmApp_icconZoonout_mask = 16395,
+	EMbmApp_icconLastElement
+	};

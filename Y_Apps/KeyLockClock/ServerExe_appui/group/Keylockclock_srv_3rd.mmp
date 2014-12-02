@@ -1,0 +1,61 @@
+TARGET          YApp_E8876010.exe 
+TARGETTYPE      EXE
+
+UID  			0x100039CE 0xE8876010
+EPOCSTACKSIZE	0x8000
+EPOCHEAPSIZE	4000 3000000
+
+SOURCEPATH		..\src
+SOURCE			SoneAniDrawer.cpp
+SOURCE			Ind_Drawer.cpp
+SOURCE			Drawer_Observers.cpp 
+SOURCE			BatteryLevel.cpp 
+SOURCE			Rs_Observer.cpp 
+SOURCE			SMS_Monitor.cpp 
+SOURCE			Call_Observer.cpp 
+SOURCE			InActivityTimer.cpp
+
+SOURCEPATH      ..\..\common_src 
+SOURCE          	CTimeOutTimer.cpp
+SOURCE          	Ps_Observer.cpp
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom
+
+LIBRARY		euser.lib 
+LIBRARY		efsrv.lib 
+LIBRARY		apgrfx.lib 
+LIBRARY		apparc.lib
+LIBRARY		cone.lib 
+LIBRARY		eikcore.lib 
+LIBRARY		ws32.lib 
+LIBRARY		AknSkins.lib
+LIBRARY     aknicon.lib
+LIBRARY     avkon.lib 
+LIBRARY     fbscli.lib 
+LIBRARY     etel.lib
+LIBRARY     estor.lib
+LIBRARY     egul.lib 
+LIBRARY     gdi.lib
+LIBRARY     mtur.lib
+LIBRARY     aknnotify.lib			// CAknGlobalNote
+LIBRARY     bitgdi.lib 
+LIBRARY     bafl.lib 
+LIBRARY     aknskinsrv.lib
+LIBRARY     centralrepository.lib 
+LIBRARY     HWRMLightClient.lib 
+LIBRARY     etel3rdparty.lib 
+LIBRARY     msgs.lib 
+LIBRARY     hal.lib egul.lib 
+LIBRARY     alarmclient.lib 
+LIBRARY     alarmshared.lib 
+//LIBRARY     MPEngine.lib
+//LIBRARY     profileeng.lib
+
+LANG SC
+VENDORID	  	0
+CAPABILITY 			PowerMgmt ReadDeviceData ReadUserData SwEvent WriteDeviceData WriteUserData
+
+SOURCEPATH ..\src
+SOURCE CalAlarm_Observer.cpp Signal_Observer.cpp

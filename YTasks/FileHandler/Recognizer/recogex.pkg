@@ -1,0 +1,20 @@
+&EN
+#{"Samplerecog"},(0x01EF0010),1,0,0
+
+; Localized Vendor name
+%{"Vendor_EN"}
+; Unique Vendor Name
+:"Unique Vendor Name"
+
+;
+;Supports Series 60 v 3.0
+;
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+
+"C:\Symbian\9.1\S60_3rd_Beta\Epoc32\release\gcce\urel\RecogEx.dll" -"!:\sys\bin\RecogEx.dll"
+"C:\Symbian\9.1\S60_3rd_Beta\Epoc32\Data\z\resource\plugins\RecogEx.rsc" -"!:\resource\plugins\RecogEx.rsc"
+
+
+
+

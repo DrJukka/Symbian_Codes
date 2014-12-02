@@ -1,0 +1,66 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	All right reserved.
+*/
+
+TARGET            	YTools_2002B0A0.dll
+TARGETTYPE        	PLUGIN
+
+UID               	0x10009d8d 0x2002B0A0
+
+VENDORID			0x00000000
+CAPABILITY 		SwEvent ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+
+EPOCSTACKSIZE		0x5000
+
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+
+START RESOURCE 		..\data\A000257C.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET YTools_2002B0A0.rsc
+#endif
+END
+
+START RESOURCE    ..\data\YTools_A000257C_res.rss
+HEADER
+TARGET YTools_2002B0A0_res.rsc
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH        ..\src
+SOURCE            ProcessesAndTasks.cpp
+SOURCE            InfoContainer.cpp
+
+SOURCEPATH        ..\..\Common\src
+SOURCE            MainServerSession.cpp
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           eikcdlg.lib 
+LIBRARY           eikctl.lib 
+LIBRARY           eikcoctl.lib 
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           gdi.lib 
+LIBRARY           fbscli.lib
+LIBRARY           bitgdi.lib 
+LIBRARY           egul.lib
+LIBRARY           bafl.lib 
+LIBRARY           etext.lib 
+LIBRARY           apgrfx.lib 
+LIBRARY           aknskinsrv.lib 
+LIBRARY           aknswallpaperutils.lib
+LIBRARY           AknSkins.lib 
+LIBRARY           aknicon.lib 
+LIBRARY           apmime.lib 
+SOURCEPATH ..\src
+SOURCE Help_Container.cpp

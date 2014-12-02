@@ -1,0 +1,20 @@
+#include <startupitem.rh>
+
+#include "Definitions.h"
+
+RESOURCE STARTUP_ITEM_INFO myani_starter
+{
+#ifdef SONE_VERSION
+	executable_name = "C:\\sys\\bin\\YApp_20028856.exe";
+#else
+	#ifdef LAL_VERSION
+		executable_name = "C:\\sys\\bin\\YApp_20029074.exe";
+	#else
+		executable_name = "C:\\sys\\bin\\YApp_E8876011.exe";
+	#endif
+#endif
+recovery = EStartupItemExPolicyNone;
+}
+
+
+

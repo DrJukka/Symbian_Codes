@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"ตัวเลือก"
+#define ktx_cmd_exit 				"ออก"
+#define ktx_cmd_cancel 				"ยกเลิก"
+
+#define ktx_cmd_Disable				"ยกเลิกการใช้งาน"
+#define ktx_cmd_Enable				"ใช้งาน"
+
+#define ktx_cmd_save 				"บันทึก"
+#define ktx_cmd_select 				"เลือก"
+
+#define ktx_cmd_about				"เกี่ยวกับ"
+#define ktx_cmd_visit				"เยี่ยมชม m.DrJukka.com"
+
+#define ktx_mnu_New 				"ใหม่"
+#define ktx_mnu_Modify 				"ปรับตั้งค่าใหม่"
+#define ktx_mnu_Remove 				"ลบ"
+
+
+#define ktx_mnu_Savmsgs				"ข้อความที่บันทึกไว้"
+#define ktx_mnu_ContSend			"ผู้รับจากรายชื่อ"
+
+#define ktx_sh_str_sndName	 		"ชื่อ"
+#define ktx_sh_str_sndNumber	 	"หมายเลข"
+#define ktx_sh_str_Message		 	"ข้อความ"
+#define ktx_sh_str_sndTime		 	"เวลาที่ส่ง"
+#define ktx_sh_str_sndDate		 	"วันที่ส่ง"
+
+#define ktx_sh_str_DISABLED		"<ยกเลิกการใช้งาน >"
+
+#define ktx_str_REMMESSAGE 			"ลบข้อความหรือไม่?"
+
+#define ktx_sh_str_REPEATS		"ทวนอีกครั้ง"
+
+#define ktx_sh_str_ONCE			"ครั้งเดียว"
+#define ktx_sh_str_WORKDAYA		"วันทำงาน"
+#define ktx_sh_str_NONWORKD		"วันหยุด"
+#define ktx_sh_str_EVERYDAY		"ทุกวัน"
+#define ktx_sh_str_MONDAYS		"วันจันทร์"
+#define ktx_sh_str_TUESDAYS		"วันอังคาร"
+#define ktx_sh_str_WEDNESDAYS		"วันพุธ"
+#define ktx_sh_str_THURSDAYS		"วันพฤหัสบดี"
+#define ktx_sh_str_FRIDAYS		"วันศุกร์"
+#define ktx_sh_str_SATURDAYS		"วันเสาร์"
+#define ktx_sh_str_SUNDAYS		"วันอาทิตย์"
+
+#define ktx_str_MSGTRUNK		"ข้อความจะถูกตัดทอนแค่ 70 ตัวอักษร ต้องการทำต่อหรือไม่?"
+
+#define ktx_cmd_Back 			"กลับ"
+#define ktx_sh_str_HELP			"ตัวช่วย"
+#define ktx_sh_str_SMSType		"ประเภทข้อความ"
+#define ktx_sh_str_Normal		"ปกติ"
+#define ktx_sh_str_Flash		"ข้อความFlash"
+
+
+//Main Application help
+#define ktx_str_HELP1			"โปรแกรมนี้ใช้สำหรับตั้ง ความยาวของข้อความจำกัดอยู่ที่ 160 ตัวอักษรและ 70 ตัวอักษรสำหรับ ข้อความแบบUnicode การเข้ารหัสแบบUnicodeจะใช้โดยอัตโนมัติเมื่อต้องการ"
+#define ktx_str_HELP2			"ข้อความFlashเป็น Class0 ข้อความที่แสดงอัตโนมัติในการรับจบลง และบันทึกหากผู้รับต้องการ"
+#define ktx_str_HELP3			"หากต้องการตั้งตารางเวลาข้อความใหม่ให้ เข้าตัวเลือกใหม่  หลังจากข้อความอยู่ในตารางรายการ คุณสามารถเลือกใช้/ไม่ใช้ เพื่อตั้งค่าตารางนี้ ตัวเลือกปรับตั้งค่าสามารถใช้ปรับข้อความ และตัวเลือกลบใช้สำหรับลบ"
+#define ktx_str_HELP4			"การทำงานของข้อความจะทำงานหากมีการตั้งค่าตารางเวลาไว้"
+#define ktx_str_HELP5			"การทำงานของโปรแกรมพื้นหลังจะทำงานอัตโนมัติเมื่ออุปกรณ์เริ่มต้น อนึ่ง การตั้งค่าทั้งหมดและตารางเวลาจะใช้งานได้หลังจากออกจากโปรแกรมUI"
+
+//Settings Help:
+#define ktx_str_HELP6			"ด้วยตารางเวลาข้อความSMS คุณแค่ต้องระบุเบอร์โทรศัพท์ของผู้ติดต่อและเวลาที่จะใช้งาน Fake Call "
+#define ktx_str_HELP7			"คุณสามารถเลือกผู้ติดต่อจากรายชื่อผู้ติดต่อจากเมนูตัวเลือก โดยการใส่ในการตั้งค่า"
+#define ktx_str_HELP8			"สำหรับข้อความคุณสามารถใช้ข้อความที่บันทึกไว้เพื่อใช้ภายหลังโดยการตั้งค่า การตั้งค่าแบบข้อความจะระบุว่าจะเป็นข้อความSMSหรือข้อความFlash"
+#define ktx_str_HELP9			"การตั้งตารางเวลาสามารถเลือกจากการตั้งค่าเวลา การตั้งค่าซ้ำคือการให้ทำซ้ำอีกครั้งในวันที่เลือก ในช่วงเวลาที่ต้องการ "
+#define ktx_str_HELP10			"อนึ่งตารางเวลาซ้ำจะไม่ถูกลบเนื่องจากตารางเวลากำหนดเฉพาะวันที่เท่านั้น ซึ่งจะถูกลบหลังจากข้อความ SMS ถูกส่ง"
+
+

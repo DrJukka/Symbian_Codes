@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Nastavení"
+#define ktx_cmd_exit 			"Konec"
+
+#define ktx_cmd_about			"O programu"
+#define ktx_cmd_visit			"Přejít na m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Zobrazit hodiny"
+#define ktx_sh_str_LGHTINSE		"Intenzita podsvícení"
+#define ktx_sh_str_LGHTINSECHR	"Intenzita podsvícení při nabíjení"
+#define ktx_sh_str_LIGHTON		"Zapnout podsvícení"
+#define ktx_sh_str_SHOWDATE		"Zobrazit datum"
+#define ktx_sh_str_KEYLOCKON	"Zamknout klávesy"
+#define ktx_sh_str_OFF			"Vypnout"
+#define ktx_sh_str_ON			"Zapnout"
+#define ktx_sh_str_DATEONLY		"Pouze datum"
+#define ktx_sh_str_DATETIME		"Datum + název dne"
+#define ktx_sh_str_TIMEOUTOL	"Pouze zbývající čas"
+#define ktx_sh_str_TIMEOUTCHR	"Zbývající čas a stav nabíjení"
+#define ktx_sh_str_ALWAYS		"Vždy"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Na výšku"
+#define ktx_sh_str_Landscape	"Na šířku"
+#define ktx_sh_str_Automatic	"Automaticky"
+
+#define ktx_sh_str_CURRTHEM		"Současné téma"
+#define ktx_sh_str_SELCOLOR		"Vybrat barvu"
+#define ktx_sh_str_BACKCOLOR	"Barva pozadí"
+#define ktx_sh_str_FONTCOLOR	"Barva textu"
+#define ktx_sh_str_LIGHTTIM		"Doba podsvícení"
+#define ktx_sh_str_LOCKTIM		"Zamknout po (sek.)"
+#define ktx_sh_str_FONT			"Font"
+#define ktx_sh_str_BLACK		"Černá"
+#define ktx_sh_str_DARKGRAY		"Tmavá šedá"
+#define ktx_sh_str_DARKRED		"Tmavá červená"
+#define ktx_sh_str_DARKGREEN	"Tmavá zelená"
+#define ktx_sh_str_DARKYELLOW	"Tmavá žlutá"
+#define ktx_sh_str_DARKBLUE		"Tmavá modrá"
+#define ktx_sh_str_DARKMAGENDA	"Tmavá fialová"
+#define ktx_sh_str_DARKCYAN		"Tmavá tyrkysová"
+#define ktx_sh_str_RED			"Červená"
+#define ktx_sh_str_GREEN		"Zelená"
+#define ktx_sh_str_YELLOW		"Žlutá"
+#define ktx_sh_str_BLUE			"Modrá"
+#define ktx_sh_str_MAGENDA		"Fialová"
+#define ktx_sh_str_CYAN			"Tyrkysová"
+#define ktx_sh_str_GRAY			"Šedá"
+#define ktx_sh_str_WHITE		"Bílá"
+
+#define ktx_cmd_Help 			"Nápověda"
+#define ktx_cmd_Back 			"Zpět"
+
+#define ktx_str_HELP1			"Tato aplikace se používá jako spořič typu hodiny, který se zobrazí při zamčení klávesnice zařízení standardním zámkem klávesnice. Když je povoleno, pak se podsvícení rozsvítí při zamčené klávesnici po stisku tlačítka (šipka vlevo/vpravo nebo menu)."
+#define ktx_str_HELP2			"Zámek obrazovky je obsluhován serverem na pozadí, který běží když se zapne nastavení Zobrazit hodiny nebo Zamknout klávesy. Aplikace na pozadí se spustí automaticky při zapnutí zařízení. Nastavení se uplatní pouze po ukončení aplikace nastavení."
+#define ktx_str_HELP3			"Volba Intenzita podsvícení je použita k nastavení intenzity podsvícení po stisku klávesy pro zobrazení hodin. Intenzita podsvícení při nabíjení je použita při nabíjení. Nastavení v sekci Doba podsvícení určují čas podsvícení po stisku tlačítka. Některá zařízení toto nastavení ignorují."
+#define ktx_str_HELP4			"Volba Zapnout podsvícení určuje kdy je podsvícení zapnuté. Volba Font umožňuje vybrat písmo pro hodiny a Barva textu jeho barvu. Volba Barva pozadí určuje barvu pozadí hodin."
+#define ktx_str_HELP5			"Volba Zobrazit datum umožňuje zakázat zobrazení datumu/dne v horní části hodin. Volba Zamknout klávesy povoluje vlastnost zamykání klávesnice v aplikaci na pozadí a volba Zamknout po určuje čas neaktivity před zamčením."
+
+
+

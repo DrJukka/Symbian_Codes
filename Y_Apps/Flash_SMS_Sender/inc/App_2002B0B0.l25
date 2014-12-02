@@ -1,0 +1,62 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Vybrat"
+#define ktx_cmd_back			"Zpět"
+#define ktx_cmd_options			"Nastavení"
+#define ktx_cmd_cancel			"Zpět"
+#define ktx_cmd_ok				"Ok"
+#define ktx_cmd_exit			"Konec"
+
+#define ktx_cmd_REMOVE			"Odstranit"
+#define ktx_str_ABOUT			"O programu"
+
+///----
+
+#define ktx_mnu_done			"Hotovo"
+#define ktx_mnu_toggle			"toggle"
+#define ktx_mnu_MarkAll			"Označ vše"
+#define ktx_mnu_UnmarkAll		"Odznač vše"
+
+
+#define ktx_mnu_Message			"Zpráva"
+
+#define ktx_mnu_Recipient		"Příjemci"
+#define ktx_mnu_SelRecipient	"Přidat z kontaktů"
+#define ktx_mnu_NewRecipient	"Nový kontakt"
+#define ktx_mnu_RemRecipient	"Odstranit vše"
+#define ktx_mnu_SendMMS			"Odeslat SMS"
+
+
+#define ktx_sh_str_appname		"Flash SMS"
+
+#define ktx_str_MSGSENT			"Zpráva odeslána"
+#define ktx_str_CONTACTS		" kontakty"
+#define ktx_str_PHONENUMBER		"Telefonní číslo"
+#define ktx_str_ExitQ			"Ukončit?"
+
+#define ktx_str_MSGTRUNK		"Zpráva bude zkrácena na 70 znaků, pokračovat?"
+
+#define ktx_str_FAIL_1			"Naplánování se nezdařilo"
+#define ktx_str_FAIL_2			"Odeslání se nezdařilo"
+#define ktx_str_FAIL_3			"Žádné středisko zpráv"
+#define ktx_str_FAIL_4			"Fatální chyba serveru"
+#define ktx_str_FAIL_5			"Chyba SMS: "
+
+#define ktx_str_ALLSENT			"Všechny zprávy odeslány"
+
+#define ktx_cmd_visit			"Přejít na m.DrJukka.com"
+#define ktx_mnu_help			"Nápověda"
+
+#define ktx_str_HELP1			"Aplikace je navržena pro odesílání Flash SMS zpráv"
+#define ktx_str_HELP2			"Flash SMS zprávy jsou SMS, které se otevřou a zobrazí automaticky při přijetí a nejsou automaticky uloženy."
+#define ktx_str_HELP3			"Pro vytvoření zprávy přidejte kontakty pomocí menu. Máte na výběr mezi přidáním nového čísla nebo kontaktu ze seznamu. Volba Odstranit vše vyčistí pole Přijemci."
+#define ktx_str_HELP4			"Zprávu lze psát normálně do pole zpráva. Počitadlo znaků v horní části odpovídá zprávám psaným s normálním SMS kódováním. Pro ostatní je limit 70 znaků."
+#define ktx_str_HELP5			"Po napsání zprávy a vložení kontaktů, lze zprávu odeslat pomocí volby Odeslat SMS."
+
+
+
+
+
+
+

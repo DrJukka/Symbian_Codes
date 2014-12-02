@@ -1,0 +1,765 @@
+/* Copyright (c) 2001 - 2008 ,Dr. Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+NAME SNAL
+
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+#include <appinfo.rh>
+
+#include "Definitions.h"
+
+#include "YApp_E8876005.hrh"
+
+#ifdef LANGUAGE_02        // French 
+#include "YApp_E8876005.l02"
+#elif defined LANGUAGE_03 // German
+#include "YApp_E8876005.l03"
+#elif defined LANGUAGE_04 // Spanish
+#include "YApp_E8876005.l04"
+#elif defined LANGUAGE_05 // Italian
+#include "YApp_E8876005.l05"
+#elif defined LANGUAGE_06 // Swedish
+#include "YApp_E8876005.l06"
+#elif defined LANGUAGE_07 // Danish
+#include "YApp_E8876005.l07"
+#elif defined LANGUAGE_08 // Norwegian
+#include "YApp_E8876005.l08"
+#elif defined LANGUAGE_09 // Finnish
+#include "YApp_E8876005.l09"
+#elif defined LANGUAGE_16 // Russian
+#include "YApp_E8876005.l16"
+#elif defined LANGUAGE_13 // Portuguese
+#include "YApp_E8876005.l13"
+#elif defined LANGUAGE_14 // Turkish
+#include "YApp_E8876005.l14"
+#elif defined LANGUAGE_17 // Hungarian
+#include "YApp_E8876005.l17"
+#elif defined LANGUAGE_18 // Dutch
+#include "YApp_E8876005.l18"
+#elif defined LANGUAGE_25 // Czech
+#include "YApp_E8876005.l25"
+#elif defined LANGUAGE_26 // Slovak
+#include "YApp_E8876005.l26"
+#elif defined LANGUAGE_27 // Polish
+#include "YApp_E8876005.l27"
+#elif defined LANGUAGE_28 // Slovenian
+#include "YApp_E8876005.l28"
+#elif defined LANGUAGE_29 // Taiwan-Chinese
+#include "YApp_E8876005.l29"
+#elif defined LANGUAGE_31 // PRC-Chinese
+#include "YApp_E8876005.l31"
+#elif defined LANGUAGE_33 // Thai
+#include "YApp_E8876005.l33"
+#elif defined LANGUAGE_35 // Albanian 
+#include "YApp_E8876005.l35"
+#elif defined LANGUAGE_37 // Arabic
+#include "YApp_E8876005.l37"
+#elif defined LANGUAGE_42 // Bulgarian
+#include "YApp_E8876005.l42"
+#elif defined LANGUAGE_44 // catalan
+#include "YApp_E8876005.l44"
+#elif defined LANGUAGE_45 // Croatian
+#include "YApp_E8876005.l45"
+#elif defined LANGUAGE_50 // Farsi
+#include "YApp_E8876005.l50"
+#elif defined LANGUAGE_54 // Greek
+#include "YApp_E8876005.l54"
+#elif defined LANGUAGE_57 // Hebrew
+#include "YApp_E8876005.l57"
+#elif defined LANGUAGE_59 // Indonesian
+#include "YApp_E8876005.l59"
+#elif defined LANGUAGE_69 // Macedonian
+#include "YApp_E8876005.l69"
+#elif defined LANGUAGE_70 // Malay
+#include "YApp_E8876005.l70"
+#elif defined LANGUAGE_65 // Korean
+#include "YApp_E8876005.l65"
+#elif defined LANGUAGE_78 // Romanian 
+#include "YApp_E8876005.l78"
+#elif defined LANGUAGE_79 // Serbian
+#include "YApp_E8876005.l79"
+#elif defined LANGUAGE_87 // Tamil
+#include "YApp_E8876005.l87"
+#elif defined LANGUAGE_93 // Ukrainian
+#include "YApp_E8876005.l93"
+#elif defined LANGUAGE_106//azeri latin
+#include "YApp_E8876005.l106"
+#else					  // English
+#include "YApp_E8876005.l01"
+#endif
+
+RESOURCE RSS_SIGNATURE {}
+
+
+RESOURCE TBUF {buf="";}
+
+
+RESOURCE EIK_APP_INFO
+    {
+    	menubar=r_main_menubar;
+//	status_pane=r_status_pane_empty;
+	status_pane=R_AVKON_STATUS_PANE_LAYOUT_USUAL;
+    	cba=r_main_cba;            
+    }
+
+RESOURCE STATUS_PANE_APP_MODEL r_status_pane_empty
+	{
+	layout = R_AVKON_STATUS_PANE_LAYOUT_EMPTY;
+	} 
+
+
+//*************************  main  **************************
+
+RESOURCE MENU_BAR  r_main_menubar 
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_main_menu; txt = ktx_cmd_options;}
+        };
+    }
+RESOURCE MENU_PANE r_main_menu 
+    {
+    items =
+      	{
+		MENU_ITEM { command = EProfNew;					txt= ktx_cmd_New; },
+		MENU_ITEM { command = EProfDisable;				txt= ktx_cmd_Disable;},
+		MENU_ITEM { command = EProfEnable;				txt= ktx_cmd_Enable;},
+		MENU_ITEM { command = EProfModify;				txt= ktx_cmd_Modify;},
+		MENU_ITEM { command = EProfRemove;				txt= ktx_cmd_Remove;},
+		MENU_ITEM { command = EProfPlay;				txt= "dummy";},
+		MENU_ITEM { command = EProfRandom;				txt= ktx_cmd_Randomthes;},
+		MENU_ITEM { command = EProfileModify;			txt= ktx_cmd_Profiles;},
+		MENU_ITEM { command = EVisitDrJukka;			txt= ktx_cmd_VisitJukka;},
+		MENU_ITEM { command = EAbout;					txt= ktx_cmd_about;},
+		MENU_ITEM {command = EAppHelp;					txt = ktx_cmd_Help;},
+		MENU_ITEM {command = EAknSoftkeyExit;			txt = ktx_cmd_exit;}
+		};
+    }
+
+
+//************************ CBA ***************************
+
+RESOURCE CBA R_APPHELP_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAppHelpBack; 
+		txt = ktx_cmd_Back; 
+	}
+  };
+}
+
+
+
+RESOURCE CBA r_exit_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EClose2;
+			txt= "";//ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EClose2;
+			txt= "";//ktx_cmd_exit;
+		}
+	};
+}
+
+
+RESOURCE CBA r_play_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyEmpty;
+			txt= "";//ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EProfPlayStop;
+			txt= ktx_cmd_Stop;//ktx_cmd_exit;
+		}
+	};
+}
+
+RESOURCE CBA r_main_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=EAknSoftkeyOptions;
+			txt= ktx_cmd_options;
+		},
+		CBA_BUTTON
+		{
+			id=EClose;
+			txt= ktx_cmd_exit;//ktx_cmd_exit;
+		}
+	};
+}
+
+
+RESOURCE CBA r_sett_cba
+{
+	buttons=
+	{
+		CBA_BUTTON
+		{
+			id=ESettOk;
+			txt= ktx_cmd_Save;//;
+		},
+		CBA_BUTTON
+		{
+			id=ESettCancel;
+			txt= ktx_cmd_Cancel;
+		}
+	};
+}
+
+
+
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+//
+RESOURCE DIALOG r_about_heading_pane
+{
+   flags = EGeneralQueryFlags | EEikDialogFlagNoBorder | EEikDialogFlagNoShadow;
+   buttons = R_AVKON_SOFTKEYS_OK_EMPTY;
+   items=
+   {
+      DLG_LINE
+      {
+         type = EAknCtMessageQuery;
+         id = EAknMessageQueryContentId;
+         control = AVKON_MESSAGE_QUERY
+         {
+         };
+      },
+      DLG_LINE
+      {
+         type = EAknCtMessageQuery;
+         id = EAknMessageQueryContentId;
+         control = AVKON_MESSAGE_QUERY
+         {
+         };
+      }
+   };
+}
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_ddd_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "";
+			};
+		}
+	};
+}
+
+//-----------------------------------------------------------------------------
+//
+//
+//-----------------------------------------------------------------------------
+//
+RESOURCE DIALOG r_random_selection_query
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtListQueryControl;
+            id = EListQueryControl;
+            control = AVKON_LIST_QUERY_CONTROL
+                {
+                listtype = EAknCtSingleGraphicPopupMenuListBox;
+                listbox = LISTBOX
+                    {
+                    flags = EAknListBoxStylusMultiselectionList;
+                    height = 3;
+                    width = 3;
+                    };
+                heading = ktx_cmd_Randomthes;
+                };
+            }
+        };
+    }
+
+
+RESOURCE DIALOG r_wait_note_softkey_empty
+    {
+    flags = EAknWaitNoteFlags | EEikDialogFlagNotifyEsc;
+    buttons = R_AVKON_SOFTKEYS_EMPTY;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EAknExNoteCtrlIdWaitNoteCancel;
+            control= AVKON_NOTE 
+                { 
+                layout = EWaitLayout;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_wait_note_softkey_cancel
+    {
+    flags = EAknWaitNoteFlags | EEikDialogFlagNotifyEsc;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EAknExNoteCtrlIdWaitNote;
+            control= AVKON_NOTE 
+                { 
+                layout = EWaitLayout;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EProgressNoteId;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label ="";
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG R_MYINFO
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_EMPTY;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+RESOURCE DIALOG R_ASK_NUMBER_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+					default_input_mode = EAknEditorNumericInputMode;
+                    maxlength = 20; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+RESOURCE DIALOG R_ASK_NAME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 50; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+
+
+
+RESOURCE DIALOG r_locktime_dialog
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EDurationLayout;
+                label = "";
+                control = DURATION_EDITOR
+                    {
+                    minDuration = DURATION
+                        {
+				seconds = 10;
+                        };
+                    maxDuration = DURATION
+                        {
+                        seconds = 3599;
+                        };
+                    flags = EEikTimeWithoutHoursField;
+                    };
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_only_time_query
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_DATA_QUERY
+                {
+                layout = ETimeLayout;
+                label = "";
+                control = TIME_EDITOR
+                    {
+                    minTime = TIME
+                        {
+                        second = 0;
+                        minute = 0;
+                        hour = 0;
+                        };
+                    maxTime = TIME
+                        {
+                        second = 59;
+                        minute = 59;
+                        hour = 23;
+                        };
+                    flags = EEikTimeWithoutSecondsField;
+                    };
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_alarm_time_query
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtMultilineQuery;
+            id = EMultilineFirstLine;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EMultiDataFirstDateEd;
+                label = "";
+                control = DATE_EDITOR
+                    {
+                    minDate = DATE
+                        {
+                        year = 2006;
+                        };
+                    maxDate = DATE
+                        {
+                        year = 2599;
+                        };
+                    flags = 0;
+                    };
+                };
+            },
+        DLG_LINE
+            {
+            type = EAknCtMultilineQuery;
+            id = EMultilineSecondLine;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EMultiDataSecondTimeEd;
+                label = "";
+                control = TIME_EDITOR
+                    {
+                    minTime = TIME
+                        {
+                        second = 0;
+                        minute = 0;
+                        hour = 0;
+                        };
+                    maxTime = TIME
+                        {
+                        second = 59;
+                        minute = 59;
+                        hour = 23;
+                        };
+                    flags = EEikTimeWithoutSecondsField |
+                            EEikTimeForce24HourFormat;
+                    };
+                };
+            }
+        };
+    }
+//---------------------------------------------------------------------------------
+//
+//---------------------------------------------------------------------------------   
+RESOURCE RTXTED r_disclaimer_rich_text_editor
+	{
+	width=176;
+	height=124;
+	textlimit=1000;
+	flags= EEikEdwinReadOnly | EEikEdwinAvkonDisableCursor;
+	avkon_flags=EAknEditorFlagEnableScrollBars;
+	}// End of File
+
+
+//************************ Settings ***************************
+RESOURCE AVKON_SETTING_ITEM_LIST r_prof_setting
+    {
+    items =
+        {
+	AVKON_SETTING_ITEM
+            {
+            identifier = EProfileSel;
+            setting_page_resource = r_proftype_setting_page;
+            name = ktx_sh_str_PROFFILLE2;
+            },
+	AVKON_SETTING_ITEM
+            {
+            identifier = EProfType;
+            setting_page_resource = r_proftype_setting_page;
+            name = ktx_sh_str_ACTIVEON;
+            },
+	AVKON_SETTING_ITEM
+		{
+		identifier = EProfTime;
+		setting_page_resource = r_time_setting_page;
+		name = ktx_sh_str_SETONTIME;
+		}
+        };
+    }
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_time_setting_page
+{
+	number = 1;
+	label = ktx_sh_str_SETONTIME;
+	type = EEikCtTimeEditor;
+	editor_resource_id = r_settinglist_time_editor;
+}
+RESOURCE TIME_EDITOR r_settinglist_time_editor
+{
+	minTime = TIME
+	{
+		second = 0;
+		minute = 0;
+		hour = 0;
+	};
+	maxTime = TIME
+	{
+		second = 59;
+		minute = 59;
+		hour = 23;
+	};
+	
+	flags = EEikTimeWithoutSecondsField | EEikTimeForce24HourFormat;
+}
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+
+RESOURCE AVKON_SETTING_PAGE r_proftype_setting_page
+     {
+    number = 1;
+    label = ktx_sh_str_ACTIVEON;
+    type = EEikCtEdwin;
+    editor_resource_id = r_proftype_edwin;
+    }
+
+RESOURCE EDWIN r_proftype_edwin
+    {
+    width = 9;
+    lines = 5;
+    maxlength = 100;
+default_input_mode = EAknEditorTextInputMode;
+    }
+
+/*
+------------------------------------------------------------------
+------------------------------------------------------------------
+*/
+
+#ifdef SONE_VERSION
+	RESOURCE LOCALISABLE_APP_INFO r_el_localisable_app_info
+	{
+	short_caption = "Profile Scheduler";
+	caption_and_icon =
+	{
+	CAPTION_AND_ICON_INFO
+	{
+	caption = "Profile Scheduler";
+	number_of_icons = 1; // each icon must be a bitmap/mask pair
+	icon_file = "\\Resource\\Apps\\YApp_2002884E_aif.mif"; 
+	
+	}
+	}; 
+	}
+#else
+	#ifdef LAL_VERSION
+		RESOURCE LOCALISABLE_APP_INFO r_el_localisable_app_info
+		{
+		short_caption = "Profile Scheduler";
+		caption_and_icon =
+		{
+		CAPTION_AND_ICON_INFO
+		{
+		caption = "Profile Scheduler";
+		number_of_icons = 1; // each icon must be a bitmap/mask pair
+		icon_file = "\\Resource\\Apps\\YApp_20022080_aif.mif"; 
+	
+		}
+		}; 
+		}
+	#else
+		RESOURCE LOCALISABLE_APP_INFO r_el_localisable_app_info
+		{
+		short_caption = "Profile Scheduler";
+		caption_and_icon =
+		{
+		CAPTION_AND_ICON_INFO
+		{
+		caption = "Profile Scheduler";
+		number_of_icons = 1; // each icon must be a bitmap/mask pair
+		icon_file = "\\Resource\\Apps\\YApp_E8876005_aif.mif"; 
+	
+		}
+		}; 
+		}
+	#endif
+#endif
+
+
+RESOURCE TBUF R_SH_STR_DISABLED			{buf =ktx_sh_str_DISABLED;}
+RESOURCE TBUF R_SH_STR_RANDOM			{buf =ktx_sh_str_RANDOM;}
+
+RESOURCE TBUF R_SH_STR_ACTIVEON			{buf =ktx_sh_str_ACTIVEON;}
+RESOURCE TBUF R_SH_STR_NONAME			{buf =ktx_sh_str_NONAME;}
+RESOURCE TBUF R_SH_STR_SELECTPROF		{buf =ktx_sh_str_SELECTPROF;}
+RESOURCE TBUF R_SH_STR_REMOVESCHED		{buf =ktx_sh_str_REMOVESCHED;}
+
+RESOURCE TBUF R_SH_STR_WORKDAYA			{buf =ktx_sh_str_WORKDAYA;}
+RESOURCE TBUF R_SH_STR_NONWORKD			{buf =ktx_sh_str_NONWORKD;}
+RESOURCE TBUF R_SH_STR_EVERYDAY			{buf =ktx_sh_str_EVERYDAY;}
+RESOURCE TBUF R_SH_STR_MONDAYS			{buf =ktx_sh_str_MONDAYS;}
+RESOURCE TBUF R_SH_STR_TUESDAYS			{buf =ktx_sh_str_TUESDAYS;}
+RESOURCE TBUF R_SH_STR_WEDNESDAYS		{buf =ktx_sh_str_WEDNESDAYS;}
+RESOURCE TBUF R_SH_STR_THURSDAYS		{buf =ktx_sh_str_THURSDAYS;}
+RESOURCE TBUF R_SH_STR_FRIDAYS			{buf =ktx_sh_str_FRIDAYS;}
+RESOURCE TBUF R_SH_STR_SATURDAYS		{buf =ktx_sh_str_SATURDAYS;}
+RESOURCE TBUF R_SH_STR_SUNDAYS			{buf =ktx_sh_str_SUNDAYS;}
+
+RESOURCE TBUF R_STR_HELP1				{buf =ktx_str_HELP1;}
+RESOURCE TBUF R_STR_HELP2				{buf =ktx_str_HELP2;}
+RESOURCE TBUF R_STR_HELP3				{buf =ktx_str_HELP3;}
+RESOURCE TBUF R_STR_HELP4				{buf =ktx_str_HELP4;}
+

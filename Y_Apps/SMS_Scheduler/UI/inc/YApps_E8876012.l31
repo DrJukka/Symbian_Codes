@@ -1,0 +1,72 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"选项"
+#define ktx_cmd_exit 				"退出"
+#define ktx_cmd_cancel 				"取消"
+
+#define ktx_cmd_Disable				"禁用"
+#define ktx_cmd_Enable				"启用"
+
+#define ktx_cmd_save 				"保存"
+#define ktx_cmd_select 				"选择"
+
+#define ktx_cmd_about				"关于"
+#define ktx_cmd_visit				"访问m.DrJukka.com"
+
+#define ktx_mnu_New 				"新建"
+#define ktx_mnu_Modify 				"修改"
+#define ktx_mnu_Remove 				"删除"
+
+
+#define ktx_mnu_Savmsgs				"已存信息"
+#define ktx_mnu_ContSend			"从名片夹选择发件人"
+
+#define ktx_sh_str_sndName	 		"收件人"
+#define ktx_sh_str_sndNumber	 	"发送号码"
+#define ktx_sh_str_Message		 	"信息内容"
+#define ktx_sh_str_sndTime		 	"发送时间"
+#define ktx_sh_str_sndDate		 	"发送日期"
+
+#define ktx_sh_str_DISABLED		"<禁用>"
+
+#define ktx_str_REMMESSAGE 			"删除短信？"
+
+#define ktx_sh_str_REPEATS		"重复"
+
+#define ktx_sh_str_ONCE			"一次"
+#define ktx_sh_str_WORKDAYA		"工作日"
+#define ktx_sh_str_NONWORKD		"非工作日"
+#define ktx_sh_str_EVERYDAY		"每天"
+#define ktx_sh_str_MONDAYS		"星期一"
+#define ktx_sh_str_TUESDAYS		"星期二"
+#define ktx_sh_str_WEDNESDAYS		"星期三"
+#define ktx_sh_str_THURSDAYS		"星期四"
+#define ktx_sh_str_FRIDAYS		"星期五"
+#define ktx_sh_str_SATURDAYS		"星期六"
+#define ktx_sh_str_SUNDAYS		"星期日"
+
+#define ktx_str_MSGTRUNK		"短信将被截断为70个字符，继续？"
+
+#define ktx_cmd_Back 			"返回"
+#define ktx_sh_str_HELP			"帮助"
+#define ktx_sh_str_SMSType		"短信类型"
+#define ktx_sh_str_Normal		"正常"
+#define ktx_sh_str_Flash		"闪信"
+
+
+//Main Application help
+#define ktx_str_HELP1			"FlashSMS Scheduler是用来设置正常短信和闪信日程安排的程序。短信内容只能为70个字符内，Unicode编码的字符会自动调用。"
+#define ktx_str_HELP2			"闪信为Class 0的短信，即收到时自动打开显示，并且当接受者选择保存时才会保存的短信。"
+#define ktx_str_HELP3			"编辑一个新的日程短信，可以点击新建按钮。并且可以使用启用/禁用命令启用/禁用这个短信日程安排。修改命令可以修改短信内容，删除命令可以删除日程安排。"
+#define ktx_str_HELP4			"真实的短信日程安排是由后台服务控制的当且只当日程服务已开启。"
+#define ktx_str_HELP5			"后台程序随机自动启动。注意所有的设置和日程更改只有在退出UI程序时才生效。"
+
+//Settings Help:
+#define ktx_str_HELP6			"在定时日程短信中，你只需要定义短信的联系人号码，内容和发送时间。"
+#define ktx_str_HELP7			"你可以从电话名片夹选择联系人或者直接输入名字在设置项里。"
+#define ktx_str_HELP8			"可以将某些你用得着的短信存在已存短信里，或者在设置里面输入短信内容。短信类型可以设置为普通短信还是闪信。"
+#define ktx_str_HELP9			"日程安排时间可以从时间设置项目选择，重复设置允许日程安排在指定日期的指定重复间隔下进行。"
+#define ktx_str_HELP10			"注意重复的日程无法从日程列表删除，只有当日程被指定到某个日期，才能从日程列表删除。"
+

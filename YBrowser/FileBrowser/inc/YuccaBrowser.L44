@@ -1,0 +1,346 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Enrere"
+#define ktx_cmd_Options			"Opcions"
+#define ktx_cmd_Exit			"Sortir"
+#define ktx_cmd_Save			"Desar"
+#define ktx_cmd_Cancel			"Cancel-lar"
+#define ktx_cmd_Delete			"Esborrar"
+
+#define ktx_cmd_Select			"Seleccionar"
+#define Ktx_sh_str_SortBy		"Endreçar per"	
+
+#define ktx_mnu_setserchoff		"Desactivar recerca"
+#define ktx_mnu_File			"Arxiu"
+#define ktx_mnu_Edit			"Editar"
+#define ktx_mnu_Mark			"Marcar"
+#define ktx_mnu_Searchfiles		"Cercar arxius"
+#define ktx_mnu_Extras			"Extres"
+#define ktx_mnu_About			"Quant a..."
+#define ktx_mnu_commandSC		"Dreceres de controls"
+#define ktx_mnu_ShowSC			"Mostra les dreceres"
+#define ktx_mnu_SetSC			"Defineix les dreceres"
+#define ktx_mnu_Searchon			"Activar recerca"
+#define ktx_mnu_Settings			"Ajustaments"
+#define ktx_mnu_switchlo			"Canviar mode de pantalla"
+#define ktx_mnu_changeic			"Canviar icones"
+#define ktx_mnu_refresh			"Recarrega"
+#define ktx_mnu_munmark			"Marcar/Desmarcar"
+#define ktx_mnu_Markall			"Marcar tot"
+#define ktx_mnu_Unmarkall		"Desmarcar tot"
+#define ktx_mnu_Openwith		"Obrir amb"
+#define ktx_mnu_Open			"Obrir"
+#define ktx_mnu_Send			"Enviar"
+#define ktx_mnu_Properties		"Propietats"
+#define ktx_mnu_Attributes		"Atributs"
+#define ktx_mnu_Delete			"Esborrar"
+#define ktx_mnu_Rename			"Reanomenar"
+#define ktx_mnu_ShowName			"Mostrar el nom"
+#define ktx_mnu_Newfile			"Arxiu nou"
+#define ktx_mnu_Newfolder		"Carpeta nova"
+#define ktx_mnu_Copy			"Copiar"
+#define ktx_mnu_Cut			"Tallar"
+#define ktx_mnu_Paste			"Enganxar"
+#define ktx_mnu_pastenfile		"Enganxar a un arxiu nou"
+#define ktx_mnu_pasteshow		"Mostra arxius enganxats"
+#define ktx_mnu_pasteclear		"Esborra arxius enganxats"
+#define ktx_mnu_Done			"Fet"
+#define ktx_mnu_addsel			"Afegir a la selecció"
+#define ktx_mnu_selshow			"Mostrar la selecció"
+#define ktx_mnu_cpyclipp			"Copiar al portapapers"
+#define ktx_mnu_Startsearch		"Començar la recerca"
+#define ktx_mnu_nckresulyts		"Tornar als resultats"
+#define ktx_mnu_resultclear		"Esborrar els resultats"
+#define ktx_mnu_showseltyp		"Mostra els tipus seleccionats"
+#define ktx_mnu_clearcond		"Esborrar condició"
+#define ktx_mnu_gtofolder		"Ves a la carpeta"
+#define ktx_mnu_PAGEUP			"Pàgina amunt"
+#define ktx_mnu_PAGEDOWN		"Pàgina avall"
+
+#define ktx_sh_str_Processing		"Processant"
+#define ktx_sh_str_selfiltyp		"Seleccionar els tipus d'arxiu"
+#define ktx_sh_str_date			"Data"
+#define ktx_sh_str_time			"Hora"
+
+//settings.
+#define ktx_sh_str_System		"Sistema"	
+#define ktx_sh_str_Hidden		"Ocult"
+#define ktx_sh_str_Readonly		"Només lectura"
+#define ktx_sh_str_Modifyingdate	"Data de modificació"
+#define ktx_sh_str_Modifyingtime	"Hora de modificació"
+#define ktx_sh_str_showall		"Mostra tots els arxius"
+#define ktx_sh_str_Sortorder		"Canvia l'ordre"	
+#define ktx_sh_str_Foldersfirst	"Primer carpetes"
+#define ktx_sh_str_speedoptimize	"Guarda la informació de la carpeta"
+#define ktx_sh_str_Recognizefiles	"Reconèixer arxius"
+#define ktx_sh_str_savepathonexit	"Guarda ruta en sortir"
+#define ktx_sh_str_exitaks		"Pregunta en sortir"
+#define ktx_sh_str_Off			"Desactivat"
+#define ktx_sh_str_On			"Activat"
+#define ktx_sh_str_No			"No"
+#define ktx_sh_str_Yes			"Si"
+#define ktx_sh_str_Decending		"Descendent"
+#define ktx_sh_str_Ascending		"Ascendent"
+#define ktx_sh_str_Name			"Nom"
+#define ktx_sh_str_Fileextension	"Extensió de l'arxiu"
+#define ktx_sh_str_Filetype		"Tipus d'arxiu"
+#define ktx_sh_str_Size			"Mida"
+#define ktx_sh_str_Path			"Ruta"
+#define ktx_sh_str_Filename		"Nom de l'arxiu"
+#define ktx_sh_str_Biggerthan		"Més gran que"
+#define ktx_sh_str_Smallerthan	"Més petit que"
+#define ktx_sh_str_Modifiedbefore	"Modificat abans"
+#define ktx_sh_str_Modifiedafter	"Modificat després de"
+#define ktx_sh_str_types		" Tipus"
+#define ktx_sh_str_Excludetypes	"Excloure els tipus"
+#define ktx_sh_str_Includetypes	"Incloure els tipus"
+#define ktx_sh_str_Fileattributes	"Atributs de l'arxiu"
+
+#define ktx_sh_str_formatName		"Nom\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Lliure\t%d Kb"
+#define ktx_sh_str_formatUsed		"Usat\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Mida\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Mida\t%d Bytes"		
+#define ktx_sh_str_formatType		"Tipus\t%S"
+#define ktx_sh_str_formatFiles	"Arxius\t%d"	
+#define ktx_sh_str_formatFolders	"Carpetes\t%d"
+#define ktx_sh_str_formatTypeID	"Identificació\t%S"	
+#define ktx_sh_str_atrWProt		"Atrib\tProtecció contra escriptura"
+#define ktx_sh_str_atrLocked		"Atrib\tBloquejat"
+#define ktx_sh_str_atrFormattable	"Atrib\tFormatejable"
+#define ktx_sh_str_atrVarSize		"Atrib\tMida variable"
+#define ktx_sh_str_atrROM		"Atrib\tROM"
+#define ktx_sh_str_atrRemovable	"Atrib\tEsborrable"
+#define ktx_sh_str_atrtHidden		"Atrib\tOcult"
+#define ktx_sh_str_atrReadonly	"Atrib\tNomés lectura"
+#define ktx_sh_str_atrSystem		"Atrib\tSistema"
+#define ktx_sh_str_atrVolume		"Atrib\tVolum"
+#define ktx_sh_str_atrArchive		"Atrib\tArxiu"
+
+#define ktx_sh_str_Notpresent		"No es troba present"
+#define ktx_sh_str_Floppy		"Disquetera"
+#define ktx_sh_str_HardDisk		"Disc dur"
+#define ktx_sh_str_CdRom		"CD ROM"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Remot"
+#define ktx_sh_str_Unknown		"Desconegut"
+#define ktx_sh_str_SCTITLE		"Accessos directes: Shift+/Pen+"
+#define ktx_sh_str_FREE			"<lliure>"
+#define ktx_sh_str_Root			"Arrel"
+#define ktx_sh_str_Selected		"Seleccionat"
+#define ktx_sh_str_Cutfiles		"Tallar archius"
+#define ktx_sh_str_CopyFiles		"Copiar arxius"
+#define ktx_sh_str_COPYINGFF		"Copiant %S a %S"
+#define ktx_sh_str_MOVINGFF		"Movent %S a %S"
+#define ktx_sh_str_RENAMINGFF		"Reanomenant %S a %S"
+#define ktx_sh_str_DELETINGFF		"Esborrant %S"	
+#define ktx_sh_str_EXISTREPLACE	" existeix, reemplaçant"
+#define ktx_sh_str_ISROMODIFY		" només lectura, canviar atributs?"
+#define ktx_sh_str_ALREDYEXIST	" ja existeix"
+#define ktx_sh_str_ISOPEN		" s'està fent servir"
+#define ktx_sh_str_ISREADONLY		" és de només lectura"
+#define ktx_sh_str_ACCDENIED		" Accés rebutjat"
+#define ktx_sh_str_DISKFULL		"El disc està ple"
+#define ktx_sh_str_DISCKNOTREADY	"No es troba el disc o no està llest"
+#define ktx_sh_str_CORRDISCK		"El disc està corrupte"
+#define ktx_sh_str_INVALIDNAME	" no és un nom vàlid"
+#define ktx_sh_str_NOTMEMFORFF	"Memòria insuficient "
+#define ktx_sh_str_OPERFAILED		"L'operació a \"%S\"ha fallat: Error %d"
+#define ktx_sh_str_NEWFILE		"Arxiu nou:"
+#define ktx_sh_str_SENDUI		"Enviar UI"
+#define ktx_sh_str_SENDFFVIA		"Enviar arxius via"
+#define ktx_sh_str_SELAPPLICATION	"Seleccionar aplicació"
+#define ktx_sh_str_OPENFILE		"Obrir arxiu"
+#define ktx_sh_str_ANDATRIBS		"\'And\'atributs"
+#define ktx_sh_str_SEARCFOR		"Valor de cerca"
+#define ktx_sh_str_SELFILETYPES	"Tipus d'axiu seleccionats"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bytes"
+#define ktx_sh_str_HIDD			"Ocult"
+#define ktx_sh_str_AND			" I "
+#define ktx_sh_str_OR			" O "
+#define ktx_sh_str_SYS			"sis."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" arxiu(s) trobat(s)"
+#define ktx_sh_str_FOUNDENDDDD	"%d arxiu(s) trobats a %d segon(s)"
+
+#define ktx_sh_str_SELCOMMAND		"Seleccionar ordre"
+#define ktx_sh_str_NOTSET		"No definit"
+#define ktx_sh_str_SELICONFF		"Seleccionar icona de l'aplicació"
+
+#define ktx_sh_str_READINGFF		"Llegint %d / %d"
+#define ktx_str_FILREADERR		"L'arxiu que s'està llegint podria estar incomplert, error: %d"
+#define ktx_str_FILNOTFOND		"Arxiu no trobat"
+#define ktx_str_NOAPPFORFIL		"No s'ha trobat aplicacions per poder obrir l'arxiu"
+#define ktx_str_SAVESEARCH		"Guardar els darrers resultats de la cerca?"
+#define ktx_str_SELSCNUMBER		"Seleccionar el número de l'adreça"
+#define ktx_str_REBOOTICON		"Les icones han canviat, el telèfon o l'Y-browser podrien necessitar d'un reinici abans que les icones tinguin efecte"
+#define ktx_str_PASTEFTOFOL		"Enganxar %d arxiu(s) a aquesta carpeta?"
+#define ktx_str_DELFOILES		"Esborra %d Arxius"
+#define ktx_str_NEWNAME 		"Nou nom:"
+#define ktx_str_FDERNAME		"Nom del directori:"
+#define ktx_str_ERRCREATEFLDR		"No es pot crear el directori, ErrNo: "
+#define ktx_str_FDREXISTS		"Ja existeix el directori, Posar un nom nou."
+#define ktx_str_APPENDLIST		"Afegir a la llista"
+#define ktx_str_FILESADCY		"%d arxiu(s) afegits per copiar/tallar"
+#define ktx_str_PASTEWILLREM		"Enganxar esborrarà %d arxiu(s)."
+#define ktx_str_FORSECOPY		"No es pot tancar l'arxiu font, copiar de tota manera?"
+#define ktx_str_STARTNEWSCRH		"Començar una nova cerca?"
+#define ktx_str_RESETSEARCH		"Reiniciar els valors de la cerca?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Marcar" // Mark menu item
+#define ktx_mnu_MarkInverse		"Invertir selecció"   // Mark menu item
+
+#define ktx_sh_str_General		"General"//- setting
+
+#define ktx_sh_str_fullscreen		"Pantalla complerta" // main settings item
+
+#define ktx_sh_str_NOFILES		"No hi ha arxius"   // no files in browser
+
+#define ktx_mnu_typassociation	"Associacions d'arxiu" //settins select item list
+#define ktx_sh_str_plugins		"Mòduls" //settins select item list
+
+#define ktx_sh_str_Own			"Propi"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Esborrar tipus d'arxiu" //file associations
+
+#define ktx_mnu_Modify			"Modificar"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Afegir tipus d'arxiu"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Esborrar tipus d'arxiu"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Esborrar extensions"	// menu file associations settings
+#define ktx_mnu_AddExt			"Afegir extensió"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Canviar administrador"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Canviar nom del tipus"	// menu file associations settings
+#define ktx_mnu_Reset			"Reiniciar"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Administrador d'aplicacions"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Administradors" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Reconeixedors" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Habilita" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Deshabilita" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Mostra la informació" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Nom: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Estat: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Deshabilitat" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Habilitat" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Versió del mòdul: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		",(versió correcte)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		",(versió incompatible)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Tipus de mòdul: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Administrador d'arxius" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Enviament d'arxius" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Recepció d'arxius" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Directori de l'arxiu" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Obrir amb l'administrador" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Reconeixedor d'arxius" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Arxiu(s) suportats:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Suporta nous arxius)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Afegir tipus d'arxiu"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Seleccionar per esborrar"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Tipus d'arxiu"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Administrador de fitxers no reconeguts"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+

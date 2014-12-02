@@ -1,0 +1,74 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opties"
+#define ktx_cmd_exit 				"Afsluiten"
+#define ktx_cmd_cancel 				"Annuleren"
+
+#define ktx_cmd_Disable				"Deactiveren"
+#define ktx_cmd_Enable				"Activeren"
+
+#define ktx_cmd_save 				"Opslaan"
+#define ktx_cmd_select 				"Selecteren"
+
+#define ktx_cmd_about				"Over"
+#define ktx_cmd_visit				"Bezoek m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nieuw"
+#define ktx_mnu_Modify 				"Bewerk"
+#define ktx_mnu_Remove 				"Verwijder"
+
+
+#define ktx_mnu_Savmsgs				"Opgeslagen berichten"
+#define ktx_mnu_ContSend			"Ontvanger uit contacten"
+
+#define ktx_sh_str_sndName	 		"Naam"
+#define ktx_sh_str_sndNumber	 	"Nummer"
+#define ktx_sh_str_Message		 	"Bericht"
+#define ktx_sh_str_sndTime		 	"Verzendtijd"
+#define ktx_sh_str_sndDate		 	"Verzenddatum"
+
+#define ktx_sh_str_DISABLED		"<Gedeactiveerd>"
+
+#define ktx_str_REMMESSAGE 			"Bericht verwijderen?"
+
+#define ktx_sh_str_REPEATS		"Herhalen"
+
+#define ktx_sh_str_ONCE			"Een keer"
+#define ktx_sh_str_WORKDAYA		"Werkdagen"
+#define ktx_sh_str_NONWORKD		"Niet-werkdagen"
+#define ktx_sh_str_EVERYDAY		"Iedere dag"
+#define ktx_sh_str_MONDAYS		"Maandagen"
+#define ktx_sh_str_TUESDAYS		"Dinsdagen"
+#define ktx_sh_str_WEDNESDAYS		"Woensdagen"
+#define ktx_sh_str_THURSDAYS		"Donderdagen"
+#define ktx_sh_str_FRIDAYS		"Vrijdagen"
+#define ktx_sh_str_SATURDAYS		"Zaterdagen"
+#define ktx_sh_str_SUNDAYS		"Zondagen"
+
+#define ktx_str_MSGTRUNK		"Bericht wordt beperkt tot 70 tekens, doorgaan?"
+
+#define ktx_cmd_Back 			"Terug"
+#define ktx_sh_str_HELP			"Help"
+#define ktx_sh_str_SMSType		"SMS type"
+#define ktx_sh_str_Normal		"Normal"
+#define ktx_sh_str_Flash		"FlashSMS"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Gebruik deze applicatie om normale en Flash SMS-berichten te sturen via een schema. Normale SMS'jes kunnen maximaal 160 tekens lang zijn, Flash SMS'jes maximaal 70. Unicode wordt zonodig automatisch gebruikt."
+#define ktx_str_HELP2			"Flash-berichten zijn klasse 0-berichten die automatisch worden getoond en alleen worden opgeslagen als de ontvanger dat heeft ingesteld."
+#define ktx_str_HELP3			"Maak een nieuw getimed bericht aan via de optie Nieuw in het menu. Nieuwe berichten verschijnen in de hoofdlijst. Vanuit de hoofdlijst kunt u hen openen, bewerken en verwijderen."
+#define ktx_str_HELP4			"Het verzenden van de berichten wordt verzorgd door een automatisch gestart programma, dat altijd aan staat."
+#define ktx_str_HELP5			"Het achtergrondprogramma wordt opgestart als het toestel aan gaat. Alle nieuwe instellingen en (aangepaste) schema's worden van kracht als u de applicatie afsluit."
+
+//Settings Help:
+#define ktx_str_HELP6			"Met getimede SMS'jes hoeft u alleen het telefoonnummer, het bericht en het moment in te voeren. "
+#define ktx_str_HELP7			"U kunt een contactpersoon selecteren of een nieuw nummer direct invoeren."
+#define ktx_str_HELP8			"U kunt een nieuw bericht intypen of een eerder bericht hergebruiken. Met SMS-type kunt u kiezen tussen een normale en een Flash SMS."
+#define ktx_str_HELP9			"U kunt een moment instellen en herhaling instellen (met een zelfgekozen tijdsinterval)."
+#define ktx_str_HELP10			"Let op: Herhaalde items blijven in de lijst staan, items met een specifieke datum en tijd worden na verzenden uit de lijst verwijderd."
+
+
+

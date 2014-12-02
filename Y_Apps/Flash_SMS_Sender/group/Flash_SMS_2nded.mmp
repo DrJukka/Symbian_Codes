@@ -1,0 +1,55 @@
+
+
+TARGET          App_A0009560.APP
+TARGETTYPE      APP
+targetpath      \SYSTEM\APPS\App_A0009560
+
+UID             0X100039CE 0x2002B0B0
+LANG 01  33
+
+EPOCSTACKSIZE	0x5000
+EPOCHEAPSIZE	4000 32000000
+
+RESOURCE        ..\data\App_A0009560.rss
+
+USERINCLUDE     ..\inc
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \Epoc32\include\mmf\plugin
+
+SOURCEPATH      ..\src
+SOURCE          App_A0009560.cpp
+SOURCE          MMSExampleContainer.cpp 
+SOURCE          ContactReader.cpp 
+SOURCE          Contacts_Container.cpp SMS_Sender.cpp Help_Container.cpp
+
+LIBRARY         euser.lib       // for CBase, CSession, CActiveScheduler, ...
+LIBRARY         avkon.lib       // for CAknView, CAknViewAppUi
+LIBRARY         bafl.lib        // for CBaActiveScheduler
+LIBRARY         msgs.lib        // for MMsvSessionObserver
+LIBRARY         apparc.lib      // for CApaDocument
+LIBRARY         cone.lib        // for CCoeControl
+LIBRARY         eikcore.lib     // for CEikApplication, CEikDocument, CEikAppUi				
+LIBRARY	    	eikcoctl.lib
+LIBRARY	    	gdi.lib
+LIBRARY	    	efsrv.lib
+LIBRARY         etext.lib 	//RichText
+LIBRARY	    	eikctl.lib 
+LIBRARY	    	CommonEngine.lib
+LIBRARY	    	PlatformEnv.lib 
+LIBRARY	    	aknnotify.lib 
+LIBRARY	    	eiksrv.lib 
+LIBRARY	    	fbscli.lib 
+LIBRARY	    	bitgdi.lib 
+LIBRARY	    	cntmodel.lib 
+LIBRARY	    	egul.lib 
+LIBRARY	    	aknskins.lib 
+LIBRARY	    	aknskinsrv.lib 
+LIBRARY	    	apgrfx.lib 
+LIBRARY	    	aknicon.lib 
+LIBRARY	    	estor.lib 
+LIBRARY	    	form.lib 
+LIBRARY	    	uiklaf.lib 
+LIBRARY	    	fepbase.lib 
+LIBRARY	    	charconv.lib 
+LIBRARY         smcm.lib 
+LIBRARY         gsmu.lib

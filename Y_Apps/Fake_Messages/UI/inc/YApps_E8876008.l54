@@ -1,0 +1,40 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Επιλογές"
+#define ktx_cmd_exit 				"Εξοδος"
+#define ktx_cmd_cancel 				"Ακύρωση"
+#define ktx_cmd_save 				"Αποθήκευση"
+#define ktx_cmd_select 				"Επέλεξε"
+
+#define ktx_cmd_about				"Περί"
+#define ktx_cmd_visit				"m.DrJukka.com"
+
+#define ktx_mnu_New 				"Νέο"
+#define ktx_mnu_Modify 				"Μετατροπή"
+#define ktx_mnu_Remove 				"Διαγραφή"
+
+
+#define ktx_mnu_Savmsgs				"Αποθηκευμένα μηνύματα"
+#define ktx_mnu_ContSend			"Αποστολέας από επαφές"
+
+#define ktx_sh_str_sndName	 		"Όνομα αποστολέα"
+#define ktx_sh_str_sndNumber	 	"Αριθμός αποστολέα"
+#define ktx_sh_str_Message		 	"Μήνυμα"
+#define ktx_sh_str_sndTime		 	"Ώρα αποστολής"
+#define ktx_sh_str_sndDate		 	"Ημερομηνία αποστολής"
+
+
+#define ktx_str_REMMESSAGE 			"Διαγραφή μηνύματος?"
+
+
+#define ktx_cmd_help				"Βοήθεια"
+#define ktx_cmd_Back				"Πίσω"
+
+#define ktx_str_HELP1 				"Αυτή η εφαρμογή δημιουργεί ψεύτικα εισερχόμενα SMS μηνύματα. Αυτά τα μηνύματα προγραμματίζονται για μελλοντική αποστολή ή αν έχει περάσει η ώρα τότε με το που εξέρχεστε απ’την εφαρμογή αποστέλλονται με την ημερομηνία/ώρα αποστολής που ορίσατε."
+#define ktx_str_HELP2 				"Για να φτιάξετε ένα νέο μήνυμα, πατήστε το Νέο, ορίστε όνομα αποστολέα και αριθμό (ή πάρτε έτοιμο από τις επαφές), γράψτε ένα μήνυμα (ή χρησιμοποιήστε ένα από τα προηγούμενα αποθηκευμένα), ορίστε ώρα αποστολής και ημερομηνία και πατήστε αποθήκευση."
+#define ktx_str_HELP3 				"Μόλις φτιάξετε το μήνυμα θα εμφανιστεί στην κεντρική λίστα. Σε αυτή τη λίστα μπορείτε να ανοίξετε τα μηνύματα, να τα τροποποιήσετε ή και να τα διαγράψετε ακόμα."
+#define ktx_str_HELP4 				"Τα μηνύματα που προγραμματίστηκαν καθώς και τα προηγούμενα χρονοδιαγράμματα ενημερώνονται όταν βγείτε από την εφαρμογή. Το χρονοδιάγραμμα ξεκινά αυτόματα με το που ανοίγει το κινητό. Κανένα μήνυμα δε θα εμφανιστεί αν η συσκευή είναι κλειστή."
+
+

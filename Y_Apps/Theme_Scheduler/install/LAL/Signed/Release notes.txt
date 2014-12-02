@@ -1,0 +1,4 @@
+
+This version requires Addtronic application to be present in the with correct configurations enabled.
+
+Made for Nokia S60 devices with 9.1 OS version and only tested with Nokia devices.

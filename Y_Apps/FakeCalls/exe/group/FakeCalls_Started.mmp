@@ -1,0 +1,30 @@
+TARGET           	YApp_E8876017.exe 
+TARGETTYPE      	EXE
+
+UID  				0 0xE8876017
+EPOCSTACKSIZE		0x5000
+
+SOURCEPATH      ..\src
+SOURCE		Starter.cpp
+
+START RESOURCE    ..\data\[E8876017].rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH      	..\..\common_src 
+SOURCE	    	CTimeOutTimer.cpp 
+SOURCE		ExampleServerSession.cpp 
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE   	\epoc32\include
+
+LIBRARY				euser.lib 
+LIBRARY				efsrv.lib 
+LIBRARY				apgrfx.lib 
+LIBRARY				apparc.lib
+
+LANG SC
+VENDORID	  	  0
+CAPABILITY	ReadUserData

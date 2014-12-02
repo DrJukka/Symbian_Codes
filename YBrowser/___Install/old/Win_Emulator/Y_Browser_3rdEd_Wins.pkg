@@ -1,0 +1,29 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Browser"},(0xA00007A6),0,82,12
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"C:\Symbian\9.1\S60_3rd\epoc32\release\winscw\UREL\YuccaBrowser.exe"	                 -"!:\sys\bin\YuccaBrowser.exe"
+"C:\Symbian\9.1\S60_3rd\Epoc32\release\winscw\UREL\Z\resource\apps\YuccaBrowser.rsc"     -"!:\resource\apps\YuccaBrowser.rsc"
+
+
+"C:\Symbian\9.1\S60_3rd\Epoc32\release\winscw\UREL\Z\private\10003a3f\apps\YuccaBrowser_reg.rsc"  -"!:\private\10003a3f\import\apps\YuccaBrowser_reg.rsc"
+"..\..\FileBrowser\data\icon_bmp\YuccaBrowser_aif.mif"			-"!:\resource\apps\YuccaBrowser_aif.mif"
+
+"..\..\FileBrowser\data\icons.mbm" 		-"!:\system\data\A00007A6\Icons\Originals.mbm"
+"..\..\FileBrowser\data\icons.mbm" 		-"!:\system\data\A00007A6\icons.mbm"
+"..\..\FileBrowser\data\Shortcuts" 		-"!:\private\A00007A6\Shortcuts"
+"..\..\FileBrowser\data\Settings" 		-"!:\private\A00007A6\Settings"
+"..\..\FileBrowser\data\CommandSC" 		-"!:\private\A00007A6\CommandSC"

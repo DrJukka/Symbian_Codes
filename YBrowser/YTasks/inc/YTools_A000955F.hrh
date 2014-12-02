@@ -1,0 +1,30 @@
+/* 	
+	Copyright (c) 2001 - 2008, 
+	J.P. Silvennoinen.
+	All rights reserved 
+*/
+
+#ifndef __STHSMS_HRH__
+#define __STHSMS_HRH__
+
+
+enum 
+    {
+    EClose= 0x6F00,
+	EAbout,
+	EAppOpen,
+	EBacktoYBrowser
+    };
+
+
+
+enum 
+    {
+    EAknExNoteCtrlIdWaitNoteCancel= 0x1000,
+	EAknExNoteCtrlIdWaitNote,
+	EProgressNoteId
+	};
+
+
+#endif  //__STHSMS_HRH__
+

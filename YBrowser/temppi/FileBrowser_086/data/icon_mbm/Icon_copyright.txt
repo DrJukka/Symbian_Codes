@@ -1,0 +1,26 @@
+Tango icons
+
+The Tango base icon theme is licensed under the Creative Commons Attribution Share-Alike license (http://creativecommons.org/licenses/by-sa/2.5/). 
+Original works can be found from http://tango.freedesktop.org/Tango_Desktop_Project:
+
+
+Gorilla
+
+The Gorilla base icon theme is licensed under GPL(http://www.gnu.org/copyleft/gpl.html)
+
+, the oroginal icons can be found from: http://jimmac.musichall.cz/icons.php
+
+
+Gartoon
+
+The Gartoon base icon theme is licensed under DESIGN SCIENCE LICENSE (http://www.gnu.org/licenses/dsl.html)
+
+, the oroginal icons can be found from: http://www.zeusbox.org/download/
+
+
+neu
+
+The Neu base icon theme is licensed under GPL(http://www.gnu.org/copyleft/gpl.html)
+
+, the oroginal icons can be found from: http: http://www.silvestre.com.ar/
+

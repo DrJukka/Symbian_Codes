@@ -1,0 +1,41 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opties"
+#define ktx_cmd_exit 				"Afsluiten"
+#define ktx_cmd_cancel 				"Annuleren"
+#define ktx_cmd_save 				"Opslaan"
+#define ktx_cmd_select 				"Selecteer"
+
+#define ktx_cmd_about				"Over"
+#define ktx_cmd_visit				"Bezoek m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nieuw"
+#define ktx_mnu_Modify 				"Bewerk"
+#define ktx_mnu_Remove 				"Verwijder"
+
+
+#define ktx_mnu_Savmsgs				"Opgeslagen berichten"
+#define ktx_mnu_ContSend			"Zender uit contacten"
+
+#define ktx_sh_str_sndName	 		"Zendernaam"
+#define ktx_sh_str_sndNumber	 	"Zendernummer"
+#define ktx_sh_str_Message		 	"Bericht"
+#define ktx_sh_str_sndTime		 	"Verzendtijd"
+#define ktx_sh_str_sndDate		 	"Verzenddatum"
+
+
+#define ktx_str_REMMESSAGE 			"Verwijder bericht ?"
+
+
+#define ktx_cmd_help				"Help"
+#define ktx_cmd_Back				"Terug"
+
+#define ktx_str_HELP1 				"Gebruik deze applicatie om inkomende SMS'jes na te bootsen. SMS'jes kunnen vooruit worden gepland, en zelfs in het verleden. In dat geval verschijnt het nieuwe bericht direct als de applicatie wordt afgesloten, met de ingestelde (verleden) tijd vermeld."
+#define ktx_str_HELP2 				"Maak een nieuwe SMS aan via het menu Opties. Voeg het nummer of de naam in van de afzender (eventueel vanuit uw contactpersonen, via het menu Opties). Schrijf het bericht of hergebruik een tekst via Opties. Stel de datum en tijd in en sla het bericht op. Het komt op de gewenste tijd binnen, of verschijnt direct na afsluiten in beeld, met de ingestelde datum en tijd."
+#define ktx_str_HELP3 				"Nieuwe SMS'jes verschijnen in de hoofdlijst. Vanuit deze lijst kunt u SMS'jes openen, bewerken en verwijderen."
+#define ktx_str_HELP4 				"Let op: SMS'jes worden bijgewerkt zodra de applicatie wordt afgesloten. De verdere afhandeling wordt geregeld door een automatisch gestarte applicatie op de achtergrond. Het toestel geeft geen meldingen als het is uitgeschakeld."
+
+
+

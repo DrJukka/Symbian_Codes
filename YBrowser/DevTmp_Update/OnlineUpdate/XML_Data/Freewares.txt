@@ -1,0 +1,65 @@
+<INFOITEMS>
+	<NAME>Y-FreeStuff</NAME>
+	<VERSION>090</VERSION>
+
+	<INFOPAGE>
+		<TITLE>Y-Alarms</TITLE>
+		<DESCRIPTION>Multi alarms application for S60 3rd edition devices, available at the MOSH.</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YAlarms_01.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>WEBOPN</TYPE>
+				<LINK>http://mosh.nokia.com/content/3ACE36129168AACAE040050AEE045898</LINK>
+			</ITEM>
+			<ITEM>
+				<NAME>Download (Italian)</NAME>
+				<TYPE>WEBOPN</TYPE>
+				<LINK>http://mosh.nokia.com/content/3B194CDF625CC6CFE040050AEE047D1E</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Inclinometer for N95</TITLE>
+		<DESCRIPTION>Inclinometer for shows vehicle angle while off-roading using the N95 accelerometer. just Fix your phone in a secure cradle and then launch the app! 
+Available at the MOSH.</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/Inclinometer192_192.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>WEBOPN</TYPE>
+				<LINK>http://mosh.nokia.com/content/3E1BD59369462687E040050AEE043609</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>AAS-News</TITLE>
+		<DESCRIPTION>Get you favourite symbian news directly to your pocket. AAS-News gets you the latest news from All About symbian RSS news feed.
+Available at the MOSH.</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/AASNews192_192.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>WEBOPN</TYPE>
+				<LINK>http://mosh.nokia.com/content/3E1BDE2636592A7EE040050AEE044D74</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+
+</INFOITEMS>
+

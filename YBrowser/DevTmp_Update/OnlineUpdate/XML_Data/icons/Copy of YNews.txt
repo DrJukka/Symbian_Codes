@@ -1,0 +1,28 @@
+<INFOITEMS>
+	<NAME>Y-News</NAME>
+	<VERSION>090</VERSION>
+
+	<INFOPAGE>
+		<TITLE></TITLE>
+		<TEXT></TEXT>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK></LINK>
+				<DESCRIPTION></DESCRIPTION>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK></LINK>
+				<DESCRIPTION></DESCRIPTION>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+
+
+
+</INFOITEMS>
+

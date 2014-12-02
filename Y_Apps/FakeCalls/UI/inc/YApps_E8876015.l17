@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opciók"
+#define ktx_cmd_exit 				"Kilépés"
+#define ktx_cmd_cancel 				"törlés"
+#define ktx_cmd_Back 				"Vissza"
+
+#define ktx_cmd_Disable				"Kikspcsol"
+#define ktx_cmd_Enable				"Bekapcsol"
+
+#define ktx_cmd_save 				"Mentés"
+#define ktx_cmd_select 				"Választ"
+
+#define ktx_mnu_Settings			"Beállitások"
+#define ktx_mnu_help				"Segitség"
+#define ktx_cmd_about				"Névjegy"
+#define ktx_cmd_visit				"DrJukka.com oldal meglatogatása"
+
+#define ktx_mnu_New 				"Új"
+#define ktx_cmd_Test				"Megtekint"
+#define ktx_mnu_Modify 				"Módosit"
+#define ktx_mnu_Remove 				"Törlés"
+
+#define ktx_mnu_newContact			"Új szám"
+
+#define ktx_sh_str_sndNumber	 		"Szám"
+#define ktx_sh_str_sndTime		 	"idő"
+#define ktx_sh_str_sndDate		 	"dátum"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<Kikapcsol>"
+
+#define ktx_str_REMMESSAGE 			"Eltávolitja az ütemezést?"
+#define ktx_sh_str_REPEATS			"Ismétlés"
+
+#define ktx_str_GREENBUTTON			"Zöld"
+#define ktx_str_REDBUTTON			"Piros"
+#define ktx_str_OFFBUTTON			"Ki"
+#define ktx_str_CAMERABUTTON			"Fényképező"
+
+
+#define ktx_sh_str_ONCE				"Egyszer"
+#define ktx_sh_str_WORKDAYA			"Munkanapokon"
+#define ktx_sh_str_NONWORKD			"Nem munkanapokon"
+#define ktx_sh_str_EVERYDAY			"Minden nap"
+#define ktx_sh_str_MONDAYS			"Hétfőnként"
+#define ktx_sh_str_TUESDAYS			"Keddenként"
+#define ktx_sh_str_WEDNESDAYS			"Szerdánként"
+#define ktx_sh_str_THURSDAYS			"Csütörtökönként"
+#define ktx_sh_str_FRIDAYS			"Péntekenként"
+#define ktx_sh_str_SATURDAYS			"Szombatonként"
+#define ktx_sh_str_SUNDAYS			"Vasárnaponként"
+
+#define ktx_sh_str_SNOZTEXT			"Szundi gomb szöveg"
+#define ktx_str_MAXTIME				"Mx csengetési idő"
+#define ktx_str_SNOOZETIME			"Szundi idő"
+#define ktx_sh_str_OPERNAME			"Szolgáltató neve"
+#define ktx_sh_str_SUNDFILE			"Tartalék csengőhang"
+
+//Main Application help
+#define ktx_str_HELP1				"Ezzel az alkalmazással kamu hivásokat lehet inditani és mivel nincs tényleges hivás,nem kerül semmibe."
+#define ktx_str_HELP2				"Négy előre definiált gombot lehet használni az alkalmazásra.Ezek a piros-,zöld-, kamera- és ki/bekapcsoló gomb.A gombok csak akkor inditják a kamu hivást,ha a billentyűzár aktiv."
+#define ktx_str_HELP3				"Nevjegyek gombokhoz való hozzárendeléséhez válassza a Módositás opciót a menüből.Bekapcsol/Kikapcsol opciók az adott gombbal való kamu hivásra vonatkoznak."
+#define ktx_str_HELP4				"Ütemezett kamu hivásokat az Új opció,menüből való kijelölésével kezdemenyezhet.Ezeket később módosithatja vagy törölheti."
+#define ktx_str_HELP5				"A Megtekint opcióval, a listaból kiválasztott kamu hivás részleteit tekintheti meg."
+#define ktx_str_HELP6				"A kamu hivás tényleges ütemezését egy a háttérben lévő szerver kezeli,ami akkor fut,ha engedélyezve van bármely kamu hivás gomb vagy ütemezés.A háttérben futó alkalmazás a készülékkel együtt indul.Minden beállitás csak a kezelői felületből való kilépést követően aktivizálódik. "
+
+// Schedlue Settings
+#define ktx_str_HELP7				"A kamu hivás ütemezéséhez, csak egy nevet vagy számot kell megadnia és az időt amikorra a hivást szeretné alkalmazni."
+#define ktx_str_HELP8				"A neve kiválaszthatja a telefonkönyvből,ez a név a fő ütemezési listában is szerepelni fog.Amennyiben a megadott név,szám megtalálható a készülékben, minden abban megadott beállitast a kamu hivas is felhasznál(csengőhang,kép,név stb)"
+#define ktx_str_HELP9				"Ay Új szám opcióval tetszőleges adatokat adhat meg a kijelzőre. "
+#define ktx_str_HELP10				"Az ütemezés idejét,az idő beállitásban lehet kiválasztani.Az ismétlés funkcióval beállithatunk többszöri hivást is.Az ismételt hivás beállitasa csak az utolso hivás kijelzésekor törlődik."
+
+//Key settings
+#define ktx_str_HELP11				"Az egy gombos kamu hivásoknál csak a számot kell megadnia.Ezt a nevjegyekből vagy az Új szám opcival teheti meg.Utobbinál bármit kitehet a kamu hivás kijelzőjére."
+#define ktx_str_HELP12				"Amennyiben a megadott szám szerepel a készülékben,minden a névhez tartozó adat (csengőhang,kép stb) kijelzésre kerül a kamu hivas indulásakor."
+#define ktx_str_HELP13				"Ne felejtse el a fő ütemezési listából engedélyezni a kamu hivás gombot.Az egy gombos csak bban az esetben működik,ha a készülék billentyűzárja aktiv."
+
+// Default Settings
+#define ktx_str_HELP14				"Az alkalmazás felső részében kijelzésre kerül a szolgáltató neve,amikor a hálózat neve nem elérhető,vagy a készülék offline profilja aktiv."
+#define ktx_str_HELP15				"Tartalék csehngőhangot használ az alkalmazás,ha a beirt név nem található a telefonkönyvben és a profil csengőhang nem elérhető.Ez a program által alkalmazott mód és sorrend a csengőhang kiválasztására."
+#define ktx_str_HELP16				"A szundi  ideje másodpercekben kerül megadásra.Amikor a Szundi gomb megnzomásra kerül,az alkalmazás képe eltűnik,majd a megadott idő múlva ismét megjelenik."
+#define ktx_str_HELP17				"Max csengőhang idő határozza meg,hogy az alkalmazás képe mennyi ideig legyen látható miután az elindult.A Szundi megnyomása nullázza a visszaszámlálót."
+#define ktx_str_HELP18				"A Szundi gomb szöveg opció megnyomásával beállithatjuk a nekünk legjobban tetsző szöveg kijelzését,a még valósághűbb hatás kedvéért."
+
+
+
+
+

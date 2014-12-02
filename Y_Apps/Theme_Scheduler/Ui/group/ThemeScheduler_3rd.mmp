@@ -1,0 +1,82 @@
+/* Copyright (c) 2001 - 2007 , Dr. Jukka Silvennoinen. All rights reserved */
+
+TARGET          	YApp_E8876002.exe
+TARGETTYPE      	exe
+
+UID             	0X100039CE 0xE8876002
+EPOCSTACKSIZE		0x10000
+
+//CAPABILITY 			ReadDeviceData ReadUserData SwEvent UserEnvironment WriteDeviceData WriteUserData 
+CAPABILITY 			ReadUserData ReadDeviceData SwEvent WriteDeviceData
+
+SOURCEPATH      	..\src
+SOURCE          	Main_Container.cpp
+SOURCE          	Profile_Settings.cpp
+SOURCE          	Splash_Screen.cpp
+SOURCE          	YApp_E8876002.cpp
+
+START RESOURCE    ..\data\YApp_E8876002.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE    ..\data\YApp_E8876002_reg.rss
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END //RESOURCE
+
+SOURCEPATH      ..\..\common_src 
+SOURCE          	ThemeDataBase.cpp
+SOURCE          	CTimeOutTimer.cpp
+SOURCE				Ps_Observer.cpp
+SOURCE				TrialHanler.cpp
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE   \epoc32\include
+
+LIBRARY         euser.lib				// for CBase, CSession, CActiveScheduler, ...
+LIBRARY         avkon.lib				// for CAknView, CAknViewAppUi
+LIBRARY         apparc.lib				// for CApaDocument
+LIBRARY         cone.lib				// for CCoeControl
+LIBRARY         eikcore.lib				// for CEikApplication, CEikDocument, CEikAppUi
+LIBRARY         eikcoctl.lib			// CColumnListBoxItemDrawer
+LIBRARY         aknnotify.lib			// CAknGlobalNote
+LIBRARY         apgrfx.lib				// RApaLsSession,TApaTask,TApaTaskList
+LIBRARY         efsrv.lib				// Rfs,RFile,TParseBase,TFindFile
+LIBRARY         ws32.lib				// RWsSession
+LIBRARY         bafl.lib				// CDesC16Array
+LIBRARY         egul.lib				// TextUtils
+LIBRARY         eikctl.lib				// CColumnListBoxData
+LIBRARY         estor.lib 
+LIBRARY         MediaClientAudio.lib 
+LIBRARY         fbscli.lib
+LIBRARY         apmime.lib 
+LIBRARY         bitgdi.lib 
+LIBRARY         hal.lib
+LIBRARY         PBKENG.LIB				// phonebook engine
+LIBRARY         cntmodel.lib 				//  CContactDatabase
+LIBRARY         edbms.lib
+LIBRARY         etext.lib
+LIBRARY         msgs.lib 
+LIBRARY         smcm.lib				// for TSmsMtmCommand  
+LIBRARY         gsmu.lib				// for Service Center address 
+LIBRARY         IMUT.LIB				// TImCodecB64
+LIBRARY         GDI.LIB
+LIBRARY         PlatformEnv.lib
+LIBRARY         aknskins.lib 
+LIBRARY         aknskinsrv.lib 
+LIBRARY         aknswallpaperutils.lib
+LIBRARY         aknicon.lib 
+LIBRARY         MPEngine.lib
+LIBRARY         profileeng.lib
+LIBRARY         centralrepository.lib 
+LIBRARY 		CommonEngine.lib MGFetch.lib
+
+LANG 01 02 03 04 05 06 07 08 09 13 14 16 17 18 25 26 27 28 29 31 33 35 37 42 44 45 50 54 57 59 65 69 70 78 79 87 93 106
+
+SOURCEPATH ..\src
+SOURCE Help_Container.cpp

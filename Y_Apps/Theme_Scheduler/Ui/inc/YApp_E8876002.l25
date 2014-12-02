@@ -1,0 +1,63 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Nastavení"
+#define ktx_cmd_exit 			"Konec"
+#define ktx_cmd_Cancel			"Zrušit"
+
+
+#define ktx_cmd_Disable			"Zakázat"
+#define ktx_cmd_Enable			"Povolit"
+
+#define ktx_cmd_about			"O programu"
+#define ktx_cmd_New				"Nový"
+#define ktx_cmd_Modify			"Upravit"
+#define ktx_cmd_Remove			"Odstranit"
+#define ktx_cmd_Randomthes		"Náhodná témata"
+#define ktx_cmd_ViewTheme		"Zobrazit téma"
+#define ktx_cmd_Profchange		"Změnit profil"
+#define ktx_cmd_Timechange		"Časovaná změna"
+#define ktx_cmd_Stop			"Zastavit"
+#define ktx_cmd_Save			"Uložit"
+
+#define ktx_cmd_VisitJukka		"Přejít na m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Zakázáno>"
+#define ktx_sh_str_BGIMAGE		"Tapeta"
+#define ktx_sh_str_RANDOM		"Náhodně"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Odstranit plánování?"
+#define ktx_sh_str_ACTIVEON		"Aktivní v"
+#define ktx_sh_str_SELECTTHEME	"Zvolit téma"
+#define ktx_sh_str_NONAME		"Nepojmenovaný"
+#define ktx_sh_str_SELECTPROF		"Zvolit profil"
+#define ktx_sh_str_Time			"Čas"
+#define ktx_sh_str_Date			"Datum"
+#define ktx_sh_str_Theme		"Téma/Tapeta"
+#define ktx_sh_str_SETONTIME		"Nastavit v čase"
+#define ktx_sh_str_SETONWITH		"Nastavit s"
+
+#define ktx_sh_str_WORKDAYA		"Pracovní dny"
+#define ktx_sh_str_NONWORKD		"Víkend"
+#define ktx_sh_str_EVERYDAY		"Denně"
+#define ktx_sh_str_MONDAYS		"Pondělí"
+#define ktx_sh_str_TUESDAYS		"Úterý"
+#define ktx_sh_str_WEDNESDAYS	"Středa"
+#define ktx_sh_str_THURSDAYS	"Čtvrtek"
+#define ktx_sh_str_FRIDAYS		"Pátek"
+#define ktx_sh_str_SATURDAYS	"Sobota"
+#define ktx_sh_str_SUNDAYS		"Neděle"
+
+#define ktx_cmd_Help			"Nápověda"
+#define ktx_cmd_Back			"Zpět"
+
+#define ktx_str_HELP1			"Tato aplikace se používá pro plánování změn tématu a tapety pomocí časovače nebo při změně profilu. Pro každý typ události je volba v nastavení a nový plán je možno vytvořit pomocí příslušné volby v menu."
+#define ktx_str_HELP2			"Při vytvoření plánu vyberte zda má být pro téma nebo tapetu, dále čas a opakování nebo profil, se kterým má být plán spuštěn. Poté plán uložte příkazem Uložit. Při volbě Náhodně je téma vybráno náhodně při spuštění plánu. Když v seznamu Náhodná témata není žádné, pak se vybírá ze všech."
+#define ktx_str_HELP3			"Po vytvoření se plán objeví v hlavním seznamu. V tomto seznamu je možno použít menu Nastavení k otevření plánu pro úpravy nebo jeho odstranění. Dále je zde možné plán dočasně zakázat/povolit."
+#define ktx_str_HELP4			"Změny se projeví při zavření aplikace pro nastavení. Doporučuje se nechat mezi plány alespoň dvě minuty. Aktuální plán je ovládán pomocí aplikace běžící na pozadí a spuštěné při startu přístroje. Plánovaní je při vypnutém přístroji neaktivní."
+
+

@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Seçenekler"
+#define ktx_cmd_exit 			"Çıkış"
+#define ktx_cmd_Cancel			"İptal"
+
+
+#define ktx_cmd_Disable			"Devre Dışı"
+#define ktx_cmd_Enable			"Etkin"
+
+#define ktx_cmd_about			"Hakkında"
+#define ktx_cmd_New				"Yeni"
+#define ktx_cmd_Modify			"Düzenle"
+#define ktx_cmd_Remove			"Sil"
+#define ktx_cmd_Randomthes		"Rastgele Tercihler"
+#define ktx_cmd_Profiles		"Tercihler"
+
+#define ktx_cmd_Stop			"Dur"
+#define ktx_cmd_Save			"Kaydet"
+
+
+#define ktx_cmd_VisitJukka		"m.DrJukka.com'u ziyaret et"
+
+#define ktx_sh_str_DISABLED		"<Etkin Değil>"
+#define ktx_sh_str_RANDOM		"Rastgele"
+#define ktx_sh_str_PROFFILLE2	"Tercih"
+#define ktx_sh_str_REMOVESCHED	"Zamanlamayı Sil ?"
+#define ktx_sh_str_ACTIVEON		"Aktiflik"
+
+#define ktx_sh_str_NONAME		"İsimsiz"
+#define ktx_sh_str_SELECTPROF	"Tercih Seçin"
+
+#define ktx_sh_str_SETONTIME	"Ayarlanma Zamanı"
+
+
+#define ktx_sh_str_WORKDAYA		"İş Günleri"
+#define ktx_sh_str_NONWORKD		"Tatil Günleri"
+#define ktx_sh_str_EVERYDAY		"Hergün"
+#define ktx_sh_str_MONDAYS		"Pazartesileri"
+#define ktx_sh_str_TUESDAYS		"Salıları"
+#define ktx_sh_str_WEDNESDAYS	"Çarşambaları"
+#define ktx_sh_str_THURSDAYS	"Perşembeleri"
+#define ktx_sh_str_FRIDAYS		"Cumaları"
+#define ktx_sh_str_SATURDAYS	"Cumartesileri"
+#define ktx_sh_str_SUNDAYS		"Pazarları"
+
+#define ktx_cmd_Help			"Yardım"
+#define ktx_cmd_Back			"Geri"
+
+#define ktx_str_HELP1			"Bu uygulama tercihleri zamanlamak için kullanılmaktadır. Yeni bir zamanlama eklemek için seçenekler menüsündeki yeni seçeneğini seçiniz."
+#define ktx_str_HELP2			"Sonra zamanlanacak tercih modunu seçiniz. Eğer rastgele tercih listesi boşsa bütün zamanlama iptal edilecektir. Tercih modunu seçtikten sonra zamanı ve tekrar seçeneklerini seçiniz. Daha sonra kaydet komutu ile zamanlamayı kaydediniz."
+#define ktx_str_HELP3			"Zamanlama kaydedildikten sonra ana listede görünecektir. Ana listedeki zamanlamaları seçenekler menüsünü kullanarak değişiklik için açabilirsiniz ve hatta silebilir ve geçici olarak kapatabilirsiniz."
+#define ktx_str_HELP4			"Tercih zamanlamaları ve önceki zamanlamalar uygulamadan çıkıldıktan sonra yenilenerek aktif olur. İyi bir kullanılabilirlik için her bir zamanlama iki dakikalık aralıklarla ayarlanmalı. Zamanlayıcı telefon açıldığında otomatik olarak arka planda çalışır. Telefon kapalı durumdayken zamanlayıcı mesajları görünmeyecektir."
+
+

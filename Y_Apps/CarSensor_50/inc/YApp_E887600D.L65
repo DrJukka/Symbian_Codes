@@ -1,0 +1,27 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"옵션"
+#define qtn_exit 			"종료"
+
+#define qtn_about			"프로그램 정보"
+#define qtn_visit			"m.DrJukka.com 홈페이지로"
+#define qtn_backlighton		"백라이트 켜기"
+
+#define qtn_backlightoff	"백라이트 끄기"
+#define qtn_reset			"리셋"
+
+#define qtn_Help			"도움말"
+#define qtn_Back			"뒤로"
+
+#define ktx_str_HELP1 		"이 애플리케이션은 핸드폰이 수평/ 수직으로 기울어져 있는 정도를 기울어진 자동차 그림으로 표시해 줍니다. "
+#define ktx_str_HELP2 		"'메뉴' -> '리셋'을 선택하면 현재의 기울어진 정도를 기본값으로 설정할 수 있습니다. "
+#define ktx_str_HELP3 		"'백라이트 켜기' 상태로 두면 백라이트가 계속 켜져 있도록 설정할 수 있습니다. 백라이트가 계속 켜져 있도록 설정하면 배터리 소모량이 더 커집니다."
+
+
+
+// End of File

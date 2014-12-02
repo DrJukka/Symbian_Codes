@@ -1,0 +1,181 @@
+
+&EN
+
+; standard SIS file header
+#{"Inclinometer"},(0x20028857),1,10,0
+
+;Localised Vendor name
+%{"Dr. Jukka"}
+
+;Unique Vendor name
+:"Dr. Jukka"
+
+;Supports Series 60 v 3.2
+[0x102752AE],0,0,0,{"S60ProductID"}
+
+;Supports S60 release 5.0
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\Epoc32\release\GCCE\Urel\YApp_20028857.exe"			-"!:\sys\bin\YApp_20028857.exe"
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\Epoc32\data\z\private\10003a3f\apps\YApp_20028857_reg.r01"	-"!:\private\10003a3f\import\apps\YApp_20028857_reg.rsc"
+"..\..\data\icon_bmp\YApp_E887600D_aif.mif" 											-"!:\resource\apps\YApp_20028857_aif.mif"
+"..\..\data\SVG\YApp_E887600D.mif" 												-"!:\resource\apps\YApp_20028857.mif"
+
+!({"English"},{"Albanian"},{"Arabic"},{"Azerbaijan"},{"Bulgarian"},{"Catalan"},{"Chinese (PRC)"},{"Chinese (Taiwan)"},{"Croatian"},{"Czech"},{"Danish"},{"Dutch"},{"Farsi"},{"Finnish"},{"French"},{"German"},{"Greek"},{"Hebrew"},{"Hungarian"},{"Indonesian"},{"Italian"},{"Korean"},{"Macedonian"},{"Malay"},{"Norwegian"},{"Polish"},{"Portuguese"},{"Romanian"},{"Russian"},{"Serbian"},{"Slovak"},{"Slovenian"},{"Spanish"},{"Swedish"},{"Tamil"},{"Thai"},{"Turkish"},{"Ukrainian"})
+
+IF option1	;English
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r01"         		     	-"!:\resource\apps\YApp_20028857.r01"
+ENDIF
+
+IF option2	;Albanian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r35"         		     	-"!:\resource\apps\YApp_20028857.r35"
+ENDIF
+
+IF option3	;Arabic
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r37"         		     	-"!:\resource\apps\YApp_20028857.r37"
+ENDIF
+
+IF option4	;Azerbaijan
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r106"         	     		-"!:\resource\apps\YApp_20028857.r106"
+ENDIF
+
+IF option5	;Bulgarian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r42"         		     	-"!:\resource\apps\YApp_20028857.r42"
+ENDIF
+
+IF option6	;Catalan
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r44"         		     	-"!:\resource\apps\YApp_20028857.r44"
+ENDIF
+
+IF option7	;Chinese (PRC)
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r31"         		     	-"!:\resource\apps\YApp_20028857.r31"
+ENDIF
+
+IF option8	;Chinese (Taiwan)
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r29"         		     	-"!:\resource\apps\YApp_20028857.r29"
+ENDIF
+
+IF option9	;Croatian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r45"         		     	-"!:\resource\apps\YApp_20028857.r45"
+ENDIF
+
+IF option10	;Czech
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r25"         		     	-"!:\resource\apps\YApp_20028857.r25"
+ENDIF
+
+IF option11	;Danish
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r07"         		     	-"!:\resource\apps\YApp_20028857.r07"
+ENDIF
+
+IF option12	;Dutch
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r18"         		     	-"!:\resource\apps\YApp_20028857.r18"
+ENDIF
+
+IF option13	;Farsi
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r50"         		     	-"!:\resource\apps\YApp_20028857.r50"
+ENDIF
+
+IF option14	;Finnish
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r09"         		     	-"!:\resource\apps\YApp_20028857.r09"
+ENDIF
+
+IF option15	;French
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r02"         		     	-"!:\resource\apps\YApp_20028857.r02"
+ENDIF
+
+IF option16	;German
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r03"         		     	-"!:\resource\apps\YApp_20028857.r03"
+ENDIF
+
+IF option17	;Greek
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r54"         		     	-"!:\resource\apps\YApp_20028857.r54"
+ENDIF
+
+IF option18	;Hebrew
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r57"         		     	-"!:\resource\apps\YApp_20028857.r57"
+ENDIF
+
+IF option19	;Hungarian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r17"         		     	-"!:\resource\apps\YApp_20028857.r17"
+ENDIF
+
+IF option20	;Indonesian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r59"         		     	-"!:\resource\apps\YApp_20028857.r59"
+ENDIF
+
+IF option21	;Italian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r05"         		     	-"!:\resource\apps\YApp_20028857.r05"
+ENDIF
+
+IF option22	;Korean
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r65"         		     	-"!:\resource\apps\YApp_20028857.r65"
+ENDIF
+
+IF option23	;Macedonian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r69"         		     	-"!:\resource\apps\YApp_20028857.r69"
+ENDIF
+
+IF option24	;Malay
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r70"         		     	-"!:\resource\apps\YApp_20028857.r70"
+ENDIF
+
+IF option25	;Norwegian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r08"         		     	-"!:\resource\apps\YApp_20028857.r08"
+ENDIF
+
+IF option26	;Polish
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r27"         		     	-"!:\resource\apps\YApp_20028857.r27"
+ENDIF
+
+IF option27	;Portuguese
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r13"         		     	-"!:\resource\apps\YApp_20028857.r13"
+ENDIF
+
+IF option28	;Romanian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r78"         		     	-"!:\resource\apps\YApp_20028857.r78"
+ENDIF
+
+IF option29	;Russian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r16"         		     	-"!:\resource\apps\YApp_20028857.r16"
+ENDIF
+
+IF option30	;Serbian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r79"         		     	-"!:\resource\apps\YApp_20028857.r79"
+ENDIF
+
+IF option31	;Slovak
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r26"         		     	-"!:\resource\apps\YApp_20028857.r26"
+ENDIF
+
+IF option32	;Slovenian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r28"         		     	-"!:\resource\apps\YApp_20028857.r28"
+ENDIF
+
+IF option33	;Spanish
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r04"         		     	-"!:\resource\apps\YApp_20028857.r04"
+ENDIF
+
+IF option34	;Swedish
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r06"         		     	-"!:\resource\apps\YApp_20028857.r06"
+ENDIF
+
+IF option35	;Tamil
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r87"         		     	-"!:\resource\apps\YApp_20028857.r87"
+ENDIF
+
+IF option36	;Thai
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r33"         		     	-"!:\resource\apps\YApp_20028857.r33"
+ENDIF
+
+IF option37	;Turkish
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r14"         		     	-"!:\resource\apps\YApp_20028857.r14"
+ENDIF
+
+IF option38	;Ukrainian
+"C:\S60\devices\S60_5th_Edition_SDK_v1.0\epoc32\data\z\resource\apps\YApp_20028857.r93"         		     	-"!:\resource\apps\YApp_20028857.r93"
+ENDIF
+
+
+

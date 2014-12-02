@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opties"
+#define ktx_cmd_exit 			"Sluiten"
+#define ktx_cmd_Cancel			"Annuleren"
+
+
+#define ktx_cmd_Disable			"Deactiveren"
+#define ktx_cmd_Enable			"Activeren"
+
+#define ktx_cmd_about			"Over"
+#define ktx_cmd_New				"Nieuw"
+#define ktx_cmd_Modify			"Bewerk"
+#define ktx_cmd_Remove			"Verwijder"
+#define ktx_cmd_Randomthes		"Willekeurige profielen"
+#define ktx_cmd_Profiles		"Profielen"
+
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Opslaan"
+
+
+#define ktx_cmd_VisitJukka		"Bezoek m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Gedeactiveerd>"
+#define ktx_sh_str_RANDOM		"Willekeurig"
+#define ktx_sh_str_PROFFILLE2	"Profiel"
+#define ktx_sh_str_REMOVESCHED	"Verwijder schema?"
+#define ktx_sh_str_ACTIVEON		"Actief op"
+
+#define ktx_sh_str_NONAME		"Geen naam"
+#define ktx_sh_str_SELECTPROF	"Select profiel"
+
+#define ktx_sh_str_SETONTIME	"Zet aan op tijd"
+
+
+#define ktx_sh_str_WORKDAYA		"Werkdagen"
+#define ktx_sh_str_NONWORKD		"Niet werkdagen"
+#define ktx_sh_str_EVERYDAY		"Iedere dag"
+#define ktx_sh_str_MONDAYS		"Maandagen"
+#define ktx_sh_str_TUESDAYS		"Dinsdagen"
+#define ktx_sh_str_WEDNESDAYS	"Woensdagen"
+#define ktx_sh_str_THURSDAYS	"Donderdagen"
+#define ktx_sh_str_FRIDAYS		"Vrijdagen"
+#define ktx_sh_str_SATURDAYS	"Zaterdagen"
+#define ktx_sh_str_SUNDAYS		"Zondagen"
+
+#define ktx_cmd_Help			"Help"
+#define ktx_cmd_Back			"Terug"
+
+#define ktx_str_HELP1			"Gebruik deze applicatie om profielen te activeren op basis van een timer. Maak een nieuw schema aan via het menu Opties."
+#define ktx_str_HELP2			"Selecteer vervolgens het profiel waarop u een schema wilt baseren, en vul de opties in voor tijd en herhaling. Sluit het schema vervolgens op. Let op: lege schema's worden genegeerd. "
+#define ktx_str_HELP3			"Aangemaakte schema's verschijnen het in de hoofdlijst. De hoofdlijst biedt de mogelijkheid schema's te openen, bewerken en verwijderen. Daarnaast kunnen schema's vanuit deze lijst tijdelijk worden ge(de)activeerd."
+#define ktx_str_HELP4			"Let op: Profielen en schema's worden bijgewerkt zodra de applicatie wordt afgesloten. Het werkt het prettigst als zij twee minuten na elkaar worden ingepland. Het toestel geeft geen meldingen als het is uitgeschakeld."
+
+

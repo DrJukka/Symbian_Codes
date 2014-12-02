@@ -1,0 +1,29 @@
+TARGET           	YApp_E887600A.exe 
+TARGETTYPE      	EXE
+
+UID  				0 0xE887600A
+EPOCSTACKSIZE		0x5000
+
+SOURCEPATH      ..\src
+SOURCE		Starter.cpp
+
+START RESOURCE    ..\data\[E887600A].rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH      	..\..\common_src 
+SOURCE	    	CTimeOutTimer.cpp 
+SOURCE		ExampleServerSession.cpp 
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE   	\epoc32\include
+
+LIBRARY				euser.lib 
+LIBRARY				efsrv.lib 
+LIBRARY				apgrfx.lib 
+LIBRARY				apparc.lib
+
+LANG SC
+VENDORID	  	  0

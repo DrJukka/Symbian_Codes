@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opţiuni"
+#define ktx_cmd_exit 			"Ieşire"
+#define ktx_cmd_Cancel			"Anulare"
+
+
+#define ktx_cmd_Disable			"Dezactivat"
+#define ktx_cmd_Enable			"Activat"
+
+#define ktx_cmd_about			"Despre aplicaţie"
+#define ktx_cmd_New				"Creare"
+#define ktx_cmd_Modify			"Modificare"
+#define ktx_cmd_Remove			"Ştergere"
+#define ktx_cmd_Randomthes		"Profiluri aleatoare"
+#define ktx_cmd_Profiles		"Profiluri"
+
+#define ktx_cmd_Stop			"Oprire"
+#define ktx_cmd_Save			"Salveaza"
+
+
+#define ktx_cmd_VisitJukka		"Vizitaţi m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Dezactivat>"
+#define ktx_sh_str_RANDOM		"Aleator"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Şterge intrare ?"
+#define ktx_sh_str_ACTIVEON		"Activ"
+
+#define ktx_sh_str_NONAME		"Fără nume"
+#define ktx_sh_str_SELECTPROF	"Selectare profil"
+
+#define ktx_sh_str_SETONTIME	"Activ la"
+
+
+#define ktx_sh_str_WORKDAYA		"Luni – Vineri"
+#define ktx_sh_str_NONWORKD		"Weekend"
+#define ktx_sh_str_EVERYDAY		"În fiecare zi"
+#define ktx_sh_str_MONDAYS		"Luni"
+#define ktx_sh_str_TUESDAYS		"Marţi"
+#define ktx_sh_str_WEDNESDAYS	"Miercuri"
+#define ktx_sh_str_THURSDAYS	"Joi"
+#define ktx_sh_str_FRIDAYS		"Vineri"
+#define ktx_sh_str_SATURDAYS	"Sâmbăta"
+#define ktx_sh_str_SUNDAYS		"Duminică"
+
+#define ktx_cmd_Help			"Ajutor"
+#define ktx_cmd_Back			"Înapoi"
+
+#define ktx_str_HELP1			"Această aplicaţie permite schimbarea automata a profilului în funcţie de timp. Pentru a crea o noua programare alegeţi opţiunea \"Creare\" din meniu."
+#define ktx_str_HELP2			"Apoi selectaţi profilul dorit. Atenţie: dacă lista profilurilor este goală, programarea va fi ignorată de aplicaţie. După selectarea profilului, setaţi timpul şi modul de repetare. Odată configurată, salvaţi programarea prin comanda \"Salvează\"."
+#define ktx_str_HELP3			"După efectuarea programării aceasta va fi afişată in lista principală. Din această listă puteţi modifica, şterge sau activa/dezactiva temporar programările cu ajutorul comenzilor din meniu."
+#define ktx_str_HELP4			"Atenţie: programările  sunt reactualizate numai la ieşirea din aplicaţie. Pentru o mai buna utilizare, fiecare programare ar trebui sa fie la cel puţin 2 minute distanţă de o alta. Evenimentele sunt procesate de aplicaţia care rulează în fundal şi care este lansată în execuţie odată cu pornirea telefonului. Nu se vor procesa programări cât timp telefonul este oprit."
+
+

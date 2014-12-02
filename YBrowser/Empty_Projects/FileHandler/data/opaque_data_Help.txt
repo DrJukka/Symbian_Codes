@@ -1,0 +1,50 @@
+
+interface_uid = 0x20009992;// static YTool UID for recognizers
+interface_uid = 0x20009991;// static YTool UID for file handlers
+
+
+<YTOOLS>
+
+<VERSION>080</VERSION> // version needs to be 080 currently, may change in future editions..
+
+// 080 only supports one IMPLEMENTATION per each plug-in
+
+<IMPLEMENTATION> // the implementation info needs to be between IMPLEMENTATION tags
+
+<TYPE>FILEHANDLER</TYPE> // Type tells what this plug-in does, and where it is shown
+			 // - FILEHANDLER : normal file handler, not shown in any menu, just used to handling 					 //	files (plug-in needs to be derived from CYBrowserFileHandler)
+			 // - FILESENDER : File sender plug-in, will be shown in "Send via" menu 
+			 //	(plug-in needs to be derived from CYBrowserFileSender)
+			 // - FILERECEIVER: Not included in 0.82 version yet, will propably have a "receive via" 			 //	menu implemented later (plug-in needs to be derived from CYBrowserBaseHandler)
+			 // - FILEFOLDER: Handler that is shown in drives view (like mail folders)
+			 //	(plug-in needs to be derived from CYBrowserBaseHandler)
+			 // - OPENWITH : plug-in, will be shown in "Open with" menu 
+			 //	(plug-in needs to be derived from CYBrowserFileHandler)
+			 // - FILERECOGNIZER : File recognizer
+			 //	(plug-in needs to be derived from CYBrowserFileRecognizer)
+
+
+<SUPPORT> // values between SUPPORT tags identify the file types supported by the plug-in
+	  //  in case there are multiple filetypes, you need to have multiple 	<SUPPORT></SUPPORT> 
+	  //  pairs with the data.
+
+<FILETYPE>YTools/Myfile</FILETYPE> 	// normal filetype string supported by the plug-in
+<TYPEPARTIAL>image</TYPEPARTIAL>	// partial filetype string (left part) to support multiple
+					// file types at one line (for example image, means image/gif, 
+					// image/jpg etc.) its can only have FILETYPE or TYPEPARTIAL
+					// not both inside the same <SUPPORT></SUPPORT> pair.
+
+<RFILE>YES</RFILE>		   	// add this line if the plug-in can handle RFile functions
+
+<NEWWITHFILES>YES</NEWWITHFILES>	// add this line if the plug-in supports making new files
+					// with file array (i.e. will be used in paste-files-to-new-file menu)
+
+<NEWEMPY>YES</NEWEMPY>			// add this line if the plug-in supports making new empty files
+					// will be added to the "New File" menu list
+
+</SUPPORT>
+
+</IMPLEMENTATION>
+
+</YTOOLS>
+			

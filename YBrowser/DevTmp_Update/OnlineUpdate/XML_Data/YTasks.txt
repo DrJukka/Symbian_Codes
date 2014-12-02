@@ -1,0 +1,168 @@
+<INFOITEMS>
+	<NAME>Y-Tasks</NAME>
+	<VERSION>090</VERSION>
+
+	<INFOPAGE>
+		<TITLE>Y-Tasks version 0.50</TITLE>
+		<DESCRIPTION>Main application that handles collection of plug-ins that do one task each.</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_Main.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/Y_Tasks_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Trace</TITLE>
+		<DESCRIPTION>Plug-in that allows monitoring CPU usage and memory consumption of the phone.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_Trace.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_Trace_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>CrashMonitor</TITLE>
+		<DESCRIPTION>Plug-in that allows monitoring & reporting of application crashes on the device.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_CrashMon.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_CrashMonitor_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Apps & Tasks</TITLE>
+		<DESCRIPTION>Plug-in that allows seeing all installed applications and information from them.
+Also shows any running UI applications (tasks) and their information.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_Apps.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_Apps_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>FileTypes</TITLE>
+		<DESCRIPTION>Plug-in which with you can see all file types defined for the device.
+Also with separately installable main server, you can change which application is opened with each file type, for more information visit www.DrJukka.com.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_FileTypes.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_FileTypes_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+			<ITEM>
+				<NAME>Visit DrJukka.com</NAME>
+				<TYPE>WEBOPN</TYPE>
+				<LINK>http://www.drjukka.com</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Fonts</TITLE>
+		<DESCRIPTION>Plug-in which with you can check how each of the fonts installed into the device look like.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_Fonts.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_Fonts_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Memory Status</TITLE>
+		<DESCRIPTION>Plug-in which with you can see disk space and RAM usage as well as reserve disk space and RAM memory 
+for testing purposes.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_MemStatus.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_MemoryStatus_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+	<INFOPAGE>
+		<TITLE>Processes & threads</TITLE>
+		<DESCRIPTION>Plug-in which with you can see all threads and processes currently running in your device as well as extended information from them.
+Requires Y-Tasks main application to be installed.
+</DESCRIPTION>
+		<PREVIEWS>
+		 	<ITEM>
+				<NAME>screenhot 1</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_Process.jpg</LINK>
+			</ITEM>
+		 	<ITEM>
+				<NAME>screenhot 2</NAME>
+				<LINK>http://www.drjukka.com/images/YTask_ProsInfo.jpg</LINK>
+			</ITEM>
+		</PREVIEWS>
+		<LINKS>
+		 	<ITEM>
+				<NAME>Download</NAME>
+				<TYPE>DWNLOAD</TYPE>
+				<LINK>http://www.drjukka.com/files/YTasks_Processes_050(0)_3rdEd.SISx</LINK>
+			</ITEM>
+		</LINKS>
+	</INFOPAGE>
+</INFOITEMS>
+

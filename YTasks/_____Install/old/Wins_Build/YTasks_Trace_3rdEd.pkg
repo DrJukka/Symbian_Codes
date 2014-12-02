@@ -1,0 +1,25 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"YTasks: Trace"},(0xA0003129),0,50,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;stuff
+"C:\Symbian\9.1\S60_3rd\Epoc32\release\winscw\UREL\Z\resource\apps\YTools_A0003129_res.RSC"  -"!:\resource\apps\YTools_A0003129_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd\\epoc32\release\winscw\UREL\YTools_A0003129.dll"		-"!:\sys\bin\YTools_A0003129.dll"
+"C:\Symbian\9.1\S60_3rd\Epoc32\release\winscw\UREL\Z\resource\Plugins\YTools_A0003129.rsc"-"!:\Resource\Plugins\YTools_A0003129.rsc"
+"..\..\Trace\UI\data\SVG\icons.mif"			-"!:\system\data\A000257B\A0003129\icons.mif"
+
+; server app
+"C:\Symbian\9.1\S60_3rd\Epoc32\release\winscw\UREL\YSrv_A000312A.exe"		-"!:\sys\bin\YSrv_A000312A.exe"

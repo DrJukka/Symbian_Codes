@@ -1,0 +1,61 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Valitse"
+#define ktx_cmd_back			"Takaisin"
+#define ktx_cmd_options			"Valinnat"
+#define ktx_cmd_cancel			"Peruuta"
+#define ktx_cmd_ok				"Ok"
+#define ktx_cmd_exit			"Poistu"
+
+#define ktx_cmd_REMOVE			"Poista "
+#define ktx_str_ABOUT			"Tietoja sovelluks."
+
+///----
+
+#define ktx_mnu_done			"Valmis"
+#define ktx_mnu_toggle			"Merkitse/Poista merkintä"
+#define ktx_mnu_MarkAll			"Merkitse kaikki"
+#define ktx_mnu_UnmarkAll		"Poista merkintä kaikista"
+
+
+#define ktx_mnu_Message			"Viesti"
+
+#define ktx_mnu_Recipient		"Vastaanottaja"
+#define ktx_mnu_SelRecipient	"Vastaanottaja kontakteista"
+#define ktx_mnu_NewRecipient	"Uusi numero"
+#define ktx_mnu_RemRecipient	"Poista vastaanottajat"
+#define ktx_mnu_SendMMS			"Lähetä viesti(t)"
+
+
+#define ktx_sh_str_appname		"Flash SMS"
+
+#define ktx_str_MSGSENT			"Viesti lähetetty"
+#define ktx_str_CONTACTS		" vastaanottajaa"
+#define ktx_str_PHONENUMBER		"Puhelin numero"
+#define ktx_str_ExitQ			"Poistu ohjelmasta ?"
+
+#define ktx_str_MSGTRUNK		"Viesti lyhennetään 70:n merkin pituiseksi, jatka ?"
+
+#define ktx_str_FAIL_1			"SMS lähetys epäonnistui (1)"
+#define ktx_str_FAIL_2			"SMS lähetys epäonnistui (2)"
+#define ktx_str_FAIL_3			"Viestin välitys keskuksen numero puutuu"
+#define ktx_str_FAIL_4			"SMS lähetys epäonnistui (3)"
+#define ktx_str_FAIL_5			"SMS lähetys epäonnistui virhe: "
+
+#define ktx_str_ALLSENT			"Kaikki vietit lähetetty."
+
+#define ktx_cmd_visit			"Vieraile m.DrJukka.com:issa"
+#define ktx_mnu_help			"Ohjeet"
+
+#define ktx_str_HELP1			"FlashSMS sender is used for sending type 0 SMS messages that are opened directly when received, also FlashSMS messages are not saved automatically in the receiving end."
+#define ktx_str_HELP2			"To make a new FlashSMS message, type the message to be included in the Flash SMS, note that for normal SMS characters the message can be 160 characters long, and for other the message will be truncated to 70 characters."
+#define ktx_str_HELP3			"Recipients can be added from contacts or by specifying the recipients number, both options are available in menu. Note that each message can have multiple recipients."
+#define ktx_str_HELP4			"After the recipient(s) are defined and the message body written, you can send then message with send option from the menu."
+#define ktx_str_HELP5			""
+
+
+
+
+
+

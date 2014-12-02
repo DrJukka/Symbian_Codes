@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   id="svg2413"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:modified="true">
+  <defs
+     id="defs2415" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.5"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="744"
+     inkscape:window-height="573"
+     inkscape:window-x="88"
+     inkscape:window-y="116" />
+  <metadata
+     id="metadata2418">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="opacity:1;fill:#00ff00;fill-opacity:1"
+       id="rect2421"
+       width="59.63636"
+       height="10.909091"
+       x="-39.05336"
+       y="44.815159"
+       transform="matrix(0.4897886,-0.8718412,0.8718412,0.4897886,0,0)"
+       inkscape:transform-center-y="-11.343862"
+       inkscape:transform-center-x="6.6960788" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#00ff00;fill-opacity:1"
+       id="path2425"
+       sodipodi:cx="16.545454"
+       sodipodi:cy="14.272727"
+       sodipodi:rx="4.5454545"
+       sodipodi:ry="4.818182"
+       d="M 21.090909 14.272727 A 4.5454545 4.818182 0 1 1  12,14.272727 A 4.5454545 4.818182 0 1 1  21.090909 14.272727 z"
+       transform="matrix(1.2,0,0,1.1509433,34.509091,-10.51801)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#00ff00;fill-opacity:1"
+       id="path2427"
+       sodipodi:cx="9.181818"
+       sodipodi:cy="37"
+       sodipodi:rx="4.818182"
+       sodipodi:ry="4.6363635"
+       d="M 14 37 A 4.818182 4.6363635 0 1 1  4.363636,37 A 4.818182 4.6363635 0 1 1  14 37 z"
+       transform="matrix(1.2452828,0,0,1.0392157,13.293312,19.821747)" />
+    <rect
+       style="opacity:1;fill:#00ff00;fill-opacity:1"
+       id="rect2429"
+       width="10.181818"
+       height="20.727272"
+       x="2.5967016"
+       y="16.191931"
+       transform="matrix(0.7826923,-0.6224089,0.6224089,0.7826923,0,0)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#00ff00;fill-opacity:1"
+       id="path2431"
+       sodipodi:cx="13.363636"
+       sodipodi:cy="30.454546"
+       sodipodi:rx="4.6363635"
+       sodipodi:ry="4.6363635"
+       d="M 18 30.454546 A 4.6363635 4.6363635 0 1 1  8.7272725,30.454546 A 4.6363635 4.6363635 0 1 1  18 30.454546 z"
+       transform="matrix(1.0588236,0,0,1.0980393,15.032085,-8.9857402)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#00ff00;fill-opacity:1"
+       id="path2433"
+       sodipodi:cx="13.363636"
+       sodipodi:cy="30.454546"
+       sodipodi:rx="4.6363635"
+       sodipodi:ry="4.6363635"
+       d="M 18 30.454546 A 4.6363635 4.6363635 0 1 1  8.7272725,30.454546 A 4.6363635 4.6363635 0 1 1  18 30.454546 z"
+       transform="matrix(1.0588236,0,0,1.0980393,1.6684486,-25.985742)" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.48787498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-26.244936"
+       y="67.152534"
+       id="text2435"
+       transform="matrix(0.6130279,-1.1062756,0.691574,0.3832265,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan2437"
+         x="-26.244936"
+         y="67.152534">Browser</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"选项"
+#define ktx_cmd_Exit			"退出"
+#define ktx_cmd_Cancel			"取消"
+#define ktx_cmd_Back			"返回"
+
+#define ktx_cmd_Disable			"禁用"
+#define ktx_cmd_Enable			"启用"
+
+#define ktx_cmd_About			"关于"
+
+#define ktx_cmd_Select			"选择"
+
+#define ktx_cmd_Ok				"确定"
+#define ktx_cmd_Change			"更改"
+#define ktx_cmd_Done			"完成"
+#define ktx_cmd_Play			"播放"
+#define ktx_cmd_Stop			"停止"
+#define ktx_cmd_Save			"保存"
+
+#define ktx_JustD				" 天 "
+#define ktx_JustH				" 时 "
+#define ktx_JustMin				" 分"
+
+#define ktx_Daily				"每天"
+#define ktx_Wordays				"工作日"
+
+
+#define ktx_mnu_Newalarm			"新建"
+#define ktx_mnu_Resetalarm			"重置"
+#define ktx_mnu_Removealarm			"删除"
+#define ktx_mnu_SetAlarmSounds		"设置闹钟铃声"
+#define ktx_mnu_SetWorkdays			"设置工作日"
+#define ktx_mnu_Update				"更新"
+
+#define ktx_mnu_Changevalue			"更改数值"
+
+#define ktx_str_Repeat				"重复闹钟"
+#define ktx_str_Daily				"每天"
+#define ktx_str_Workdays			"工作日"
+#define ktx_str_InNext24			"下24小时内"
+#define ktx_str_Once				"一次"
+
+#define ktx_str_Time				"时间"
+#define ktx_str_Date				"日期"
+
+#define ktx_str_Type				"闹钟类型"
+#define ktx_str_Clockalarm			"时钟闹钟"
+#define ktx_str_Calendaralarm		"日历闹钟"
+#define ktx_str_Message				"注释内容"
+#define ktx_str_Snooze				"贪睡时间"
+
+#define ktx_str_Settime				"设置时间"
+#define ktx_str_Setdate				"设置日期"
+#define ktx_str_Setmessage			"设置内容"
+		
+#define ktx_str_AlarmDueIn			"闹钟时间设置在 "
+#define ktx_str_GoJukka				"访问m.DrJukka.com"
+
+#define ktx_cmd_Help				"帮助"
+
+#define ktx_cmd_Help1				"本程序是为那些非常需要闹钟，而自带闹钟功能不足的人设计的，它能满足你所需要的多闹钟提醒等功能。"
+#define ktx_cmd_Help2				"点击新建就可以新建一个闹钟，并可以设置重复方式，时间和注释信息。闹钟类型决定了闹钟铃声，点击完成保存设置。"
+#define ktx_cmd_Help3				"重置闹钟可以被用来设置闹铃详情，删除可以删除设定的闹钟，禁用/启用可以打开/关闭某个闹铃计划。"
+#define ktx_cmd_Help4				"利用设置闹钟铃声可以设置闹钟的铃声。贪睡时间的默认单位是分钟，注意某些机型忽略贪睡设置而调用自带默认值。"
+#define ktx_cmd_Help5				"设置工作日可以设置哪些日子是自定义的工作日，方便不同工作的人。"
+
+
+
+

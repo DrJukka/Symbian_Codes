@@ -1,0 +1,29 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Browser: Add Ons"},(0xA0000F5B),0,77,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+
+!({"Text viewer"},{"PkZip"},{"Mail folders"})
+
+IF option1
+@"YTools_TextViewer_3rdEd.sis",(0xA0000F6A)
+ENDIF
+IF option2
+@"YTools_PkZip_3rdEd.sis",(0xA0000F6E)
+ENDIF
+IF option3
+@"YTools_MailFolders_3rdEd.sis",(0xA0000F69)
+ENDIF
+

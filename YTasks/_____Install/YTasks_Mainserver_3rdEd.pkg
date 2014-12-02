@@ -1,0 +1,25 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"YTasks: Main server"},(0xE887600E),1,00,4
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+; server app
+"C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YSrv_E887600E.exe"		-"!:\sys\bin\YSrv_E887600E.exe"
+
+; "C:\Symbian\9.1\S60_3rd_MR\Epoc32\release\GCCE\UREL\YApp_20007145.exe"		-"!:\sys\bin\YApp_20007145.exe"
+; "C:\Symbian\9.1\S60_3rd_MR\Epoc32\Data\z\resource\apps\YApp_20007145.RSC"	-"!:\resource\apps\YApp_20007145.RSC"
+; "C:\Symbian\9.1\S60_3rd_MR\Epoc32\Data\z\private\10003a3f\import\apps\YApp_20007145_reg.rsc"	-"!:\private\10003a3f\import\apps\YApp_20007145_reg.rsc"
+
+; "C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTASK_20009998.dll"			-"!:\sys\bin\YTASK_20009998.dll"
+; "C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTASK_20009998.rsc"		-"!:\Resource\Plugins\YTASK_20009998.rsc"

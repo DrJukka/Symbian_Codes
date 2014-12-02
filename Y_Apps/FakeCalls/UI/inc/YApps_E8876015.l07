@@ -1,0 +1,92 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valg"
+#define ktx_cmd_exit 				"Luk"
+#define ktx_cmd_cancel 				"Annullér"
+#define ktx_cmd_Back 				"Tilbage"
+
+#define ktx_cmd_Disable				"Deaktivér"
+#define ktx_cmd_Enable				"Aktivér"
+
+#define ktx_cmd_save 				"Gem"
+#define ktx_cmd_select 				"Vælg"
+
+#define ktx_mnu_Settings			"Indstillinger"
+#define ktx_mnu_help				"Hjælp"
+#define ktx_cmd_about				"Om"
+#define ktx_cmd_visit				"Besøg m.DrJukka.com"
+
+#define ktx_mnu_New 				"Ny"
+#define ktx_cmd_Test				"Vis"
+#define ktx_mnu_Modify 				"Modificér"
+#define ktx_mnu_Remove 				"Slet"
+
+#define ktx_mnu_newContact			"Nyt nummer"
+
+#define ktx_sh_str_sndNumber	 		"Nummer"
+#define ktx_sh_str_sndTime		 	"tid"
+#define ktx_sh_str_sndDate		 	"dato"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<deaktiveret>"
+
+#define ktx_str_REMMESSAGE 			"Fjern planlagt?"
+#define ktx_sh_str_REPEATS			"Gentag"
+
+#define ktx_str_GREENBUTTON			"Grøn"
+#define ktx_str_REDBUTTON			"Rød"
+#define ktx_str_OFFBUTTON			"Fra"
+#define ktx_str_CAMERABUTTON			"Kamera"
+
+
+#define ktx_sh_str_ONCE				"Enkelt"
+#define ktx_sh_str_WORKDAYA			"Hverdage"
+#define ktx_sh_str_NONWORKD			"Helligdage"
+#define ktx_sh_str_EVERYDAY			"Hver dag"
+#define ktx_sh_str_MONDAYS			"Mandage"
+#define ktx_sh_str_TUESDAYS			"Tirsdage"
+#define ktx_sh_str_WEDNESDAYS			"Onsdage"
+#define ktx_sh_str_THURSDAYS			"Torsdage"
+#define ktx_sh_str_FRIDAYS			"Fredage"
+#define ktx_sh_str_SATURDAYS			"Lørdage"
+#define ktx_sh_str_SUNDAYS			"Søndage"
+
+#define ktx_sh_str_SNOZTEXT			"Slumreknap tekst"
+#define ktx_str_MAXTIME				"Max ringetid"
+#define ktx_str_SNOOZETIME			"Slumretid"
+#define ktx_sh_str_OPERNAME			"Operatørnavn"
+#define ktx_sh_str_SUNDFILE			"Alternativ ringetone"
+
+//Main Application help
+#define ktx_str_HELP1				"Denne applikation anvendes til at lave Fake indkomne opkald. Der foretages ingen reelle opkald, så der er ingen udgifter i forbindelse med Fake Calls."
+#define ktx_str_HELP2				"Der er fire prædefinerede taster, der kan anvendes til at starte et Fake opkald med en enkelt knap. Disse taster er Grøn/Rød telefon tast, Kamera og On/Off tasten. Bemærk at tasterne kun vil starte Fake Call når enhedens tastelås er aktiv."
+#define ktx_str_HELP3				"For at vælge en kontakt til tasterne, vælg Modificér fra menuen. Aktivér/Deaktivér menupunkterne kan anvendes til at aktivere/deaktivere Fake opkaldet for den tast."
+#define ktx_str_HELP4				"Tidsindstillet Fake Call planlægning kan laves ved at vælge Ny fra menuen. Disse planlægninger kan senere ændres med Modificér fra menu'en og Slet kan anvendes til at fjerne dem."
+#define ktx_str_HELP5				"Vis opkaldsmenupunktet kan anvendes til forhåndsvisning af Fake opkaldet for det valgte punkt i listen."
+#define ktx_str_HELP6				"Den reelle planlægning af Fake opkaldene er styret i baggrunden af en server, der er aktiv hvis en Fake Call tast eller aktiv planlængning er aktiveret. Baggrundsapplikationen startes også automatisk når enheden tændes. Bemærk at alle indstillings- og planlægningsændringer først finder sted, når UI'en lukkes ned."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Ved tidsplanlagte Fake opkald behøver du kun at definere kontaktens nummer (eller streng) og tidspunktet for hvornår Fake opkaldet skal foretages."
+#define ktx_str_HELP8				"Du kan vælge kontakten fra enhendes kontaktliste og så vil kontaktens navn også blive anvendt under planlægning listen. Bemærk at hvis Fake opkaldsnummeret findes under kontakter, vil al information inklusiv navn, billede, ringetone mv blive anvendt, når Fake opkaldet vises."
+#define ktx_str_HELP9				"Menupunktet Nyt nummer kan også indeholde en tekst streng til Fake Call visningen."
+#define ktx_str_HELP10				"Tidspunktet for planlægningen kan vælges med Tid punktet i menuen. Gentag indstillingen lader planlægningen blive udført på udvalgte dage, hvor gentagne Fake opkald vil blive udført med specificerede intervaller. Bemærk at planlægninger med gentagelser ikke slettes fra planlægningslisten, hvorimod dem med en specifik dato slettes, efter Fake opkaldet er blevet vist."
+
+//Key settings
+#define ktx_str_HELP11				"Med enkelttasts Fake opkald behøver du kun definere kontaktens nummer (eller streng) til Fake opkaldet. Du kan vælge kontakten fra kontaktdatabasen eller bruge menupunktet Nyt nummer, der også tillader brugen af enhver tekst streng til Fake opkaldsvisningen."
+#define ktx_str_HELP12				"Bemærk at hvis Fake opkaldsnummeret findes under kontakter, vil al information inklusiv navn, billede, ringetone mv blive anvendt, når Fake opkaldet vises."
+#define ktx_str_HELP13				"Husk også at aktivere tasten Fake opkald fra hovedplanlægningslisten, og bemærk at enkelt-tasts Fake opkald kun virker, når enhedens tastelås er aktiv."
+
+// Default Settings
+#define ktx_str_HELP14				"Operatørnavnet anvendes i den øvre del af Fake Call skærmen, hvis det rigtige netværksnavn ikke kan hentes. Dette kan for eksempel ske, hvis Offline profilen er i brug."
+#define ktx_str_HELP15				"Alternativ ringetonen anvendes hvis den valgte kontakt ikke har en rigetone og ingen profil ringetone kan findes. Det reelle ringetonevalg foretages på den måde, at hvis kontakten har sin egen rigetone, vil den blive brugt og hvis det ikke er tilfældet, vil den aktuelle profils ringetone blive brugt. Hvis den aktuelle profil ikke har en ringetone, vil Alternativ ringetone blive anvendt."
+#define ktx_str_HELP16				"Slumre tid er slumretiden i sekunder, anvendt med Slumre tasten i Fake opkald visningen. Når Slumre tasten trykkes, vil Fake Call visningen blive skjult og vist igen efter den specificerede slumre tid."
+#define ktx_str_HELP17				"Max ringetid definerer hvor længe Fake opkaldet vil blive vist, efter det er påbegyndt. Bemærk at tryk på Slumre vil nulstille timeren."
+#define ktx_str_HELP18				"Slumre tastens tekst kan ændres for en mere autentisk Fake Call visning."
+
+
+
+
+

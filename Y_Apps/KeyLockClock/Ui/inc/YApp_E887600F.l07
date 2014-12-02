@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Valg"
+#define ktx_cmd_exit 			"Luk"
+
+#define ktx_cmd_about			"Om"
+#define ktx_cmd_visit			"Besøg m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Ur skærm tændt"
+#define ktx_sh_str_LGHTINSE		"Lysstyrke"
+#define ktx_sh_str_LGHTINSECHR	"Lysstyrke opladning"
+#define ktx_sh_str_LIGHTON		"Lys tændt"
+#define ktx_sh_str_SHOWDATE		"Vis dato"
+#define ktx_sh_str_KEYLOCKON	"Key lock aktiv"
+#define ktx_sh_str_OFF			"Sluk"
+#define ktx_sh_str_ON			"Tænd"
+#define ktx_sh_str_DATEONLY		"kun dato"
+#define ktx_sh_str_DATETIME		"dato + dagens navn"
+#define ktx_sh_str_TIMEOUTOL	"Kun time out"
+#define ktx_sh_str_TIMEOUTCHR	"Time out + opladning"
+#define ktx_sh_str_ALWAYS		"Altid"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Protræt"
+#define ktx_sh_str_Landscape	"Landskab"
+#define ktx_sh_str_Automatic	"Automatisk"
+
+#define ktx_sh_str_CURRTHEM		"Nuværende Tema"
+#define ktx_sh_str_SELCOLOR		"Vælg farve"
+#define ktx_sh_str_BACKCOLOR	"Baggrundsfarve"
+#define ktx_sh_str_FONTCOLOR	"Font farve"
+#define ktx_sh_str_LIGHTTIM		"Timeout lys"
+#define ktx_sh_str_LOCKTIM		"Lås efter (sek.)"
+#define ktx_sh_str_FONT			"Font"
+#define ktx_sh_str_BLACK		"Sort"
+#define ktx_sh_str_DARKGRAY		"Mørk Grå"
+#define ktx_sh_str_DARKRED		"Mørk Rød"
+#define ktx_sh_str_DARKGREEN	"Mørk Grøn"
+#define ktx_sh_str_DARKYELLOW	"Mørk Gul"
+#define ktx_sh_str_DARKBLUE		"Mørk Blå"
+#define ktx_sh_str_DARKMAGENDA	"Mørk Magenta"
+#define ktx_sh_str_DARKCYAN		"Mørk Cyan"
+#define ktx_sh_str_RED			"Rød"
+#define ktx_sh_str_GREEN		"Grøn"
+#define ktx_sh_str_YELLOW		"Gul"
+#define ktx_sh_str_BLUE			"Blå"
+#define ktx_sh_str_MAGENDA		"Magenta"
+#define ktx_sh_str_CYAN			"Cyan"
+#define ktx_sh_str_GRAY			"Grå"
+#define ktx_sh_str_WHITE		"Hvid"
+
+#define ktx_cmd_Help 			"Hjælp"
+#define ktx_cmd_Back 			"Tilbage"
+
+#define ktx_str_HELP1			"Denne applikation er et screensaver-agtigt ur, der kun er tændt med tastaturet er låst med enhedens standard tastaturlås. Låsens vil blive oplyst hvis aktiveret efter en tast er blevet trykket (aktive taster er pil højre/venstre og menu tasten)."
+#define ktx_str_HELP2			"Låsen er styres af en baggrundsserver, der er aktiv hvis enten ur-skærmen eller tastaturlås er sat på aktiv. Baggrundsapplikationen startes også automatisk når enhenden tændes. Bemærk at indstillingerne først aktiveres, når UI'en lukkes ned."
+#define ktx_str_HELP3			"Lysstyrke indstillingen sætter den lysintensitet der anvendes, når en tast trykkes for at vise uret. Lysstyrke opladning sætter lysstyrken under opladning. Timeout specificerer hvor længe lyset er tændt efter tastetryk. Bemærk at visse enheder ignorerer denne værdi og bruger den normale indstilling i stedet."
+#define ktx_str_HELP4			"Lys Tændt definerer hvornår lyset tændes. Font indstillingen kan anvendes til at vælge urets font, ligesom font farve indstillingen kan definere tekstens farve. Baggrundsfarve definerer hvilken farve baggrunden skal have på urets skærm."
+#define ktx_str_HELP5			"Vis Dato indstillingen giver mulighed for at fjerne dato/dag visningen i toppen af uret. Tastaturlås indstillingen aktiverer baggrundsapplikationens automatiske tastaturlås, og lås efter tid værdien definerer hvor længe brugeren skal være inaktiv, før tastaturet låses."
+
+
+

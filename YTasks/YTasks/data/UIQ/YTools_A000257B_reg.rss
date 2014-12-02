@@ -1,0 +1,25 @@
+/* 	
+	Copyright (c) 2001 - 2007, 
+	J.P. Silvennoinen.
+	All rights reserved 
+*/
+CHARACTER_SET UTF8
+#include <appinfo.rh>
+#include <YTools_A000257B.rsg>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0xA000257B
+
+RESOURCE APP_REGISTRATION_INFO
+  {
+  	app_file="YTools_A000257B";
+  	localisable_resource_file = "\\resource\\apps\\YTools_A000257B";
+    	localisable_resource_id = R_BGM_LOCALISABLE_APP_INFO;
+
+    	embeddability=KAppNotEmbeddable;
+  	newfile=KAppDoesNotSupportNewFile;
+
+	group_name    = "DrJukka.com";  
+}
+
+	

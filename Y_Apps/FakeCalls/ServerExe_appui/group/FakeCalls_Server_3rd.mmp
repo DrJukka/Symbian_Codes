@@ -1,0 +1,57 @@
+TARGET          YApp_E8876016.exe 
+TARGETTYPE      EXE
+
+UID           	0 0xE8876016
+
+EPOCSTACKSIZE	0x8000
+
+VENDORID	  	0
+CAPABILITY 		SWEvent ReadUserData WriteUserData UserEnvironment ReadDeviceData WriteDeviceData NetworkServices
+
+SOURCEPATH		..\src
+SOURCE		ExampleServer.cpp
+SOURCE		ExampleSession.cpp
+SOURCE		AutoScheduler.cpp
+
+SOURCEPATH      ..\..\common_src 
+SOURCE          	MsgDataBase.cpp
+SOURCE          	CTimeOutTimer.cpp
+
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom
+SYSTEMINCLUDE     \Epoc32\include\mmf\plugin
+
+LIBRARY		euser.lib 
+LIBRARY		efsrv.lib 
+LIBRARY		apgrfx.lib 
+LIBRARY		apparc.lib
+LIBRARY		cone.lib 
+LIBRARY		eikcore.lib 
+LIBRARY		ws32.lib 
+LIBRARY		AknSkins.lib
+LIBRARY     aknicon.lib
+LIBRARY     avkon.lib 
+LIBRARY     fbscli.lib 
+LIBRARY     etel.lib
+LIBRARY     estor.lib
+LIBRARY     IMUT.LIB				// TImCodecB64
+LIBRARY     egul.lib 
+LIBRARY     gdi.lib
+LIBRARY     msgs.lib 
+LIBRARY     mtur.lib
+LIBRARY     aknnotify.lib			// CAknGlobalNote
+LIBRARY     bitgdi.lib 
+LIBRARY     bafl.lib 
+LIBRARY     edbms.lib
+LIBRARY     avkon.lib 
+LIBRARY     etext.lib 
+LIBRARY     etel3rdparty.lib 
+LIBRARY     alarmclient.lib 
+LIBRARY     alarmshared.lib 
+LIBRARY     HWRMVibraClient.lib
+LIBRARY     mediaclientaudio.lib 
+
+SOURCEPATH ..\src
+SOURCE Drawer_Observers.cpp Call_Observer.cpp CalAlarm_Observer.cpp

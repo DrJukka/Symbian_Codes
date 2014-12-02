@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Настройки"
+#define ktx_cmd_Exit			"Выйти"
+#define ktx_cmd_Cancel			"Отменить"
+#define ktx_cmd_Back			"Назад"
+
+#define ktx_cmd_Disable			"Выключить"
+#define ktx_cmd_Enable			"Включить"
+
+#define ktx_cmd_About			"О прогамме"
+
+#define ktx_cmd_Select			"Выбрать"
+
+#define ktx_cmd_Ok				"Ок"
+#define ktx_cmd_Change			"Изменить"
+#define ktx_cmd_Done			"Готово"
+#define ktx_cmd_Play			"Играть"
+#define ktx_cmd_Stop			"Остановить"
+#define ktx_cmd_Save			"Сохранить"
+
+#define ktx_JustD				" д "
+#define ktx_JustH				" ч "
+#define ktx_JustMin				" мин."
+
+#define ktx_Daily				"Ежедневно"
+#define ktx_Wordays				"Рабочие дни"
+
+
+#define ktx_mnu_Newalarm			"Создать"
+#define ktx_mnu_Resetalarm			"Сброс"
+#define ktx_mnu_Removealarm			"Удалить"
+#define ktx_mnu_SetAlarmSounds		"Настроить мелодии будильника"
+#define ktx_mnu_SetWorkdays			"Настроить рабочие дни"
+#define ktx_mnu_Update				"Обновить"
+
+#define ktx_mnu_Changevalue			"Изменить значение"
+
+#define ktx_str_Repeat				"Повторять"
+#define ktx_str_Daily				"Ежедневно"
+#define ktx_str_Workdays			"Рабочие дни"
+#define ktx_str_InNext24			"Следующие 24 часа"
+#define ktx_str_Once				"Один раз"
+
+#define ktx_str_Time				"Время"
+#define ktx_str_Date				"Дата"
+
+#define ktx_str_Type				"Тип"
+#define ktx_str_Clockalarm			"Часовой будильник"
+#define ktx_str_Calendaralarm		"Календарный будильник"
+#define ktx_str_Message				"Сообщение"
+#define ktx_str_Snooze				"Приостановить"
+
+#define ktx_str_Settime				"Установить время"
+#define ktx_str_Setdate				"Установить дату"
+#define ktx_str_Setmessage			"Установить сообщение"
+		
+#define ktx_str_AlarmDueIn			"Будильник подлежит использованию "
+#define ktx_str_GoJukka				"Посетить г.DrJukka.com"
+
+#define ktx_cmd_Help				"Справка"
+
+#define ktx_cmd_Help1				"Это приложения позволяет использовать будильник с повторами на телефонах, где такая функциональность отстутвовала изначально."
+#define ktx_cmd_Help2				"Новый будильник может быть создан с помощью опции Новый. В открывшемся окне Вы сможете настроить повторения, время и сообщение будильника. Тип будильника определяет его мелодию. Нажмите Готово чтобы сохранить настройки."
+#define ktx_cmd_Help3				"Используйте Сброс, чтобы сбросить настройки будильника, Удалить, чтобы удалить будильник и Включить/Выключить, чтобы временно деактивировать будильник."
+#define ktx_cmd_Help4				"С помощью Настроить мелодии будильника можно изменить мелодии. Настройка приостановить определяет время задержки в минутах. Обратите внимание, что эта настройка может игнорироваться некоторыми телефонами."
+#define ktx_cmd_Help5				"Используя Настроить рабочие дни, можно изменить стандартные. Это влияет на будильники настроенные по рабочим дням."
+
+
+
+

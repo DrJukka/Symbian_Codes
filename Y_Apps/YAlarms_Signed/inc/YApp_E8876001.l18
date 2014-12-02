@@ -1,0 +1,70 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Opties"
+#define ktx_cmd_Exit			"Afsluiten"
+#define ktx_cmd_Cancel			"Annuleer"
+#define ktx_cmd_Back			"Terug"
+
+#define ktx_cmd_Disable			"Deactiveren"
+#define ktx_cmd_Enable			"Activeren"
+
+#define ktx_cmd_About			"Over"
+
+#define ktx_cmd_Select			"Selecteer"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Verander"
+#define ktx_cmd_Done			"Ok"
+#define ktx_cmd_Play			"Play"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Opslaan"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" u "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Dagelijks"
+#define ktx_Wordays				"Werkdagen"
+
+
+#define ktx_mnu_Newalarm			"Nieuw alarm"
+#define ktx_mnu_Resetalarm			"Wijzig alarm"
+#define ktx_mnu_Removealarm			"Verwijder alarm"
+#define ktx_mnu_SetAlarmSounds		"Stel alarmgeluid in"
+#define ktx_mnu_SetWorkdays			"Stel werkdagen in"
+#define ktx_mnu_Update				"Update"
+
+#define ktx_mnu_Changevalue			"Verander waarde"
+
+#define ktx_str_Repeat				"Herhaling"
+#define ktx_str_Daily				"Dagelijks"
+#define ktx_str_Workdays			"Werkdagen"
+#define ktx_str_InNext24			"In volgende 24 uur"
+#define ktx_str_Once				"Een maal"
+
+#define ktx_str_Time				"Tijd"
+#define ktx_str_Date				"Datum"
+
+#define ktx_str_Type				"Type"
+#define ktx_str_Clockalarm			"Klok alarm"
+#define ktx_str_Calendaralarm		"Agenda alarm"
+#define ktx_str_Message				"Bericht"
+#define ktx_str_Snooze				"Snooze"
+
+#define ktx_str_Settime				"Stel tijd in"
+#define ktx_str_Setdate				"Stel datum in"
+#define ktx_str_Setmessage			"Stel bericht in"
+		
+#define ktx_str_AlarmDueIn			"Alarm over "
+#define ktx_str_GoJukka				"Bezoek m.DrJukka.com"
+
+#define ktx_cmd_Help				"Help"
+
+#define ktx_cmd_Help1				"Deze applicatie maakt meerdere, herhaalde alarmen mogelijk op toestellen die deze functie van oorsprong niet kennen."
+#define ktx_cmd_Help2				"Maak een nieuw alarm aan via Nieuw alarm. Vervolgens kun je opties instellen voor herhaling, tijd en het bericht bij het alarm. Het geluid erbij is afhankelijk van het alarmtype"
+#define ktx_cmd_Help3				"Reset de details via Reset, verwijder het alarm via Verwijderen en gebruik Aan/Uit om het alarm tijdelijk in- of uit te schakelen."
+#define ktx_cmd_Help4				"Via 'Stel alarmgeluiden in' selecteer je geluidsbestanden voor je alarm. Bij de Snooze-instellingen kun je het aantal minuten snoozetijd instellen. Sommige toestellen negeren deze instelling en gebruiken hun eigen standaard. "
+#define ktx_cmd_Help5				"De optie 'Werkdagen instellen' verandert de werkdagen voor het hele toestel. Deze instelling bepaalt op welke dagen alarmen voor werkdagen actief zijn."
+

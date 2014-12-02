@@ -1,0 +1,16 @@
+#include <aiftool.rh>
+
+RESOURCE AIF_DATA
+{
+app_uid=0x101F7BBF;
+caption_list=
+	{
+	CAPTION { code=ELangEnglish; caption="Y-Browser"; }
+	};
+num_icons=2;
+
+embeddability= KAppEmbeddable;
+hidden=KAppNotHidden;
+newfile= KAppDoesNotSupportNewFile;
+}
+

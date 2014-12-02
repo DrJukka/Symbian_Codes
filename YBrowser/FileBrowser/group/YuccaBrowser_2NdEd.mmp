@@ -1,0 +1,59 @@
+TARGET            YuccaBrowser.app
+TARGETTYPE        app
+UID               0x100039CE 0x101F7BBF
+TARGETPATH        \system\apps\YuccaBrowser
+LANG              SC
+
+EPOCSTACKSIZE		0x8000
+EPOCHEAPSIZE		4000 8000000
+
+SOURCEPATH        ..\src
+SOURCE            YuccaBrowser.cpp
+SOURCE            YuccaBrowser_Container.cpp
+
+SOURCE            Folder_reader.cpp
+SOURCE            FileManHandler.cpp
+SOURCE            Navipanel.cpp
+SOURCE            CTimeOutTimer.cpp
+SOURCE            ShowString.cpp
+SOURCE            Yucca_Settings.cpp
+SOURCE            IconHandler.cpp
+SOURCE            CommandSC_Settings.cpp
+SOURCE            Search_Settings.cpp
+SOURCE            Search_Container.cpp
+SOURCE            File_Searcher.cpp
+
+RESOURCE          ..\data\YuccaBrowser.rss
+
+
+USERINCLUDE       ..\inc 
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib 
+LIBRARY           eikcore.lib  
+LIBRARY           avkon.lib  
+LIBRARY           eikcoctl.lib 
+LIBRARY           bafl.lib 
+LIBRARY         	egul.lib				// TextUtils
+LIBRARY         	eikctl.lib				// CColumnListBoxData
+LIBRARY         	apgrfx.lib
+LIBRARY         	efsrv.lib 
+LIBRARY         	apmime.lib 
+LIBRARY         	fbscli.lib 
+LIBRARY         	sendui.lib 
+LIBRARY         	aknnotify.lib 
+LIBRARY         	eiksrv.lib 
+LIBRARY         	aknskins.lib 
+LIBRARY         	aknskinsrv.lib 
+LIBRARY         	gdi.lib 
+LIBRARY         	estor.lib 
+LIBRARY         	etext.lib
+LIBRARY         	ws32.lib 
+LIBRARY         	bitgdi.lib
+LIBRARY				msgs.lib 
+LIBRARY				CommonDialogs.lib 
+LIBRARY				ECom.lib
+

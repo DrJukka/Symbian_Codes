@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Opzioni"
+#define qtn_exit 			"Esci"
+
+#define qtn_about			"Informazioni"
+#define qtn_visit			"Visita m.DrJukka.com"
+#define qtn_backlighton		"Illuminazione attiva"
+
+#define qtn_backlightoff	"Illuminazione disattiva"
+#define qtn_reset			"Azzera"
+
+#define qtn_Help			"Aiuto"
+#define qtn_Back			"Indietro"
+
+#define ktx_str_HELP1 		"Questa applicazione visualizza l'inclinazione orizzontale e verticale e la visualizza con una immagine dell'auto  con la misura degli angoli. L'applicazione funziona solo in portrait ."
+#define ktx_str_HELP2 		"L'opzione Azzera resetta la lettura degli angoli in modo da poter prima fissare il telefono e poi resettarne le letture a zero."
+#define ktx_str_HELP3 		"L'opzione dell'illuminazione può lasciare accesa sempre l'illuminazione (attenzione al consumo della batteria) peremettendo una miglior leggibilità delle indicazioni."
+
+
+
+
+// End of File

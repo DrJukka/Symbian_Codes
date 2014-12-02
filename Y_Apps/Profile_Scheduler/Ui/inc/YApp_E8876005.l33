@@ -1,0 +1,59 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"ตัวเลือก"
+#define ktx_cmd_exit 			"ออก"
+#define ktx_cmd_Cancel			"ยกเลิก"
+
+
+#define ktx_cmd_Disable			"ยกเลิกการใช้งาน"
+#define ktx_cmd_Enable			"ใช้งาน"
+
+#define ktx_cmd_about			"เกี่ยวกับ"
+#define ktx_cmd_New				"ใหม่"
+#define ktx_cmd_Modify			"ปรับตั้งค่า"
+#define ktx_cmd_Remove			"ลบออก"
+#define ktx_cmd_Randomthes		"สุ่มเลือกรูปแบบ"
+#define ktx_cmd_Profiles		"รูปแบบ"
+
+#define ktx_cmd_Stop			"หยุด"
+#define ktx_cmd_Save			"บันทึก"
+
+
+#define ktx_cmd_VisitJukka		"เยี่ยมชม m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"ยกเลิกการใช้งาน"
+#define ktx_sh_str_RANDOM		"สุ่มเลือก"
+#define ktx_sh_str_PROFFILLE2	"รูปแบบ"
+#define ktx_sh_str_REMOVESCHED	"ยกเลิกตารางเวลา"
+#define ktx_sh_str_ACTIVEON		"เปิดใช้งาน"
+
+#define ktx_sh_str_NONAME		"ยังไม่ได้ตั้งชื่อ"
+#define ktx_sh_str_SELECTPROF	"เลือกรูปแบบ"
+
+#define ktx_sh_str_SETONTIME	"ตั้งตามเวลา"
+
+
+#define ktx_sh_str_WORKDAYA		"วันทำงาน"
+#define ktx_sh_str_NONWORKD		"วันหยุด"
+#define ktx_sh_str_EVERYDAY		"ทุกวัน"
+#define ktx_sh_str_MONDAYS		"วันจันทร์"
+#define ktx_sh_str_TUESDAYS		"วันอังคาร"
+#define ktx_sh_str_WEDNESDAYS	"วันพุธ"
+#define ktx_sh_str_THURSDAYS	"วันพฤหัสบดี"
+#define ktx_sh_str_FRIDAYS		"วันศุกร์"
+#define ktx_sh_str_SATURDAYS	"วันเสาร์"
+#define ktx_sh_str_SUNDAYS		"วันอาทิตย์"
+
+#define ktx_cmd_Help			"ตัวช่วย"
+#define ktx_cmd_Back			"กลับ"
+
+#define ktx_str_HELP1			"โปรแกรมนี้ใช้สำหรับค่ารูปแบบ(profile)ด้วยตัวตั้งเวลา สำหรับการเพิ่มตารางเวลาใหม่ เลือกหัวข้อ ใหม่ ในเมนูตัวเลือก"
+#define ktx_str_HELP2			"จากนั้นเลือกรูปแบบที่ต้องการ หมายเหตุหากรายการรูปแบบสุ่มว่าง ตารางเวลาทั้งหมดจะไม่ถูกใช้งาน หลังจากเลือกรูปแบบ เลือกเวลาและตัวเลือกซ้ำสำหรับตารางเวลา เมื่อเสร็จแล้ว บันทึกด้วยคำสั่งบันทึก"
+#define ktx_str_HELP3			"หากตารางเวลาถูกสร้างขึ้นแล้วจะแสดงอยู่ในหน้าหลัก ในรายการนี้คุณสามารถใช้เมนูตัวเลือกสำหรับเปิดเพื่อแก้ไขและลบ หรือใช้งานหรือยกเลิกการใช้งานชั่วคราว เมนูตัวเลือกสามารถหาได้ในหัวข้อตัวเลือก"
+#define ktx_str_HELP4			"หมายเหตุ รูปแบบจะถูกกำหนดเช่นเดียวกับตารางเวลาก่อนหน้าซึ่งจะเริ่มใหม่เมื่อออกจากโปรแกรม สำหรับการใช้งานควรตั้งตารางเวลาห่างกันนาทีจากกันและกัน  โปรแกรมพื้นหลังจะเริ่มอัตโนมัติเมื่ออุปกรณ์เริ่มต้น  จะไม่มีข้อความปรากฎเมื่ออุปกรณ์ปิด"
+
+

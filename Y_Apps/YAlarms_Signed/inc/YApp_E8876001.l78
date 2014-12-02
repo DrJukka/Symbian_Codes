@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Optiuni"
+#define ktx_cmd_Exit			"Iesire"
+#define ktx_cmd_Cancel			"Anulare"
+#define ktx_cmd_Back			"Inapoi"
+
+#define ktx_cmd_Disable			"Dezactiveaza"
+#define ktx_cmd_Enable			"Activeaza"
+
+#define ktx_cmd_About			"Despre"
+
+#define ktx_cmd_Select			"Selecteaza"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Schimba"
+#define ktx_cmd_Done			"Gata"
+#define ktx_cmd_Play			"Ruleaza"
+#define ktx_cmd_Stop			"Stop"
+#define ktx_cmd_Save			"Salvare"
+
+#define ktx_JustD				" d "
+#define ktx_JustH				" h "
+#define ktx_JustMin				" min."
+
+#define ktx_Daily				"Zilnic"
+#define ktx_Wordays				"Zile lucratoare"
+
+
+#define ktx_mnu_Newalarm			"Nou"
+#define ktx_mnu_Resetalarm			"Reset"
+#define ktx_mnu_Removealarm			"Inlatura"
+#define ktx_mnu_SetAlarmSounds		"Fixare sunete alarma"
+#define ktx_mnu_SetWorkdays			"Fixare zile de lucru"
+#define ktx_mnu_Update				"Actualizare"
+
+#define ktx_mnu_Changevalue			"Schimba valoarea"
+
+#define ktx_str_Repeat				"Repeta"
+#define ktx_str_Daily				"Zilnic"
+#define ktx_str_Workdays			"Zile lucratoare"
+#define ktx_str_InNext24			"In urmatoarele 24"
+#define ktx_str_Once				"O data"
+
+#define ktx_str_Time				"Timp"
+#define ktx_str_Date				"Data"
+
+#define ktx_str_Type				"Tip"
+#define ktx_str_Clockalarm			"Alarma de ceas"
+#define ktx_str_Calendaralarm		"Alarma de calendar"
+#define ktx_str_Message				"Mesaj"
+#define ktx_str_Snooze				"Amanare"
+
+#define ktx_str_Settime				"Fixeaza timpul"
+#define ktx_str_Setdate				"Fixeaza data"
+#define ktx_str_Setmessage			"Fixeaza mesajul"
+		
+#define ktx_str_AlarmDueIn			"Alarma suna in "
+#define ktx_str_GoJukka				"Viziteaza m.DrJukka.com"
+
+#define ktx_cmd_Help				"Ajutor"
+
+#define ktx_cmd_Help1				"Aceasta aplicatie este destinata sa ofere multi-alarme cu optiunea de repetare acelor dispozitive care nu au implementata aceasta optiune nativ."
+#define ktx_cmd_Help2				"O alarma noua poate fi activata cu optiunea Nou, iar la deschiderea interfetei grafice puteti seta optiunea de repetare, timpul si mesajul pentru alarma. Tipul de alarma defineste ce sunet este destinat pentru alarma. Clic pe Gata pentru a salva alarma."
+#define ktx_cmd_Help3				"Optiunea de Reset este utilizata pentru resetarea detaliilor alarmei, cea de Inlaturare pentru eliminarea alarmei iar Activeaza/Dezactiveaza pentru dezactivarea temporara a alarmei."
+#define ktx_cmd_Help4				"Cu optiunea Setare sunete alarma pot fi selectate fisierele de apel. Setarile pentru Amanare definesc timpul de amanare in minute; luati aminte ca unele dispozitive ignora setarea de amanare si folosesc valoarea predefinita."
+#define ktx_cmd_Help5				"Cu optiunea Fixare zile de lucru se pot modifica setarile pentru zilele lucratoare, aceste setari definesc care sunt zilele lucratoare pentru care alarmele sunt active."
+
+
+
+

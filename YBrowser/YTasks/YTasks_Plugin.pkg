@@ -1,0 +1,24 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"YTasks: Plug-in"},(0xA000955F),0,51,0
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+; mail fodler stuff
+"data\mif\YTools_A000257B.mif"	-"!:\system\data\A00007A6\A000955F\icons.mif"
+
+;stuff
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000955F_res.RSC"  -"!:\resource\apps\YTools_A000955F_res.RSC"
+
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\release\gcce\urel\YTools_A000955F.dll"		-"!:\sys\bin\YTools_A000955F.dll"
+"C:\Symbian\9.1\S60_3rd_MR\\epoc32\DATA\Z\resource\Plugins\YTools_A000955F.rsc"-"!:\Resource\Plugins\YTools_A000955F.rsc"

@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"ตัวเลือก"
+#define ktx_cmd_Exit			"ออก"
+#define ktx_cmd_Cancel			"ยกเลิก"
+#define ktx_cmd_Back			"กลับ"
+
+#define ktx_cmd_Disable			"ยกเลิกการใช้งาน"
+#define ktx_cmd_Enable			"ใช้งาน"
+
+#define ktx_cmd_About			"เกี่ยวกับ"
+
+#define ktx_cmd_Select			"เลือก"
+
+#define ktx_cmd_Ok				"ตกลง"
+#define ktx_cmd_Change			"เปลี่ยน"
+#define ktx_cmd_Done			"สำเร็จ"
+#define ktx_cmd_Play			"เล่น"
+#define ktx_cmd_Stop			"หยุด"
+#define ktx_cmd_Save			"บันทึก"
+
+#define ktx_JustD				" วัน "
+#define ktx_JustH				" ชั่วโมง "
+#define ktx_JustMin				" นาที"
+
+#define ktx_Daily				"ทุกวัน"
+#define ktx_Wordays				"จันทร์-ศุกร์"
+
+
+#define ktx_mnu_Newalarm			"ตั้งปลุกใหม่"
+#define ktx_mnu_Resetalarm			"รีเซ็ตการปลุก"
+#define ktx_mnu_Removealarm			"ลบการปลุก"
+#define ktx_mnu_SetAlarmSounds		"ตั้งเสียงปลุก"
+#define ktx_mnu_SetWorkdays			"ตั้งจันทร์-ศุกร์"
+#define ktx_mnu_Update				"อัพเดต"
+
+#define ktx_mnu_Changevalue			"เปลี่ยนค่า"
+
+#define ktx_str_Repeat				"ซ้ำ"
+#define ktx_str_Daily				"ทุกวัน"
+#define ktx_str_Workdays			"จันทร์-ศุกร์"
+#define ktx_str_InNext24			"ภายใน 24"
+#define ktx_str_Once				"ครั้งเดียว"
+
+#define ktx_str_Time				"เวลา"
+#define ktx_str_Date				"วันที่"
+
+#define ktx_str_Type				"รูปแบบ"
+#define ktx_str_Clockalarm			"นาฬิกาปลุก"
+#define ktx_str_Calendaralarm		"ปฏิทินปลุก"
+#define ktx_str_Message				"ข้อความ"
+#define ktx_str_Snooze				"เลื่อน"
+
+#define ktx_str_Settime				"ตั้งเวลา"
+#define ktx_str_Setdate				"ตั้งวันที่"
+#define ktx_str_Setmessage			"ตั้งข้อความ"
+		
+#define ktx_str_AlarmDueIn			"การปลุกครบกำหนดใน "
+#define ktx_str_GoJukka				"ไปยัง m.DrJukka.com"
+
+#define ktx_cmd_Help				"ตัวช่วย"
+
+#define ktx_cmd_Help1				"โปรแกรมนี้ถูกออกแบบมาเพื่อการใช้การเตือนหลายๆแบบด้วยตัวเลือกการทำซ้ำสำหรับอุปกรณ์ที่ไม่มีตัวเลือกนี้ในเครื่อง"
+#define ktx_cmd_Help2				"เสียงเตือนใหม่สามารถตั้งได้ในตัวเลือกใหม่และตอนเปิดUI คุณสามารถตั้งค่าเตือนซ้ำ เวลา และข้อความสำหรับกริ่งเตือน แบบของเสียงเตือนคือการระบุเสียงที่จะใช้ในการเตือน กดเสร็จ เพื่อบันทึกเสียงเตือน"
+#define ktx_cmd_Help3				"ตัวเลือกการตั้งใหม่สามารถใช้สำหรับการเปลี่ยนการตั้งค่าการเตือน สามารถใช้คำสั่งลบการเตือนสำหรับลบ และ ใช้งาน/ไม่ใช้งาน สำหรับการหยุดใช้งานการเตือนชั่วคราว"
+#define ktx_cmd_Help4				"ตัวเลือกการตั้งเสียงไว้สำหรับตั้งไฟล์เสียง การตั้งค่าการเลื่อนใช้ระบุการเลื่อนเป็นนาที หมายเหตุบางอุปกรณ์ไม่สามารถใช้การตั้งค่าเลื่อนได้และจะใช้ค่าพื้นฐาน"
+#define ktx_cmd_Help5				"ในตัวเลือกวันทำงาน สามารถเลือกปรับตั้งค่าวันทำงานได้ การตั้งค่าเหล่านี้จะระบุว่า วันไหนที่การเตือนสำหรับวันทำงานจะใช้งาน"
+
+
+
+

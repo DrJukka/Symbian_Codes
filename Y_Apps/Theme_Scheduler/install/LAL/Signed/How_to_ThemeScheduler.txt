@@ -1,0 +1,16 @@
+
+Theme Scheduler is a free theme scheduler application that allows automated theme schduling with timer, 
+or automated theme changing according to active profile.
+
+Just open the application by clicking its icon, and select "New" and then either "Profile change" or "Timed change" depending on which with you want to change 
+the theme with. Then just and add the data for the schedule and click "Save".
+
+When you have schedules stored in to the database, you can also use menu options for modifying and deleting them.
+
+Note that to actually re-fresh the scheduling, you need to exit the application. Also each schedule should have two minutes time difference between 
+them for for reliable operations. Also when exiting the application, anyw new/modified schedule should be at least two minutes in the future.
+
+
+Note that this application does not support back upping.
+ 
+

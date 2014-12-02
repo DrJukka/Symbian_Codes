@@ -1,0 +1,458 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	All right Reserved
+*/
+
+NAME YT07
+
+#include <eikon.rh>
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <eikon.rsg>
+#include <avkon.hrh>
+#include <avkon.hrh>
+#include <CommonDialogs.hrh>
+#include <CommonDialogs.rh>
+
+
+#include "YTools_A0003129.hrh"
+
+
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF r_default_document_name { buf=""; }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    menubar = r_main_menubar;
+    cba = r_main_cba;
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_BAR r_main_menubar
+    {
+    titles =
+        {
+        MENU_TITLE {menu_pane = r_main_menu;}
+        };
+    }
+
+// ---------------------------------------------------------
+// ---------------------------------------------------------
+//
+RESOURCE MENU_PANE r_main_menu
+    {
+    items = 
+        {	
+		MENU_ITEM {command = EItemInfo;					txt = "Show info";},
+		MENU_ITEM {command = ESetMeOn;					txt = "Set On";},
+		MENU_ITEM {command = ESetMeOff;					txt = "Set Off";},
+		MENU_ITEM {command = EClearMe;					txt = "Clear List";},
+		MENU_ITEM {command = EResetMe;					txt = "Refresh list";},
+		MENU_ITEM {command = ESettingsMe;				txt = "Settings";},		
+		MENU_ITEM {command = EAbout;					txt = "About";},
+		MENU_ITEM {command = EAppHelp;					txt = "Help";},
+		MENU_ITEM {command = EAknSoftkeyExit;			txt = "Exit";}
+        };
+    }
+
+
+// ---------------------------------------------------------
+//			CBA
+// ---------------------------------------------------------
+//
+
+RESOURCE CBA R_APPHELP_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAppHelpBack; 
+		txt = "Back"; 
+	}
+  };
+}
+
+RESOURCE CBA r_main_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyOptions; 
+		txt = "Options";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EBacktoYTasks; 
+		txt = "Back"; 
+	}
+  };
+} 
+
+// ---------------------------------------------------------
+//			CBA
+// ---------------------------------------------------------
+//
+RESOURCE CBA r_settings_cba
+{
+  buttons = { 
+    CBA_BUTTON 
+	{ 
+		id = ESettingsOk; 
+		txt = "Ok";
+	},
+    CBA_BUTTON 
+	{ 
+		id = EAknSoftkeyEmpty; 
+		txt = "";
+	}
+  };
+} 
+
+
+// ---------------------------------------------------------
+//			Dialogs
+// ---------------------------------------------------------
+//
+RESOURCE DIALOG R_QUERY
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_YES_NO;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control = AVKON_CONFIRMATION_QUERY
+                {
+                layout = EConfirmationQueryLayout;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_wait_note_softkey_cancel
+    {
+    flags = EAknWaitNoteFlags | EEikDialogFlagNotifyEsc;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EYBWaitNoteId;
+            control= AVKON_NOTE 
+                { 
+                layout = EWaitLayout;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG r_progress_note
+    {
+    flags = EAknProgressNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EProgressNoteId;
+            control = AVKON_NOTE
+                {
+                layout = EProgressLayout;
+                singular_label ="Processing";
+                };
+            }
+        };
+    }
+
+RESOURCE DIALOG R_ASK_NAME_DIALOG
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+        {
+        DLG_LINE
+            {
+            type = EAknCtQuery;
+            id = EGeneralQuery;
+            control= AVKON_DATA_QUERY 
+                { 
+                layout = EDataLayout;
+                control = EDWIN
+                    { 
+                    flags= EEikEdwinNoHorizScrolling | EEikEdwinResizable; 
+                    maxlength = 50; 
+                    width = 4; 
+                    lines = 1; 
+                    };
+                };
+            }
+        };
+
+    }
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+RESOURCE DIALOG r_about_heading_pane
+{
+	flags=EEikDialogFlagNoDrag |EEikDialogFlagCbaButtons |EEikDialogFlagWait;
+	buttons = R_AVKON_SOFTKEYS_BACK;
+	items =
+	{
+		DLG_LINE
+		{
+			type = EAknCtPopupHeadingPane;
+			id = EAknMessageQueryHeaderId;
+			control = AVKON_HEADING
+			{
+			};
+		},
+		DLG_LINE
+		{
+			type = EAknCtMessageQuery;
+			id = EAknMessageQueryContentId;
+			control = AVKON_MESSAGE_QUERY
+			{
+			message = "Test";
+			};
+		}
+	};
+}
+
+
+//************************ Settings ***************************
+
+
+RESOURCE AVKON_SETTING_ITEM_LIST r_prof_setting
+    {
+    items =
+        {
+   	AVKON_SETTING_ITEM
+         {
+         identifier = ESettingOn;
+         setting_page_resource = r_keylock_setting_page;
+         associated_resource = r_keylock_popup_setting_list;
+         name = "Popup on";
+         },
+    AVKON_SETTING_ITEM
+    	{
+        identifier = EDrawStyle;
+        setting_page_resource = r_style_setting_page;
+        associated_resource = r_stylepopup_setting_list;        
+        name = "Style";
+        },
+    AVKON_SETTING_ITEM
+        {
+        identifier = EFontSize;
+        setting_page_resource = r_slider_font;
+        name = "Font size";
+        }, 
+	AVKON_SETTING_ITEM
+         {
+         identifier = ESettingVer;
+         setting_page_resource = r_slider_page_ver;
+         name = "Vertical position";
+         },               
+    AVKON_SETTING_ITEM
+         {
+         identifier = ESettingHor;
+         setting_page_resource = r_slider_page_hor;
+         name = "Horizontal position";
+         }
+        };
+    }
+
+
+
+RESOURCE AVKON_SETTING_PAGE r_slider_font
+{
+ label = "Font size";
+ type = EAknCtSlider;
+ editor_resource_id = r_slider_font_editor;
+}
+
+RESOURCE SLIDER r_slider_font_editor
+    {
+    layout = EAknSettingsItemSliderLayout;
+    minvalue = 10;
+    maxvalue = 150;
+    step = 10;
+    valuetype = EAknSliderValueDecimal;
+    minlabel = "10%";
+    maxlabel = "150%";
+    }
+
+
+
+RESOURCE AVKON_SETTING_PAGE r_slider_page_hor
+{
+ label = "Horizontal position";
+ type = EAknCtSlider;
+ editor_resource_id = r_slider_editor_hor;
+}
+
+RESOURCE SLIDER r_slider_editor_hor
+    {
+    layout = EAknSettingsItemSliderLayout;
+    minvalue = 0;
+    maxvalue = 100;
+    step = 1;
+    valuetype = EAknSliderValuePercentage;
+    minlabel = "left";
+    maxlabel = "right";
+    }
+
+
+RESOURCE AVKON_SETTING_PAGE r_slider_page_ver
+{
+ label = "Vertical position";
+ type = EAknCtSlider;
+ editor_resource_id = r_slider_editor_ver;
+}
+
+RESOURCE SLIDER r_slider_editor_ver
+    {
+    layout = EAknSettingsItemSliderLayout;
+    minvalue = 0;
+    maxvalue = 100;
+    step = 1;
+    valuetype = EAknSliderValuePercentage;
+    minlabel = "Top";
+    maxlabel = "Bottom";
+    }
+
+
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+
+RESOURCE AVKON_SETTING_PAGE r_style_setting_page
+    {   
+    number= 1;
+    label= "Style";
+    type = EAknCtPopupSettingList;
+    editor_resource_id = r_style_popup_setting_list_new_entry;
+    }
+
+RESOURCE POPUP_SETTING_LIST r_style_popup_setting_list_new_entry
+    {
+    flags = 0;//EAknPopupSettingListFlagAllowsUserDefinedEntry;
+    }
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_stylepopup_setting_list
+    {
+    setting_texts_resource = r_style_list;
+    popped_up_texts_resource = r_style_item_array;
+    }
+
+
+RESOURCE ARRAY r_style_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = "Pie chart";
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = "% Text";
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 2;
+            text = "Text, Ram as Kb";
+            }
+        };
+    }
+
+RESOURCE ARRAY r_style_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = "Pie chart";
+            },
+		LBUF
+            {
+            txt = "% Text";
+            },
+		LBUF
+            {
+            txt = "Text, Ram as Kb";
+            }
+        };
+    }
+
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+//
+RESOURCE AVKON_SETTING_PAGE r_keylock_setting_page
+    {   
+    number= 1;
+    label= "";
+    type = EAknCtPopupSettingList;
+    }
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_keylock_popup_setting_list
+    {
+    setting_texts_resource = r_keylock_list;
+    popped_up_texts_resource = r_keylock_item_array;
+    }
+
+
+RESOURCE ARRAY r_keylock_list
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 0;
+            text = "Off";
+            },
+        AVKON_ENUMERATED_TEXT
+            {
+            value = 1;
+            text = "On";
+            }
+        };
+    }
+
+RESOURCE ARRAY r_keylock_item_array
+    {
+    items =
+        {
+        LBUF
+            {
+            txt = "Off";
+            },
+		LBUF
+            {
+            txt = "On";
+            }
+        };
+    }
+
+
+

@@ -1,0 +1,66 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Zgjedhjet"
+#define ktx_cmd_exit 			"Dil"
+
+#define ktx_cmd_about			"Informacion"
+#define ktx_cmd_visit			"Vizito m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Ekrani i orës ndezur"
+#define ktx_sh_str_LGHTINSE		"Intensiteti i dritave"
+#define ktx_sh_str_LGHTINSECHR	"Intensiteti i Dritave të Karikimit"
+#define ktx_sh_str_LIGHTON		"Dritat ndezur"
+#define ktx_sh_str_SHOWDATE		"Shfaq datën"
+#define ktx_sh_str_KEYLOCKON	"Kyçja e butonave ndezur"
+#define ktx_sh_str_OFF			"Fikur"
+#define ktx_sh_str_ON			"Ndezur"
+#define ktx_sh_str_DATEONLY		"vetëm data"
+#define ktx_sh_str_DATETIME		"data + dita"
+#define ktx_sh_str_TIMEOUTOL	"Vetëm time out"
+#define ktx_sh_str_TIMEOUTCHR	"Time out + karikimi"
+#define ktx_sh_str_ALWAYS		"Gjithmonë"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Portret"
+#define ktx_sh_str_Landscape	"Peisazh"
+#define ktx_sh_str_Automatic	"Automatike"
+
+#define ktx_sh_str_CURRTHEM		"Tema e tanishme"
+#define ktx_sh_str_SELCOLOR		"Zgjidh ngjyrën"
+#define ktx_sh_str_BACKCOLOR	"Ngjyra e sfondit"
+#define ktx_sh_str_FONTCOLOR	"Ngjyra e shkrimit"
+#define ktx_sh_str_LIGHTTIM		"Timeout i dritës"
+#define ktx_sh_str_LOCKTIM		"Kyç pas (sek.)"
+#define ktx_sh_str_FONT			"Shkrimi"
+#define ktx_sh_str_BLACK		"I zi"
+#define ktx_sh_str_DARKGRAY		"Gri i errët"
+#define ktx_sh_str_DARKRED		"I kuq i errët"
+#define ktx_sh_str_DARKGREEN	"Jeshil i errët"
+#define ktx_sh_str_DARKYELLOW	"I verdhë i errët"
+#define ktx_sh_str_DARKBLUE		"Blu i errët"
+#define ktx_sh_str_DARKMAGENDA	"I purpurt i errët"
+#define ktx_sh_str_DARKCYAN		"Gurkali i errët"
+#define ktx_sh_str_RED			"I kuq"
+#define ktx_sh_str_GREEN		"Jeshil"
+#define ktx_sh_str_YELLOW		"I verdhë"
+#define ktx_sh_str_BLUE			"Blu"
+#define ktx_sh_str_MAGENDA		"I purpurt"
+#define ktx_sh_str_CYAN			"Gurkali"
+#define ktx_sh_str_GRAY			"Gri"
+#define ktx_sh_str_WHITE		"I bardhë"
+
+#define ktx_cmd_Help 			"Ndihmë"
+#define ktx_cmd_Back 			"Prapa"
+
+#define ktx_str_HELP1			"This application is used for a screensaver type clock screen that is on while the devices keyboard is locked by the devices standard key lock. The lock's light will be illuminated if enabled after a device key is pressed (allowed keys are arrow left/right and menu key)."
+#define ktx_str_HELP2			"The lock screen is handled by background server that is running if either the clock screen or the key lock is set to be on. The background application is also started automatically when device is started. Note that settings are taking effect only after exiting the UI application."
+#define ktx_str_HELP3			"Lights intensity settings are used to set the light intensity values that are used when key is pressed to show the clock screen. Charging light intensity is used when the device is charging. Light timeout settings specifies the time the lights are on after pressing the key, note that some devices ignore the value, and use the device lights out time value instead."
+#define ktx_str_HELP4			"With lights on setting allows defining when the lights are on. The font setting can be used to select the font used with the clock display, as well as with the font color setting the text color can be changed. The background setting defines which background color is used with the clock screen."
+#define ktx_str_HELP5			"The show date settings options allows disabling the date/day display on the top of the clock screen. The key lock settings item enables the background applications automatic key locking feature, and the lock after time values defines the required user inactivity time before the keyboard is locked."
+
+
+
+

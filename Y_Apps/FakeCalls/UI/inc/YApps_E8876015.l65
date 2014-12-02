@@ -1,0 +1,91 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"옵션"
+#define ktx_cmd_exit 				"종료"
+#define ktx_cmd_cancel 				"취소"
+#define ktx_cmd_Back 				"뒤로"
+
+#define ktx_cmd_Disable				"해제"
+#define ktx_cmd_Enable				"동작"
+
+#define ktx_cmd_save 				"저장"
+#define ktx_cmd_select 				"선택"
+
+#define ktx_mnu_Settings			"설정"
+#define ktx_mnu_help				"도움말"
+#define ktx_cmd_about				"프로그램 정보"
+#define ktx_cmd_visit				"m.DrJukka.com 홈페이지로"
+
+#define ktx_mnu_New 				"새 설정"
+#define ktx_cmd_Test				"미리보기"
+#define ktx_mnu_Modify 				"수정"
+#define ktx_mnu_Remove 				"삭제"
+
+#define ktx_mnu_newContact			"새 번호"
+
+#define ktx_sh_str_sndNumber	 		"번호"
+#define ktx_sh_str_sndTime		 	"시간"
+#define ktx_sh_str_sndDate		 	"날짜"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<해제됨>"
+
+#define ktx_str_REMMESSAGE 			"이 설정을 삭제하시겠습니까?"
+#define ktx_sh_str_REPEATS			"반복"
+
+#define ktx_str_GREENBUTTON			"초록색 버튼"
+#define ktx_str_REDBUTTON			"빨간색 버튼"
+#define ktx_str_OFFBUTTON			"전원 버튼"
+#define ktx_str_CAMERABUTTON			"카메라 버튼"
+
+
+#define ktx_sh_str_ONCE				"한 번만"
+#define ktx_sh_str_WORKDAYA			"평일"
+#define ktx_sh_str_NONWORKD			"휴일"
+#define ktx_sh_str_EVERYDAY			"매일"
+#define ktx_sh_str_MONDAYS			"월요일"
+#define ktx_sh_str_TUESDAYS			"화요일"
+#define ktx_sh_str_WEDNESDAYS			"수요일"
+#define ktx_sh_str_THURSDAYS			"목요일"
+#define ktx_sh_str_FRIDAYS			"금요일"
+#define ktx_sh_str_SATURDAYS			"토요일"
+#define ktx_sh_str_SUNDAYS			"일요일"
+
+#define ktx_sh_str_SNOZTEXT			"다시알림 버튼 문구 설정"
+#define ktx_str_MAXTIME				"알람 길이 설정"
+#define ktx_str_SNOOZETIME			"다시알림 간격"
+#define ktx_sh_str_OPERNAME			"통신사명"
+#define ktx_sh_str_SUNDFILE			"비상용 벨소리 설정"
+
+//Main Application help
+#define ktx_str_HELP1				"이 애플리케이션은 핸드폰 화면에 전화가 온 것처럼 표시해 주는 애플리케이션이며, 실제로 전화가 온 것이 아니기 때문에 본 애플리케이션을 사용함으로 인한 전화요금은 부과되지 않습니다."
+#define ktx_str_HELP2				"본 애플리케이션은 초록색 버튼, 빨간색 버튼, 카메라 버튼, 그리고 전원 버튼을 누름으로써 원터치 실행이 가능합니다. 원터치 기능은 핸드폰이 잠겼을 때만 사용이 가능합니다."
+#define ktx_str_HELP3				"원터치 기능 설정은 해당 버튼의 설정을 선택 후 '옵션' -> '수정'을 선택하십시오. 원터치 기능을 동작 혹은 해제시키시려면 '옵션' -> '동작'/'해제'를 선택하십시오."
+#define ktx_str_HELP4				"Fake call을 특정한 시간에 동작시키려면 '옵션' -> '새 설정'을 선택하셔서 새로운 설정을 작성하십시오. 이 설정은 '옵션' -> '수정'을 선택해서 수정할 수 있으며, '옵션' -> '삭제'로 삭제할 수 있습니다."
+#define ktx_str_HELP5				"'옵션' -> '미리보기'를 선택하시면 선택된 설정의 미리보기를 보실 수 있습니다."
+#define ktx_str_HELP6				"Fake calls에서 설정된 스케쥴은 핸드폰을 부팅할 때 동시에 실행되는 백그라운드 애플리케이션에 의해 제어됩니다. 메인 애플리케이션에서 변경한 설정은 메인 애플리케이션을 종료해야 적용됩니다."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"정해진 시간에 Fake call을 울리게 하려면 표시될 번호와 울릴 시간만 지정하면 됩니다."
+#define ktx_str_HELP8				"표시될 번호는 핸드폰의 전화번호부에서 선택할 수 있으며, 이름을 직접 입력할 수도 있습니다. 표시될 번호가 핸드폰의 전화번호부에 있으면, 이름과 배경, 벨소리 등 모든 설정은 전화번호부의 설정에 따릅니다."
+#define ktx_str_HELP9				"'옵션' -> '새 번호'에서는 표시될 번호 뿐만이 아니라 이름도 입력할 수 있습니다."
+#define ktx_str_HELP10				"본 애플리케이션은 알람으로도 사용할 수 있으며, 반복되도록 설정된 스케쥴은 다시알림 기능을 사용할 수 있습니다. 반복되도록 설정된 스케쥴은 자동으로 삭제되지 않으며, 반복되도록 설정되지 않은 스케쥴은 설정된 시간에 울린 후 자동으로 삭제됩니다."
+
+//Key settings
+#define ktx_str_HELP11				"원터치 기능을 설정할 땐 표시될 번호만 설정하면 됩니다. 표시될 번호는 핸드폰의 전화번호부에서 선택할 수 있으며, 이름을 직접 입력할 수도 있습니다."
+#define ktx_str_HELP12				"표시될 번호가 핸드폰의 전화번호부에 있으면, 이름과 배경, 벨소리 등 모든 설정은 전화번호부의 설정에 따릅니다."
+#define ktx_str_HELP13				"원터치 기능은 애플리케이션의 메인 메뉴에서 해당 버튼의 기능이 동작하도록 설정해야 사용하실 수 있으며, 핸드폰이 잠금 상태일 때에만 동작합니다."
+
+// Default Settings
+#define ktx_str_HELP14				"'통신사명'은 통신 사업자 이름을 찾을 수 없을 경우(ex : 오프라인 프로필로 설정됐을 때) Fake call이 울릴 때 화면 맨 위에 표시되는 이름입니다. "
+#define ktx_str_HELP15				"'비상용 벨소리'는 해당 번호에 설정된 벨소리가 없거나, 프로필에서 설정된 벨소리가 없을 때 사용됩니다. 본 애플리케이션에서 울릴 벨소리를 선택하는 우선 순위는 해당 번호에 설정된 벨소리 -> 프로필에서 설정된 벨소리 -> 비상용 벨소리 순입니다."
+#define ktx_str_HELP16				"'다시알림 간격'에서는 다시알림 버튼을 눌렀을 때 알람 대기 시간을 초 단위로 설정할 수 있습니다. 다시알림 버튼을 누르면 Fake call 화면은 지정된 시간동안 숨겨지고, 지정된 시간이 지나면 다시 울리게 됩니다."
+#define ktx_str_HELP17				"'알람 길이 설정'에서는 Fake call 화면이 얼마나 오랫동안 표시될지를 설정할 수 있습니다. "
+#define ktx_str_HELP18				"'다시알림 버튼 문구 설정'에서는 다시알림 버튼에 표시될 문구를 설정하여 훨씬 더 리얼한 Fake call 화면을 표시할 수 있습니다."
+
+
+
+

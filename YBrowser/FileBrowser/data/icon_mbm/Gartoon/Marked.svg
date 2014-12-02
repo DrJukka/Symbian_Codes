@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 72 72"
+   id="svg2270"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docbase="C:\Symbian_projects_91\Tools\YBrowser\FileBrowser\data\icon_mbm\tango"
+   sodipodi:docname="drawing.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <defs
+     id="defs2272" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.5658407"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="744"
+     inkscape:window-height="573"
+     inkscape:window-x="22"
+     inkscape:window-y="29" />
+  <metadata
+     id="metadata2275">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1"
+       id="path2292"
+       d="M 10.397052,33.790399 C 11.122718,35.076145 12.033869,36.234055 12.941835,37.391664 C 14.048275,38.698625 15.159616,39.999621 16.299069,41.277773 C 17.177158,42.19395 17.926234,43.220066 18.730535,44.198914 C 19.502571,45.301103 20.326443,46.365978 21.163611,47.41709 C 21.788887,48.328091 22.445345,49.213716 23.094607,50.106575 C 23.777172,50.929407 24.398627,51.7976 25.023437,52.663248 C 25.384606,53.415171 26.037993,53.877289 26.603449,54.43785 C 27.247927,54.842701 27.871005,55.274838 28.4978,55.706078 C 28.939871,56.033547 29.168772,56.534553 29.473227,56.967762 L 24.487197,59.817228 C 24.21782,59.479034 24.053742,59.020874 23.661441,58.780521 C 23.037939,58.342628 22.418975,57.899069 21.782604,57.479585 C 21.165801,56.889149 20.527538,56.339205 20.128525,55.558503 C 19.526752,54.682176 18.937788,53.798182 18.242432,52.990276 C 17.59113,52.108225 16.930433,51.233816 16.326537,50.317344 C 15.523898,49.235687 14.729022,48.148471 13.900434,47.085629 C 13.111161,46.106187 12.347018,45.105799 11.505128,44.170029 C 10.420689,42.842222 9.3336586,41.51891 8.203477,40.229253 C 7.2868978,39.093257 6.4126695,37.923118 5.4720946,36.808417 L 10.397052,33.790399 z " />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1"
+       id="path2296"
+       d="M 25.891816,58.825902 C 26.839484,56.747776 28.030746,54.782358 29.105867,52.766113 C 31.35607,48.142494 32.847024,43.193427 34.458081,38.321988 C 35.713822,34.767045 37.134718,31.272518 38.583014,27.792371 C 39.481316,26.002975 40.106587,24.118249 40.690398,22.210437 C 41.258487,20.194949 42.114463,18.289028 42.977711,16.388122 C 43.857463,14.494502 44.830391,12.646 45.777651,10.785764 C 46.088205,10.317641 46.26501,9.7797299 46.5071,9.2799944 L 51.678676,6.8907051 C 51.399916,7.4330877 51.208338,8.0268687 50.839305,8.5238704 C 49.825388,10.360207 48.819346,12.205767 47.944541,14.115185 C 47.087513,15.985726 46.224163,17.855981 45.689568,19.851099 C 45.081245,21.806581 44.478771,23.762142 43.46035,25.555514 C 41.845443,29.078869 40.255046,32.61983 38.881123,36.244928 C 37.260434,41.05945 35.839762,45.95528 33.837021,50.629982 C 32.916939,52.525006 31.949693,54.401345 31.102849,56.329599 L 25.891816,58.825902 z " />
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+/* 	Copyright (c) 2006, 
+	Jukka Silvennoinen,
+ 	All rights reserved 
+*/
+
+TARGET            	YToolsRecocnizer_20007145.dll
+TARGETTYPE        	PLUGIN
+
+UID               	0x10009d8d 0x20007145
+
+VENDORID			0x00000000
+CAPABILITY 		ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices AllFiles TCB
+
+
+EPOCSTACKSIZE		0x5000
+
+
+USERINCLUDE       ..\inc
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+
+START RESOURCE 		..\data\20007145.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET YToolsRecocnizer_20007145.rsc
+#endif
+END
+
+SOURCEPATH        ..\src
+SOURCE            YToolsRecocnizer1.cpp
+
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           gdi.lib 
+LIBRARY           fbscli.lib
+LIBRARY           bitgdi.lib 
+LIBRARY           egul.lib
+

@@ -1,0 +1,27 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Tasks"},(0xA000257B),0,55,2
+
+;Localised Vendor name
+%{"Symbianyucca"}
+
+;Unique Vendor name
+:"Symbianyucca"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YTools_A000257B.exe"	                 -"!:\sys\bin\YTools_A000257B.exe"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YTools_A000257B.rsc"         	     -"!:\resource\apps\YTools_A000257B.rsc"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YTools_A000257B_reg.rsc"  -"!:\private\10003a3f\import\apps\YTools_A000257B_reg.rsc"
+"..\YTasks\data\icon_bmp\YTools_A000257B_aif.mif"								-"!:\resource\apps\YTools_A000257B_aif.mif"
+"..\YTasks\data\Mif\YTools_A000257B.mif"					-"!:\resource\apps\YTools_A000257B.mif"
+
+"empty.txt" -"!:\system\data\A000257B\settings.dic"
+
+"..\YTasks\data\Download.txt"					-"!:\private\A000257B\Download.txt"
+;"..\YTasks\data\SuperD.txt"-"", FT, TC

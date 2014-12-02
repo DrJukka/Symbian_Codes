@@ -1,0 +1,78 @@
+/* Copyright (c) 2001 - 2005, Jukka silvennoinen, Solution One Telecom LTd. All rights reserved */
+
+#ifndef __STHSMS_HRH__
+#define __STHSMS_HRH__
+
+
+enum 
+    {
+    EClose=0x6000,
+	EAbout,
+	EContOkOne,
+	EContBackOne,
+	EContOkTwo,
+	EContBackTwo,
+	EVCardOpen,
+	EVCardRemove,
+	EVCardNew,
+	EMarkMenu,
+	EMarkTogle,
+	EMarkAll,
+	EUnMarkAll,
+	EItemSaveContacts,
+	EItemRemove,
+	EItemAddItems,
+	EVCardBack,
+	EContMarkTogle,
+	EContMarkAll,
+	EContUnMarkAll,
+	ESendSecondGeneration,
+	EBackFromD,
+	ECopyToMMC,
+	EShowInbox,
+	EBackFromInbox,
+	EInstallEmbedded,
+	
+	ESendCmdId // last
+    };
+
+enum 
+	{
+	EErrorNote,
+	EWarningNote,
+	EConfirmationNote,
+	EInformationNote
+};
+enum 
+	{	
+	EItemEdwinName = 0x900,
+	EItemEdwinNumber,
+	EItemEdwinInfo,
+	EAknExNoteCtrlIdWaitNote,
+	EProgressNoteId
+};
+enum 
+	{
+	EPassWord = 0x800,
+	EShowInd,
+	EIndVertical,
+	EIndHorizontal
+};
+
+enum TFileReader
+{
+	EContactFileReader,
+	ECalenderFileReader,
+	ECSFFileReader
+};
+
+enum 
+	{
+	EActivateDisclaimer = 0x55,
+	EActivateSplashScreen,
+	EActivateVCardView,
+	EActivateMainView
+};
+
+#endif  //__STHSMS_HRH__
+

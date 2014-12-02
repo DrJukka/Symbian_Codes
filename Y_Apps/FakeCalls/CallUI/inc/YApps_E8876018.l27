@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opcje"
+#define ktx_cmd_exit 				"Wyjdź"
+#define ktx_cmd_Back 				"Wróć"
+
+#define ktx_mnu_help				"Pomoc"
+#define ktx_cmd_about				"O programie"
+#define ktx_cmd_visit				"Odwiedź m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Drzemka"
+#define ktx_sh_str_ANSWER			"Odbierz"
+#define ktx_sh_str_SILENSE			"Wycisz"
+#define ktx_sh_str_CALLING			"Dzwoni"
+
+#define ktx_str_HELP1				"Wyświetlacz udawanego połączenia jest używana do wyświetlania udawanych połączeń przychodzących. Tło i wszystkie grafiki są wzięte z motywu urządzenia."
+#define ktx_str_HELP2				"Dzwonki użyte z wyświetlaczem są najpierw pobrane z bazy danych kontaktów urządzenia, a jeśli brak znalezionego dla wybranego kontaktu, wtedy jest używany dzwonek wybranego profilu, a jeśli jest to nadal niedostępne, wtedy dzwonek awaryjny ustawień połączeń udawanych jest używany."
+#define ktx_str_HELP3				"Możesz wyciszyć dzwonek poprzez naciśnięcie przycisku Wycisz. Przycisk odbioru jak również przycisk zielony nie jest funkcjonalny z tą wersją."
+#define ktx_str_HELP4				"Możesz wyjść z wyświetlacza udawanego połączenia poprzez naciśnięcie czerwonego klawisza lub poprzez wybranie komendy wyjścia z menu opcji."
+#define ktx_str_HELP5				"Komenda drzemka ukryje wyświetlacz na określony czas drzemki."
+
+
+
+		

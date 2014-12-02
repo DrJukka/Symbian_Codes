@@ -1,0 +1,37 @@
+/*
+	Copyright (C) 2006 Jukka Silvennoinen
+	.
+*/
+
+#ifndef __YUCCABROWSER_HRH__
+#define __YUCCABROWSER_HRH__
+
+
+enum TYuccaBrowserIds
+    {
+	EBacktoYBrowser =0x7000,  
+	EAbout,
+	EImgViewZoomSelect,
+	EImgViewZoomCancel,
+	EImgFlipVertical,
+	EImgFlipHorizontal,
+	EImgRotate270,
+	EImgRotate180,
+	EImgRotate90,
+	EImgViewZoom,
+	EImgRotate,
+	EImgFlip,
+	EImgFullScreen,
+	EImgNormalSize,
+	EImgSlideShow,
+	EImgSlideShowStop
+    };
+
+
+enum TControldIDListView
+    {
+	EProgressNoteId = 0x100,
+	EYBWaitNoteId
+	};
+
+#endif // __YUCCABROWSER_HRH__

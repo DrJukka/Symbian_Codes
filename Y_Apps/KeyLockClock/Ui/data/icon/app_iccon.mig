@@ -1,0 +1,15 @@
+ 
+/* This file has been generated, DO NOT MODIFY. */
+enum TMifApp_iccon
+	{
+	EMbmApp_icconKeylockclock = 16384,
+	EMbmApp_icconEmail = 16386,
+	EMbmApp_icconEmail_mask = 16387,
+	EMbmApp_icconCalls = 16388,
+	EMbmApp_icconCalls_mask = 16389,
+	EMbmApp_icconMms = 16390,
+	EMbmApp_icconMms_mask = 16391,
+	EMbmApp_icconSms = 16392,
+	EMbmApp_icconSms_mask = 16393,
+	EMbmApp_icconLastElement
+	};

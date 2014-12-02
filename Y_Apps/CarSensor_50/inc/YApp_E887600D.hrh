@@ -1,0 +1,23 @@
+/*
+============================================================================
+
+============================================================================
+*/
+#ifndef __MOVINGBALL_HRH__
+#define __MOVINGBALL_HRH__
+
+
+// MovingBall enumerate command codes
+enum TMovingBallIds
+	{
+	EAbout = 0x6001, // start value must not be 0
+	EClose,
+	EResset,
+	EBGLOff,
+	EBGLOn,
+	EVisitDrJukka,
+	EAppHelp,
+	EAppHelpBack
+	};
+
+#endif // __MOVINGBALL_HRH__

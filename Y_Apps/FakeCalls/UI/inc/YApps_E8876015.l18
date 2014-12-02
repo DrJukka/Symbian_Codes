@@ -1,0 +1,93 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opties"
+#define ktx_cmd_exit 				"Afsluiten"
+#define ktx_cmd_cancel 				"Annuleren"
+#define ktx_cmd_Back 				"Terug"
+
+#define ktx_cmd_Disable				"Deactiveren"
+#define ktx_cmd_Enable				"Activeren"
+
+#define ktx_cmd_save 				"Opslaan"
+#define ktx_cmd_select 				"Selecteren"
+
+#define ktx_mnu_Settings			"Instellingen"
+#define ktx_mnu_help				"Help"
+#define ktx_cmd_about				"Over"
+#define ktx_cmd_visit				"Ga naar m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nieuw"
+#define ktx_cmd_Test				"Voorbeeld"
+#define ktx_mnu_Modify 				"Aanpassen"
+#define ktx_mnu_Remove 				"Verwijderen"
+
+#define ktx_mnu_newContact			"Nieuw nummer"
+
+#define ktx_sh_str_sndNumber	 		"Nummer"
+#define ktx_sh_str_sndTime		 	"tijd"
+#define ktx_sh_str_sndDate		 	"datum"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<gedeactiveerd>"
+
+#define ktx_str_REMMESSAGE 			"Schema verwijderen?"
+#define ktx_sh_str_REPEATS			"Herhalen"
+
+#define ktx_str_GREENBUTTON			"Groen"
+#define ktx_str_REDBUTTON			"Rood"
+#define ktx_str_OFFBUTTON			"Uit"
+#define ktx_str_CAMERABUTTON			"Camera"
+
+
+#define ktx_sh_str_ONCE				"Een keer"
+#define ktx_sh_str_WORKDAYA			"Werkdagen"
+#define ktx_sh_str_NONWORKD			"Niet-werkdagen"
+#define ktx_sh_str_EVERYDAY			"Elke dag"
+#define ktx_sh_str_MONDAYS			"Maandagen"
+#define ktx_sh_str_TUESDAYS			"Dinsdagen"
+#define ktx_sh_str_WEDNESDAYS			"Woensdagen"
+#define ktx_sh_str_THURSDAYS			"Donderdagen"
+#define ktx_sh_str_FRIDAYS			"Vrijdagen"
+#define ktx_sh_str_SATURDAYS			"Zaterdagen"
+#define ktx_sh_str_SUNDAYS			"Zondagen"
+
+#define ktx_sh_str_SNOZTEXT			"Tekst snooze-knop"
+#define ktx_str_MAXTIME				"Max. signaaltijd"
+#define ktx_str_SNOOZETIME			"Signaaltijd"
+#define ktx_sh_str_OPERNAME			"Naam operator"
+#define ktx_sh_str_SUNDFILE			"Reserve-ringtone"
+
+//Main Application help
+#define ktx_str_HELP1				"Deze applicatie maakt inkomende gesprekken na. Er zijn geen kosten verbonden aan het gebruik."
+#define ktx_str_HELP2				"Er zijn vier voorgeprogrammeerde toetsen om een 'neppe' oproep te starten. De groene toets, de rode toets, de cameratoets en de aan/uit-knop. Deze toetsen werken alleen als de toetsen zijn vergrendeld."
+#define ktx_str_HELP3				"Via Bewerken kan een contactpersoon worden toegewezen aan een toets. Met activeren/deactiveren kunnen toetsen worden ge(de)activeerd."
+#define ktx_str_HELP4				"Getimede nepoproepen kunnen worden aangemaakt via de optie Nieuw. Via de hoofdlijst kunnen items worden geopend, bewerkt en verwijderd."
+#define ktx_str_HELP5				"Met Voorbeeld ziet u een voorbeeld van de inkomende nepoproep."
+#define ktx_str_HELP6				"Nieuwe en aangepaste nepoproepen worden verwerkt door een programma dat draait op de achtergrond. Dit gebeurt als u de applicatie afsluit. Deze applicatie wordt automatisch gestart als u uw toestel aanzet."
+
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Met getimede nepoproepen hoeft u alleen een nummer of tekst (naam) op te geven, plus ene tijd waarop u 'gebeld' wilt worden."
+#define ktx_str_HELP8				"U kunt zelf een nummer of tekst invoeren voor degende die u 'belt'. U kunt ook een contactpersoon uit uw telefoon selecteren. Alle beschikbare informatie wordt dan gebruikt bij de getimede oproep, inclusief speciale ringtone en foto."
+#define ktx_str_HELP9				"Bij de optie Nieuw nummer kunt u ook een gewone tekst invoeren die getoond wordt."
+#define ktx_str_HELP10				"U kunt een moment instellen en herhaling instellen (met een zelfgekozen tijdsinterval)."
+
+//Key settings
+#define ktx_str_HELP11				"Met een enkele nepoproep hoeft u alleen een nummer of naam in te voeren, of een contactpersoon te selecteren."
+#define ktx_str_HELP12				"Let op: Bij gebruik van een bestaande contactpersoon wordt alle beschikbare informatie gebruikt bij de getimede oproep, inclusief speciale ringtone en foto."
+#define ktx_str_HELP13				"Vergeet niet in de hoofdlijst de eenknops nepoproep te activeren. Let op: Deze werkt alleen als de toetsen zijn vergrendeld."
+
+// Default Settings
+#define ktx_str_HELP14				"De naam van de operator wordt gebruikt als de echte netwerknaam niet beschikbaar is. Bijvoorbeeld bij het profiel Offline."
+#define ktx_str_HELP15				"De reserve-ringtone wordt gebruik als er geen speciale ringtone is ingesteld voor de geselecteerde contactpersoon, en de standaard ringtone niet beschikbaar is. "
+#define ktx_str_HELP16				"De snooze-tijd is in seconden en geeft de tijd van uitstel weer tussen twee oproepen. Als de snooze-knop wordt ingedrukt, verdwijnt het oproepscherm voor de ingestelde periode (in seconden)."
+#define ktx_str_HELP17				"De maximale signaaltijd geeft aan hoe lang de nepoproep maximaal wordt getoond. De timer wordt gereset door de snooze-knop in te drukken. "
+#define ktx_str_HELP18				"U kunt de tekst voor de snooze-knop aanpassen, zodat de nepoproep echter lijkt. Bijvoorbeeld in de taal van uw telefoon."
+
+
+
+
+

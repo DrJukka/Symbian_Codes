@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Pilihan"
+#define ktx_cmd_Exit			"Keluar"
+#define ktx_cmd_Cancel			"Batal"
+#define ktx_cmd_Back			"Kembali"
+
+#define ktx_cmd_Disable			"Matikan"
+#define ktx_cmd_Enable			"Nyalakan"
+
+#define ktx_cmd_About			"Tentang"
+
+#define ktx_cmd_Select			"Pilih"
+
+#define ktx_cmd_Ok				"Ok"
+#define ktx_cmd_Change			"Ganti"
+#define ktx_cmd_Done			"Sudah"
+#define ktx_cmd_Play			"Mulai"
+#define ktx_cmd_Stop			"Berhenti"
+#define ktx_cmd_Save			"Simpan"
+
+#define ktx_JustD				" h "
+#define ktx_JustH				" j "
+#define ktx_JustMin				" men."
+
+#define ktx_Daily				"Sehari-hari"
+#define ktx_Wordays				"Hari kerja"
+
+
+#define ktx_mnu_Newalarm			"Baru"
+#define ktx_mnu_Resetalarm			"Reset"
+#define ktx_mnu_Removealarm			"Buang"
+#define ktx_mnu_SetAlarmSounds		"Tetapkan suara alarm"
+#define ktx_mnu_SetWorkdays			"Tetapkan hari kerja"
+#define ktx_mnu_Update				"Memperbaharui"
+
+#define ktx_mnu_Changevalue			"Ganti angka"
+
+#define ktx_str_Repeat				"Ulangi"
+#define ktx_str_Daily				"Sehari-hari"
+#define ktx_str_Workdays			"Hari kerja"
+#define ktx_str_InNext24			"24 jam kedepan"
+#define ktx_str_Once				"Sekali"
+
+#define ktx_str_Time				"Waktu"
+#define ktx_str_Date				"Tanggal"
+
+#define ktx_str_Type				"Tipe"
+#define ktx_str_Clockalarm			"Jam alarm"
+#define ktx_str_Calendaralarm		"Kalendar alarm"
+#define ktx_str_Message				"Pesan"
+#define ktx_str_Snooze				"Istirahat"
+
+#define ktx_str_Settime				"Tetapkan waktu"
+#define ktx_str_Setdate				"Tetapkan tanggal"
+#define ktx_str_Setmessage			"Tetapkan pesan"
+		
+#define ktx_str_AlarmDueIn			"Tempo alarm "
+#define ktx_str_GoJukka				"Kunjungi m.DrJukka.com"
+
+#define ktx_cmd_Help				"Bantuan"
+
+#define ktx_cmd_Help1				"This application is designed to provide multi alarm with repeat options to those devices that does not nativly implement this functionality."
+#define ktx_cmd_Help2				"New alarm can be made with new option, and in the opening UI you can set the repeat option, time and the message for the alarm. The alarm type defines which alarm sound is played for the alarm. Click Done to save the alarm."
+#define ktx_cmd_Help3				"Reset option can then be used for resetting alarm details, remove option to remove the alarm and Enable/Disable options can be used for temporarily disabling the alarm."
+#define ktx_cmd_Help4				"With Set Alarm sounds option the alarm sound files can be set. The snooze settings define the snooze time in minutes, note that some devices ignore the snooze setting and use the default value instead."
+#define ktx_cmd_Help5				"With set workdays the device wide workdays settings can be modified, these settings are defining which days the alarms set for workdays will be active."
+
+
+
+

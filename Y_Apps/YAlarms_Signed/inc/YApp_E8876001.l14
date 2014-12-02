@@ -1,0 +1,73 @@
+/* Copyright (c) 2001 - 2010 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+#define ktx_cmd_options 		"Seçenekler"
+#define ktx_cmd_Exit			"Çıkış"
+#define ktx_cmd_Cancel			"İptal"
+#define ktx_cmd_Back			"Geri"
+
+#define ktx_cmd_Disable			"Devre Dışı"
+#define ktx_cmd_Enable			"Aktif"
+
+#define ktx_cmd_About			"Hakkında"
+
+#define ktx_cmd_Select			"Seç"
+
+#define ktx_cmd_Ok				"Tamam"
+#define ktx_cmd_Change			"Değiştir"
+#define ktx_cmd_Done			"Tamamla"
+#define ktx_cmd_Play			"Çal"
+#define ktx_cmd_Stop			"Dur"
+#define ktx_cmd_Save			"Kaydet"
+
+#define ktx_JustD				" g "
+#define ktx_JustH				" s "
+#define ktx_JustMin				" dk."
+
+#define ktx_Daily				"Günlük"
+#define ktx_Wordays				"İş Günleri"
+
+
+#define ktx_mnu_Newalarm			"Yeni"
+#define ktx_mnu_Resetalarm			"Sıfırla"
+#define ktx_mnu_Removealarm			"Kaldır"
+#define ktx_mnu_SetAlarmSounds		"Alarm Müziği Ayarla"
+#define ktx_mnu_SetWorkdays			"İş Günlerini Ayarla"
+#define ktx_mnu_Update				"Güncelle"
+
+#define ktx_mnu_Changevalue			"Değerleri Değiştir"
+
+#define ktx_str_Repeat				"Tekrarla"
+#define ktx_str_Daily				"Günlük"
+#define ktx_str_Workdays			"İş Günleri"
+#define ktx_str_InNext24			"In next 24"
+#define ktx_str_Once				"Bir Kez"
+
+#define ktx_str_Time				"Zaman"
+#define ktx_str_Date				"Tarih"
+
+#define ktx_str_Type				"Tür"
+#define ktx_str_Clockalarm			"Saat Alarmı"
+#define ktx_str_Calendaralarm		"Ajanda Alarmı"
+#define ktx_str_Message				"Mesaj"
+#define ktx_str_Snooze				"Erteleme"
+
+#define ktx_str_Settime				"Zaman Ayarla"
+#define ktx_str_Setdate				"Tarih Ayarla"
+#define ktx_str_Setmessage			"Mesaj Ayarla"
+		
+#define ktx_str_AlarmDueIn			"İki Alarm "
+#define ktx_str_GoJukka				"m.DrJukka.com'u ziyaret et"
+
+#define ktx_cmd_Help				"Yardım"
+
+#define ktx_cmd_Help1				"Bu uygulamada halihazırda telefonda olmayan tekrar seçeneği ve birden çok alarm ayarlama özelliği  bulunmaktadır."
+#define ktx_cmd_Help2				"Yeni alarm eklemeyi yeni seçeneğinden yapabilirsiniz, açılan arayüz ile tekrar seçeneklerini, zamanı ve mesajı ayarlayabilirsiniz. Alarm tipiyle çalacak alarm tonunu ayarlayabilirsiniz. Bitti düğmesine basaarak alarmı kaydedebilirsiniz."
+#define ktx_cmd_Help3				"Sıfırla seçeneği alarm detaylarını sıfırlamak için, sil seçeneği alarmı silmek için ve Etkin/Devre dışı seçeneği de geçici olarak alarmı devre dışı bırakmak için kullanılır."
+#define ktx_cmd_Help4				"Alarm tonunu gir seçeneği ile alarm tonu dosyaları seçilebilir. Ertele seçeneği ile erteleme süresi belirlenebilir. Bazı telefonlar ertele seçeneğini göz ardı etmekte ve varsayılan değeri kullanmaktadır."
+#define ktx_cmd_Help5				"Cihazın hafta içi günleri hafta içini gir ayarı ile değiştirilebilir, bu ayar ile hangi hafta içi günleri için alarmın aktif olacağı belirlenir."
+
+
+
+

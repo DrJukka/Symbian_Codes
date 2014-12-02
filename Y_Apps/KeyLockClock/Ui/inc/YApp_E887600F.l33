@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"ตัวเลือก"
+#define ktx_cmd_exit 			"ออก"
+
+#define ktx_cmd_about			"เกี่ยวกับ"
+#define ktx_cmd_visit			"เยี่ยมชม m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"ตั้งเวลาหน้าจอ"
+#define ktx_sh_str_LGHTINSE		"ความเข้มของแสงสว่าง"
+#define ktx_sh_str_LGHTINSECHR	"ปรับความเข้มแสงสว่าง"
+#define ktx_sh_str_LIGHTON		"แสงสว่างทำงาน"
+#define ktx_sh_str_SHOWDATE		"แสดงวันที่"
+#define ktx_sh_str_KEYLOCKON	"ล็อคปุ่มกด"
+#define ktx_sh_str_OFF			"เปิด"
+#define ktx_sh_str_ON			"ปิด"
+#define ktx_sh_str_DATEONLY		"วันที่เท่านั้น"
+#define ktx_sh_str_DATETIME		"วันและวันที่"
+#define ktx_sh_str_TIMEOUTOL	"หมดเวลาเท่านั้น"
+#define ktx_sh_str_TIMEOUTCHR	"หมดเวลาและชาร์จแบตตารี่"
+#define ktx_sh_str_ALWAYS		"ตลอดเวลา"
+
+#define ktx_sh_str_orientation	"รูปแบบหน้าจอ"
+#define ktx_sh_str_Portrait		"แนวตั้ง"
+#define ktx_sh_str_Landscape	"แนวนอน"
+#define ktx_sh_str_Automatic	"อัตโนมัติ"
+
+#define ktx_sh_str_CURRTHEM		"ธีมที่ใช้อยู่"
+#define ktx_sh_str_SELCOLOR		"เลือกสี"
+#define ktx_sh_str_BACKCOLOR	"สีพื้นหลัง"
+#define ktx_sh_str_FONTCOLOR	"สีตัวอักษร"
+#define ktx_sh_str_LIGHTTIM		"หมดเวลาแสงสว่าง"
+#define ktx_sh_str_LOCKTIM		"ล็อคหลังจาก (วินาที)"
+#define ktx_sh_str_FONT			"ตัวอักษร"
+#define ktx_sh_str_BLACK		"สีดำ"
+#define ktx_sh_str_DARKGRAY		"สีเทาเข้ม"
+#define ktx_sh_str_DARKRED		"สีแดงเข้ม"
+#define ktx_sh_str_DARKGREEN	"สีเขียวเข้ม"
+#define ktx_sh_str_DARKYELLOW	"สีเหลืองเข้ม"
+#define ktx_sh_str_DARKBLUE		"สีน้ำเงินเ้ข้ม"
+#define ktx_sh_str_DARKMAGENDA	"สีแดงม่วงเข้ม"
+#define ktx_sh_str_DARKCYAN		"สีฟ้าเข้ม"
+#define ktx_sh_str_RED			"สีแดง"
+#define ktx_sh_str_GREEN		"สีเขียว"
+#define ktx_sh_str_YELLOW		"สีเหลือง"
+#define ktx_sh_str_BLUE			"สีน้ำเงิน"
+#define ktx_sh_str_MAGENDA		"สีแดงม่วง"
+#define ktx_sh_str_CYAN			"สีฟ้า"
+#define ktx_sh_str_GRAY			"สีเทา"
+#define ktx_sh_str_WHITE		"สีขาว"
+
+#define ktx_cmd_Help 			"ตัวช่วย"
+#define ktx_cmd_Back 			"กลับ"
+
+#define ktx_str_HELP1			"โปรแกรมนี้ใช้สำหรับภาพพักหน้าจอประเภทนาฬิกาซึ่งทำงานในระหว่างปุ่มถูกล็อคโดยการล็อคมาตราฐานของอุปกรณ์ แสงแสดงการล็อคจะเปิดขึ้นหากเปิดใช้งานหลังจากปุ่มถูกกด (ปุ่มที่อนุญาติคือลูกศรซ้าย/ขวาและปุ่มเมนู)"
+#define ktx_str_HELP2			"หน้าจอที่ล็อคจะทำงานเมื่อ ภาพพักจอนาฬิกาหรือปุ่มล็อคตั้งค่าทำงานไว้ โปรแกรมพื้นหลังจะเริ่มอัตโนมัติเมื่ออุปกรณ์เริ่มต้น  อนึ่ง การตั้งค่าทั้งหมดและตารางเวลาจะใช้งานได้หลังจากออกจากโปรแกรมUI"
+#define ktx_str_HELP3			"การตั้งค่าแสงสว่างใช้สำหรับการตั้งค่าความเข้มของแสงเมื่อปุ่มถูกกดเพื่อแสดงนาฬิกา แสงสว่างขณะชาร์จใช้สำหรับเมื่ออุปกรณ์ชาร์จ การตั้งค่าแสงดับเป็นการเจาะจงเวลาที่ไฟเปิดระหว่างกดปุ่ม อนึ่งอุปกรณ์บางอย่างไม่รับกับการตั้งค่านี้และใช้ค่าแสงดับของเครื่องแทน"
+#define ktx_str_HELP4			"ด้วยการตั้งค่าไฟเปิดสามารถการระบุว่าเมื่อไรที่ไฟเปิด การตั้งค่าตัวอักษรใช้สำหรับตัวอักษรบนนาฬิกา รวมถึงสีของตัวอักษรสามารถเปลี่ยนแปลงได้ การตั้งค่าพื้นหลังเป็นการระบุว่าพื้นหลังที่ใช้ภาพพักจอนาฬิกาควรเป็นสีใด"
+#define ktx_str_HELP5			"ตัวเลือกการตั้งค่าวันที่ สามารถยกเลิกการใช้งาน วันและวันที่ที่แสดงบนสุดของนาฬิกา การตั้งค่าล็อคปุ่มจะเป็นการใช้งานการล็อคปุ่ม ค่าเวลาการล็อกจะระบุเวลาที่ล็อคหลังจากเวลาที่ระบุไว้เมื่อผู้ใช้นิ่งเฉย"
+
+
+

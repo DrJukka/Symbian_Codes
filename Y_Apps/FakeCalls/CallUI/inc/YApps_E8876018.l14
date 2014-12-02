@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Seçenekler"
+#define ktx_cmd_exit 				"Çıkış"
+#define ktx_cmd_Back 				"Geri"
+
+#define ktx_mnu_help				"Yardım"
+#define ktx_cmd_about				"Hakkında"
+#define ktx_cmd_visit				"m.DrJukka.com'u ziyaret et"
+
+#define ktx_cmd_Snooze 				"Ertele"
+#define ktx_sh_str_ANSWER			"Cevapla"
+#define ktx_sh_str_SILENSE			"Sustur"
+#define ktx_sh_str_CALLING			"Arama"
+
+#define ktx_str_HELP1				"Sahte arama ekranı gelen sahte aramaları göstermek için kullanılır. Bütün arkaplan ve grafikler telefonun temasından alınır."
+#define ktx_str_HELP2				"Öncelikle rehber kaydındaki kişiye atanan zil sesi kullanılır, eğer yoksa seçili tercih modundaki zil sesi kullanılır, eğer o da yoksa  Fake Calls ayarlarındaki varsayılan zil sesi kullanılır."
+#define ktx_str_HELP3				"Sessiz tuşuna basarak zil sesini sessiz duruma getirebilirsiniz. Cevapla tuşu hem de Yeşil tuş bu versiyonda çalışmamaktadır."
+#define ktx_str_HELP4				"Sahte arama ekranından kırmızı tuşa basarak veya seçeneklerdeki çıkış tuşuna basarak çıkabilirsiniz."
+#define ktx_str_HELP5				"Ertele komutu, belirlenen erteleme zamanı süresince ekran görüntüsünü saklayacaktır."
+
+
+
+		

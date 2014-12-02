@@ -1,0 +1,65 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 		"Opcje"
+#define ktx_cmd_exit 			"Wyjście"
+
+#define ktx_cmd_about			"O programie"
+#define ktx_cmd_visit			"Odwiedź m.DrJukka.com"
+
+
+#define ktx_sh_str_CLOCKON		"Zegar na ekranie"
+#define ktx_sh_str_LGHTINSE		"Intensywność oświetlenia"
+#define ktx_sh_str_LGHTINSECHR	"Intensywność kontrolki ładowania"
+#define ktx_sh_str_LIGHTON		"Włącz światło"
+#define ktx_sh_str_SHOWDATE		"Pokaż datę"
+#define ktx_sh_str_KEYLOCKON	"Blokada klawiatury włączona"
+#define ktx_sh_str_OFF			"Wyłącz"
+#define ktx_sh_str_ON			"Włącz"
+#define ktx_sh_str_DATEONLY		"tylko data"
+#define ktx_sh_str_DATETIME		"data + dzień tygodnia"
+#define ktx_sh_str_TIMEOUTOL	"Tylko przerwa"
+#define ktx_sh_str_TIMEOUTCHR	"Przerwa + ładowanie"
+#define ktx_sh_str_ALWAYS		"Zawsze"
+
+#define ktx_sh_str_orientation	"Orientation"
+#define ktx_sh_str_Portrait		"Pionowo"
+#define ktx_sh_str_Landscape	"Poziomo"
+#define ktx_sh_str_Automatic	"Automatycznie"
+
+#define ktx_sh_str_CURRTHEM		"Bieżący temat"
+#define ktx_sh_str_SELCOLOR		"Wybierz kolor"
+#define ktx_sh_str_BACKCOLOR	"Kolor tła"
+#define ktx_sh_str_FONTCOLOR	"Kolor czcionki"
+#define ktx_sh_str_LIGHTTIM		"Światło przerwy"
+#define ktx_sh_str_LOCKTIM		"Zablokuj po (sek.)"
+#define ktx_sh_str_FONT			"Czcionka"
+#define ktx_sh_str_BLACK		"Czarny"
+#define ktx_sh_str_DARKGRAY		"Ciemnoszary"
+#define ktx_sh_str_DARKRED		"Ciemnoczerwony"
+#define ktx_sh_str_DARKGREEN	"Ciemnozielony"
+#define ktx_sh_str_DARKYELLOW	"Ciemnożółty"
+#define ktx_sh_str_DARKBLUE		"Granatowy"
+#define ktx_sh_str_DARKMAGENDA	"Ciemny karmazynowy"
+#define ktx_sh_str_DARKCYAN		"Ciemny zielononiebieski"
+#define ktx_sh_str_RED			"Czerwony"
+#define ktx_sh_str_GREEN		"Zielony"
+#define ktx_sh_str_YELLOW		"Żółty"
+#define ktx_sh_str_BLUE			"Niebieski"
+#define ktx_sh_str_MAGENDA		"Karmazynowy"
+#define ktx_sh_str_CYAN			"Zielonkawoniebieski"
+#define ktx_sh_str_GRAY			"Szary"
+#define ktx_sh_str_WHITE		"Biały"
+
+#define ktx_cmd_Help 			"Pomoc"
+#define ktx_cmd_Back 			"Wróć"
+
+#define ktx_str_HELP1			"Ta aplikacja jest używana dla ekranu zegara w rodzaju wygaszacza ekranu, który jest włączany kiedy klawiatura jest zablokowana poprzez standardowy klawisz blokady urządzenia. Jeśli włączono, podświetlenie blokady będzie oświetlone po naciśnięciu klawisza urządzenia (dozwolonymi klawiszami są: strzałka w lewo/prawo i klawisz menu)."
+#define ktx_str_HELP2			"Ekran zegara jest obsługiwany przez serwer w tle, który jest uruchamiany jeśli którykolwiek ekran zegara lub blokada klawiszy są włączone. Aplikacja w tle startuje także automatycznie gdy startuje urządzenie. Zauważ, że ustawienia przyjmują efekt tylko po wyjścu z UI aplikacji."
+#define ktx_str_HELP3			"Ustawienia intensywności podświetlenia są używane do ustawienia wartości intensywności podświetlenia, które jest używane, gdy klawisz jest naciskany aby pokazać ekran zegara. Intensywność podświetlenia ładowania jest używana, gdy urządzenie się ładuje. Ustawienie przerwy podświetlenia określa czas kiedy podświetlenie jest włączone po naciśnięciu klawisza. Zauważ, że niektóre urządzenia ignorują wartość, a używają zamiast niej wartość czasu wyłączenia podświetlenia urządzenia."
+#define ktx_str_HELP4			"Ustawienie włączenia podświetlenia pozwala na określenie kiedy podświetlenie jest włączone. Ustawienie czcionki może być użyte aby wybrać czcionkę używaną z wyświetlaczem zegara jak również z ustawieniem koloru czcionki kolor tekstu może być zmieniony. Ustawienie tła określa który kolor tła jest używany z ekranem zegara."
+#define ktx_str_HELP5			"Opcje ustawień pokazywania daty pozwalają wyłączyć wyświetlacz daty/dnia na górze ekranu zegara. Ustawienie blokady klawiszy włącza funkcję automatycznego blokowania klawiszy aplikacji w tle, a wartości blokady po czasie określają wymaganą bezczynność użytkownika zanim klawiatura zostanie zablokowana"
+
+
+

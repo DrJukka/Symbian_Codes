@@ -1,0 +1,17 @@
+
+; standard SIS file header
+#{"Y-Browser: Add Ons"},(0x2000713E),0,77,0
+
+;Supports Series 60 
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}; 2.0 -->
+
+
+!({"Text viewer"},{"PkZip"})
+
+IF option1
+@"YTools_TextViewer_2ndEd.sis",(0x20007141)
+ENDIF
+
+IF option2
+@"YTools_PkZip_2ndEd.sis",(0x20007142)
+ENDIF

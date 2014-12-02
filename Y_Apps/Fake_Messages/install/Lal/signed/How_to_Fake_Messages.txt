@@ -1,0 +1,7 @@
+
+Fake Messages is a free fake message sending application that allows timed "sending" of fake SMS messages. 
+
+SMS messages are handled inside the device, so no network connection is needed, thus sending fake SMS messages are completely free of charge.. 
+
+Just open the application by clicking its icon, and seelct "New message" from the menu, fill in the message details along side the sending time and click save.
+

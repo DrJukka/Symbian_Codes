@@ -1,0 +1,25 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opzioni"
+#define ktx_cmd_exit 				"Esci"
+#define ktx_cmd_Back 				"Indietro"
+
+#define ktx_mnu_help				"Aiuto"
+#define ktx_cmd_about				"Informazioni"
+#define ktx_cmd_visit				"Visita m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Rifiuta"
+#define ktx_sh_str_ANSWER			"Rispondi"
+#define ktx_sh_str_SILENSE			"Muto"
+#define ktx_sh_str_CALLING			"Chiama"
+
+#define ktx_str_HELP1				"La schermata Fake Call è usata per mostrare le chiamate entranti di Fake Call. Lo sfondo e la grafica sono prese dai temi installati nel dispositivo."
+#define ktx_str_HELP2				"I toni di squillo adoperati sono prelevati dai contatti memorizzati, se non definiti viene scelto quello relativo al profilo in uso; nel caso anche questo manchi allora si adoperano le impostazioni di Fake Call per il tono di squillo."
+#define ktx_str_HELP3				"Puoi silenziare lo squillo pressando il tasto Muto. Il tasto di risposta cosi' come quello verde non sono funzionali in questa versione."
+#define ktx_str_HELP4				"Puoi terminare Fake Calls pigiando il tasto rosso o selezionandoil comando exit dal menu opzioni"
+#define ktx_str_HELP5				"Il comando Snooze nascondera' la schermata per il tempo specificato."
+
+
+		

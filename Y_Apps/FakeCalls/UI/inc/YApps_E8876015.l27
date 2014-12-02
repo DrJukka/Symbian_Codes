@@ -1,0 +1,91 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opcje"
+#define ktx_cmd_exit 				"Wyjdź"
+#define ktx_cmd_cancel 				"Anuluj"
+#define ktx_cmd_Back 				"Wróć"
+
+#define ktx_cmd_Disable				"Wyłącz"
+#define ktx_cmd_Enable				"Włącz"
+
+#define ktx_cmd_save 				"Zapisz"
+#define ktx_cmd_select 				"Wybierz"
+
+#define ktx_mnu_Settings			"Ustawienia"
+#define ktx_mnu_help				"Pomoc"
+#define ktx_cmd_about				"O programie"
+#define ktx_cmd_visit				"Odwiedź m.DrJukka.com"
+
+#define ktx_mnu_New 				"Nowe"
+#define ktx_cmd_Test				"Podgląd"
+#define ktx_mnu_Modify 				"Modyfikuj"
+#define ktx_mnu_Remove 				"Usuń"
+
+#define ktx_mnu_newContact			"Nowy numer"
+
+#define ktx_sh_str_sndNumber	 		"Numer"
+#define ktx_sh_str_sndTime		 	"czas"
+#define ktx_sh_str_sndDate		 	"data"
+
+#define ktx_sh_str_delay			"Delay sec."
+
+#define ktx_sh_str_DISABLED			"<Wyłączony>"
+
+#define ktx_str_REMMESSAGE 			"Usunąć terminarz?"
+#define ktx_sh_str_REPEATS			"Powtórka"
+
+#define ktx_str_GREENBUTTON			"Zielony"
+#define ktx_str_REDBUTTON			"Czerwony"
+#define ktx_str_OFFBUTTON			"Włącznik"
+#define ktx_str_CAMERABUTTON			"Aparat"
+
+
+#define ktx_sh_str_ONCE				"Jednokrotnie"
+#define ktx_sh_str_WORKDAYA			"Dni robocze"
+#define ktx_sh_str_NONWORKD			"Dni nierobocze"
+#define ktx_sh_str_EVERYDAY			"Codziennie"
+#define ktx_sh_str_MONDAYS			"Poniedziałki"
+#define ktx_sh_str_TUESDAYS			"Wtorki"
+#define ktx_sh_str_WEDNESDAYS			"Środy"
+#define ktx_sh_str_THURSDAYS			"Czwartki"
+#define ktx_sh_str_FRIDAYS			"Piątki"
+#define ktx_sh_str_SATURDAYS			"Soboty"
+#define ktx_sh_str_SUNDAYS			"Niedziele"
+
+#define ktx_sh_str_SNOZTEXT			"Tekst przycisku Drzemka"
+#define ktx_str_MAXTIME				"Max czas dzwonienia"
+#define ktx_str_SNOOZETIME			"Czas drzemki"
+#define ktx_sh_str_OPERNAME			"Nazwa operatora"
+#define ktx_sh_str_SUNDFILE			"Dzwonek awaryjny"
+
+//Main Application help
+#define ktx_str_HELP1				"Ta aplikacja jest używana do robienia udawanych połączeń przychodzących, rzeczywiste połączenia nie są wykonywane, tak więc brak opłat związanych z Fake Calls."
+#define ktx_str_HELP2				"Są cztery wstępnie zdefiniowane klawisze, które mogą być użyte do rozpoczęcia udawanego połaczenia jednym naciśnięciem przycisku. Tymi klawiszami są: Klawisz zielonego telefonu, Klawisz czerwonego telefonu, Klawisz aparatu oraz Przycisk On/Off. Zauważ, że klawisze rozpoczną udawane połączenie jedynie gdy blokada klawiatury urządzenia jest włączona."
+#define ktx_str_HELP3				"Aby ustawić kontakt dla klawiszy, wybierz opcję Modyfikuj z menu. Opcje menu Włącz/Wyłącz mogą być użyte do włączenia/wyłączenia udawanego połączenia dla klawisza."
+#define ktx_str_HELP4				"Terminarz zaplanowanych połączeń udawanych może być wykonany poprzez wybranie opcji Nowe z menu, te terminarze mogą być później zmodyfikowane z opcją menu Modyfikuj i opcja Usuń może być użyta do usunięcia terminarza."
+#define ktx_str_HELP5				"Opcja menu podglądu połączenia może być użyta do podejrzenia udawanego połączenia dla wybranego obiektu z listy."
+#define ktx_str_HELP6				"Rzeczywisty terminarz Fake Calls jest obsługiwany przez serwer w tle, który jest uruchamiany jeśli jakiś klawisz udawanego połączenia lub terminarz udawanego połączenia jest dostępny oraz jest także włączony. Aplikacja w tle startuje także automatycznie gdy startuje urządzenie. Zauważ, że wszystkie ustawienia i zmiany terminarza skutkują tylko po wyjściu z UI aplikacji."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Z udawanymi połączeniami zaplanowanymi czasowo, potrzebujesz tylko zdefiniować numer kontaktu (lub ciąg) i czas kiedy udawane połączenie ma być wykonane."
+#define ktx_str_HELP8				"Możesz wybrać kontakt z listy kontaktów urządzenia, a wtedy także nazwa kontaktu będzie użyta na liście głównego terminarza. Zauważ, że jeśli numer udawanego połączenia znajduje się w kontaktach urządzenia, wszystkie informacje wliczając nazwę, obraz, dzwonek itd. będzie użyty gdy udawane połączenie jest pokazywane."
+#define ktx_str_HELP9				"Opcja menu Nowy numer pozwala także używać jakiegoś ciągu tekstowego dla wyświetlacza udawanego połączenia."
+#define ktx_str_HELP10				"Czas dla terminarza może być wybrany z ustawieniami czasu, ustawienia powtarzania pozwalają planowaniu na wykonywanie w wybrane dni jak powtarzanie udawanego połączenia z określonym odstępem powtórki. Zauważ, że powtarzane Terminarze nie są usuwane z listy terminarza, podczas gdy określone terminarze udawnego połączenia tylko dla określonej daty będą usunięte z bazy danych planowania po pokazaniu udawanego połączenia."
+
+//Key settings
+#define ktx_str_HELP11				"Z udawanymi połączeniami jednego klawisza, potrzebujesz tylko zdefiniować numer kontaktu (lub ciągu) dla udawanego połączenia. Możesz wybrać kontakt z bazy danych kontaktów lub użyć opcji menu Nowy numer (także pozwala użyć każdego ciągu tekstowego dla wyświetlacza udawanego połączenia."
+#define ktx_str_HELP12				"Zauważ, że jeśli numer udawanego połączenia znajduje się w kontaktach urządzenia, wszystkie informacje wliczając nazwę, obraz, dzwonek itd. będą użyte gdy udawane połączenie jest pokazywane."
+#define ktx_str_HELP13				"Pamiętaj także Włączyć klawisz udawanego połączenia z listy głównego terminarza oraz zauważ, że udawane połączenia jednego klawisza działają jedynie gdy blokada klawiszy urządzenia jest aktywowana."
+
+// Default Settings
+#define ktx_str_HELP14				"Nazwa operatora jest używana w górnej części ekranu udawanego połączenia w przypadkach, gdy prawdziwa nazwa sieci nie może być pobrana. Na przykład będzie to miało miejsce, gdy w użyciu jest profil offline."
+#define ktx_str_HELP15				"Dzwonek awaryjny jest używany w przypadkach, gdy wybrany kontakt nie posiada dzwonka, a dzwonek profilu nie może być znaleziony. Wybór aktualnego dzwonka działa w sposób, że jeśli wybrany kontakt ma swój dzwonek, będzie on użyty, a jeśli nie ma, będzie użyty dzwonek bieżącego profilu, a jeśli  bieżący profil nie ma dzwonka, wtedy będzie użyty dzwonek awaryjny."
+#define ktx_str_HELP16				"Czas drzemki jest wartością czasu drzemki w sekundach używaną przyciskiem Drzemka w wyświetlaczu udawanego połączenia. Gdy przycisk Drzemka jest naciśnięty, wyświetlacz udawanego połączenia zostanie ukryty, a wyświetlacz jest pokazywany ponownie po określonym czasie drzemki."
+#define ktx_str_HELP17				"Max czas dzwonienia definiuje jak długo wyświetlacz udawanego połączenia będzie pokazywany po jego rozpoczęciu. Zauważ, że naciśnięcie drzemki wyzeruje czasomierz."
+#define ktx_str_HELP18				"Ustawienie tekstu przycisku Drzemka może być użyte do zmiany tekstu pokazywanego na przycisku drzemki dla bardziej autentycznego wyświetlacza udawanego połączenia."
+
+
+
+

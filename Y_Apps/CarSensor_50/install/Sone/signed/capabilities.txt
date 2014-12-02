@@ -1,0 +1,12 @@
+ReadDeviceData 
+
+- CSensrvChannel
+
+- Needed for getting sensor data
+
+
+SwEvent
+
+- TApaTask::SendMessage
+
+- needed for opening web page in already opened web browser

@@ -1,0 +1,93 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valinnat"
+#define ktx_cmd_exit 				"Poistu"
+#define ktx_cmd_cancel 				"Peruuta"
+#define ktx_cmd_Back 				"Takaisin"
+
+#define ktx_cmd_Disable				"Poista käytöstä"
+#define ktx_cmd_Enable				"Ota käyttöön"
+
+#define ktx_cmd_save 				"Tallenna"
+#define ktx_cmd_select 				"Valitse"
+
+#define ktx_mnu_Settings			"Asetukset"
+#define ktx_mnu_help				"Ohjeet"
+#define ktx_cmd_about				"Tietoja sovelluksesta"
+#define ktx_cmd_visit				"Vieraile m.DrJukka.com:issa"
+
+#define ktx_mnu_New 				"Uusi"
+#define ktx_cmd_Test				"Esikatsele"
+#define ktx_mnu_Modify 				"Muokkaa"
+#define ktx_mnu_Remove 				"Poista"
+
+#define ktx_mnu_newContact			"Uusi numero"
+
+#define ktx_sh_str_sndNumber	 		"Numero"
+#define ktx_sh_str_sndTime		 	"Aika"
+#define ktx_sh_str_sndDate		 	"Päivä"
+
+#define ktx_sh_str_delay			"Viive sek."
+
+#define ktx_sh_str_DISABLED			"<pois käytöstä>"
+
+#define ktx_str_REMMESSAGE 			"Poista aikataulu ?"
+#define ktx_sh_str_REPEATS			"Toista"
+
+#define ktx_str_GREENBUTTON			"Vihreä"
+#define ktx_str_REDBUTTON			"Punainen"
+#define ktx_str_OFFBUTTON			"Pois päältä"
+#define ktx_str_CAMERABUTTON			"Kamera"
+
+
+#define ktx_sh_str_ONCE				"Kerran"
+#define ktx_sh_str_WORKDAYA			"Työpäivinä"
+#define ktx_sh_str_NONWORKD			"Vapaapäivinä"
+#define ktx_sh_str_EVERYDAY			"Jokapäivä"
+#define ktx_sh_str_MONDAYS			"Maanantaisin"
+#define ktx_sh_str_TUESDAYS			"Tiistaisin"
+#define ktx_sh_str_WEDNESDAYS			"Keskiviikkoisin"
+#define ktx_sh_str_THURSDAYS			"Torstaisin"
+#define ktx_sh_str_FRIDAYS			"Perjantaisin"
+#define ktx_sh_str_SATURDAYS			"Lauantaisin"
+#define ktx_sh_str_SUNDAYS			"Sunnuntaisin"
+
+#define ktx_sh_str_SNOZTEXT			"Torkku näppäimen teksti"
+#define ktx_str_MAXTIME				"Maksimi soitto aika"
+#define ktx_str_SNOOZETIME			"Torkku aika"
+#define ktx_sh_str_OPERNAME			"Operaattorin nimi"
+#define ktx_sh_str_SUNDFILE			"Vara soittoääni"
+
+//Main Application help
+#define ktx_str_HELP1				"Tämän ohjelman tarkoituksena on soittaa saapuvia valepuheluita, valepuhelut eivät aiheuta oikeita puheluita joten valepuhelut eivät aiheuta puhelin laskuja."
+#define ktx_str_HELP2				"Valepuhelut voi käynnistää neljällä esivalitulla näppäimellä: Vihrea ja punainen luuri, Pois päältä näppäin sekä Kamera näppäin. Huomio että puhelimen näppäinlukon pitää olla päällä käytettäessä edellä mainittuja näppäimiä valepuheluiden käynnistämiseen."
+#define ktx_str_HELP3				"Valepuheluita voi myös asettää saapuviksi ajastimen avulla valitsemalla Uusi valinnan. Näppäimellä toimivat valepuhelut asetetaan Muokkaa valinnan avulla."
+#define ktx_str_HELP4				"Pois käytöstä/Ota käyttöön valinnoilla valepuhelut voi tilapäisesti poistaa käytöstä. Ajastetus valupuhelut voi myös poistaa listasta Poista valinnalla.Asetettuja valepuheluita voi myös myöhemmin muokata Muokkaa valinnan avulla."
+#define ktx_str_HELP5				"Esikatsele valinnan avulla valepuheluita voi myös esikatsella ennen varsinaista käyttöä."
+#define ktx_str_HELP6				"Valepuheluiden ajastus toimii tausta prosessin avulla, tausta processi käynnistyy myös automaattisesti puhelinta käynnistettäessä, mikäli ainakin yksi valepuhelu on määritelty olavaksi käytössä. Huomio että muutokset päivittyvät tausta prosessiin vasta kun pääohjelmasta on poistuttu."
+
+// Schedlue Settings
+#define ktx_str_HELP7				"Valepuhelu ajastinta käytettäessä, soittaja voidaan valita joko suoraan puhelimen osoitekirjasta tai kirjoittamalla uusi numero/teksti joka näytetään valepuhelun saapuessa." 
+#define ktx_str_HELP8				"Mikäli soittajan numero löytyy osoitekirjasta, ko. numerolle määriteltyä kuvaa ja soittoääntä käytetään valepuhelun saapuessa. Soittajan määrityksen lisäksi ajastimen aika ja mahdollisesti soiton toistot tulee myös määritellä."
+#define ktx_str_HELP9				"Mikäli soitto on määritelty suoritettavaksi vain kerran ja määritelty aika on jo saavutettu, valepuhelu suoritetaan välittämösti pääohjelmasta poistuttaessa."
+#define ktx_str_HELP10				"Huomioi myös että ainoastaan toistettavat valepuhelut säilytetään valepuhelun suorittamisen jälkeen, yksittäiseksi kerraksi määritellyt valepuhelut poistetaan muistista heti soittamisen jälkeen."
+
+
+//Key settings
+#define ktx_str_HELP11				"Näppäimellä vastaanotettavat valepuheluille täytyy määritellä ainoastaan soittajan numero samaan tapaan kuin ajastetuille valepuheluille."
+#define ktx_str_HELP12				"Muista myös huomioida Pois käytöstä/Ota käyttöön valinnat, ja se että valepuhelut jotka on määritelty olevan pois käytöstä eivät aiheuta mitään toimintoa tausta prosessissa."
+#define ktx_str_HELP13				"Sekä myös että näppäimellä vastaaotettavat valepuhelut toimivat ainoastaan puhelimen näppäinlukon ollessa päällä."
+
+// Default Settings
+#define ktx_str_HELP14				"Operaattorin nimi asetuksessa määritelty teksti näytetään operaattorin nimen tilalla nissää tapauksissa joissa oikea operaattorin nimi ei ole saatavilla, tämä tapahtuu muunmussa kun puhelin on Offline tilassa."
+#define ktx_str_HELP15				"Vara soittoääni asetuksessa määritelty soittoääni on käytössä mikäli muut soittoäänet eivät toimi tai jos puhelin on Offline tilassa."
+#define ktx_str_HELP16				"Torkku aika asetussa määritelty aika määrittelee ajan jonka valepuhelu näyttö on piilotettuna torkku näppäimen painamisen jälkeen."
+#define ktx_str_HELP17				"Maksimi soitto aika asetus määrtittelee kuinka kauan valepuhelu näyttöä näytetään valepuhelun alkamisen jälkeen. Huomio että torkku näppäimen painaminen resetoi maksimi soitta aika ajastimen."
+#define ktx_str_HELP18				"Torkku näppäimen teksti asetuksella valepuhelu näytössä olevan torkkunäppäimen tekstiä voi muokata vastaamaan oikean puhelun aikana näytettävää tekstiä."
+
+
+
+
+

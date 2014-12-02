@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opcje"
+#define ktx_cmd_exit 			"Wyjście"
+#define ktx_cmd_Cancel			"Anuluj"
+
+
+#define ktx_cmd_Disable			"Wyłącz"
+#define ktx_cmd_Enable			"Włącz"
+
+#define ktx_cmd_about			"O programie"
+#define ktx_cmd_New				"Nowy"
+#define ktx_cmd_Modify			"Modyfikuj"
+#define ktx_cmd_Remove			"Usuń"
+#define ktx_cmd_Randomthes		"Losowy temat"
+#define ktx_cmd_ViewTheme		"Zobacz temat"
+#define ktx_cmd_Profchange		"Zmiana profilu"
+#define ktx_cmd_Timechange		"Zmiana czasu"
+#define ktx_cmd_Stop			"Zatrzymaj"
+#define ktx_cmd_Save			"Zapisz"
+
+#define ktx_cmd_VisitJukka		"Odwiedź m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Wyłączone>"
+#define ktx_sh_str_BGIMAGE		"Tapeta"
+#define ktx_sh_str_RANDOM		"Losowo"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Profil"
+#define ktx_sh_str_REMOVESCHED	"Usunąć harmonogram?"
+#define ktx_sh_str_ACTIVEON		"Aktywuj"
+#define ktx_sh_str_SELECTTHEME	"Wybierz temat"
+#define ktx_sh_str_NONAME		"Bez nazwy"
+#define ktx_sh_str_SELECTPROF		"Wybierz profil"
+#define ktx_sh_str_Time			"Czas"
+#define ktx_sh_str_Date			"Data"
+#define ktx_sh_str_Theme		"Temat/Tapeta"
+#define ktx_sh_str_SETONTIME		"Ustaw o czasie"
+#define ktx_sh_str_SETONWITH		"Ustaw z"
+
+#define ktx_sh_str_WORKDAYA		"Dni robocze"
+#define ktx_sh_str_NONWORKD		"Dni wolne"
+#define ktx_sh_str_EVERYDAY		"Codziennie"
+#define ktx_sh_str_MONDAYS		"Poniedziałki"
+#define ktx_sh_str_TUESDAYS		"Wtorki"
+#define ktx_sh_str_WEDNESDAYS	"Środy"
+#define ktx_sh_str_THURSDAYS	"Czwartki"
+#define ktx_sh_str_FRIDAYS		"Piątki"
+#define ktx_sh_str_SATURDAYS	"Soboty"
+#define ktx_sh_str_SUNDAYS		"Niedziele"
+
+#define ktx_cmd_Help			"Pomoc"
+#define ktx_cmd_Back			"Wróć"
+
+#define ktx_str_HELP1			"Ta aplikacja jest używana do planowania motywów i tapet z czasomierzem lub poprzez wydarzenia zmiany profilu. Dla każdego typu wydarzenia jest opcja menu pod obiektem Nowy w menu opcji, a nowy terminarz może być zrobiony poprzez wybranie odpowiedniej opcji menu."
+#define ktx_str_HELP2			"Aby zrobić terminarz, najpierw wybierz którykolwiek motyw lub tapetę do zaplanowania, a następnie wybierz czas i opcje powtarzania lub profil, z którym terminarz ma działać. Zaraz gdy zrobione, zapisz terminarz komendą Zapisz. Z opcją losowego motywu motyw jest wybierany losowo podczas zaplanowanego wydarzenia, a jeśli motyw nie jest wybrany z listy losowych tematów, wszystkie dostępne motywy będą używane."
+#define ktx_str_HELP3			"Po wykonaniu terminarza będzie on pokazany na liście widoku głównego. W obrębie tej listy możesz użyć opcji menu do otwarcia terminarza do modyfikacji jak również możesz usunąć je. Również opcja menu  tymczasowego wyłączenia/włączenia może być znaleziona w menu opcji."
+#define ktx_str_HELP4			"Zauważ, że motywy są planowane jak również poprzednie terminarze są odświeżane tylko po wyjściu z aplikacji. Dla najlepszej użyteczności, każdy terminarz powinien być oddzielony 2 minutami od siebie. Rzeczywiste planowanie jest obsługiwane przez aplikację w tle, która również startuje automatycznie gdy startuje urządzenie. Wiadomość planowania nie pokaże się podczas gdy urządzenie jest wyłączone."
+

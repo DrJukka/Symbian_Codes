@@ -1,0 +1,28 @@
+CHARACTER_SET UTF8
+/*
+============================================================================
+============================================================================
+*/
+
+//Command buttons
+#define qtn_options 		"Valg"
+#define qtn_exit 			"Luk"
+
+#define qtn_about			"Om"
+#define qtn_visit			"Besøg m.DrJukka.com"
+#define qtn_backlighton		"Lys tændt"
+
+#define qtn_backlightoff	"Lys slukket"
+#define qtn_reset			"Nulstil"
+
+#define qtn_Help			"Hjælp"
+#define qtn_Back			"Tilbage"
+
+#define ktx_str_HELP1 		"Denne applikation er et inklinometer, der viser enhedens horisontale og vertikale vinkel, og illustrerer ved et billede af en bil i den målte vinkel. Applikationen virker kun i portræt orienteringen. "
+#define ktx_str_HELP2 		"Menupunktet Nulstil giver mulighed for at nulstille vinklerne til andre en de i enheden forudvalgte, så du først kan anbringe enheden i en holder og derefter nulstille vinkel værdierne til nul."
+#define ktx_str_HELP3 		"Lys tændt menupunktet giver mulighed for at have lyset tændt konstant. Bemærk at dette vil bruge mere batteri, mens det tillader skaærmen at blive aflæst i mørke."
+
+
+
+
+// End of File

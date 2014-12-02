@@ -1,0 +1,39 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valg"
+#define ktx_cmd_exit 				"Luk"
+#define ktx_cmd_cancel 				"Annullér"
+#define ktx_cmd_save 				"Gem"
+#define ktx_cmd_select 				"Vælg"
+
+#define ktx_cmd_about				"Om"
+#define ktx_cmd_visit				"Besøg m.DrJukka.com"
+
+#define ktx_mnu_New 				"Ny"
+#define ktx_mnu_Modify 				"Modificér"
+#define ktx_mnu_Remove 				"Slet"
+
+
+#define ktx_mnu_Savmsgs				"Gemte beskeder"
+#define ktx_mnu_ContSend			"Afsender fra kontakter"
+
+#define ktx_sh_str_sndName	 		"Afsender navn"
+#define ktx_sh_str_sndNumber	 	"Afsender nummer"
+#define ktx_sh_str_Message		 	"Besked"
+#define ktx_sh_str_sndTime		 	"Afsend tid"
+#define ktx_sh_str_sndDate		 	"Afsend dato"
+
+
+#define ktx_str_REMMESSAGE 			"Fjern besked?"
+
+#define ktx_cmd_help				"Hjælp"
+#define ktx_cmd_Back				"Tilbage"
+
+#define ktx_str_HELP1 				"Denne applikation anvendes til at fake indkommende SMS beskeder. Fake beskeder kan planlægges til at komme engang i fremtiden, eller hvis datoen sættes tilbage i tiden vil den blive afsendt straks applikationen lukkes med den valgte dato påhæftet."
+#define ktx_str_HELP2 				"For at oprette en ny besked vælges Ny fra menuen Valg, vælg afsendernavn og nummer (eller vælg fra kontakter med menupunktet), skriv beskeden (eller brug tidligere gemt besked med menupunktet), indstil afsendelsestidspunktet og datoen og vælg Gem for at gemme beskeden i databasen."
+#define ktx_str_HELP3 				"Efter beskeden er lavet, vil den blive vist i hovedplanlægningslisten. I denne liste kan du bruge menumulighederne til at rette planlægningen såvel som at slette dem."
+#define ktx_str_HELP4 				"Bemærk at beskeder der er planlagt, såvel som tidligere planlægninger, kun opdateres når programmet lukkes ned. Selve planlægningen styres i af baggrundsapplikationen, der automatisk startes når enheden tændes. Ingen besked planlægning vil finde sted når enheden er slukket. "
+
+

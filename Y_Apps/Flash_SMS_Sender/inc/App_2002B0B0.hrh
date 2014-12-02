@@ -1,0 +1,35 @@
+/*
+* ============================================================================
+* ============================================================================
+*/
+
+#ifndef __MMSEXAMPLE_HRH__
+#define __MMSEXAMPLE_HRH__
+
+enum 
+    {
+    EMMSExampleCmdSend=100,
+    EAbout,
+    EClose,
+   	ESelectRecipient,
+   	EContOkOne,
+   	EContBackOne,
+   	EContMarkTogle,
+   	EContMarkAll,
+   	EContUnMarkAll,
+   	ERecipient,
+   	ERemoveRecipient,
+   	ENewRecipient,
+   	EAppHelpBack,
+   	EAppHelp,
+   	EVisitDrJukka
+    };
+
+enum 
+    {
+    EMMSExampleTelNumEditor,
+    EAknExNoteCtrlIdWaitNote
+    };
+
+#endif  //__MMSEXAMPLE_HRH__
+

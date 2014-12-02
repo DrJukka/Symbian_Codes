@@ -1,0 +1,7 @@
+
+RApaLsSession::DeleteDataMapping -- WriteDeviceData
+
+RApaLsSession::InsertDataMapping -- WriteDeviceData
+
+TApaTask::KillTask -- 
+PowerMgmt

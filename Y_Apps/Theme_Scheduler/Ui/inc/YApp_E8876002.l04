@@ -1,0 +1,62 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+
+CHARACTER_SET UTF8
+
+//Command buttons
+
+#define ktx_cmd_options 		"Opciones"
+#define ktx_cmd_exit 			"Salir"
+#define ktx_cmd_Cancel			"Cancelar"
+
+
+#define ktx_cmd_Disable			"Desactivado"
+#define ktx_cmd_Enable			"Activado"
+
+#define ktx_cmd_about			"Acerca de"
+#define ktx_cmd_New				"Nuevo"
+#define ktx_cmd_Modify			"Modificar"
+#define ktx_cmd_Remove			"Remover"
+#define ktx_cmd_Randomthes		"Temas aleatorios"
+#define ktx_cmd_ViewTheme		"Ver tema"
+#define ktx_cmd_Profchange		"Cambio de perfil"
+#define ktx_cmd_Timechange		"Cambio de hora"
+#define ktx_cmd_Stop			"Parar"
+#define ktx_cmd_Save			"Guardar"
+
+#define ktx_cmd_VisitJukka		"Visit m.DrJukka.com"
+
+#define ktx_sh_str_DISABLED		"<Desactivado>"
+#define ktx_sh_str_BGIMAGE		"Fondo de Pantalla"
+#define ktx_sh_str_RANDOM		"Aleatorio"
+#define ktx_sh_str_PROFFILLE1	"--:--"
+#define ktx_sh_str_PROFFILLE2	"Perfil"
+#define ktx_sh_str_REMOVESCHED	"Quitar programa ?"
+#define ktx_sh_str_ACTIVEON		"Activo en"
+#define ktx_sh_str_SELECTTHEME	"Elige Tema"
+#define ktx_sh_str_NONAME		"Sin nombre"
+#define ktx_sh_str_SELECTPROF		"Elige Perfil"
+#define ktx_sh_str_Time			"Hora"
+#define ktx_sh_str_Date			"Fecha"
+#define ktx_sh_str_Theme		"Tema/Fondo de pantalla"
+#define ktx_sh_str_SETONTIME		"En el plazo"
+#define ktx_sh_str_SETONWITH		"En conjunto con"
+
+#define ktx_sh_str_WORKDAYA		"Días de actividad"
+#define ktx_sh_str_NONWORKD		"Días de inactividad"
+#define ktx_sh_str_EVERYDAY		"Diariamente"
+#define ktx_sh_str_MONDAYS		"Lunes"
+#define ktx_sh_str_TUESDAYS		"Martes"
+#define ktx_sh_str_WEDNESDAYS	"Miercoles"
+#define ktx_sh_str_THURSDAYS	"Jueves"
+#define ktx_sh_str_FRIDAYS		"Viernes"
+#define ktx_sh_str_SATURDAYS	"Sabado"
+#define ktx_sh_str_SUNDAYS		"Domingo"
+
+#define ktx_cmd_Help			"Ayuda"
+#define ktx_cmd_Back			"Atrás"
+
+#define ktx_str_HELP1			"Esta aplicación sirve para programar temas y pantallas de fondo con temporizadores o por eventos como el cambio de perfil. Para cada tipo de evento, hay una opción en el menú "Nuevo", y el programa nuevo puede realizarse seleccionando las opciones apropiadas."
+#define ktx_str_HELP2			"Para hacer un itinerario, primero seleccionar el tema o fondo de pantalla a programar, y luego las opciones de tiempo y repetición, o el perfil con el que el itinerario debe funcionar. Una vez finalizado, guardar el itinerario con la opción "Guardar". Con la opción "Aleatorio", el tema se elige al azar durante el evento establecido. Si no se selecciona una lista de temas aleatorios, se usarán todos los temas disponibles."
+#define ktx_str_HELP3			"Una vez realizado el itinerario, será mostrado en la lista de la vista principal. En esta lista, pueden usarse las opciones del menú para abrir y modificar los itinerarios, o incluso eliminarlos. Tambien pueden activarse/desactivarse temporalmente."
+#define ktx_str_HELP4			"Los temas son programados, y los itinerarios existentes son actualizados cuando se sale de la aplicación. Para mejor uso, los itinerarios deben estar separados dos minutos entre sí. La programación se lleva a cabo mediante una aplicación de segundo plano que se inicia automáticamente cuando se enciende el equipo. Las notificaciones de programación no aparecerán mientras el equipo esté apagado."
+

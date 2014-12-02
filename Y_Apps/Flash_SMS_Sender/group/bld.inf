@@ -1,0 +1,19 @@
+/*
+* ============================================================================
+*  Name     : bld.inf
+*  Part of  : MMSExample
+*  Created  : 06.01.2006 by Forum Nokia
+*  Version  : 2.0
+*  Copyright: Nokia Corporation
+* ============================================================================
+*/
+
+PRJ_MMPFILES
+
+#ifdef EKA2//3rd edition
+Flash_SMS_3rded.mmp
+#else //1st and 2nd edition
+Flash_SMS_2nded.mmp
+#endif
+
+

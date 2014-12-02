@@ -1,0 +1,62 @@
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+#define ktx_cmd_select			"Seleziona"
+#define ktx_cmd_back			"Indietro"
+#define ktx_cmd_options			"Opzioni"
+#define ktx_cmd_cancel			"Annulla"
+#define ktx_cmd_ok				"Ok"
+#define ktx_cmd_exit			"Esci"
+
+#define ktx_cmd_REMOVE			"Rimuovi"
+#define ktx_str_ABOUT			"Informazioni"
+
+///----
+
+#define ktx_mnu_done			"Fatto"
+#define ktx_mnu_toggle			"Commuta"
+#define ktx_mnu_MarkAll			"Seleziona tutto"
+#define ktx_mnu_UnmarkAll		"Deseleziona tutto"
+
+
+#define ktx_mnu_Message			"Messaggio"
+
+#define ktx_mnu_Recipient		"Destinatari"
+#define ktx_mnu_SelRecipient	"Aggiungi dai contratti"
+#define ktx_mnu_NewRecipient	"Nuovo contatto"
+#define ktx_mnu_RemRecipient	"Rimuovi tutti"
+#define ktx_mnu_SendMMS			"Invia SMS"
+
+
+#define ktx_sh_str_appname		"Flash SMS"
+
+#define ktx_str_MSGSENT			"Messaggio inviato"
+#define ktx_str_CONTACTS		" contatti"
+#define ktx_str_PHONENUMBER		"Numero telefonico"
+#define ktx_str_ExitQ			"Uscita ?"
+
+#define ktx_str_MSGTRUNK		"Il messaggio sarà troncato a 70 caratteri, continuo ?"
+
+#define ktx_str_FAIL_1			"SMS Schedule Fallito"
+#define ktx_str_FAIL_2			"Invio SMS Fallito"
+#define ktx_str_FAIL_3			"SMS No centro servizi"
+#define ktx_str_FAIL_4			"SMS Errore fatale del server"
+#define ktx_str_FAIL_5			"Errore SMS: "
+
+#define ktx_str_ALLSENT			"Tutti i messaggi inviati"
+
+#define ktx_cmd_visit			"Visita m.DrJukka.com"
+#define ktx_mnu_help			"Aiuto"
+
+#define ktx_str_HELP1			"L'applicazione è progettata per inviare messaggi SMS Flash."
+#define ktx_str_HELP2			"Messaggi SMS Flash sono degli SMS aperti automaticamente alla ricezione e non vengono salvati nel dispositivo in modo automatico."
+#define ktx_str_HELP3			"Per creare un nuovo messaggio, aggiungi un contatto dal menu opzioni. Puoi aggiungere un nuovo numero o un numero dalla rubrica. L'opzione rimuovi tutto cancella tutti i contatti."
+#define ktx_str_HELP4			"I messaggi possono essere scritti normalmente. La conta dei caratteri nella parte superiore dell'interfaccia è valida per i soli SMS normali. Per quelli Flash  il limite massimo è di 70 caratteri."
+#define ktx_str_HELP5			"Dopo la scrittura del messaggio e la selezione del contatto il messaggio potrà essere inviato con l'opzione Invia SMS."
+
+
+
+
+
+
+

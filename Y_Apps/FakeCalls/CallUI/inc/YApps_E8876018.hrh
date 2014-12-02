@@ -1,0 +1,31 @@
+/*
+* ==============================================================================
+* ==============================================================================
+*/
+
+#ifndef __DM_GETUIDVALS_HRH__
+#define __DM_GETUIDVALS_HRH__
+
+// DM_GETUIDVALS enumerate command codes
+enum TDMBasicIds
+    {
+    EClose = 0x6001, // start value must not be 0
+    EMeHide,
+    EAbout,
+    EAppHelp,
+    EAppHelpBack,
+    EVisitDrJukka
+    };
+
+
+//arrow sound ids
+enum TArrowSoundId
+    {
+    EUpSoundId = 1,
+    EDownSoundId,
+    ELeftSoundId,
+    ERightSoundId
+    };
+    
+    
+#endif // __DM_GETUIDVALS_HRH__

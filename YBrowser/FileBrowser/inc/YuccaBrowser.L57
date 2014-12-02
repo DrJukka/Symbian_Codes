@@ -1,0 +1,348 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"חזרה"
+#define ktx_cmd_Options			"אפשרויות"
+#define ktx_cmd_Exit			"יציאה"
+#define ktx_cmd_Save			"שמירה"
+#define ktx_cmd_Cancel			"ביטול"
+#define ktx_cmd_Delete			"מחיקה"
+
+#define ktx_cmd_Select			"בחירה"
+#define Ktx_sh_str_SortBy		"סדר לפי-"	
+
+#define ktx_mnu_setserchoff		"הגדרות חיפוש מבוטלות"
+#define ktx_mnu_File			"קבצים"
+#define ktx_mnu_Edit			"עריכה"
+#define ktx_mnu_Mark			"סימון"
+#define ktx_mnu_Searchfiles		"חיפוש קבצים"
+#define ktx_mnu_Extras			"תוספות"
+#define ktx_mnu_About			"אודות"
+#define ktx_mnu_commandSC		"קיצורי דרך"
+#define ktx_mnu_ShowSC			"הצגת קיצורים"
+#define ktx_mnu_SetSC			"קביעת קיצורים"
+#define ktx_mnu_Searchon			"קבע קיצור על"
+#define ktx_mnu_Settings			"הגדרות"
+#define ktx_mnu_switchlo			"החלפת תצוגה"
+#define ktx_mnu_changeic			"שינוי אייקונים"
+#define ktx_mnu_refresh			"רענון"
+#define ktx_mnu_munmark			"סימון/הסרת סימון"
+#define ktx_mnu_Markall			"להסיר סימון מהכל"
+#define ktx_mnu_Unmarkall		"להסיר סימון"
+#define ktx_mnu_Openwith		"פתח עם"
+#define ktx_mnu_Open			"פתח"
+#define ktx_mnu_Send			"שלח"
+#define ktx_mnu_Properties		"מאפיינים"
+#define ktx_mnu_Attributes		"הגדרות"
+#define ktx_mnu_Delete			"מחיקה"
+#define ktx_mnu_Rename			"שינוי שם"
+#define ktx_mnu_ShowName			"הצגת שם"
+#define ktx_mnu_Newfile			"קובץ חדש"
+#define ktx_mnu_Newfolder		"תקייה חדשה"
+#define ktx_mnu_Copy			"העתקה"
+#define ktx_mnu_Cut			"גזירה"
+#define ktx_mnu_Paste			"הדבקה"
+#define ktx_mnu_pastenfile		"הדבקת קובץ חדש"
+#define ktx_mnu_pasteshow		"הצגת קבצים מודבקים"
+#define ktx_mnu_pasteclear		"מחיקת קבצים מודבקים"
+#define ktx_mnu_Done			"בוצע"
+#define ktx_mnu_addsel			"הוסף לבחירה"
+#define ktx_mnu_selshow			"הצגת נבחרים"
+#define ktx_mnu_cpyclipp			"העתקה ללוח"
+#define ktx_mnu_Startsearch		"התחלת חיפוש"
+#define ktx_mnu_nckresulyts		"חזרה לתוצאות"
+#define ktx_mnu_resultclear		"נקה תוצאות"
+#define ktx_mnu_showseltyp		"הצגת סוגים שנבחרו"
+#define ktx_mnu_clearcond		"נקה תנאים"
+#define ktx_mnu_gtofolder		"עבור לתיקייה"
+#define ktx_mnu_PAGEUP			"גלילה למעלה"
+#define ktx_mnu_PAGEDOWN		"גלילה למטה"
+
+#define ktx_sh_str_Processing		"מעבד מידע"
+#define ktx_sh_str_selfiltyp		"יש לבחור את סוג הקובץ"
+#define ktx_sh_str_date			"תאריך"
+#define ktx_sh_str_time			"שעה"
+
+//settings.
+#define ktx_sh_str_System		"מערכת"	
+#define ktx_sh_str_Hidden		"מוסתר"
+#define ktx_sh_str_Readonly		"לקריאה בלבד"
+#define ktx_sh_str_Modifyingdate	"עדכון תאריך"
+#define ktx_sh_str_Modifyingtime	"עדכון שעה"
+#define ktx_sh_str_showall		"הצגת כל הקבצים"
+#define ktx_sh_str_Sortorder		"מיון"	
+#define ktx_sh_str_Foldersfirst	"קודם תקיות"
+#define ktx_sh_str_speedoptimize	"שמירת הגדרות התקייה"
+#define ktx_sh_str_Recognizefiles	"זיהוי קבצים"
+#define ktx_sh_str_savepathonexit	"שמירת נתיב ביציאה"
+#define ktx_sh_str_exitaks		"שאל לפני סגירת תוכנה"
+#define ktx_sh_str_Off			"כיבוי"
+#define ktx_sh_str_On			"הדלקה"
+#define ktx_sh_str_No			"לא"
+#define ktx_sh_str_Yes			"כן"
+#define ktx_sh_str_Decending		"סדר יורד"
+#define ktx_sh_str_Ascending		"סדר עולה"
+#define ktx_sh_str_Name			"שם"
+#define ktx_sh_str_Fileextension	"סיומת"
+#define ktx_sh_str_Filetype		"סוג קובץ"
+#define ktx_sh_str_Size			"גודל"
+#define ktx_sh_str_Path			"נתיב"
+#define ktx_sh_str_Filename		"שם קובץ"
+#define ktx_sh_str_Biggerthan		"גדול מ-"
+#define ktx_sh_str_Smallerthan	"קטן מ-"
+#define ktx_sh_str_Modifiedbefore	"עודכן לפני"
+#define ktx_sh_str_Modifiedafter	"עודכן אחרי"
+#define ktx_sh_str_types		" סוגים"
+#define ktx_sh_str_Excludetypes	"להוציא"
+#define ktx_sh_str_Includetypes	"להכיל"
+#define ktx_sh_str_Fileattributes	"הגדרות קובץ"
+
+#define ktx_sh_str_formatName		"שם\t%S"
+#define ktx_sh_str_formatFsys		"מערכת קבצים\t%S"
+#define ktx_sh_str_formatID		"מזהה\t%S"
+#define ktx_sh_str_formatFree		"פנוי\t%d Kb"
+#define ktx_sh_str_formatUsed		"תפוס\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"גודל\t%d Kb"
+#define ktx_sh_str_formatSizeB	"גודל\t%d Bytes"		
+#define ktx_sh_str_formatType		"סוג\t%S"
+#define ktx_sh_str_formatFiles	"קבצים\t%d"	
+#define ktx_sh_str_formatFolders	"תקיות\t%d"
+#define ktx_sh_str_formatTypeID	"סוג\t%S"	
+#define ktx_sh_str_atrWProt		"Attr\tמוגן העתקה"
+#define ktx_sh_str_atrLocked		"Attr\tנעול"
+#define ktx_sh_str_atrFormattable	"Attr\tניתן לאיתחול"
+#define ktx_sh_str_atrVarSize		"Attr\tגודל משתנה"
+#define ktx_sh_str_atrROM		"Attr\tזיכרון לקריאה בלבד"
+#define ktx_sh_str_atrRemovable	"Attr\tניתן להסרה"
+#define ktx_sh_str_atrtHidden		"Attr\tמוסתר"
+#define ktx_sh_str_atrReadonly	"Attr\tלקריאה בלבד"
+#define ktx_sh_str_atrSystem		"Attr\tמערכת"
+#define ktx_sh_str_atrVolume		"Attr\tשם כונן"
+#define ktx_sh_str_atrArchive		"Attr\tארכיב"
+
+#define ktx_sh_str_Notpresent		"לא נמצא"
+#define ktx_sh_str_Floppy		"דיסקט"
+#define ktx_sh_str_HardDisk		"כונן קשיח"
+#define ktx_sh_str_CdRom		"כונן תקליטורים"
+#define ktx_sh_str_Ram			"זיכרון לגישה אקראית"
+#define ktx_sh_str_Flash		"זיכרון פלאש"
+#define ktx_sh_str_Rom			"זיכרון לקריאה בלבד"
+#define ktx_sh_str_Remote		"מרחוק"
+#define ktx_sh_str_Unknown		"לא ידוע"
+#define ktx_sh_str_SCTITLE		"קיצורים: Shift+/Pen+"
+#define ktx_sh_str_FREE			"<פנוי>"
+#define ktx_sh_str_Root			"תקייה ראשית"
+#define ktx_sh_str_Selected		"נבחר"
+#define ktx_sh_str_Cutfiles		"גזירת קבצים"
+#define ktx_sh_str_CopyFiles		"העתקת קבצים"
+#define ktx_sh_str_COPYINGFF		"מעתיק את %S ל- %S"
+#define ktx_sh_str_MOVINGFF		"מעביר את %S ל- %S"
+#define ktx_sh_str_RENAMINGFF		"משנה שם %S ל- %S"
+#define ktx_sh_str_DELETINGFF		"מוחק את %S"	
+#define ktx_sh_str_EXISTREPLACE	" קיים, להחליף?"
+#define ktx_sh_str_ISROMODIFY		" לקריאה בלבד, לשנות הגדרות?"
+#define ktx_sh_str_ALREDYEXIST	" כבר קיים"
+#define ktx_sh_str_ISOPEN		" בשימוש"
+#define ktx_sh_str_ISREADONLY		" לקריאה בלבד"
+#define ktx_sh_str_ACCDENIED		" אין גישה"
+#define ktx_sh_str_DISKFULL		"כונן מלא"
+#define ktx_sh_str_DISCKNOTREADY	"כונן לא פעיל/לא נמצא"
+#define ktx_sh_str_CORRDISCK		"כונן לא תקין"
+#define ktx_sh_str_INVALIDNAME	" שם לא תקין"
+#define ktx_sh_str_NOTMEMFORFF	"אין מספיק זיכרון ל- "
+#define ktx_sh_str_OPERFAILED		"פעולפעולה %s נכשלה: תקלה d%"
+#define ktx_sh_str_NEWFILE		"קובץ חדש:"
+#define ktx_sh_str_SENDUI		"ממשק שליחה"
+#define ktx_sh_str_SENDFFVIA		"שליחת קובץ באמצעות"
+#define ktx_sh_str_SELAPPLICATION	"בחירת תוכנה"
+#define ktx_sh_str_OPENFILE		"פתיחת קובץ"
+#define ktx_sh_str_ANDATRIBS		"הגדרות"
+#define ktx_sh_str_SEARCFOR		"מחרוזת שליחה"
+#define ktx_sh_str_SELFILETYPES	"בחירת סוגי קבצים"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bytes"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" וגם "
+#define ktx_sh_str_OR			" או "
+#define ktx_sh_str_SYS			"מערכת"
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" קבצים לא נמצאים"
+#define ktx_sh_str_FOUNDENDDDD	"%d קבצים נמצאו תוך %d שניות"
+
+#define ktx_sh_str_SELCOMMAND		"בחירת פקודה"
+#define ktx_sh_str_NOTSET		"לא הוגדר"
+#define ktx_sh_str_SELICONFF		"בחירת אייקון לקובץ"
+
+#define ktx_sh_str_READINGFF		"קורא %d / %d"
+#define ktx_str_FILREADERR		"קריאת הקובץ אינה הושלמה, תקלה. d%"
+#define ktx_str_FILNOTFOND		"קובץ אינו נמצא."
+#define ktx_str_NOAPPFORFIL		"לא נמצאה תוכנה מתאימה לקריאת הקובץ."
+#define ktx_str_SAVESEARCH		"האם לשמור את תוצאות החיפוש האחרונות?"
+#define ktx_str_SELSCNUMBER		"יש לבחור את מספר קיצור הדרך."
+#define ktx_str_REBOOTICON		"אייקון השתנה, מכשיר הסלולר צריך לאתחל עצמו בכדי שהשינויים יעודכנו."
+#define ktx_str_PASTEFTOFOL		"האם להעביר d% קבצים לתקייה זו?"
+#define ktx_str_DELFOILES		"האם למחוק d% קבצים?"
+#define ktx_str_NEWNAME 		"שם חדש: "
+#define ktx_str_FDERNAME		"שם תקייה: "
+#define ktx_str_ERRCREATEFLDR		"לא ניתן ליצור תקייה, תקלה: "
+#define ktx_str_FDREXISTS		"תקייה קיימת, יש לבחור שם אחר."
+#define ktx_str_APPENDLIST		"התווסף לרשימה"
+#define ktx_str_FILESADCY		"d% קבצים התווספו למחיקה/גזירה  "
+#define ktx_str_PASTEWILLREM		"העברה זו תסיר d% קבצים."
+#define ktx_str_FORSECOPY		"אין אפשרות לקבץ, האם להעתיק בכל זאת?"
+#define ktx_str_STARTNEWSCRH		"האם לבצע חיפוש חדש?"
+#define ktx_str_RESETSEARCH		"האם למחוק את הגדרות החיפוש הקודמות?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"סמן עם ג'וקרים" // Mark menu item
+#define ktx_mnu_MarkInverse		"הפוך בחירה"   // Mark menu item
+
+#define ktx_sh_str_General		"כללי"//- setting
+
+#define ktx_sh_str_fullscreen		"מסך מלא" // main settings item
+
+#define ktx_sh_str_NOFILES		"אין קבצים"   // no files in browser
+
+#define ktx_mnu_typassociation	"שיוך קבצים" //settins select item list
+#define ktx_sh_str_plugins		"תוספות" //settins select item list
+
+#define ktx_sh_str_Own			"משתייך ל"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"הסר סוגי קבצים" //file associations
+
+#define ktx_mnu_Modify			"שנה"		// menu file associations
+#define ktx_mnu_Addfiltyp		"הוסף סוג קובץ"	// menu file associations
+#define ktx_mnu_Remfiltyp		"הסר סוג קובץ"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"הסר סיומת"	// menu file associations settings
+#define ktx_mnu_AddExt			"הוסף סיומת"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"שנה מטפל"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"שנה שם סוג"	// menu file associations settings
+#define ktx_mnu_Reset			"אתחל"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"תוכנית מטפלת"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"מטפלים" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"מזהים" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"פועל" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"כבוי" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"הצג מידע" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"שם: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"מצב: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"כבוי" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"פועל" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"גירסאת תוספת: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (גירסה טובה)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (גירסה לא שלמה)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"סוג תוספת:" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- מטפל קובץ" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- שולח קובץ" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- מקבל קובץ" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- תיקיית קובץ" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- פתח עם מטפל" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- מזהה קובץ" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"סוגי קבצים נתמכים:" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(תומך בקבצים חדשים)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"הוסף סוגי קבצים"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"בחר להסרה"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"סוגי קבצים"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"מטפלי קבצים לא מזוהים"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+

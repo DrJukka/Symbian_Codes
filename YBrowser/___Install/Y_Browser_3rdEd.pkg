@@ -1,0 +1,208 @@
+
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Y-Browser"},(0xA00007A6),1,01,0
+
+;Localised Vendor name
+%{"Dr. Jukka"}
+
+;Unique Vendor name
+:"Dr. Jukka"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Supports S60 release 5.0
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YuccaBrowser.exe"	                 -"!:\sys\bin\YuccaBrowser.exe"
+
+
+!({"English"},{"Albanian"},{"Arabic"},{"Azerbaijan"},{"Brazilian Portuguese"},{"Bulgarian"},{"Catalan"},{"Chinese (PRC)"},{"Chinese (Taiwan)"},{"Croatian"},{"Czech "},{"Danish"},{"Dutch"},{"Farsi"},{"Finnish"},{"French"},{"German"},{"Greek"},{"Hebrew"},{"Hungarian"},{"Indonesian"},{"Italian"},{"Japanese"},{"Lithuanian"},{"Macedonian"},{"Norwegian"},{"Polish"},{"Portuguese"},{"Romanian"},{"Russian"},{"Serbian"},{"Slovak"},{"Slovenian"},{"Spanish"},{"Swedish"},{"Thai"},{"Turkish"},{"Ukraina"})
+
+
+IF option1	;English
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r01"         	     -"!:\resource\apps\YuccaBrowser.r01"
+ENDIF
+
+IF option2	;Albanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r35"         	     -"!:\resource\apps\YuccaBrowser.r35"
+ENDIF
+
+IF option3	;Arabic
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r37"         	     -"!:\resource\apps\YuccaBrowser.r37"
+ENDIF
+
+IF option4	;Azerbaijan
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r106"         	     -"!:\resource\apps\YuccaBrowser.r106"
+ENDIF
+
+IF option5	;Brazilian Portuguese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r76"         	     -"!:\resource\apps\YuccaBrowser.r76"
+ENDIF
+
+IF option6	;Bulgarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r42"         	     -"!:\resource\apps\YuccaBrowser.r42"
+ENDIF
+
+IF option7	;Catalan
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r44"         	     -"!:\resource\apps\YuccaBrowser.r44"
+ENDIF
+
+IF option8	;Chinese (PRC)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r31"         	     -"!:\resource\apps\YuccaBrowser.r31"
+ENDIF
+
+IF option9	;Chinese (Taiwan)
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r29"         	     -"!:\resource\apps\YuccaBrowser.r29"
+ENDIF
+
+IF option10	;Croatian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r45"         	     -"!:\resource\apps\YuccaBrowser.r45"
+ENDIF
+
+IF option11	;Czech 
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r25"         	     -"!:\resource\apps\YuccaBrowser.r25"
+ENDIF
+
+IF option12	;Danish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r07"         	     -"!:\resource\apps\YuccaBrowser.r07"
+ENDIF
+
+IF option13	;Dutch
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r18"         	     -"!:\resource\apps\YuccaBrowser.r18"
+ENDIF
+
+IF option14	;Farsi
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r50"         	     -"!:\resource\apps\YuccaBrowser.r50"
+ENDIF
+
+IF option15	;Finnish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r09"         	     -"!:\resource\apps\YuccaBrowser.r09"
+ENDIF
+
+IF option16	;French
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r02"         	     -"!:\resource\apps\YuccaBrowser.r02"
+ENDIF
+
+IF option17	;German
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r03"         	     -"!:\resource\apps\YuccaBrowser.r03"
+ENDIF
+
+IF option18	;Greek
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r54"         	     -"!:\resource\apps\YuccaBrowser.r54"
+ENDIF
+
+IF option19	;Hebrew
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r57"         	     -"!:\resource\apps\YuccaBrowser.r57"
+ENDIF
+
+IF option20	;Hungarian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r17"         	     -"!:\resource\apps\YuccaBrowser.r17"
+ENDIF
+
+IF option21	;Indonesian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r59"         	     -"!:\resource\apps\YuccaBrowser.r59"
+ENDIF
+
+IF option22	;Italian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r05"         	     -"!:\resource\apps\YuccaBrowser.r05"
+ENDIF
+
+IF option23	;Japanese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r32"         	     -"!:\resource\apps\YuccaBrowser.r32"
+ENDIF
+
+IF option24	;Lithuanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r68"         	     -"!:\resource\apps\YuccaBrowser.r68"
+ENDIF
+
+IF option25	;Macedonian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r69"         	     -"!:\resource\apps\YuccaBrowser.r69"
+ENDIF
+
+IF option26	;Norwegian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r08"         	     -"!:\resource\apps\YuccaBrowser.r08"
+ENDIF
+
+IF option27	;Polish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r27"         	     -"!:\resource\apps\YuccaBrowser.r27"
+ENDIF
+
+IF option28	;Portuguese
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r13"         	     -"!:\resource\apps\YuccaBrowser.r13"
+ENDIF
+
+IF option29	;Romanian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r78"         	     -"!:\resource\apps\YuccaBrowser.r78"
+ENDIF
+
+IF option30	;Russian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r16"         	     -"!:\resource\apps\YuccaBrowser.r16"
+ENDIF
+
+IF option31	;Serbian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r79"         	     -"!:\resource\apps\YuccaBrowser.r79"
+ENDIF
+
+IF option32	;Slovak
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r26"         	     -"!:\resource\apps\YuccaBrowser.r26"
+ENDIF
+
+IF option33	;Slovenian
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r28"         	     -"!:\resource\apps\YuccaBrowser.r28"
+ENDIF
+
+IF option34	;Spanish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r04"         	     -"!:\resource\apps\YuccaBrowser.r04"
+ENDIF
+
+IF option35	;Swedish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r06"         	     -"!:\resource\apps\YuccaBrowser.r06"
+ENDIF
+
+IF option36	;Thai
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r33"         	     -"!:\resource\apps\YuccaBrowser.r33"
+ENDIF
+
+IF option37	;Turkish
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r14"         	     -"!:\resource\apps\YuccaBrowser.r14"
+ENDIF
+
+IF option38	;Ukraina
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\resource\apps\YuccaBrowser.r93"         	     -"!:\resource\apps\YuccaBrowser.r93"
+ENDIF
+
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\data\z\private\10003a3f\import\apps\YuccaBrowser_reg.r01"  	-"!:\private\10003a3f\import\apps\YuccaBrowser_reg.rsc"
+"..\FileBrowser\data\icon_bmp\YuccaBrowser_aif.mif"								-"!:\resource\apps\YuccaBrowser_aif.mif"
+
+"..\FileBrowser\data\Original.mif" 											-"!:\system\data\A00007A6\Img\Original.mif"
+
+
+; text viewer stuff
+"..\textViewer\data\icons.mbm"									-"!:\system\data\A00007A6\A0000F6A\icons.mbm"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YToolsTextViewer.dll"		-"!:\sys\bin\YToolsTextViewer.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YToolsTextViewer.rsc"	-"!:\Resource\Plugins\YToolsTextViewer.rsc"
+
+; mail fodler stuff
+;"..\MailFolders\data\icons.mbm"									-"!:\system\data\A00007A6\A0000F69\icons.mbm"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YToolsMailFolders.dll"		-"!:\sys\bin\YToolsMailFolders.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YToolsMailFolders.rsc"	-"!:\Resource\Plugins\YToolsMailFolders.rsc"
+
+;bt-sENDER
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\BTSend_A0000F61.dll"		-"!:\sys\bin\BTSend_A0000F61.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\BTSend_A0000F61.rsc"	-"!:\Resource\Plugins\BTSend_A0000F61.rsc"
+
+;zip stuff
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YToolsZipper.dll"			-"!:\sys\bin\YToolsZipper.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YToolsZipper.rsc"		-"!:\Resource\Plugins\YToolsZipper.rsc"
+
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\release\gcce\urel\YToolsZipperUI.dll"			-"!:\sys\bin\YToolsZipperUI.dll"
+"C:\Symbian\9.1\S60_3rd_MR\epoc32\DATA\Z\resource\Plugins\YToolsZipperUI.rsc"		-"!:\Resource\Plugins\YToolsZipperUI.rsc"
+
+"..\YToolZipper\ZipperUI\data\Zip_icons.mbm"							-"!:\system\data\A00007A6\A0000F6E\icons.mbm"
+

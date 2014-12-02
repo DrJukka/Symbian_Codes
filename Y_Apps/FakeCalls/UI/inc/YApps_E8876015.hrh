@@ -1,0 +1,67 @@
+/* 
+	Copyright (c) 2001 - 2008, 
+	Dr. Jukka Silvennoinen. 
+	All rights reserved 
+*/
+
+#ifndef __STHSMS_HRH__
+#define __STHSMS_HRH__
+
+
+enum 
+    {
+    EClose= 0x6000,
+	EAbout,
+	EProfNew,
+	EProfModify,
+	EProfRemove,
+	ESettOk,
+	ESettCancel,
+	ESenderContact,
+	EContCancel,
+	EContDone,
+	EVisitDrJukka,
+	EProfDisable,
+	EProfEnable,
+	EProfTest,
+	ENewNumber,
+	ESettOk2,
+	EAppHelp2,
+	EAppHelpBack2,
+	ESett2Cancel,
+	ESett2Ok,
+	EAppHelp,
+	EDefSettings,
+	EAppHelpBack,
+	EQuickExit
+    };
+
+
+enum 
+	{
+	EActivateSplashContainer,
+	EActivateMainContainer,
+	EActivateDisclaimerContainer
+};
+
+enum 
+    {
+    EAknExNoteCtrlIdWaitNoteCancel= 0x1000,
+	EAknExNoteCtrlIdWaitNote,
+	EProgressNoteId,
+	ESendTime,
+	ERepeatType,
+	ESendDate,
+	ESMSMessage,
+	ESenderNumber,
+	EOperSel,
+	ESundFile,
+	ESnozzeTimme,
+	EMaxTimme,
+	ESnozLabel,
+	ECallDelay
+	};
+
+
+#endif  //__STHSMS_HRH__
+

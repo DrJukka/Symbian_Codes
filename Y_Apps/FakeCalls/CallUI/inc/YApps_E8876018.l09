@@ -1,0 +1,24 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Valinnat"
+#define ktx_cmd_exit 				"Poistu"
+#define ktx_cmd_Back 				"Takaisin"
+
+#define ktx_mnu_help				"Ohjeet"
+#define ktx_cmd_about				"Tietoja sovelluksesta"
+#define ktx_cmd_visit				"Vieraile m.DrJukka.com:issa"
+
+#define ktx_cmd_Snooze 				"Torkku"
+#define ktx_sh_str_ANSWER			"Vastaa"
+#define ktx_sh_str_SILENSE			"Hiljennä"
+#define ktx_sh_str_CALLING			"Soittaa"
+
+#define ktx_str_HELP1				"Valepuhelu näyttön tarkoituksena on näyttää saapuvia valepuheluita, taustakuvat ja muu grafiikka on peräisin puhelimen käytössäolevasta teemasta."
+#define ktx_str_HELP2				"Valepuhelun soittoäänenä käytetään ensisijaisesti osoitekirjaan asetettua soittoääntä, ja toisisijaisesti profiileissä määriteltyä soittoääntä. Jos kumpikin edellä mainituista soittoäänistä puuttuu, käytetään ohjelman asetuksissa määriteltyä soittoääntä."
+#define ktx_str_HELP3				"Soittoäänen voi mykistää painamalla Hiljennä näyttöpainiketta. Vastaus sekä vihreä luuri näppäimet eivät aiheuta toimintoa tässä versiossa."
+#define ktx_str_HELP4				"Valepuhelu näyttöstä voi poistua valitsemalla Poistu toiminteen valinnoista tai painamalla punaista luuri näppäintä."
+#define ktx_str_HELP5				"Torkku näppäin piilottaa valepuhelu näyttön asetuksissa määritellyn ajan ajaksi."
+
+		

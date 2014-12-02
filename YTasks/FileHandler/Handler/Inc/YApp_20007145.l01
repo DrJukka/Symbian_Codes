@@ -1,0 +1,43 @@
+
+CHARACTER_SET UTF8
+
+//----------- Command buttons ---------------//
+
+#define ktx_cmd_options			"Options"
+#define ktx_cmd_exit			"Exit"
+
+
+//-------------- Menu Option ---------------//
+
+#define ktx_mnu_about			"About"
+	
+
+//----------- max 50 chars - short strings -----------//
+
+#define ktx_sh_str_processing		"Processing"
+
+
+//----------- max 250 chars - strings -----------//
+
+#define ktx_sh_INSTFINNSIH		"Installation finished"
+#define ktx_sh_CHCCANCELLED		"Check Cancelled"
+#define ktx_sh_INVALIDURL		"Invalid Url"
+#define ktx_sh_CHECHFAILED		"Checking registration failed with error: "
+
+
+//-- addeed ---
+
+#define ktx_sh_STARTCONN		"Allow application to use network to registeration?"
+
+#define ktx_sh_CANNOTCON		"Cannot create session. Is internet access point configured?"
+#define ktx_sh_CONNECTINSRV		"Connecting to the server"
+#define ktx_sh_CONNECTININTRN		"Connecting internet"
+#define ktx_sh_TRANSCANCELLED		"Transaction cancelled"
+#define ktx_sh_RECHEADER		"Header received. Status: %d %S"
+#define ktx_sh_RECEIVED1		"%d / %d\nbytes received"
+#define ktx_sh_RECEIVED2		"%d / Unknown\nbytes received"
+#define ktx_sh_RECEIVEDALL		"Body received"
+#define ktx_sh_TRANSCOMPLETE		"Transaction Complete"
+#define ktx_sh_TRANSSUCCESS		"Transaction Successful"
+#define ktx_sh_TRANSFAILED		"Transaction Failed"
+#define ktx_sh_GENERALERROR		"HTTP Error: "

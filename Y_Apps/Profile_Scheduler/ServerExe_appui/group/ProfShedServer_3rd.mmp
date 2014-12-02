@@ -1,0 +1,53 @@
+TARGET          YApp_E8876006.exe 
+TARGETTYPE      EXE
+
+UID           	0 0xE8876006
+
+EPOCSTACKSIZE	0x8000
+
+SOURCEPATH		..\src
+SOURCE			ExampleServer.cpp
+SOURCE			ExampleSession.cpp
+SOURCE			AutoScheduler.cpp
+SOURCE 			Call_Observer.cpp
+
+SOURCEPATH      ..\..\common_src 
+SOURCE          	ThemeDataBase.cpp
+SOURCE          	CTimeOutTimer.cpp
+
+USERINCLUDE     ..\inc
+USERINCLUDE     ..\..\common_inc 
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom
+
+LIBRARY		euser.lib 
+LIBRARY		efsrv.lib 
+LIBRARY		apgrfx.lib 
+LIBRARY		apparc.lib
+LIBRARY		cone.lib 
+LIBRARY		eikcore.lib 
+LIBRARY		ws32.lib 
+LIBRARY		AknSkins.lib
+LIBRARY     aknicon.lib
+LIBRARY     avkon.lib 
+LIBRARY     fbscli.lib 
+LIBRARY     etel3rdparty.lib 
+LIBRARY     etel.lib
+LIBRARY     estor.lib
+LIBRARY     IMUT.LIB				// TImCodecB64
+LIBRARY     egul.lib 
+LIBRARY     gdi.lib
+LIBRARY     msgs.lib 
+LIBRARY     mtur.lib
+LIBRARY     aknnotify.lib			// CAknGlobalNote
+LIBRARY     bitgdi.lib 
+LIBRARY     bafl.lib 
+LIBRARY     edbms.lib
+LIBRARY     MPEngine.lib
+LIBRARY     profileeng.lib
+LIBRARY     avkon.lib 
+
+LANG SC
+VENDORID	  	0
+//CAPABILITY 		SWEvent ReadUserData WriteUserData UserEnvironment ReadDeviceData WriteDeviceData 
+CAPABILITY 			ReadDeviceData WriteDeviceData 
+

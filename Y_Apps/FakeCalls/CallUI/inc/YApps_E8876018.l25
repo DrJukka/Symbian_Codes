@@ -1,0 +1,25 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Volby"
+#define ktx_cmd_exit 				"Konec"
+#define ktx_cmd_Back 				"Zpět"
+
+#define ktx_mnu_help				"Nápověda"
+#define ktx_cmd_about				"O programu"
+#define ktx_cmd_visit				"Přejít na m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Odložit"
+#define ktx_sh_str_ANSWER			"Přijmout"
+#define ktx_sh_str_SILENSE			"Ticho"
+#define ktx_sh_str_CALLING			"volá"
+
+#define ktx_str_HELP1				"Obrazovka příchozího hovoru je použita pro zobrazení příchozích falešných hovorů. Pozadí a celá grafika je použita z témat přístroje."
+#define ktx_str_HELP2				"Použité vyzváněcí tóny jsou napřed zjišťovány v seznamu kontaktů, když není nalezeno vyzvánění u kontaktu, je použito vyzvánění z profilu. A když ani zvonění z profilu není nalezeno, použije se Záložní vyzváněcí tón."
+#define ktx_str_HELP3				"Tón lze ztišit pomocí tlačítka Ticho. Tlačítko pro příjem hovoru, stejně jako zelené tlačítko, nemá v této verzi žádnou funkci."
+#define ktx_str_HELP4				"Obrazovku příchozího hovoru lze opustit stiskem červeného tlačítka nebo výběrem volby Konec v menu."
+#define ktx_str_HELP5				"Příkaz Odložit skryje obrazovku na čas stanovený volbou Čas odložení."
+
+
+		

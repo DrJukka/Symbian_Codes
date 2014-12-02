@@ -1,0 +1,7 @@
+
+MGFetch :: ReadUserData ReadDeviceData 
+
+CRepository:: ReadDeviceData & WriteDeviceData
+
+TApaTask::SendMessage :: SwEvent
+

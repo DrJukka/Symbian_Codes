@@ -1,0 +1,26 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Opties"
+#define ktx_cmd_exit 				"Afsluiten"
+#define ktx_cmd_Back 				"Terug"
+
+#define ktx_mnu_help				"Help"
+#define ktx_cmd_about				"Over"
+#define ktx_cmd_visit				"Ga naar m.DrJukka.com"
+
+#define ktx_cmd_Snooze 				"Snooze"
+#define ktx_sh_str_ANSWER			"Opnemen"
+#define ktx_sh_str_SILENSE			"Stil"
+#define ktx_sh_str_CALLING			"Belt"
+
+#define ktx_str_HELP1				"Het Fake Calls-scherm toont de 'neppe' inkomende gesprekken. Grafisch is het exact gelijk aan de rest van uw telefoon."
+#define ktx_str_HELP2				"Eventuele persoonlijke ringtones worden overgenomen uit uw persoonlijke instellingen. Anders wordt uw standaard ringtone gebruikt De reserve-ringtone dienst als achtervang."
+#define ktx_str_HELP3				"Schakel de ringtone uit door op Stil te drukken/tappen. De knop Opnemen en de groene toets hebben in deze versie geen functie."
+#define ktx_str_HELP4				"Sluit het Fake Calls-scherm af met de rode toets, of via de optie Afsluiten."
+#define ktx_str_HELP5				"Met Snooze stelt u het 'gesprek' uit met de ingestelde hoeveelheid tijd."
+
+
+
+		

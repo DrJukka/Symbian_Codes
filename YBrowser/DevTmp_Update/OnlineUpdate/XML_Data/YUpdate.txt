@@ -1,0 +1,29 @@
+<INFOPAGES>
+	<NAME>YUpdate</NAME>
+	<VERSION>090</VERSION>
+
+	<INFOGROUP>
+		<ICON>1</ICON>
+		<TITLE>Y-Browser downloads</TITLE>
+		<FILE>YBrowser.txt</FILE>
+	</INFOGROUP>
+
+	<INFOGROUP>
+		<ICON>2</ICON>
+		<TITLE>Y-Tasks downloads</TITLE>
+		<FILE>YTasks.txt</FILE>
+	</INFOGROUP>
+
+	<INFOGROUP>
+		<ICON>3</ICON>
+		<TITLE>Other freeware</TITLE>
+		<FILE>Freewares.txt</FILE>
+	</INFOGROUP>
+
+	<INFOGROUP>
+		<TITLE>Dr jukka News</TITLE>
+		<FILE>YNews.txt</FILE>
+	</INFOGROUP>
+
+</INFOPAGES>
+

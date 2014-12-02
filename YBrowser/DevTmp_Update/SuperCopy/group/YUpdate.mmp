@@ -1,0 +1,89 @@
+/* 
+
+*/
+
+TARGET            	YTools_A000257A.dll
+TARGETTYPE        	PLUGIN
+
+UID               	0x10009d8d 0xA000257A
+
+VENDORID			0x00000000
+CAPABILITY ALL -TCB
+
+EPOCSTACKSIZE		0x5000
+
+
+USERINCLUDE       ..\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\ecom
+
+
+START RESOURCE 		..\data\A000257A.rss
+#ifdef SYMBIAN_SECURE_ECOM
+TARGET YTools_A000257A.rsc
+#endif
+END
+
+START RESOURCE    ..\data\YTools_A000257A_res.rss
+HEADER
+TARGETPATH resource\apps
+END //RESOURCE
+
+SOURCEPATH        ..\src
+SOURCE            YTools_A000257A.cpp
+SOURCE            HTTP_Engine.cpp
+SOURCE            Rijandel_AES.cpp
+SOURCE            objectexchangeclient.cpp
+SOURCE            objectexchangeservicesearcher.cpp
+SOURCE            sdpattributeparser.cpp
+SOURCE            btservicesearcher.cpp
+SOURCE            InboxReader.cpp
+SOURCE            ZipExtractor.cpp
+SOURCE            RFileCopier.cpp
+SOURCE            InformationGetters.cpp
+
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib
+LIBRARY           eikcore.lib
+LIBRARY           avkon.lib
+LIBRARY           eikcdlg.lib 
+LIBRARY           eikctl.lib 
+LIBRARY           eikcoctl.lib 
+LIBRARY           commonengine.lib
+LIBRARY           ecom.lib
+LIBRARY           efsrv.lib 
+LIBRARY           egul.lib
+LIBRARY           bafl.lib 
+LIBRARY           aknicon.lib
+LIBRARY           charconv.lib 
+LIBRARY           esock.lib
+LIBRARY           http.lib 
+LIBRARY           inetprotutil.lib
+LIBRARY           commdb.lib 
+LIBRARY           hash.lib
+LIBRARY           cryptography.lib
+LIBRARY           IMUT.LIB
+LIBRARY           bluetooth.lib
+LIBRARY           btextnotifiers.lib
+LIBRARY           btmanclient.LIB
+LIBRARY           sdpagent.LIB
+LIBRARY           sdpdatabase.LIB
+LIBRARY           irobex.lib
+LIBRARY           estlib.lib
+LIBRARY           sysutil.lib
+LIBRARY           ezip.lib
+LIBRARY           commonui.lib
+LIBRARY           etel3rdparty.lib
+LIBRARY           msgs.lib
+LIBRARY           smcm.lib
+LIBRARY           gsmu.lib
+LIBRARY           akninputlanguage.lib
+LIBRARY           insock.lib
+LIBRARY           nifman.lib 
+LIBRARY           AknSkins.lib 
+LIBRARY           imageconversion.lib 
+LIBRARY           aknskinsrv.lib 
+LIBRARY           aknswallpaperutils.lib
+

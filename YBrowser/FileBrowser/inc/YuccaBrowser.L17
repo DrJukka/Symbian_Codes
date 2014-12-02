@@ -1,0 +1,348 @@
+CHARACTER_SET UTF8
+
+#define ktx_cmd_Back			"Vissza"
+#define ktx_cmd_Options			"Opciók"
+#define ktx_cmd_Exit			"Kilépés"
+#define ktx_cmd_Save			"Mentés"
+#define ktx_cmd_Cancel			"Mégse"
+#define ktx_cmd_Delete			"Törlés"
+
+#define ktx_cmd_Select			"Kiválaszt"
+#define Ktx_sh_str_SortBy		"Rendezés"	
+
+#define ktx_mnu_setserchoff		"Keresés ki"
+#define ktx_mnu_File			"Fájl"
+#define ktx_mnu_Edit			"Szerkesztés"
+#define ktx_mnu_Mark			"Kijelölés"
+#define ktx_mnu_Searchfiles		"Fájlok keresése"
+#define ktx_mnu_Extras			"Extrák"
+#define ktx_mnu_About			"Névjegy"
+#define ktx_mnu_commandSC		"parancs parancsikonok"
+#define ktx_mnu_ShowSC			"parancsikonok megjelenítése"
+#define ktx_mnu_SetSC			"parancsikonok megadása"
+#define ktx_mnu_Searchon			"Keresés be"
+#define ktx_mnu_Settings			"Beállítások"
+#define ktx_mnu_switchlo			"Elrendezés váltása"
+#define ktx_mnu_changeic			"Ikonok cseréje"
+#define ktx_mnu_refresh			"Frissítés"
+#define ktx_mnu_munmark			"Kijelölés/Elvetés"
+#define ktx_mnu_Markall			"Összes kijelölése"
+#define ktx_mnu_Unmarkall		"Összes elvetése"
+#define ktx_mnu_Openwith		"Társítás"
+#define ktx_mnu_Open			"Megnyitás"
+#define ktx_mnu_Send			"Küldés"
+#define ktx_mnu_Properties		"Tulajdonságok"
+#define ktx_mnu_Attributes		"Attribútumok"
+#define ktx_mnu_Delete			"Törlés"
+#define ktx_mnu_Rename			"Átnevezés"
+#define ktx_mnu_ShowName			"Név mutatása"
+#define ktx_mnu_Newfile			"Új fájl"
+#define ktx_mnu_Newfolder		"Új mappa"
+#define ktx_mnu_Copy			"Másolás"
+#define ktx_mnu_Cut			"Kivágás"
+#define ktx_mnu_Paste			"Beillesztés"
+#define ktx_mnu_pastenfile		"Beillesztés új fájlba"
+#define ktx_mnu_pasteshow		"Show paste files"
+#define ktx_mnu_pasteclear		"Clear paste files"
+#define ktx_mnu_Done			"Kész"
+#define ktx_mnu_addsel			"Hozzáadás a kijelöléshez"
+#define ktx_mnu_selshow			"Kijelöltek mutatása"
+#define ktx_mnu_cpyclipp			"Vágólapra illesztés"
+#define ktx_mnu_Startsearch		"Keresés indítása"
+#define ktx_mnu_nckresulyts		"Vissza az eredménylistához"
+#define ktx_mnu_resultclear		"Eredménylista törlése"
+#define ktx_mnu_showseltyp		"Kijelölt típusok megjelenítése"
+#define ktx_mnu_clearcond		"Feltétel törlése"
+#define ktx_mnu_gtofolder		"Ugrás mappához"
+#define ktx_mnu_PAGEUP			"Lapozás felfelé"
+#define ktx_mnu_PAGEDOWN		"Lapozás lefelé"
+
+#define ktx_sh_str_Processing		"Folyamatban"
+#define ktx_sh_str_selfiltyp		"Fájl típusok megadása"
+#define ktx_sh_str_date			"dátum"
+#define ktx_sh_str_time			"idő"
+
+//settings.
+#define ktx_sh_str_System		"Rendszer"	
+#define ktx_sh_str_Hidden		"Rejtett"
+#define ktx_sh_str_Readonly		"Csak olvasható"
+#define ktx_sh_str_Modifyingdate	"Módosítás dátuma"
+#define ktx_sh_str_Modifyingtime	"Módosítás ideje"
+#define ktx_sh_str_showall		"Összes fájl megjelenítése"
+#define ktx_sh_str_Sortorder		"Rendezési sorrend"	
+#define ktx_sh_str_Foldersfirst	"Mappákat előre"
+#define ktx_sh_str_speedoptimize	"Mappa infó mentése"
+#define ktx_sh_str_Recognizefiles	"Fájlok felismerése"
+#define ktx_sh_str_savepathonexit	"Útvonal mentése kilépéskor"
+#define ktx_sh_str_exitaks		"Kilépés megerősítése"
+#define ktx_sh_str_Off			"Ki"
+#define ktx_sh_str_On			"Be"
+#define ktx_sh_str_No			"Nem"
+#define ktx_sh_str_Yes			"Igen"
+#define ktx_sh_str_Decending		"Csökkenő"
+#define ktx_sh_str_Ascending		"Növekvő"
+#define ktx_sh_str_Name			"Név"
+#define ktx_sh_str_Fileextension	"Kiterjesztés"
+#define ktx_sh_str_Filetype		"Fájl típusa"
+#define ktx_sh_str_Size			"Méret"
+#define ktx_sh_str_Path			"Útvonal"
+#define ktx_sh_str_Filename		"Fájlnév"
+#define ktx_sh_str_Biggerthan		"Nagyobb, mint"
+#define ktx_sh_str_Smallerthan	"Kisebb, mint"
+#define ktx_sh_str_Modifiedbefore	"Módosítva ezelőtt"
+#define ktx_sh_str_Modifiedafter	"Módosítva ezután"
+#define ktx_sh_str_types		" típus(ok)"
+#define ktx_sh_str_Excludetypes	"Típusok kivételével"
+#define ktx_sh_str_Includetypes	"Típusok figyelembevétele"
+#define ktx_sh_str_Fileattributes	"Fájl attribútumok"
+
+#define ktx_sh_str_formatName		"Név\t%S"
+#define ktx_sh_str_formatFsys		"Fsys\t%S"
+#define ktx_sh_str_formatID		"ID\t%S"
+#define ktx_sh_str_formatFree		"Szabad\t%d Kb"
+#define ktx_sh_str_formatUsed		"Használt\t%d Kb"
+#define ktx_sh_str_formatSizeKb	"Méret\t%d Kb"
+#define ktx_sh_str_formatSizeB	"Méret\t%d B."		
+#define ktx_sh_str_formatType		"Típus\t%S"
+#define ktx_sh_str_formatFiles	"Fájlok\t%d"	
+#define ktx_sh_str_formatFolders	"Mappák\t%d"
+#define ktx_sh_str_formatTypeID	"TypeID\t%S"	
+#define ktx_sh_str_atrWProt		"Attr\tÍrásvédett"
+#define ktx_sh_str_atrLocked		"Attr\tZárolt"
+#define ktx_sh_str_atrFormattable	"Attr\tFromázható"
+#define ktx_sh_str_atrVarSize		"Attr\tVáltozó méretű"
+#define ktx_sh_str_atrROM		"Attr\tROM"
+#define ktx_sh_str_atrRemovable	"Attr\tCserélhető"
+#define ktx_sh_str_atrtHidden		"Attr\tRejtett"
+#define ktx_sh_str_atrReadonly	"Attr\tCsak olvasható"
+#define ktx_sh_str_atrSystem		"Attr\tRendszer"
+#define ktx_sh_str_atrVolume		"Attr\tHangerő"
+#define ktx_sh_str_atrArchive		"Attr\tArchív"
+
+#define ktx_sh_str_Notpresent		"Nincs jelen"
+#define ktx_sh_str_Floppy		"Floppy"
+#define ktx_sh_str_HardDisk		"Merevlemez"
+#define ktx_sh_str_CdRom		"CD meghajtó"
+#define ktx_sh_str_Ram			"Ram"
+#define ktx_sh_str_Flash		"Flash"
+#define ktx_sh_str_Rom			"Rom"
+#define ktx_sh_str_Remote		"Távoli"
+#define ktx_sh_str_Unknown		"Ismeretlen"
+#define ktx_sh_str_SCTITLE		"Shortcuts: Shift+/Pen+"
+#define ktx_sh_str_FREE			"<free>"
+#define ktx_sh_str_Root			"gyökér"
+#define ktx_sh_str_Selected		"kijelölt"
+#define ktx_sh_str_Cutfiles		"fájlok kivágása"
+#define ktx_sh_str_CopyFiles		"fájlok másolása"
+#define ktx_sh_str_COPYINGFF		"másolás %S to %S"
+#define ktx_sh_str_MOVINGFF		"áthelyezés %S to %S"
+#define ktx_sh_str_RENAMINGFF		"átnevezés %S to %S"
+#define ktx_sh_str_DELETINGFF		"törlés %S"	
+#define ktx_sh_str_EXISTREPLACE	"  létezik, felülírja?"
+#define ktx_sh_str_ISROMODIFY		" csak olvasható, attribútumok megváltzotatása?"
+#define ktx_sh_str_ALREDYEXIST	" már létezik"
+#define ktx_sh_str_ISOPEN		" használatban van"
+#define ktx_sh_str_ISREADONLY		" csak olvasható"
+#define ktx_sh_str_ACCDENIED		" Hozzáférés megtagadva"
+#define ktx_sh_str_DISKFULL		"A lemez megtelt"
+#define ktx_sh_str_DISCKNOTREADY	"A lemez hiányzik/nem áll készen"
+#define ktx_sh_str_CORRDISCK		"A lemez hibás"
+#define ktx_sh_str_INVALIDNAME	" hibás elnevezés"
+#define ktx_sh_str_NOTMEMFORFF	"Nincs elég memória a(z) "
+#define ktx_sh_str_OPERFAILED		"A művelet a(z) \"%S\" sikertelen: Hiba %d"
+#define ktx_sh_str_NEWFILE		"Új fájl:"
+#define ktx_sh_str_SENDUI		"UI küldése"
+#define ktx_sh_str_SENDFFVIA		"Fájlok küldése"
+#define ktx_sh_str_SELAPPLICATION	"Alkalmazás kiválasztása"
+#define ktx_sh_str_OPENFILE		"Fájl megnyitása"
+#define ktx_sh_str_ANDATRIBS		"\'And\'attributes"
+#define ktx_sh_str_SEARCFOR		"Keresett kifejezés"
+#define ktx_sh_str_SELFILETYPES	"kiválasztott fájl típusok"
+#define ktx_sh_str_MB			"Mb"
+#define ktx_sh_str_KB			"Kb"
+#define ktx_sh_str_BYTES		"Bytes"
+#define ktx_sh_str_HIDD			"hid."
+#define ktx_sh_str_AND			" ÉS "
+#define ktx_sh_str_OR			" VAGY "
+#define ktx_sh_str_SYS			"sys."
+#define ktx_sh_str_RO			"ro."		
+#define ktx_sh_str_FILESFOUND		" fájlt talált"
+#define ktx_sh_str_FOUNDENDDDD	"%d fájlt talált %d másodperc alatt"
+
+#define ktx_sh_str_SELCOMMAND		"Parancs kiválasztása"
+#define ktx_sh_str_NOTSET		"Nincs megadva"
+#define ktx_sh_str_SELICONFF		"Ikon kiválasztása"
+
+#define ktx_sh_str_READINGFF		"Beolvasás %d / %d"
+#define ktx_str_FILREADERR		"Fájl olvasása sikertelen, hiba: %d"
+#define ktx_str_FILNOTFOND		"Fájl nem található"
+#define ktx_str_NOAPPFORFIL		"Nincs alkalmazás hozzárendelve"
+#define ktx_str_SAVESEARCH		"Keresési találatok elmentése ?"
+#define ktx_str_SELSCNUMBER		"Parancsikon sorszáma"
+#define ktx_str_REBOOTICON		"Ikonok megváltoztak, a telefon/Y-Browser újraindítása szükséges lehet a változtatások érvényesítéséhez."
+#define ktx_str_PASTEFTOFOL		"Beilleszt %d fájlt ebbe a mappába ?"
+#define ktx_str_DELFOILES		"Töröl %d fájlt"
+#define ktx_str_NEWNAME 		"Új név :"
+#define ktx_str_FDERNAME		"Mappa neve :"
+#define ktx_str_ERRCREATEFLDR		"Mappa kétrehozása sikertelen, Hiba: "
+#define ktx_str_FDREXISTS		"A mappa már létezik, új nevet kell magadni."
+#define ktx_str_APPENDLIST		"Hozzáfűzés a listához"
+#define ktx_str_FILESADCY		"%d fájl hozzáadva másolásra/kivágásra"
+#define ktx_str_PASTEWILLREM		"a beillesztés %d fájlt fog eltávolítani"
+#define ktx_str_FORSECOPY		"A forrást nem lehet bezárni, másolás továbbra is ?"
+#define ktx_str_STARTNEWSCRH		"Új keresés indítása ?"
+#define ktx_str_RESETSEARCH		"Előző keresés beállításainak elvetése ?"
+	
+		
+// new ones
+
+
+#define ktx_mnu_MarkWild		"Kijelölés helyettesítő karakterekkel" // Mark menu item
+#define ktx_mnu_MarkInverse		"Kijelölés megfordítása"   // Mark menu item
+
+#define ktx_sh_str_General		"Általános"//- setting
+
+#define ktx_sh_str_fullscreen		"Teljes képernyő" // main settings item
+
+#define ktx_sh_str_NOFILES		"Nincs fájl"   // no files in browser
+
+#define ktx_mnu_typassociation	"Fájl társítása" //settins select item list
+#define ktx_sh_str_plugins		"Pluginek" //settins select item list
+
+#define ktx_sh_str_Own			"Saját"		// file associations tab
+
+#define ktx_sh_str_REMFILETYPE	"Fájltípus eltávolítása" //file associations
+
+#define ktx_mnu_Modify			"Módosít"		// menu file associations
+#define ktx_mnu_Addfiltyp		"Fájltípust hozzáad"	// menu file associations
+#define ktx_mnu_Remfiltyp		"Fájltípust eltávolít"	// menu file associations
+
+#define ktx_mnu_RemoveExt		"Kiterjesztések törlése"	// menu file associations settings
+#define ktx_mnu_AddExt			"Kiterjesztést hozzáad"	// menu file associations settings
+#define ktx_mnu_ChangeHandler		"Kezelő alkalmazást változtat"	// menu file associations settings
+#define ktx_mnu_ChangeTypeName	"Típusnevet változtat"	// menu file associations settings
+#define ktx_mnu_Reset			"Alapértelmezések visszaállítása"	// menu file associations settings
+
+#define ktx_sh_str_handlerapp		"Kezelő alkalmazás"	// settings file associations
+
+#define ktx_sh_str_HANDLERS		"Kezelők" //PLUG-IN SETTINGS tab
+#define ktx_sh_str_RECOGNIZERS	"Felismerők" //PLUG-IN SETTINGS tab
+
+#define ktx_mnu_enable			"Engedélyez" //PLUG-IN SETTINGS menu
+#define ktx_mnu_Disable			"Tilt" //PLUG-IN SETTINGS menu
+#define ktx_mnu_SHOWINFO		"Információ" //PLUG-IN SETTINGS menu
+
+#define ktx_sh_str_NAMEDD		"Név: " //PLUG-IN SETTINGS
+#define ktx_sh_str_STATUSDD		"Állapot: " //PLUG-IN SETTINGS
+#define ktx_sh_str_DISABLED		"Letilva" //PLUG-IN SETTINGS
+#define ktx_sh_str_ENABLED		"Engedélyezve" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLVERSION		"Plugin verzió: " //PLUG-IN SETTINGS
+#define ktx_sh_str_VEROK		", (verzió OK)" //PLUG-IN SETTINGS
+#define ktx_sh_str_VERNOTOK		", (Nem kompatibilis verzió)" //PLUG-IN SETTINGS
+#define ktx_sh_str_PLTYPE		"Plugin típusa: " //PLUG-IN SETTINGS
+#define ktx_sh_str_FILHAND		"- Fájlkezelő" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILSEND		"- Fájlküldő" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECE		"- Fájlfogadó" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILFLDR		"- Fájl listázó" //PLUG-IN SETTINGS
+#define ktx_sh_str_OPWTHHAND		"- Társítás kezelő" //PLUG-IN SETTINGS
+#define ktx_sh_str_FILRECO		"- Fájlfelismerő" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPFTYUPS		"Támogatott fájltípus(ok):" //PLUG-IN SETTINGS
+#define ktx_sh_str_SUPNFILS		"(Támogat új fájlokat)" //PLUG-IN SETTINGS
+
+#define ktx_cmd_AddTypes		"Fájltípusok hozzáadása"//PLUG-IN SETTINGS file associations menu
+#define ktx_sh_str_removetypes	"Törlendő kiválasztása"//PLUG-IN SETTINGS & File types settings, selection dialog title for removing 
+#define ktx_sh_str_FilwTypes		"Fájltípusok"//PLUG-IN SETTINGS file associations 
+#define ktx_sh_str_HandleUnRec	"Ismeretlen fájlok"//PLUG-IN SETTINGS file associations 
+
+
+
+// New 2010
+#define ktx_mnu_Help			"Help"					// menu item to open help
+#define ktx_mnu_extrasinfo		"Togle listview" // menu to change between 1/2 line view
+
+#define ktx_sh_str_Pathscroll	"Path name scrolling"	// settings item for path scrolling
+#define ktx_str_SETTOALLCO		"Set attributes to all files and folder inside the folder ?" // attributes for folders
+
+#define ktx_sh_str_swipeleft	"Swipe left" // command shortcuts for touch
+#define ktx_sh_str_swiperight	"Swipe right" // command shortcuts for touch
+#define ktx_sh_str_longpress	"Long press" // command shortcuts for touch
+
+
+#define ktx_str_HELP1			"This application is file manager that implements the most used options for normal file management. The file management options can be chosen from the options menu and the menu will usually hide any options that are currently not available. "
+#define ktx_str_HELP2			"File menu has options for showing and modifying file attributes, showing the file properties, deleting, renaming and making new files and folders. Also the show filename options allows showing and copying the filename to the clipboard."
+#define ktx_str_HELP3			"Mark menu includes options for marking files for copy, cut, delete etc. options. Edit menu has the actual copy, cut and paste options as well as you can see the currently copy/cut selected files from its menu options."
+#define ktx_str_HELP4			"Extras menu options are including additional options, such as shortcut management, note that shortcuts do require keypad with number input as well as ctrl key to be available at the device."
+#define ktx_str_HELP5			"Search files menu option will open a file searching view from which you can set multiple options for file searching."
+#define ktx_str_HELP6			"Settings menu option will open settings view, where General settings are used for handling general settings of the application, with Command shorts cuts a shortcut number for available commands can be set (note that this required the device to have number keypad present)."
+#define ktx_str_HELP7			"File association settings allows modifying the file handler applications for different mime types (works only internally) and with the plug-ins settings different plug-ins can be disabled/enabled as well as some settings for the plug-ins can be modified." 
+
+// -- BT-Sender strings
+
+#define ktx_cmd_ReSend			"Re-Send"
+
+#define ktx_shstr_Senderr		"Send error: " 
+
+#define ktx_str_SSNORECORD		"Service searcher:: No records"
+#define ktx_str_SSERRATR		"Error reading attribute"
+#define ktx_str_SSSFOUND		"Service found"
+#define ktx_str_OBJNODEVUCE		"No Device"
+#define ktx_str_OBJCONNFAIL		"Connection failed: "
+#define ktx_str_OBJSENDFAIL		"Sending Error: "
+#define ktx_str_OBJCONNECTING	"Connecting..."
+#define ktx_str_OBJSENDING		"Sending "
+#define ktx_str_OBJDISCONTING	"Disconnecting"
+#define ktx_str_OBJDISCONNECTED	"Disconnected"
+#define ktx_str_OBJFINDDEV		"Finding device..."
+#define ktx_str_OBJBTBUSY		"BT is busy"
+
+#define ktx_str_BTHELP1			"This plug-in is used to send files over Bluetooth OBEX service. The sending process is started automatically when the plug-in is started."
+#define ktx_str_BTHELP2			"Just select the device you want to send the selected file(s) and they will be sent one-by-one. You can cancel the sending anytime by clicking the right soft key."
+#define ktx_str_BTHELP3			"To start the sending process again, select Re-Send menu option. Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_BTHELP4			""
+
+// --  mail folders
+
+#define ktx_sh_str_COPYING		"Copying: "
+#define ktx_sh_str_SELFOLDER	"Select folder"
+#define ktx_sh_str_FILOVERRT	"File exists, overwrite ?"
+#define ktx_sh_str_FILCOPIED	"File copied."
+#define ktx_sh_str_COPFAILED	"File copy failed with error: "
+#define ktx_sh_str_NOATTACHM	"No attachments"
+	
+#define ktx_str_MFHELP1			"This plug-in is used to help accessing files attached to messages, thus only attachments are shown in it."
+#define ktx_str_MFHELP2			"Note that email attachments are often shown even when they are not downloaded, thus check the file size to see if they are actually just empty stub files."
+#define ktx_str_MFHELP3			"Open option will try opening the attachment file with any application that is handling the file type of the selected file. And with copy option you can copy the file to the normal folders."
+#define ktx_str_MFHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+// -- Text editor
+
+#define ktx_cmd_ReRead			"Re-read"
+
+#define ktx_sh_str_TXASCII 		"Ascii"
+#define ktx_sh_str_TXUNICOD 	"Unicode"
+#define ktx_sh_str_TXHEX 		"Hex"
+#define ktx_sh_str_TXSELCONVERT "Select converter"
+
+#define ktx_sh_str_TXREDFILAS	"Read file as:"
+
+#define ktx_str_TEHELP1			"This plug-in is used to show file content in text mode. Files are opened by default in ASCII mode, but you can specify other text formats by issuing Re-Read command from the options menu."
+#define ktx_str_TEHELP2			"ASCII option will show the text as ASCII, Unicode as 16-bit Unicode text, and Hex as hexadecimal values. The select converter option will allow reading any file formats that are supported by the device."
+#define ktx_str_TEHELP3			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+#define ktx_str_TEHELP4			""
+
+// -- Zipper
+
+#define ktx_mnu_Extract			"Extract"
+#define ktx_mnu_AddFiles		"Add files"
+
+#define ktx_str_ZPFILNAME		"File name:"
+#define ktx_str_ZPEXTRACALL		"Extract All files"
+
+#define ktx_str_ZIHELP1			"This plug-in is used for zipping and unzipping pkzip formatted zip files. You can make new zip file by selecting the new file from the main applications options menu. Existing zip files can be opened by clicking them."
+#define ktx_str_ZIHELP2			"When making a new file, you need to add files by selecting them and then selecting the menu option for adding them into the selection. When all needed files are selected, add them into the zip by selecting the option from the options menu."
+#define ktx_str_ZIHELP3			"File inside existing zip files can be extracted by selecting the extract menu option from the menu, and then selecting the folder to which the files are going to be extracted."
+#define ktx_str_ZIHELP4			"Note that the exit option will exit the whole application where as the back will just close the plug-in."
+
+
+
+

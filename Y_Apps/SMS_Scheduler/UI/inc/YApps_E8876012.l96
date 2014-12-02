@@ -1,0 +1,76 @@
+/* Copyright (c) 2001 - 2009 , Dr Jukka Silvennoinen. All rights reserved */
+CHARACTER_SET UTF8
+
+//Command buttons
+#define ktx_cmd_options 			"Tùy chọn"
+#define ktx_cmd_exit 				"Thoát"
+#define ktx_cmd_cancel 				"Hủy"
+
+#define ktx_cmd_Disable				"Tắt"
+#define ktx_cmd_Enable				"Bật"
+
+#define ktx_cmd_save 				"Lưu"
+#define ktx_cmd_select 				"Chọn"
+
+#define ktx_cmd_about				"Thông tin"
+#define ktx_cmd_visit				"Truy cập m.DrJukka.com"
+
+#define ktx_mnu_New 				"Tạo mới"
+#define ktx_mnu_Modify 				"Thay đổi"
+#define ktx_mnu_Remove 				"Xóa"
+
+
+#define ktx_mnu_Savmsgs				"Tin đã lưu"
+#define ktx_mnu_ContSend			"Người nhận từ danh bạ"
+
+#define ktx_sh_str_sndName	 		"Tên"
+#define ktx_sh_str_sndNumber	 	"Số điện thoại"
+#define ktx_sh_str_Message		 	"Tin nhắn"
+#define ktx_sh_str_sndTime		 	"Thời gian gửi"
+#define ktx_sh_str_sndDate		 	"Ngày gửi"
+
+#define ktx_sh_str_DISABLED		"<Đã tắt>"
+
+#define ktx_str_REMMESSAGE 			"Xóa tin nhắn ?"
+
+#define ktx_sh_str_REPEATS		"Lặp lại"
+
+#define ktx_sh_str_ONCE			"Một lần"
+#define ktx_sh_str_WORKDAYA		"Ngày làm việc"
+#define ktx_sh_str_NONWORKD		"Ngày nghỉ"
+#define ktx_sh_str_EVERYDAY		"Mọi ngày"
+#define ktx_sh_str_MONDAYS		"Thứ hai"
+#define ktx_sh_str_TUESDAYS		"Thứ ba"
+#define ktx_sh_str_WEDNESDAYS		"Thứ tư"
+#define ktx_sh_str_THURSDAYS		"Thứ năm"
+#define ktx_sh_str_FRIDAYS		"Thứ sáu"
+#define ktx_sh_str_SATURDAYS		"Thứ bảy"
+#define ktx_sh_str_SUNDAYS		"Chủ nhật"
+
+#define ktx_str_MSGTRUNK		"Tin nhắn sẽ bị giới hạn còn 70 ký tự, tiếp tục ?"
+
+#define ktx_cmd_Back 			"Trở lại"
+#define ktx_sh_str_HELP			"Trợ giúp"
+#define ktx_sh_str_SMSType		"Loại tin nhắn"
+#define ktx_sh_str_Normal		"Bình thường"
+#define ktx_sh_str_Flash		"Tin nhắn flash"
+
+
+//Main Application help
+#define ktx_str_HELP1			"Chương trình dùng để lên lịch tin nhắn bình thường và flash. Kích thước tin nhắn giới hạn ở 160 ký tự và 70 ký tự đối với tin nhắn Unicode. Bảng mã Unicode được tự động sử dụng khi cần thiết."
+#define ktx_str_HELP2			"Tin nhắn flash là tin nhắn Class 0, được hiển thị tự động ở phía người nhận, và chỉ được lưu lại nếu người nhận quyết định lưu."
+#define ktx_str_HELP3			"Để tạo tin nhắn mới chọn \"Tạo mới\" trong trình đơn. Sau khi có tin nhăn trong lịch hẹn, bạn có thể dùng trình đơn \"Bật/Tắt\" để bật, tắt lịch. Trình đơn \"Thay đổi\" dùng để chỉnh sửa tin nhắn và lựa chọn \"Xóa\" để xóa nó."
+#define ktx_str_HELP4			"Việc lên lịch tin nhắn được thực hiện bởi chương trình nền, chương trình này chạy khi có bất kì tin nhắn nào được lên lịch."
+#define ktx_str_HELP5			"Chương trình nền cũng tự kích hoạt khi thiết bị khởi động. Lưu ý tất cả thiết lập và thay đổi lịch hẹn sẽ chỉ có tác dụng sau khi thoát khỏi giao diện của chương trình chính."
+
+//Settings Help:
+#define ktx_str_HELP6			"Với chương trình hẹn giờ nhắn tin, bạn chỉ cần xác định số điện thoại, nội dung tin nhắn và thời điểm tin nhắn được gửi."
+#define ktx_str_HELP7			"Bạn có thể chọn người nhận từ danh bạ của thiết bị bằng những tùy chọn hoặc nhập trực tiếp."
+#define ktx_str_HELP8			"Bạn có thể lưu lại tin nhắn để sử dụng sau, hoặc nhập trực tiếp cho mỗi lần lên lịch. Thiết lập loại tin nhắn là bình thường hay flash."
+#define ktx_str_HELP9			"Thời gian cho lịch hẹn có thể chỉnh trực tiếp khi soạn tin nhắn, thiết lập \"Lặp lại\" cho phép lịch được thực hiện vào thời điểm định trước hoặc lặp lại theo chu kì."
+#define ktx_str_HELP10			"Lưu ý rằng lịch được lặp lại sẽ không bị xóa khỏi danh sách, trong khi lịch vào những thời điểm xác định sẽ bị xóa khỏi danh sách sau khi tin nhắn được gửi."
+
+
+
+
+

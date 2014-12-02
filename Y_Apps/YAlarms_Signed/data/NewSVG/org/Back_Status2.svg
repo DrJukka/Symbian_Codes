@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 10.8" width="100%" zoomAndPan="magnify">
+<g>
+<g>
+<g>
+<g>
+<g>
+<g>
+<rect fill="#462310" height="0.3" width="100" y="10.5"/>
+<rect fill="url(#XMLID_2_)" height="10.5" width="100"/>
+<defs>
+<linearGradient gradientTransform="matrix(0.2841 0 0 0.2841 136.6478 30.2848)" gradientUnits="userSpaceOnUse" id="XMLID_2_" x1="-304.999" x2="-304.999" y1="-69.605" y2="-106.603">
+<stop offset="0" style="stop-color:#BE6000"/>
+<stop offset="0.1919" style="stop-color:#C16700"/>
+<stop offset="0.4603" style="stop-color:#C97900"/>
+<stop offset="0.5899" style="stop-color:#CE8400"/>
+<stop offset="1" style="stop-color:#BE6000"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

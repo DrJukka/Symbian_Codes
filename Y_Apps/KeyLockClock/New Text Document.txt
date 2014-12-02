@@ -1,0 +1,39 @@
+
+The Call Frame (Active Call Frame) 
+
+
+
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (86).svg
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (85).svg
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (103).svg
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (102).svg
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (101).svg
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (93).svg
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (104).svg
+
+
+
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (118).svg
+
+
+
+C:\Work_Stuff\Stuff\Series60Skin.mif\tmp_ (453).svg
+
+
+Hello, I found a "bug" in clock screen. If clock screen is on and time is shown, if I open the back of the phone
+to switch on camera, when I took pictures and I exit from camera, clock screen is shown displaced on the screen.
+It's shifted on the right and it loose last digit from the hour.
+ 
+I hope to have explained well. If needed I will take a picture of it..
+
+N73
+
+
+
+
+Hi, probably you already know the problem of the version 80 on 5800XM, but if you not:
+When a sms or call arrive, i unlock the cell, but it stay on screensaver and i need to tap the screen to see the main screen with sms or call notification.
+in the previous version (0.77) there wasn't.
+Thanx and scuse me for my bad english.
+Regards, Daniele
+

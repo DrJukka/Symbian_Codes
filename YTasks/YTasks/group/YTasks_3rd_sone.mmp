@@ -1,0 +1,78 @@
+/* Copyright (c) 2001 - 2009 , Jukka Silvennoinen. All rights reserved */
+
+TARGET          YTools_2002B09F.exe
+TARGETTYPE      exe
+UID  			0x100039CE 0x2002B09F
+EPOCSTACKSIZE	0x8000
+EPOCHEAPSIZE	4000 100000000
+
+SOURCEPATH      ..\src
+SOURCE          YTools_A000257B.cpp
+SOURCE          Splash_Screen.cpp
+SOURCE          Main_Container.cpp
+SOURCE          CTimeOutTimer.cpp
+SOURCE          Ecom_Handler.cpp
+
+
+
+START RESOURCE    ..\data\YTools_A000257B.rss
+HEADER
+TARGET YTools_2002B09F.rsc
+TARGETPATH resource\apps
+END //RESOURCE
+
+
+START RESOURCE    ..\data\YTools_A000257B_reg.rss
+TARGET YTools_2002B09F_reg.rsc
+
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END //RESOURCE
+
+SOURCEPATH      ..\..\Common\src
+SOURCE          MainServerSession.cpp
+
+USERINCLUDE     ..\inc
+USERINCLUDE       ..\..\Common\inc
+SYSTEMINCLUDE     \epoc32\include \epoc32\include\ecom \epoc32\include\libc
+
+LIBRARY         euser.lib				// for CBase, CSession, CActiveScheduler, ...
+LIBRARY         avkon.lib				// for CAknView, CAknViewAppUi
+LIBRARY         apparc.lib				// for CApaDocument
+LIBRARY         cone.lib				// for CCoeControl
+LIBRARY         eikcore.lib				// for CEikApplication, CEikDocument, CEikAppUi
+LIBRARY         eikcoctl.lib			// CColumnListBoxItemDrawer
+LIBRARY         aknnotify.lib			// CAknGlobalNote
+LIBRARY         apgrfx.lib				// RApaLsSession,TApaTask,TApaTaskList
+LIBRARY         efsrv.lib				// Rfs,RFile,TParseBase,TFindFile
+LIBRARY         ws32.lib				// RWsSession
+LIBRARY         bafl.lib				// CDesC16Array
+LIBRARY         egul.lib				// TextUtils
+LIBRARY         eikctl.lib				// CColumnListBoxData
+LIBRARY         estor.lib  
+LIBRARY         fbscli.lib
+LIBRARY         apmime.lib 
+LIBRARY         bitgdi.lib 
+LIBRARY         hal.lib
+LIBRARY         edbms.lib
+LIBRARY         etext.lib
+LIBRARY         gdi.lib
+LIBRARY         AknSkins.lib 
+LIBRARY         CommonEngine.lib 
+LIBRARY         commonui.lib
+LIBRARY         aknicon.lib 
+LIBRARY         imageconversion.lib 
+LIBRARY         aknskinsrv.lib 
+LIBRARY         aknswallpaperutils.lib
+LIBRARY         Ecom.lib
+
+
+LANG SC
+VENDORID	  	  0
+CAPABILITY 		SwEvent ReadUserData WriteUserData UserEnvironment LocalServices NetworkServices
+
+SOURCEPATH ..\src
+SOURCE Help_Container.cpp

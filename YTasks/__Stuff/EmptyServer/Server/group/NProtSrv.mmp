@@ -1,0 +1,42 @@
+/* 
+	Copyright (c) 2006 , 
+	Jukka Silvennoinen. 
+	All rights reserved 
+*/
+
+TARGET        		NSrv_102013AB.exe
+targettype 	 		exe
+
+UID           		0 0x102013AB
+VENDORID	  		0
+CAPABILITY			ReadUserData ReadDeviceData
+
+SOURCEPATH        	..\src
+SOURCE            	ExampleServer.cpp
+SOURCE            	ExampleSession.cpp
+SOURCE				DLLRegistration.cpp
+SOURCE				Handango_RPN.cpp
+SOURCE				md5.cpp
+SOURCE				SDES_interface.cpp
+
+SOURCEPATH      	..\..\common_src 
+SOURCE          	CTimeOutTimer.cpp
+SOURCE          	IMSI_IMEI_Getter.cpp
+
+USERINCLUDE       	..\inc
+USERINCLUDE       	..\..\common_inc 
+
+SYSTEMINCLUDE     	\epoc32\include
+
+LIBRARY           	euser.lib
+LIBRARY           	efsrv.lib 
+LIBRARY           	apparc.lib
+LIBRARY           	apgrfx.lib
+LIBRARY           	estor.lib
+LIBRARY           	ws32.lib 
+LIBRARY           	avkon.lib
+LIBRARY           	bafl.lib
+LIBRARY         	edbms.lib 
+LIBRARY         	IMUT.LIB				// TImCodecB64
+LIBRARY         	estor.lib 
+LIBRARY         	etel3rdparty.lib 
